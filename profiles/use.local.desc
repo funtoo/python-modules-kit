@@ -83,7 +83,9 @@ dev-python/django-two-factor-auth:yubikey - Adds support for Yubikeys via django
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/falcon:cython - Build cython-based python modules
 dev-python/fastparquet:brotli - Enable support for brotli compression
+dev-python/fastparquet:lz4 - Enable support for lz4 compression
 dev-python/fastparquet:snappy - Enable support for snappy compression
+dev-python/fastparquet:zstd - Enable support for zstandard compression
 dev-python/flask-restful:paging - Enable resource paging support
 dev-python/geopy:timezone - Enables localized date support
 dev-python/geopy:yahoo - Enables use of YahooPlaceFinder
