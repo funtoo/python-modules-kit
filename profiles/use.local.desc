@@ -186,7 +186,6 @@ dev-python/sympy:pyglet - Use dev-python/pyglet for plots and print preview
 dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
-dev-python/tdaemon:coverage - Enable code coverage support
 dev-python/translate-toolkit:html - Support conversion between po and html files
 dev-python/translate-toolkit:ical - Support conversion between po and ical files
 dev-python/translate-toolkit:ini - Support conversion between po and ini files
