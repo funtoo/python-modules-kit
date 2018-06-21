@@ -6,24 +6,25 @@ PYTHON_COMPAT=( pypy{,3} python{2_7,3_{4,5,6}} )
 
 inherit distutils-r1
 
-DESCRIPTION="A port of Ruby on Rails' inflector to Python"
-HOMEPAGE="https://github.com/jpvanhal/inflection"
-# PyPI tarballs don't include doc
-# https://github.com/jpvanhal/inflection/pull/12
-SRC_URI="https://github.com/jpvanhal/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="More routines for operating on iterables, beyond itertools"
+HOMEPAGE="https://pypi.org/project/more-itertools/"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~x86"
 IUSE="doc test"
 
-RDEPEND=""
+RDEPEND="<dev-python/six-2.0[${PYTHON_USEDEP}]"
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	doc? (
+		dev-python/sphinx[${PYTHON_USEDEP}]
+	)
 	test? (
+		${RDEPEND}
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
-	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 "
 
 python_compile_all() {
@@ -34,5 +35,5 @@ python_compile_all() {
 }
 
 python_test() {
-	py.test || die "Tests failed with ${EPYTHON}"
+	py.test --doctest-modules || die "tests fail with ${EPYTHON}"
 }
