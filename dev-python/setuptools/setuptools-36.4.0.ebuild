@@ -1,4 +1,3 @@
-# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -12,19 +11,22 @@ if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 else
 	SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.zip"
-	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~ppc ~ppc64 ~s390 ~sh ~x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~arm-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+	KEYWORDS="*"
 fi
 
 DESCRIPTION="Collection of extensions to Distutils"
-HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/"
+HOMEPAGE="https://github.com/pypa/setuptools https://pypi.python.org/pypi/setuptools"
 
 LICENSE="MIT"
 SLOT="0"
 IUSE="test"
 
-RDEPEND="
-"
-DEPEND="${RDEPEND}
+# at least one core dev-python ebuild that uses setuptools also uses pkg-config to
+# locate various things. So it is prudent to ensure that pkg-config is installed
+# along with setuptools.
+
+RDEPEND="virtual/pkgconfig"
+DEPEND="
 	app-arch/unzip
 	test? (
 		dev-python/pip[${PYTHON_USEDEP}]

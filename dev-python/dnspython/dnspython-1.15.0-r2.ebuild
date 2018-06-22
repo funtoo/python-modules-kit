@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="DNS toolkit for Python"
 HOMEPAGE="http://www.dnspython.org/ https://pypi.python.org/pypi/dnspython"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.zip"
+SRC_URI="https://github.com/danielrobbins/dnspython/archive/v1.15.0-cryptodome.zip"
 
 LICENSE="ISC"
 SLOT="0"
@@ -23,6 +23,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 
 # For testsuite
 DISTUTILS_IN_SOURCE_BUILD=1
+S="$WORKDIR/$P-cryptodome"
 
 python_test() {
 	cd tests || die

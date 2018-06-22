@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="Python interface to Graphviz's Dot language"
-HOMEPAGE="https://pypi.org/project/pydot/"
+HOMEPAGE="https://pypi.python.org/pypi/pydot"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,7 +18,8 @@ IUSE=""
 
 RDEPEND="
 	dev-python/pyparsing[${PYTHON_USEDEP}]
-	media-gfx/graphviz"
+	media-gfx/graphviz
+	!media-gfx/pydot"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
