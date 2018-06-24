@@ -3,13 +3,14 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy{,3} python{2_7,3_{4,5,6}} )
+# Tests fail with PyPy and PyPy 3
+PYTHON_COMPAT=( python{2_7,3_{4,5,6}} )
 
 inherit distutils-r1
 
 MY_PN="${PN/-/.}"
-DESCRIPTION="Additional facilities to supplement Python's stdlib logging module"
-HOMEPAGE="https://github.com/jaraco/jaraco.logging"
+DESCRIPTION="Tools for working with iterables. Complements itertools and more_itertools"
+HOMEPAGE="https://github.com/jaraco/jaraco.itertools"
 SRC_URI="mirror://pypi/${PN:0:1}/${MY_PN}/${MY_PN}-${PV}.tar.gz"
 
 LICENSE="MIT"
@@ -20,15 +21,15 @@ IUSE="doc test"
 RDEPEND="
 	dev-python/namespace-jaraco[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/tempora[${PYTHON_USEDEP}]
+	dev-python/inflect[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-4.0.0[${PYTHON_USEDEP}]
 "
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/setuptools_scm-1.15.0[${PYTHON_USEDEP}]
 	doc? (
-		>=dev-python/jaraco-packaging-3.2[${PYTHON_USEDEP}]
-		>=dev-python/rst-linker-1.9[${PYTHON_USEDEP}]
 		dev-python/sphinx[${PYTHON_USEDEP}]
+		dev-python/rst-linker[${PYTHON_USEDEP}]
 	)
 	test? (
 		${RDEPEND}
@@ -40,8 +41,7 @@ S="${WORKDIR}/${MY_PN}-${PV}"
 
 python_compile_all() {
 	if use doc; then
-		cd docs || die
-		sphinx-build . _build/html || die
+		sphinx-build docs docs/_build/html || die
 		HTML_DOCS=( docs/_build/html/. )
 	fi
 }
