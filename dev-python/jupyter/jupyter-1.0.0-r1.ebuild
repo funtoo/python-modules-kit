@@ -25,7 +25,8 @@ RDEPEND="
 	dev-python/jupyter_console[${PYTHON_USEDEP}]
 	dev-python/nbconvert[${PYTHON_USEDEP}]
 	dev-python/ipykernel[${PYTHON_USEDEP}]
-	dev-python/ipywidgets[${PYTHON_USEDEP}]"
+	dev-python/ipywidgets[${PYTHON_USEDEP}]
+	=www-servers/tornado-4*[${PYTHON_USEDEP}]"
 DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 PDEPEND=">=dev-python/jupyter_core-4.2.0[${PYTHON_USEDEP}]"
 
