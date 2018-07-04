@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+PYTHON_COMPAT=( python2_7 python3_{5,6} )
 PYTHON_REQ_USE='tk?,threads(+)'
 
 inherit distutils-r1 eutils virtualx
@@ -28,7 +28,7 @@ RDEPEND="
 	jpeg? ( virtual/jpeg:0 )
 	jpeg2k? ( media-libs/openjpeg:2= )
 	lcms? ( media-libs/lcms:2= )
-	tiff? ( media-libs/tiff:0=[jpeg] )
+	tiff? ( media-libs/tiff:0=[jpeg,zlib] )
 	truetype? ( media-libs/freetype:2= )
 	webp? ( media-libs/libwebp:0= )
 	zlib? ( sys-libs/zlib:0= )"
@@ -38,21 +38,13 @@ DEPEND="${RDEPEND}
 		dev-python/sphinx[${PYTHON_USEDEP}]
 		dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	)
-	test? (	dev-python/nose[${PYTHON_USEDEP}] )
+	test? (	dev-python/pytest[${PYTHON_USEDEP}] )
 "
 
 S="${WORKDIR}/${MY_P}"
 
-PATCHES=(
-	"${FILESDIR}"/pillow-4.3.0-no-scripts.patch
-	# can be removed at v5, patch already uptream. See bug 593816.
-	"${FILESDIR}"/pillow-4.3.0-freetype2.9-test-metrics.patch
-)
-
 python_compile() {
-	# raqm not in portage yet
 	local args=(
-		--disable-raqm
 		--disable-platform-guessing
 		$(use_enable truetype freetype)
 		$(use_enable jpeg)
@@ -73,20 +65,20 @@ python_compile_all() {
 
 python_test() {
 	"${PYTHON}" selftest.py --installed || die "selftest failed with ${EPYTHON}"
-	virtx nosetests -vx Tests/test_*.py
+	virtx pytest -vx Tests/test_*.py
 }
 
 python_install() {
-	python_doheader libImaging/*.h
+	python_doheader src/libImaging/*.h
 	distutils-r1_python_install
 }
 
 python_install_all() {
 	use doc && local HTML_DOCS=( docs/_build/html/. )
 	if use examples ; then
-		docinto examples
-		dodoc Scripts/*
-		docompress -x /usr/share/doc/${PF}/examples
+		docinto example
+		dodoc docs/example/*
+		docompress -x /usr/share/doc/${PF}/example
 	fi
 	distutils-r1_python_install_all
 }
