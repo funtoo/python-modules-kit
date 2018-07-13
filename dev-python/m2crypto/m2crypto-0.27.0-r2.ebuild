@@ -35,6 +35,10 @@ S="${WORKDIR}/${MY_PN}-${PV}"
 # Tests access network, and fail randomly. Bug #431458.
 RESTRICT=test
 
+PATCHES=(
+	"${FILESDIR}/${PN}-libressl-version-check.patch"
+)
+
 python_compile() {
 	# setup.py looks at platform.machine() to determine swig options.
 	# For exotic ABIs, we need to give swig a hint.
