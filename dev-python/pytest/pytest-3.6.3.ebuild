@@ -13,22 +13,26 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-fbsd ~amd64-linux ~x86-linux"
-IUSE="doc test"
+KEYWORDS="~amd64 ~arm ~x86"
+# doc apparently requires sphinxcontrib_trio, not yet packaged
+IUSE="test" # doc
 
 # When bumping, please check setup.py for the proper py version
 PY_VER="1.5.0"
 COMMON_DEPEND="
+	>=dev-python/atomicwrites-1.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-17.2.0[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-0.5[${PYTHON_USEDEP}]
 	>=dev-python/py-${PY_VER}[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	>=dev-python/six-1.10.0[${PYTHON_USEDEP}]
-	virtual/python-funcsigs[${PYTHON_USEDEP}]
-	doc? (
-		dev-python/pyyaml[${PYTHON_USEDEP}]
-		dev-python/sphinx[${PYTHON_USEDEP}]
-	)"
+	virtual/python-funcsigs[${PYTHON_USEDEP}]"
+
+#	doc? (
+#		dev-python/pyyaml[${PYTHON_USEDEP}]
+#		dev-python/sphinx[${PYTHON_USEDEP}]
+#	)"
 
 # flake & pytest-capturelog cause a number of tests to fail
 DEPEND="${COMMON_DEPEND}
@@ -49,7 +53,7 @@ RDEPEND="
 
 python_prepare_all() {
 	local PATCHES=(
-		"${FILESDIR}"/pytest-3.4.2-pypy-syntaxerror-offset.patch
+		"${FILESDIR}"/pytest-3.6.3-pypy-syntaxerror-offset.patch
 	)
 
 	grep -qF "py>=${PY_VER}" setup.py || die "Incorrect dev-python/py dependency"
@@ -57,11 +61,6 @@ python_prepare_all() {
 	# Something in the ebuild environment causes this to hang/error.
 	# https://bugs.gentoo.org/598442
 	rm testing/test_pdb.py || die
-
-	# broken and disabled upstream
-	# https://github.com/pytest-dev/pytest/commit/321f66f71148c978c1bf45dace61886b5e263bd4
-	sed -i -e 's:test_wrapped_getfuncargnames_patching:_&:' \
-		testing/python/integration.py || die
 
 	# those tests appear to hang with python3.5+;  TODO: investigate why
 	sed -i -e 's:test_runtest_location_shown_before_test_starts:_&:' \
@@ -76,11 +75,11 @@ python_test() {
 		-vv testing || die "tests failed with ${EPYTHON}"
 }
 
-python_compile_all(){
-	use doc && emake -C doc/en html
-}
-
-python_install_all() {
-	use doc && HTML_DOCS=( doc/en/_build/html/. )
-	distutils-r1_python_install_all
-}
+#python_compile_all() {
+#	use doc && emake -C doc/en html
+#}
+#
+#python_install_all() {
+#	use doc && HTML_DOCS=( doc/en/_build/html/. )
+#	distutils-r1_python_install_all
+#}
