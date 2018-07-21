@@ -3,11 +3,11 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} pypy )
+PYTHON_COMPAT=( python2_7 python3_{4,5} pypy )
 PYTHON_REQ_USE='sqlite?,threads(+)'
 WEBAPP_NO_AUTO_INSTALL="yes"
 
-inherit bash-completion-r1 distutils-r1 eutils versionator webapp
+inherit bash-completion-r1 distutils-r1 eutils eapi7-ver webapp
 
 MY_PN="Django"
 MY_P="${MY_PN}-${PV}"
@@ -15,15 +15,11 @@ MY_P="${MY_PN}-${PV}"
 DESCRIPTION="High-level Python web framework"
 HOMEPAGE="https://www.djangoproject.com/ https://pypi.org/project/Django/"
 SRC_URI="
-	https://www.djangoproject.com/m/releases/$(get_version_component_range 1-2)/${MY_P}.tar.gz
+	https://www.djangoproject.com/m/releases/$(ver_cut 1-2)/${MY_P}.tar.gz
 	mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz
 	"
 
 LICENSE="BSD"
-# admin fonts: Roboto (media-fonts/roboto)
-LICENSE+=" Apache-2.0"
-# admin icons, jquery, xregexp.js
-LICENSE+=" MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
 IUSE="doc sqlite test"
@@ -46,7 +42,7 @@ S="${WORKDIR}/${MY_P}"
 WEBAPP_MANUAL_SLOT="yes"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-1.9-bashcomp.patch
+	"${FILESDIR}"/${PN}-1.7.6-bashcomp.patch
 )
 
 pkg_setup() {
@@ -67,7 +63,7 @@ python_compile_all() {
 python_test() {
 	# Tests have non-standard assumptions about PYTHONPATH,
 	# and don't work with ${BUILD_DIR}/lib.
-	PYTHONPATH=. "${PYTHON}" tests/runtests.py --settings=test_sqlite -v2 --parallel 1 \
+	PYTHONPATH=. "${PYTHON}" tests/runtests.py --settings=test_sqlite -v2 \
 		|| die "Tests fail with ${EPYTHON}"
 }
 
