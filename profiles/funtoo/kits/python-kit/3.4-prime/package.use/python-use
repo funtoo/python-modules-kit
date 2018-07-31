@@ -1,10 +1,10 @@
+=dev-python/promise-0.4.2 python_single_target_python2_7
 =dev-python/root_numpy-4.4.0 python_single_target_python2_7
 =dev-python/root_numpy-4.7.3 python_single_target_python2_7
 =dev-python/rootpy-0.8.3 python_single_target_python2_7
 =dev-python/rootpy-1.0.1 python_single_target_python2_7
 =dev-python/thunarx-python-0.3.0-r2 python_single_target_python2_7
 dev-python/nautilus-python python_single_target_python2_7
-dev-python/promise python_single_target_python2_7
 dev-python/pyamazon python_single_target_python2_7
 dev-python/pyclimate python_single_target_python2_7
 dev-python/pyifp python_single_target_python2_7
