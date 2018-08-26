@@ -1,20 +1,20 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+EAPI=7
 
+PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} )
 inherit python-r1 qmake-utils
 
 MY_P=QScintilla_gpl-${PV/_pre/.dev}
 
-DESCRIPTION="Python bindings for Qscintilla"
+DESCRIPTION="Python bindings for QScintilla"
 HOMEPAGE="https://www.riverbankcomputing.com/software/qscintilla/intro"
 SRC_URI="mirror://sourceforge/pyqt/${MY_P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~ppc64 x86"
+KEYWORDS="~amd64 ~ppc64 ~x86"
 IUSE="debug"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
