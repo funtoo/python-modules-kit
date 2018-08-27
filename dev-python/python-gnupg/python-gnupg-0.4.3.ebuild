@@ -1,27 +1,31 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI="7"
 
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} pypy )
+PYTHON_COMPAT=( pypy{,3} python2_7 python3_{4,5,6,7} )
 
 inherit distutils-r1
 
-DESCRIPTION="Python wrapper for GNU Privacy Guard"
-HOMEPAGE="https://pythonhosted.org/python-gnupg/ https://github.com/vsajip/python-gnupg/"
+DESCRIPTION="A Python wrapper for GnuPG"
+HOMEPAGE="https://bitbucket.org/vinay.sajip/python-gnupg
+	https://pypi.org/project/python-gnupg/"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="app-crypt/gnupg"
 DEPEND="${RDEPEND}"
 
-# They hung. We haven't figured out why yet.
-RESTRICT="test"
+PATCHES=(
+	"${FILESDIR}"/${P}-skip_network_needing_test.patch
+	"${FILESDIR}"/${P}-use_seperate_keys_directory.patch
+)
 
 python_test() {
-	# Note; 1 test fails under pypy only
-	"${PYTHON}" test_gnupg.py || die "Tests fail with ${EPYTHON}"
+	# NO_EXTERNAL_TESTS must be enabled,
+	# to disable all tests, which need internet access.
+	NO_EXTERNAL_TESTS=1 "${PYTHON}" test_gnupg.py || die "Tests failed with ${EPYTHON}"
 }
