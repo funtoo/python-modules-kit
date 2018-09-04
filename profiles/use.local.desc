@@ -33,7 +33,6 @@ dev-python/django-cms:picture - Install djangocms picture plugin
 dev-python/django-cms:snippet - Install djangocms snippet plugin
 dev-python/django-cms:teaser - Install djangocms teaser plugin
 dev-python/django-cms:video - Install djangocms video plugin
-dev-python/django-tastypie:bip - An optional serialiser dev-python/biplist
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/falcon:cython - Build cython-based python modules
