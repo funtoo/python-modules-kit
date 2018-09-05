@@ -12,7 +12,7 @@ SRC_URI="https://github.com/Cangjians/py${PN}/releases/download/v${PV}/${P#py}.t
 
 LICENSE="LGPL-3+"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
@@ -21,8 +21,6 @@ RDEPEND="${PYTHON_DEPS}
 DEPEND="${RDEPEND}
 	dev-python/cython[${PYTHON_USEDEP}]
 	virtual/pkgconfig"
-
-PATCHES=( "${FILESDIR}"/${P}-cython-0.22.patch )
 
 src_prepare() {
 	default
