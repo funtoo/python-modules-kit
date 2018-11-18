@@ -1,14 +1,14 @@
 DEFINED_PHASES=configure install prepare setup
-DEPEND=>=dev-libs/boost-1.62.0-r1[python(+),python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] ~media-libs/ilmbase-2.3.0:= numpy? ( >=dev-python/numpy-1.10.4 ) >=virtual/pkgconfig-0-r1 >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=>=dev-libs/boost-1.62.0-r1[python(+),python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] ~media-libs/ilmbase-2.3.0:= numpy? ( >=dev-python/numpy-1.10.4 ) >=virtual/pkgconfig-0-r1 >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=ilmbase Python bindings
 EAPI=6
 HOMEPAGE=http://www.openexr.com
 IUSE=+numpy python_targets_python2_7
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-libs/boost-1.62.0-r1[python(+),python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] ~media-libs/ilmbase-2.3.0:= numpy? ( >=dev-python/numpy-1.10.4 )
+RDEPEND=>=dev-libs/boost-1.62.0-r1[python(+),python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] ~media-libs/ilmbase-2.3.0:= numpy? ( >=dev-python/numpy-1.10.4 )
 REQUIRED_USE=python_targets_python2_7
 SLOT=0
 SRC_URI=https://github.com/openexr/openexr/releases/download/v2.3.0/pyilmbase-2.3.0.tar.gz
-_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	libtool	e32ea84bf82cf8987965b574672dba93	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	3e0889f7794cf229af65fd448a9e202b	python-utils-r1	b5fdfa15cbe2f6299a482bf5d0c5925d	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	libtool	e32ea84bf82cf8987965b574672dba93	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	3e0889f7794cf229af65fd448a9e202b	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	fa43c370cf1e0d4ada6e123b775a35b7
 _md5_=879fdaa680ffbcca4df841c5e44121bf
