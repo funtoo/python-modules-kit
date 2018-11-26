@@ -26,7 +26,6 @@ DEPEND="${RDEPEND}
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-
 # Tests that are known to fail (some may be triggered by network-sandbox).
 test_failures=(
 	test_add_class_method_job
@@ -55,6 +54,7 @@ test_failures=(
 	test_zookeeper_client_keep_open
 	test_zookeeper_client_ref
 )
+
 
 python_prepare_all() {
 	sed -i -e /setuptools_scm/d setup.py || die
