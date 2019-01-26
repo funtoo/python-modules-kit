@@ -22,11 +22,11 @@ RESTRICT="test"
 
 RDEPEND="
 	>=dev-python/botocore-1.12[${PYTHON_USEDEP}]
-	<dev-python/colorama-0.3.10[${PYTHON_USEDEP}]
+	<dev-python/colorama-0.3.9.0[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	<=dev-python/rsa-3.5.0[${PYTHON_USEDEP}]
+	<dev-python/rsa-3.5.0.0[${PYTHON_USEDEP}]
 	>=dev-python/s3transfer-0.1.12[${PYTHON_USEDEP}]
-	<=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	<dev-python/pyyaml-3.13.0[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}"
 
