@@ -1,9 +1,9 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1
@@ -19,11 +19,12 @@ IUSE="doc test"
 RDEPEND="
 	>=dev-libs/mathjax-2.4
 	dev-python/jinja[${PYTHON_USEDEP}]
-	>=dev-python/terminado-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/terminado-0.8.1[${PYTHON_USEDEP}]
 	>=www-servers/tornado-4.0[${PYTHON_USEDEP}]
 	dev-python/ipython_genutils[${PYTHON_USEDEP}]
 	>=dev-python/traitlets-4.2.1[${PYTHON_USEDEP}]
 	>=dev-python/jupyter_core-4.4.0[${PYTHON_USEDEP}]
+	>=dev-python/pyzmq-17[${PYTHON_USEDEP}]
 	dev-python/jupyter_client[${PYTHON_USEDEP}]
 	dev-python/nbformat[${PYTHON_USEDEP}]
 	>=dev-python/nbconvert-4.2.0[${PYTHON_USEDEP}]
