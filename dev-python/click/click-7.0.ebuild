@@ -3,17 +3,17 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} pypy pypy3 )
+PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
 
 inherit distutils-r1
 
 DESCRIPTION="A Python package for creating beautiful command line interfaces"
 SRC_URI="https://github.com/pallets/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
-HOMEPAGE="http://click.pocoo.org/ https://pypi.org/project/click/"
+HOMEPAGE="https://palletsprojects.com/p/click/ https://pypi.org/project/click/"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~ppc64 ~s390 ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~s390 ~x86"
 IUSE="doc examples test"
 
 DEPEND="

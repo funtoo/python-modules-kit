@@ -23,13 +23,13 @@ dev-python/cvxopt:dsdp - Use interior point library sci-libs/dsdp
 dev-python/cvxopt:glpk - Use GNU Linear Programming Kit sci-mathematics/glpk
 dev-python/dap:server - Enable OpenDAP server support
 dev-python/dask:distributed - Add support for distributed computing with dev-python/distributed
+dev-python/drf-yasg:validation - Enable swagger spec validation using swagger-spec-validator
 dev-python/editorconfig-core-py:cli - Install command line interface as well as python library
 dev-python/fabric:fab2 - Install as "fab2", allowing side-by-side install with fabric 1.x
 dev-python/falcon:cython - Build cython-based python modules
 dev-python/fastparquet:brotli - Enable support for brotli compression
 dev-python/fastparquet:lz4 - Enable support for lz4 compression
 dev-python/fastparquet:snappy - Enable support for snappy compression
-dev-python/fastparquet:zstd - Enable support for zstandard compression
 dev-python/flask-restful:paging - Enable resource paging support
 dev-python/geopy:timezone - Enables localized date support
 dev-python/geopy:yahoo - Enables use of YahooPlaceFinder
@@ -120,6 +120,12 @@ dev-python/sympy:symengine - Add support for a dev-python/symengine backend
 dev-python/sympy:texmacs - Add app-office/texmacs interface
 dev-python/sympy:theano - Add support for dev-python/theano
 dev-python/tappy:yaml - Pull dependencies needed to support YAML blocks associated with test results.
+dev-python/tinyrpc:gevent - Add support for gevent
+dev-python/tinyrpc:httpclient - Add support for httpclient
+dev-python/tinyrpc:jsonext - Add support for jsonext
+dev-python/tinyrpc:websocket - Add support for websocket
+dev-python/tinyrpc:wsgi - Add support for wsgi
+dev-python/tinyrpc:zmq - Add support for zmq
 dev-python/translate-toolkit:html - Support conversion between po and html files
 dev-python/translate-toolkit:ical - Support conversion between po and ical files
 dev-python/translate-toolkit:ini - Support conversion between po and ini files
