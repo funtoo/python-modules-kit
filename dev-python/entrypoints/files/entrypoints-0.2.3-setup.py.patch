@@ -3,11 +3,11 @@ setup.py for entrypoints by Marius Brehler <marbre@linux.sungazer.de>.
 Patch by Marius Brehler <marbrbre@linux.sungazer.de>.
 --- /dev/null
 +++ b/setup.py
-@@ -0,0 +1,13 @@
+@@ -0,0 +1,14 @@
 +from distutils.core import setup
 +
 +setup(name='entrypoints',
-+      version='0.2.3',
++      version='0.3',
 +      description='Discover and load entry points from installed packages.',
 +      author='Thomas Kluyver',
 +      author_email='thomas@kluyver.me.uk',
@@ -17,4 +17,4 @@ Patch by Marius Brehler <marbrbre@linux.sungazer.de>.
 +          'License :: OSI Approved :: MIT License'
 +      ]
 +)
-\ No newline at end of file
+
