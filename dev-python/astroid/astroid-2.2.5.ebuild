@@ -8,8 +8,9 @@ PYTHON_COMPAT=( python3_{5,6,7} )
 inherit distutils-r1
 
 DESCRIPTION="Abstract Syntax Tree for logilab packages"
-HOMEPAGE="https://github.com/PyCQA/astroid https://pypi.org/project/astroid/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+HOMEPAGE="https://github.com/PyCQA/astroid
+    https://pypi.org/project/astroid/"
+SRC_URI="https://files.pythonhosted.org/packages/source/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
