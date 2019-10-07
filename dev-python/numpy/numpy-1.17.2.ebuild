@@ -1,42 +1,43 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI="7"
 
 PYTHON_COMPAT=( python3_{5,6,7} )
 PYTHON_REQ_USE="threads(+)"
 
 FORTRAN_NEEDED=lapack
 
-inherit distutils-r1 eutils flag-o-matic fortran-2 git-r3 multilib multiprocessing toolchain-funcs versionator
-
-DOC_PV="1.9.1"
-DOC_P="${PN}-${DOC_PV}"
+inherit distutils-r1 flag-o-matic fortran-2 multiprocessing toolchain-funcs
 
 DESCRIPTION="Fast array and numerical python library"
 HOMEPAGE="https://www.numpy.org"
-SRC_URI=""
-EGIT_REPO_URI="https://github.com/numpy/numpy.git"
-
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="*"
 IUSE="lapack test"
 
-RDEPEND="
+RDEPEND="lapack? (
+		virtual/cblas
+		virtual/lapack
+	)"
+DEPEND="${RDEPEND}"
+BDEPEND="app-arch/unzip
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	lapack? ( virtual/cblas virtual/lapack )"
-DEPEND="${RDEPEND}
-	>=dev-python/cython-0.29.13
 	lapack? ( virtual/pkgconfig )
-	test? ( >=dev-python/nose-1.0[${PYTHON_USEDEP}] )"
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
 
-# Uses distutils.command.config.
-DISTUTILS_IN_SOURCE_BUILD=1
+GITHUB_REPO="$PN"
+GITHUB_USER="numpy"
+GITHUB_TAG="7b3f861" # 1.7.0_rc1 with some bug fixes (12 Jul 2019)
+SRC_URI="https://www.github.com/${GITHUB_USER}/${GITHUB_REPO}/tarball/${GITHUB_TAG} -> ${PN}-${GITHUB_TAG}.tar.gz"
 
-PATCHES=(
-	"${FILESDIR}"/${PN}-9999-no-hardcode-blas.patch
-)
+src_unpack() {
+	unpack ${A}
+	mv "${WORKDIR}/${GITHUB_USER}-${PN}"-??????? "${S}" || die
+}
 
 pc_incdir() {
 	$(tc-getPKG_CONFIG) --cflags-only-I $@ | \
@@ -59,7 +60,7 @@ python_prepare_all() {
 	if use lapack; then
 		append-ldflags "$($(tc-getPKG_CONFIG) --libs-only-other cblas lapack)"
 		local libdir="${EPREFIX}"/usr/$(get_libdir)
-		cat >> site.cfg <<-EOF
+		cat >> site.cfg <<-EOF || die
 			[blas]
 			include_dirs = $(pc_incdir cblas)
 			library_dirs = $(pc_libdir cblas blas):${libdir}
@@ -96,28 +97,26 @@ python_prepare_all() {
 	# don't version f2py, we will handle it.
 	sed -i -e '/f2py_exe/s: + os\.path.*$::' numpy/f2py/setup.py || die
 
-	# we don't have f2py-3.3
-#	sed \
-#		-e 's:test_f2py:_&:g' \
-#		-i numpy/tests/test_scripts.py || die
-
 	distutils-r1_python_prepare_all
 }
 
 python_compile() {
 	export MAKEOPTS=-j1 #660754
 
-	distutils-r1_python_compile -j $(makeopts_jobs) ${NUMPY_FCONFIG}
+	distutils-r1_python_compile \
+		${python_makeopts_jobs} \
+		${NUMPY_FCONFIG}
 }
 
 python_test() {
-	distutils_install_for_testing ${NUMPY_FCONFIG}
+	distutils_install_for_testing --single-version-externally-managed --record "${TMPDIR}/record.txt" ${NUMPY_FCONFIG}
 
 	cd "${TMPDIR}" || die
+
 	${EPYTHON} -c "
 import numpy, sys
 r = numpy.test(label='full', verbose=3)
-sys.exit(0 if r.wasSuccessful() else 1)" || die "Tests fail with ${EPYTHON}"
+sys.exit(0 if r else 1)" || die "Tests fail with ${EPYTHON}"
 }
 
 python_install() {
@@ -125,11 +124,7 @@ python_install() {
 }
 
 python_install_all() {
-	DOCS+=( README.md THANKS.txt )
+	local DOCS=( THANKS.txt )
 
 	distutils-r1_python_install_all
-
-	#docinto f2py
-	#dodoc doc/f2py/*.txt
-	#doman doc/f2py/f2py.1
 }
