@@ -92,7 +92,6 @@ dev-python/pypy3:sandbox - Enable sandboxing functionality
 dev-python/python-stdnum:vies - Enable VIES
 dev-python/pyudev:pygobject - Install PyGobject bindings
 dev-python/pyudev:qt5 - Install PyQt5 bindings
-dev-python/pyyaml:libyaml - enable support for C implementation using libyaml
 dev-python/pyzor:gdbm - Enables the Gdbm back-end database engine for pyzord
 dev-python/pyzor:gevent - Use dev-python/gevent to enable asynchronous operation
 dev-python/pyzor:mysql - Enables the MySQL back-end database engine for pyzord through dev-python/mysql-python. Only works with python-2.x!
