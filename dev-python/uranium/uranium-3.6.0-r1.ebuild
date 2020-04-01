@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{5,6} )
+PYTHON_COMPAT=( python3_{6,7} )
 
 inherit cmake-utils python-single-r1
 
@@ -15,12 +15,12 @@ SRC_URI="https://github.com/Ultimaker/${MY_PN}/archive/${PV}.tar.gz -> ${P}.tar.
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="doc test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-	~dev-libs/libarcus-${PV}:=[python,${PYTHON_USEDEP}]
+	~dev-libs/libarcus-${PV}:=[${PYTHON_USEDEP},python]
 	dev-python/PyQt5[${PYTHON_USEDEP},declarative,network,svg]
 	dev-python/numpy[${PYTHON_USEDEP}]
 	>=sci-libs/scipy-1.1[${PYTHON_USEDEP}]

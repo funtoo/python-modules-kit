@@ -1146,7 +1146,6 @@ dev-python/YURL python_single_target_python2_7
 dev-python/aadict python_single_target_python2_7
 dev-python/abstract_rendering python_single_target_python2_7
 dev-python/addons python_single_target_python2_7
-dev-python/aiodns python_single_target_python2_7
 dev-python/aioeventlet python_single_target_python2_7
 dev-python/aiohttp-cors python_single_target_python3_5 python_targets_python3_5
 dev-python/aiohttp-jinja2 python_single_target_python3_5 python_targets_python3_5
@@ -1662,7 +1661,6 @@ dev-python/pyavm python_single_target_python2_7
 dev-python/pybloomfiltermmap python_single_target_python2_7
 dev-python/pycallgraph python_single_target_python2_7
 dev-python/pycanberra python_single_target_python2_7
-dev-python/pycares python_single_target_python2_7
 dev-python/pycdf python_single_target_python2_7
 dev-python/pycdio python_single_target_python2_7
 dev-python/pychart python_single_target_python2_7
@@ -2043,7 +2041,6 @@ dev-python/uhashring python_single_target_python2_7
 dev-python/uncertainties python_single_target_python2_7
 dev-python/uncompyle6 python_single_target_python2_7
 dev-python/unittest-mixins python_single_target_python2_7
-dev-python/uranium python_single_target_python3_5 python_targets_python3_5
 dev-python/urlgrabber python_single_target_python2_7
 dev-python/urwidtrees python_single_target_python2_7
 dev-python/ushlex python_single_target_python2_7
