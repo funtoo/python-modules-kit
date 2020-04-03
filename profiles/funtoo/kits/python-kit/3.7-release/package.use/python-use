@@ -463,6 +463,7 @@
 =dev-python/montage-wrapper-0.9.8 python_single_target_python2_7
 =dev-python/montage-wrapper-0.9.9 python_single_target_python2_7
 =dev-python/moto-0.4.30 python_single_target_python2_7
+=dev-python/msgpack-0.4.8 python_single_target_python2_7
 =dev-python/multidict-1.3.0_alpha1 python_single_target_python3_5 python_targets_python3_5
 =dev-python/multidict-2.0.1 python_single_target_python3_5 python_targets_python3_5
 =dev-python/multidict-2.1.0 python_single_target_python3_5 python_targets_python3_5
@@ -719,9 +720,6 @@
 =dev-python/pykerberos-1.1.9 python_single_target_python2_7
 =dev-python/pylibacl-0.5.0-r1 python_single_target_python2_7
 =dev-python/pymetar-0.21 python_single_target_python2_7
-=dev-python/pymongo-3.4.0 python_single_target_python2_7
-=dev-python/pymongo-3.5.1 python_single_target_python2_7
-=dev-python/pymongo-3.7.1 python_single_target_python2_7
 =dev-python/pympler-0.5 python_single_target_python2_7
 =dev-python/pymssql-1.0.2-r1 python_single_target_python2_7
 =dev-python/pymysql-0.7.11 python_single_target_python2_7
@@ -1009,7 +1007,6 @@
 =dev-python/tempora-1.7 python_single_target_python2_7
 =dev-python/tenacity-3.7.1 python_single_target_python2_7
 =dev-python/tenacity-4.4.0 python_single_target_python2_7
-=dev-python/terminado-0.6 python_single_target_python2_7
 =dev-python/testfixtures-4.9.1 python_single_target_python2_7
 =dev-python/testrepository-0.0.18-r1 python_single_target_python2_7
 =dev-python/testresources-0.2.7-r2 python_single_target_python2_7

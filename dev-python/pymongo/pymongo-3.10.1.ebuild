@@ -1,30 +1,29 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy )
 
+PYTHON_COMPAT=( python2_7 python3_{6,7,8} )
 inherit check-reqs distutils-r1
 
 DESCRIPTION="Python driver for MongoDB"
 HOMEPAGE="https://github.com/mongodb/mongo-python-driver https://pypi.org/project/pymongo/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/9b/6791f7219f3573bfaa2251da4d814f4fbc49f0bbb258df1e08f7d89a7b85/pymongo-3.10.1.tar.gz -> pymongo-3.10.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~hppa ~x86"
+KEYWORDS="*"
 IUSE="doc kerberos test"
+
+RESTRICT="!test? ( test )"
 
 RDEPEND="
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
 "
-DEPEND="
-	${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
+DEPEND="${RDEPEND}
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? (
-		dev-python/nose[${PYTHON_USEDEP}]
 		>=dev-db/mongodb-2.6.0
+		dev-python/nose[${PYTHON_USEDEP}]
 	)
 "
 DISTUTILS_IN_SOURCE_BUILD=1
@@ -73,7 +72,7 @@ python_test() {
 		ebegin "Trying to start mongod on port ${DB_PORT}"
 
 		LC_ALL=C \
-		mongod --dbpath "${dbpath}" --smallfiles --nojournal \
+		mongod --dbpath "${dbpath}" --nojournal \
 			--bind_ip ${DB_IP} --port ${DB_PORT} \
 			--unixSocketPrefix "${TMPDIR}" \
 			--logpath "${logpath}" --fork \
@@ -105,7 +104,7 @@ python_test() {
 	fi
 	DB_PORT2=$(( DB_PORT + 1 )) DB_PORT3=$(( DB_PORT + 2 )) esetup.py test || failed=1
 
-	mongod --dbpath "${dbpath}" --shutdown || die
+	mongod --dbpath "${dbpath}" --shutdown || die
 
 	[[ ${failed} ]] && die "Tests fail with ${EPYTHON}"
 
