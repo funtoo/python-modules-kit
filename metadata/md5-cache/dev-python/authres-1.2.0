@@ -1,14 +1,14 @@
-BDEPEND=python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_5? ( dev-lang/python:3.5 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+BDEPEND=python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=Authentication-Results Headers generation and parsing
 EAPI=7
 HOMEPAGE=https://launchpad.net/authentication-results-python https://pypi.org/project/authres/
-IUSE=python_targets_pypy3 python_targets_python3_5 python_targets_python3_6 python_targets_python3_7
+IUSE=python_targets_pypy3 python_targets_python3_6 python_targets_python3_7
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_5? ( dev-lang/python:3.5 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
-REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_5 python_targets_python3_6 python_targets_python3_7 )
+RDEPEND=python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]
+REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_6 python_targets_python3_7 )
 SLOT=0
-SRC_URI=mirror://pypi/a/authres/authres-1.2.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/6a/29/e28209b5d3d56c102845cca5a4a3abaf2724f79e83476a52b94d775ecce6/authres-1.2.0.tar.gz -> authres-1.2.0.tar.gz
 _eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	0ccf24dbef2b7722ad46689d6feebe37	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=6b5a4b346f03a284cc144a63dd9ad60d
+_md5_=dd1731e475b6ad92d67b34e0ccca5a60
