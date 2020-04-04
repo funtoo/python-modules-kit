@@ -18,6 +18,7 @@ SLOT="0"
 KEYWORDS="*"
 IUSE="doc emacs test"
 RESTRICT="!test? ( test )"
+S="${WORKDIR}/Cython-0.29.16"
 
 RDEPEND="
 	emacs? ( virtual/emacs )
