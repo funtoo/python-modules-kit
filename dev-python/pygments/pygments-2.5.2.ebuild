@@ -3,7 +3,7 @@
 EAPI=7
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python2_7 python3_{6,7,8} pypy3 )
 
 inherit distutils-r1 bash-completion-r1
 
@@ -16,7 +16,7 @@ SRC_URI="https://files.pythonhosted.org/packages/cb/9f/27d4844ac5bf158a33900dbad
 S="${WORKDIR}/${MY_P}"
 
 LICENSE="BSD"
-SLOT="2.7-compat"
+SLOT="0"
 KEYWORDS="*"
 IUSE="test"
 RESTRICT="!test? ( test )"
@@ -36,6 +36,5 @@ python_test() {
 
 python_install_all() {
 	distutils-r1_python_install_all
-	# only install modules for 2.7 compat.
-	rm -rf ${D}/usr/bin || die "wipe failed"
+	newbashcomp external/pygments.bashcomp pygmentize
 }
