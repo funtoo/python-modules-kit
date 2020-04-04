@@ -2,13 +2,13 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
+PYTHON_COMPAT=( python2_7 python3_{6,7,8} pypy3 )
 
 inherit distutils-r1
 
 DESCRIPTION="Curses-like terminal wrapper, with colored strings"
 HOMEPAGE="https://github.com/thomasballinger/curtsies"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5a/81/acd15a63392c25d78ba94f528f66e86093d72e0fb618b573743aa4efdccc/curtsies-0.3.1.tar.gz -> curtsies-0.3.1.tar.gz"
 
 SLOT="0"
 LICENSE="MIT"

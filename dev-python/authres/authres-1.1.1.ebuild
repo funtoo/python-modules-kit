@@ -1,4 +1,3 @@
-# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -11,7 +10,7 @@ HOMEPAGE="https://launchpad.net/authentication-results-python https://pypi.org/p
 SRC_URI="https://files.pythonhosted.org/packages/96/de/a3184660b81c0435db258c86a489a2986fa5214f91d4276186fdb1bb9120/authres-1.1.1.tar.gz -> authres-1.1.1.tar.gz"
 
 LICENSE="Apache-2.0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="*"
 SLOT="0"
 IUSE=""
 

@@ -1247,7 +1247,6 @@ dev-python/crcmod python_single_target_python2_7
 dev-python/crumbs python_single_target_python2_7
 dev-python/cssselect2 python_single_target_python2_7
 dev-python/ctypesgen python_single_target_python2_7
-dev-python/curtsies python_single_target_python2_7
 dev-python/cvxopt python_single_target_python2_7
 dev-python/cytoolz python_single_target_python2_7
 dev-python/d2to1 python_single_target_python2_7
