@@ -703,7 +703,6 @@
 =dev-python/pygal-2.4.0 python_single_target_python2_7
 =dev-python/pygame-1.9.2_pre20120101-r2 python_single_target_python2_7
 =dev-python/pygame-1.9.3 python_single_target_python2_7
-=dev-python/pygit2-0.26.4 python_single_target_python2_7
 =dev-python/pygpu-0.6.0 python_single_target_python2_7
 =dev-python/pygpu-0.6.7 python_single_target_python2_7
 =dev-python/pygraphviz-1.2 python_single_target_python2_7
@@ -1686,6 +1685,7 @@ dev-python/pygcrypt python_single_target_python3_5 python_targets_python3_5
 dev-python/pygene python_single_target_python2_7
 dev-python/pygeocoder python_single_target_python2_7
 dev-python/pyghmi python_single_target_python2_7
+dev-python/pygit2 python_single_target_python3+ python_targets_python3+
 dev-python/pygtkglext python_single_target_python2_7
 dev-python/pygtkhelpers python_single_target_python2_7
 dev-python/pygtksourceview python_single_target_python2_7
