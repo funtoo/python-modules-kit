@@ -3,7 +3,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{2_7,3_{5,6,7}} pypy )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1 eutils
 
@@ -11,19 +11,20 @@ MY_PN="PyJWT"
 
 DESCRIPTION="JSON Web Token implementation in Python"
 HOMEPAGE="https://github.com/progrium/pyjwt https://pypi.org/project/PyJWT/"
-SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_PN}-${PV}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2f/38/ff37a24c0243c5f45f5798bd120c0f873eeed073994133c084e1cf13b95c/PyJWT-1.7.1.tar.gz -> PyJWT-1.7.1.tar.gz"
 
 LICENSE=" MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 x86"
+KEYWORDS="*"
 IUSE="test"
 
 RDEPEND=""
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
-		>=dev-python/cryptography-1.4.0[${PYTHON_USEDEP}]
-		dev-python/pytest[${PYTHON_USEDEP}]
+		>=dev-python/pytest-4.0.1[${PYTHON_USEDEP}]
+		>=dev-python/pytest-cov-2.6.0[${PYTHON_USEDEP}]
+		>=dev-python/pytest-runner-4.2[${PYTHON_USEDEP}]
 	)"
 
 S="${WORKDIR}"/${MY_PN}-${PV}
@@ -44,8 +45,6 @@ python_test() {
 
 pkg_postinst() {
 	elog "Available optional features:"
-	optfeature "cryptography" dev-python/cryptography
-	optfeature "flake8" dev-python/flake8
-
-	ewarn "flake8 feature requires 'flake8-import-order' and 'pep8-naming', which are not in portage yet"
+	optfeature "cryptography" ">=dev-python/cryptography-1.4.0"
+	optfeature "flake8" "dev-python/flake8 dev-python/flake8-import-order dev-python/pep8-naming"
 }
