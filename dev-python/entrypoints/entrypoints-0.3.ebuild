@@ -3,17 +3,17 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python2+ pypy3 )
 
 inherit distutils-r1
 
 DESCRIPTION="Discover and load entry points from installed packages"
 HOMEPAGE="https://github.com/takluyver/entrypoints"
-SRC_URI="https://github.com//takluyver/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz -> entrypoints-0.3.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~x86"
+KEYWORDS="*"
 IUSE="doc test"
 
 DEPEND="
@@ -26,7 +26,6 @@ DEPEND="
 	"
 
 PATCHES=(
-	"${FILESDIR}/${P}"-setup.py.patch
 	"${FILESDIR}/${PN}"-0.2.1-init.py.patch
 )
 
