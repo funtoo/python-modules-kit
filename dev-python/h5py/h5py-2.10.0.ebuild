@@ -1,28 +1,26 @@
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python3_{5,6,7} )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="Simple Python interface to HDF5 files"
 HOMEPAGE="http://www.h5py.org/"
+SRC_URI="https://files.pythonhosted.org/packages/5f/97/a58afbcf40e8abecededd9512978b4e4915374e5b80049af082f49cebe9a/h5py-2.10.0.tar.gz -> h5py-2.10.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="*"
 IUSE="doc test examples mpi"
 
-GITHUB_REPO="$PN"
-GITHUB_USER="h5py"
-GITHUB_TAG="596748d"
-SRC_URI="https://www.github.com/${GITHUB_USER}/${GITHUB_REPO}/tarball/${GITHUB_TAG} -> ${PN}-${GITHUB_TAG}.tar.gz"
-
 RDEPEND="
 	sci-libs/hdf5:=[mpi=,hl(+)]
-	>=dev-python/numpy-1.17.0_rc1[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	test? ( dev-python/pytest )"
 
 DEPEND="
 	${RDEPEND}
@@ -34,11 +32,6 @@ DEPEND="
 		>=dev-python/sphinx-1.3.1[${PYTHON_USEDEP}]
 		)
 	mpi? ( dev-python/mpi4py[${PYTHON_USEDEP}] )"
-
-src_unpack() {
-	unpack ${A}
-	mv "${WORKDIR}/${GITHUB_USER}-${PN}"-??????? "${S}" || die
-}
 
 pkg_setup() {
 	use mpi && export CC=mpicc
