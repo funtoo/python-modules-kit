@@ -1,26 +1,29 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="5"
+EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6} pypy pypy3 )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="library with cross-python path, ini-parsing, io, code, log facilities"
 HOMEPAGE="https://pylib.readthedocs.io/en/latest/ https://pypi.org/project/py/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/8f/169d08dcac7d6e311333c96b63cbe92e7947778475e1a619b674989ba1ed/py-1.8.1.tar.gz -> py-1.8.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="*"
 IUSE="doc test"
 
 RDEPEND=""
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	test? ( >=dev-python/pytest-2.4.2[${PYTHON_USEDEP}] )
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
+
+PATCHES=( "${FILESDIR}"/${PN}-1.5.2-skip-apiwarn-pytest31.patch )
 
 python_prepare_all() {
 	sed -e 's:intersphinx_mapping:#&:' -i doc/conf.py || die

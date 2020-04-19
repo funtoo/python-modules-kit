@@ -2,14 +2,14 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 PYTHON_REQ_USE="threads(+)"
 
 inherit flag-o-matic distutils-r1 toolchain-funcs
 
 DESCRIPTION="Lightweight and super-fast messaging library built on top of the ZeroMQ library"
 HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/4c/762c2c3063c4d45baf4a49acea7a4f561f7b78a45cd04b58d63f4c5f6b8d/pyzmq-19.0.0.tar.gz -> pyzmq-19.0.0.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0"
