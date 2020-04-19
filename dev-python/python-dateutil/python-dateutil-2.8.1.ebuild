@@ -1,23 +1,22 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6} pypy pypy3 )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="Extensions to the standard Python datetime module"
 HOMEPAGE="
 	https://dateutil.readthedocs.org/
-	https://pypi.org/project/python-dateutil/
+	https://pypi.org/project/python-dateutil
 	https://github.com/dateutil/dateutil/
 "
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz -> python-dateutil-2.8.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos"
+KEYWORDS="*"
 IUSE="test"
 
 RDEPEND="
@@ -30,8 +29,13 @@ DEPEND="${RDEPEND}
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/freezegun[${PYTHON_USEDEP}]
+		dev-python/hypothesis[${PYTHON_USEDEP}]
 	)
 "
+
+PATCHES=(
+	"${FILESDIR}"/0001-zoneinfo-Get-timezone-data-from-system-tzdata.patch
+)
 
 python_prepare_all() {
 	# don't install zoneinfo tarball

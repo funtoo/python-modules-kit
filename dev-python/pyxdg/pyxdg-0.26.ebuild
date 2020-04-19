@@ -1,20 +1,18 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_5,3_6} pypy )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
-MY_P=${PN}-rel-${PV}
 DESCRIPTION="A Python module to deal with freedesktop.org specifications"
 HOMEPAGE="https://freedesktop.org/wiki/Software/pyxdg https://cgit.freedesktop.org/xdg/pyxdg/"
 # official mirror of the git repo
-SRC_URI="https://github.com/takluyver/pyxdg/archive/rel-${PV}.tar.gz -> ${MY_P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/47/6e/311d5f22e2b76381719b5d0c6e9dc39cd33999adae67db71d7279a6d70f4/pyxdg-0.26.tar.gz -> pyxdg-0.26.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="*"
 IUSE="test"
 
 DEPEND="
@@ -22,8 +20,6 @@ DEPEND="
 		dev-python/nose[${PYTHON_USEDEP}]
 		x11-themes/hicolor-icon-theme
 	)"
-
-S=${WORKDIR}/${MY_P}
 
 python_test() {
 	nosetests -v || die

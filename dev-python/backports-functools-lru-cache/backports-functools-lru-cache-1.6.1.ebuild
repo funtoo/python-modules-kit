@@ -1,9 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 pypy )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
@@ -11,11 +10,11 @@ MY_PN="${PN/-/.}"
 MY_PN="${MY_PN//-/_}"
 DESCRIPTION="Backport of functools.lru_cache from Python 3.3"
 HOMEPAGE="https://github.com/jaraco/backports.functools_lru_cache"
-SRC_URI="mirror://pypi/${PN:0:1}/${MY_PN}/${MY_PN}-${PV}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/2e/aa84668861c3de458c5bcbfb9813f0e26434e2232d3e294469e96efac884/backports.functools_lru_cache-1.6.1.tar.gz -> backports.functools_lru_cache-1.6.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos"
+KEYWORDS="*"
 IUSE="doc test"
 
 RDEPEND="dev-python/backports[${PYTHON_USEDEP}]"

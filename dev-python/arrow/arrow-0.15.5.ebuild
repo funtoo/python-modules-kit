@@ -1,18 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2_7 python{3_5,3_6,3_7} )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="Better dates and times for Python"
 HOMEPAGE="https://github.com/crsmithdev/arrow/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/17/d0/8a69308a5cf4f07c53dca744402606610ec910dda1a9cdc94b3fc4a0c3a5/arrow-0.15.5.tar.gz -> arrow-0.15.5.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~arm64 x86"
+KEYWORDS="*"
 IUSE="test"
 
 RDEPEND="
