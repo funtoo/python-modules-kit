@@ -3,25 +3,23 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="Python Lex-Yacc library"
 HOMEPAGE="http://www.dabeaz.com/ply/ https://pypi.org/project/ply/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz -> ply-3.11.tar.gz"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x64-cygwin ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris"
+KEYWORDS="*"
 IUSE="examples"
 
 RDEPEND=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=( ANNOUNCE CHANGES TODO )
-
-PATCHES=( "${FILESDIR}/3.6-picklefile-IOError.patch" )
 
 python_test() {
 	cp -r -l test "${BUILD_DIR}"/ || die

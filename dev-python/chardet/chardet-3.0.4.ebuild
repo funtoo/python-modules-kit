@@ -3,20 +3,17 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="Universal encoding detector"
 HOMEPAGE="https://github.com/chardet/chardet https://pypi.org/project/chardet/"
-SRC_URI="https://github.com/chardet/chardet/archive/${PV}.tar.gz -> ${P}.tar.gz"
-
-# SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
-# PyPI tarball is missing test.py: https://github.com/chardet/chardet/pull/118
+SRC_URI="https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz -> chardet-3.0.4.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 ~sh sparc x86 ~x64-cygwin ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~x64-solaris"
+KEYWORDS="*"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
