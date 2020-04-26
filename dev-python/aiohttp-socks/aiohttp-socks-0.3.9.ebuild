@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="SOCKS proxy connector for aiohttp"
 HOMEPAGE="https://pypi.org/project/aiohttp-socks/"
-SRC_URI="https://files.pythonhosted.org/packages/16/a7/d18a65d9fc739895c00a7d30039c9bd33ac3b5b955197cecf6feaedcfac9/aiohttp_socks-0.3.8.tar.gz -> aiohttp_socks-0.3.8.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/a5/02e3609cf780fc8df42a438fec5e637cabcabcd2066170e6b3c331c9a2d6/aiohttp_socks-0.3.9.tar.gz -> aiohttp_socks-0.3.9.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
