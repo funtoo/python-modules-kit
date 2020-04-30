@@ -435,7 +435,6 @@ dev-python/slowaes python_single_target_python2_7
 dev-python/snakefood python_single_target_python2_7
 dev-python/soappy python_single_target_python2_7
 dev-python/soya python_single_target_python2_7
-dev-python/sphinxcontrib-ditaa python_single_target_python2_7
 dev-python/sphinxtogithub python_single_target_python2_7
 dev-python/sqlite3dbm python_single_target_python2_7
 dev-python/sqlitecachec python_single_target_python2_7

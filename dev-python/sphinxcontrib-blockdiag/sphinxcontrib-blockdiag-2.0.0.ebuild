@@ -1,8 +1,7 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python2_7 python3_{5,6} )
+PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1
 
@@ -10,13 +9,13 @@ DESCRIPTION="A sphinx extension for embedding block diagrams using blockdiag"
 
 HOMEPAGE="https://github.com/blockdiag/sphinxcontrib-blockdiag"
 
-SRC_URI="https://github.com/blockdiag/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/7a/d9e57607522d414e1a089f8da982750ded0e100b1bfc210b17f0fe98db47/sphinxcontrib-blockdiag-2.0.0.tar.gz -> sphinxcontrib-blockdiag-2.0.0.tar.gz"
 
 LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="*"
 
 IUSE=""
 
