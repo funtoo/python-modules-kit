@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-python/setuptools[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
+DEPEND=dev-python/setuptools[python_targets_pypy3(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-)] python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-)]
 DESCRIPTION=News Feed extension for Sphinx
 EAPI=6
 HOMEPAGE=https://bitbucket.org/prometheus/sphinxcontrib-newsfeed
-IUSE=examples python_targets_python3_7
+IUSE=examples python_targets_pypy3 python_targets_python3_7
 KEYWORDS=*
 LICENSE=BSD-2
-RDEPEND=dev-python/sphinx[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/namespace-sphinxcontrib[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
-REQUIRED_USE=|| ( python_targets_python3_7 )
+RDEPEND=dev-python/sphinx[python_targets_pypy3(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-)] dev-python/namespace-sphinxcontrib[python_targets_pypy3(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-)] python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-)]
+REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 )
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/2b/5e/8bc839b5c4ef030bf26eede24208a49f25d00033cbd4969b3895264f14db/sphinxcontrib-newsfeed-0.1.4.tar.gz -> sphinxcontrib-newsfeed-0.1.4.tar.gz
-_eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	a1c04fa94c9a4cb3199d61f7f4499228	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
+_eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
 _md5_=fe541f6975bfe96f4f3f6257521725cd
