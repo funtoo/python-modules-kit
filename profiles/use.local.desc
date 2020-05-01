@@ -103,7 +103,6 @@ dev-python/setuptools_scm:mercurial - Enables mercurial backend
 dev-python/simplecv:shell - Enable the iPython SimpleCV shell
 dev-python/simplespectral:faster - Use sci-libs/scipy to speed up drawing
 dev-python/simplespectral:fastest - Use dev-python/pyFFTW to speed up drawing to the max
-dev-python/sphinx:net - enable internet capabilities
 dev-python/spyder:webengine - Build bindings for the QtWebEngine module
 dev-python/sympy:imaging - Add support for dev-python/pillow
 dev-python/sympy:ipython - Add support for dev-python/ipython

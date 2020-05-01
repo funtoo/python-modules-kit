@@ -1,19 +1,18 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy{,3} python{2_7,3_{5,6,7}} )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1
 
 DESCRIPTION="Pure Python module for getting image size from png/jpeg/jpeg2000/gif files"
 HOMEPAGE="https://github.com/shibukawa/imagesize_py"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e4/9f/0452b459c8ba97e07c3cd2bd243783936a992006cf4cd1353c314a927028/imagesize-1.2.0.tar.gz -> imagesize-1.2.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-fbsd ~x64-solaris"
+KEYWORDS="*"
 IUSE="test"
 
 DEPEND="

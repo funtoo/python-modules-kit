@@ -1,20 +1,19 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{5,6,7} pypy3 )
+PYTHON_COMPAT=( python3+ pypy3 )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE="http://www.sphinx-doc.org/"
-SRC_URI="mirror://pypi/S/${PN^}/${P^}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/a9/41a67d6638323b763b284a80b57461fe3557b128efcce892360cd73879ce/Sphinx-3.0.3.tar.gz -> Sphinx-3.0.3.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris"
+KEYWORDS="*"
 IUSE="doc latex test"
 
 # Tests automagically use latex, bug 667414
