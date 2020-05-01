@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/sphinx[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/namespace-sphinxcontrib[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/setuptools[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] test? ( dev-python/mock[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pytest[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
+DESCRIPTION=Extension to sphinx to include program output
+EAPI=6
+HOMEPAGE=https://sphinxcontrib-programoutput.readthedocs.io/en/latest/
+IUSE=doc test python_targets_python3_7
+KEYWORDS=*
+LICENSE=BSD
+RDEPEND=dev-python/sphinx[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/namespace-sphinxcontrib[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
+REQUIRED_USE=|| ( python_targets_python3_7 )
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/3a/70/9d31f5ecaeaddfc7857de38b3dcec099690829122c084c2cdfee8f90a967/sphinxcontrib-programoutput-0.16.tar.gz -> sphinxcontrib-programoutput-0.16.tar.gz
+_eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	a1c04fa94c9a4cb3199d61f7f4499228	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=baca23d62200aa705236cc52cd10d7cc

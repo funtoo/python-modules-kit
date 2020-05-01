@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/setuptools[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] doc? ( dev-python/sphinx[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
+DESCRIPTION=Sphinx spelling extension
+EAPI=6
+HOMEPAGE=https://bitbucket.org/dhellmann/sphinxcontrib-spelling
+IUSE=doc python_targets_python3_7
+KEYWORDS=*
+LICENSE=BSD-2
+RDEPEND=dev-python/pbr[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pyenchant[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/six[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/sphinx[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/namespace-sphinxcontrib[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
+REQUIRED_USE=|| ( python_targets_python3_7 )
+SLOT=0
+SRC_URI=https://files.pythonhosted.org/packages/62/a8/f52b1d2bc2012ad1fe4b81be19d88f543bce258074902b7ac5b18a13dda5/sphinxcontrib-spelling-5.0.0.tar.gz -> sphinxcontrib-spelling-5.0.0.tar.gz
+_eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	a1c04fa94c9a4cb3199d61f7f4499228	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=db2fcd75e4bae861741e80f400d1680c

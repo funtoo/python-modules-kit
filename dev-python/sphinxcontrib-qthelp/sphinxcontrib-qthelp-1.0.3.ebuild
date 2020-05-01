@@ -5,9 +5,9 @@ PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1
 
-DESCRIPTION="Sphinx extension which renders display math in HTML via JavaScript"
+DESCRIPTION="Sphinx extension which outputs QtHelp documents"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c026a07a5097edcf44b692850ef215b161b8ad875729/sphinxcontrib-jsmath-1.0.1.tar.gz -> sphinxcontrib-jsmath-1.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/8e/c4846e59f38a5f2b4a0e3b27af38f2fcf904d4bfd82095bf92de0b114ebd/sphinxcontrib-qthelp-1.0.3.tar.gz -> sphinxcontrib-qthelp-1.0.3.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
