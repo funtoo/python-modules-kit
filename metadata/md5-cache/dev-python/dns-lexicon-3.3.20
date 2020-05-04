@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=dev-python/requests[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/tldextract[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/cryptography[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pyyaml[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/ae/db/b70b1deff0c98084f8bb68ee1a00ec6a70908264bc18cf06309477319e5a/dns-lexicon-3.3.19.tar.gz -> dns-lexicon-3.3.19.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/fb/aa/7b259e10e3b174c70e15e6f5832159bed1f4f7172c178726ac64911fce14/dns-lexicon-3.3.20.tar.gz -> dns-lexicon-3.3.20.tar.gz
 _eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=749b6aaf65e6a90d8e90e5a1ecf950ac
+_md5_=3fb3d619f03f59af1419df95c1341725
