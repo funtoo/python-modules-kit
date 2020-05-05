@@ -55,9 +55,6 @@ dev-python/kombu:redis - Enables Redis backend
 dev-python/kombu:sqs - Enables Amazon SQS transport module for Kombu
 dev-python/kombu:yaml - Enables yaml backend
 dev-python/markdown:pygments - Enable fancy pygments support
-dev-python/matplotlib:excel - Pull dev-python/xlwt for the exceltools toolkit
-dev-python/matplotlib:gtk2 - Enable x11-libs/gtk+:2 support
-dev-python/matplotlib:gtk3 - Enable x11-libs/gtk+:3 support
 dev-python/mpmath:matplotlib - Add support for dev-python/matplotlib
 dev-python/nbdime:webtools - Install web-based diff and merge tools.
 dev-python/netaddr:cli - Enable netaddr shell with dev-python/ipython
