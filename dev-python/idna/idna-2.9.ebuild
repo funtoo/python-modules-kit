@@ -1,8 +1,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python2+ pypy3 )
 
 inherit distutils-r1
 
@@ -15,8 +15,4 @@ LICENSE="BSD"
 KEYWORDS="*"
 IUSE=""
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-
-python_test() {
-	esetup.py test
-}
+distutils_enable_tests setup.py
