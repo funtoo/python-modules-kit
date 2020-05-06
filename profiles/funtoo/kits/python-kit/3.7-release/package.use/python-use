@@ -129,7 +129,6 @@
 =dev-python/urdf_parser_py-0.4.0 python_single_target_python2_7
 =dev-python/whisper-0.9.13 python_single_target_python2_7
 =dev-python/whisper-0.9.15 python_single_target_python2_7
-=dev-python/wstools-0.4.3 python_single_target_python2_7
 =dev-python/xlutils-1.7.1 python_single_target_python2_7
 dev-python/CoverageTestRunner python_single_target_python2_7
 dev-python/Flask-KVSession python_single_target_python2_7
