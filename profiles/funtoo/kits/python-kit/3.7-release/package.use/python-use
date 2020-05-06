@@ -329,6 +329,7 @@ dev-python/pydvdread python_single_target_python2_7
 dev-python/pyelemental python_single_target_python2_7
 dev-python/pyemf python_single_target_python2_7
 dev-python/pygene python_single_target_python2_7
+dev-python/pygments-compat python_single_target_python2_7
 dev-python/pygtkglext python_single_target_python2_7
 dev-python/pygtkhelpers python_single_target_python2_7
 dev-python/pygtksourceview python_single_target_python2_7

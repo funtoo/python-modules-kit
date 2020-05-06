@@ -3,7 +3,7 @@
 EAPI=7
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1 bash-completion-r1
 
@@ -26,6 +26,7 @@ DEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		virtual/ttf-fonts
 	)"
+RDEPEND="!<=dev-python/pygments-2.5.2"
 
 distutils_enable_sphinx doc
 
@@ -36,5 +37,6 @@ python_test() {
 
 python_install_all() {
 	distutils-r1_python_install_all
-	newbashcomp external/pygments.bashcomp pygmentize
+	# only install modules for 2.7 compat.
+	rm -rf ${D}/usr/bin || die "wipe failed"
 }
