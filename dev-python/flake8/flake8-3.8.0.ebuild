@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="A wrapper around PyFlakes, pep8 & mccabe"
 HOMEPAGE="https://bitbucket.org/tarek/flake8 https://pypi.org/project/flake8/"
-SRC_URI="https://files.pythonhosted.org/packages/a5/bb/7e707d8001aca96f15f684b02176ecb0575786f041293f090b44ea04f2d0/flake8-3.7.9.tar.gz -> flake8-3.7.9.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/27/5a/60ca86a46a40ad37485ade870c18583c6c3f1336997b9fcaf75cb0ab6a72/flake8-3.8.0.tar.gz -> flake8-3.8.0.tar.gz"
 
 KEYWORDS="*"
 IUSE="test"
