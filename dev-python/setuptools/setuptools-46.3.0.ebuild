@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/"
-SRC_URI="https://files.pythonhosted.org/packages/96/42/5939499f45c1bfd1a8f61d031d28eed988158f957fe3bec99be2f11500b4/setuptools-46.2.0.zip -> setuptools-46.2.0.zip"
+SRC_URI="https://files.pythonhosted.org/packages/68/91/cc0107f3b8aa90968d11ea3334d89d5c63a48b31236f40a80373cc3aec74/setuptools-46.3.0.zip -> setuptools-46.3.0.zip"
 KEYWORDS="*"
 
 LICENSE="MIT"
