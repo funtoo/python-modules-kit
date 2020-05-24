@@ -9,6 +9,6 @@ LICENSE=MIT
 RDEPEND=python_targets_pypy3? ( >=virtual/pypy3-5:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_pypy? ( >=virtual/pypy-5:0= ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python2_7(-)?,python_targets_pypy(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python2_7(-),-python_single_target_pypy(-)]
 REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python2_7 python_targets_pypy )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/21/9f/b251f7f8a76dec1d6651be194dfba8fb8d7781d10ab3987190de8391d08e/six-1.14.0.tar.gz -> six-1.14.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/6b/34/415834bfdafca3c5f451532e8a8d9ba89a21c9743a0c59fbd0205c7f9426/six-1.15.0.tar.gz -> six-1.15.0.tar.gz
 _eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
-_md5_=b4d231f87c2517da8f388dbafc989624
+_md5_=3eec1a98ec45e24a086d99c984d0b613
