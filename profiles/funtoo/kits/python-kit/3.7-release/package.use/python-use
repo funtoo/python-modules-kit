@@ -426,6 +426,7 @@ dev-python/sancho python_single_target_python2_7
 dev-python/scientificpython python_single_target_python2_7
 dev-python/sclapp python_single_target_python2_7
 dev-python/selectors34 python_single_target_python2_7
+dev-python/setuptools-compat python_single_target_python2_7
 dev-python/shm python_single_target_python2_7
 dev-python/simplecv python_single_target_python2_7
 dev-python/simples3 python_single_target_python2_7

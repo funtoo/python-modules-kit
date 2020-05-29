@@ -2,14 +2,14 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/25/bf/a37e89d3148221fedd4def62bb68749041d79f3840d58a7943f81a6f6c6e/setuptools-47.1.1.zip -> setuptools-47.1.1.zip"
+SRC_URI="https://files.pythonhosted.org/packages/b2/40/4e00501c204b457f10fe410da0c97537214b2265247bc9a5bc6edd55b9e4/setuptools-44.1.1.zip -> setuptools-44.1.1.zip"
 
 DEPEND="app-arch/unzip
 test? (
@@ -23,10 +23,10 @@ test? (
   virtual/python-futures[${PYTHON_USEDEP}]
 )
 "
-RDEPEND=" python_targets_python2_7? ( dev-python/setuptools-compat )"
+RDEPEND=" !<dev-python/setuptools-47"
 PDEPEND=""
 BDEPEND=""
-IUSE="test python_targets_python2_7 python_single_target_python2_7"
+IUSE="test"
 RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="MIT"
