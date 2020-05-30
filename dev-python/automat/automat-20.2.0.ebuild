@@ -1,54 +1,56 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy)
+EAPI=7
+PYTHON_COMPAT=( python2+ pypy3 )
+DISTUTILS_USE_SETUPTOOLS=rdepend
 
 inherit distutils-r1
 
-MYPN="Automat"
-MYP="${MYPN}-${PV}"
+MY_PN="A${PN:1}"
+MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Self-service finite-state machines for the programmer on the go"
 HOMEPAGE="https://github.com/glyph/automat https://pypi.org/project/Automat/"
-SRC_URI="mirror://pypi/${MYPN:0:1}/${MYPN}/${MYP}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/80/c5/82c63bad570f4ef745cc5c2f0713c8eddcd07153b4bee7f72a8dc9f9384b/Automat-20.2.0.tar.gz -> Automat-20.2.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~amd64-linux"
-IUSE="examples test"
+KEYWORDS="*"
+IUSE="examples"
 
 RDEPEND="
-	dev-python/attrs[${PYTHON_USEDEP}]
+	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 "
-DEPEND="
+BDEPEND="
 	${RDEPEND}
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/m2r[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 "
 
-S=${WORKDIR}/${MYP}
+S="${WORKDIR}/${MY_P}"
+
+distutils_enable_tests pytest
 
 python_prepare_all() {
 	if use test ; then
 		# Remove since this is upstream benchmarking tests
 		rm -r benchmark || die "FAILED to remove benchmark tests"
 	fi
+
+	# avoid a setuptools_scm dependency
+	sed -r -i "s:use_scm_version=True:version='${PV}': ;
+		s:[\"']setuptools[_-]scm[\"'](,|)::" setup.py || die
+
 	distutils-r1_python_prepare_all
 }
 
-python_test() {
-	PYTHONPATH="${S}/test:${BUILD_DIR}/lib" py.test -v || die "Tests failed under ${EPYTHON}"
-}
-
-src_install() {
+python_install_all() {
 	if use examples; then
 		docinto examples
 		dodoc docs/examples/*.py
 	fi
-	distutils-r1_src_install
+
+	distutils-r1_python_install_all
 }
 
 pkg_postinst() {
