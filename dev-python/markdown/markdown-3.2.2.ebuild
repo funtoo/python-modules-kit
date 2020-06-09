@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Python implementation of the markdown markup language"
 HOMEPAGE="https://python-markdown.github.io/
 https://pypi.org/project/Markdown/
 https://github.com/Python-Markdown/markdown
@@ -16,17 +16,14 @@ SRC_URI="https://files.pythonhosted.org/packages/44/30/cb4555416609a8f75525e34cb
 DEPEND=""
 RDEPEND="$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_{6,7} pypy3)
  python_targets_python2_7? ( dev-python/markdown-compat )"
-PDEPEND=""
-BDEPEND=""
 IUSE=" python_targets_python2_7 python_single_target_python2_7"
-RESTRICT=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/markdown-${PV}"
 
-# Convert 2-space indents to tabs in the ebuild:
+
 S="${WORKDIR}/Markdown-${PV}"
 
 post_src_install() {

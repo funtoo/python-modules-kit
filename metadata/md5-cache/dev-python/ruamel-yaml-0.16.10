@@ -1,14 +1,14 @@
 BDEPEND=dev-python/setuptools[python_targets_python3_7(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python2_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python2_7(-)]
-DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Extract data from Excel spreadsheets
+DEFINED_PHASES=compile configure install prepare setup test
+DESCRIPTION=A YAML 1.2 loader/dumper package for Python.
 EAPI=7
-HOMEPAGE=http://www.python-excel.org/
+HOMEPAGE=https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
 IUSE=python_targets_python3_7 python_targets_python2_7
 KEYWORDS=*
-LICENSE=BSD
+LICENSE=MIT
 RDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python2_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python2_7 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/aa/05/ec9d4fcbbb74bbf4da9f622b3b61aec541e4eccf31d3c60c5422ec027ce2/xlrd-1.2.0.tar.gz -> xlrd-1.2.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/16/8b/54a26c1031595e5edd0e616028b922d78d8ffba8bc775f0a4faeada846cc/ruamel.yaml-0.16.10.tar.gz -> ruamel.yaml-0.16.10.tar.gz
 _eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=e5af4d4f890987fe44622398bb61a02b
+_md5_=280256cfb48ebc012de4b616f3e3a632

@@ -12,15 +12,12 @@ SRC_URI="https://files.pythonhosted.org/packages/a4/89/a469aad9256aedfbb47a29ec2
 
 DEPEND=""
 RDEPEND=" !<dev-python/pyhamcrest-2.0.0"
-PDEPEND=""
-BDEPEND=""
 IUSE=""
-RESTRICT=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/pyhamcrest-${PV}"
 
-# Convert 2-space indents to tabs in the ebuild:
+
 S="${WORKDIR}/PyHamcrest-${PV}"

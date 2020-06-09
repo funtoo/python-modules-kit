@@ -294,6 +294,7 @@ dev-python/notify-python python_single_target_python2_7
 dev-python/nototools python_single_target_python2_7
 dev-python/numdisplay python_single_target_python2_7
 dev-python/oauth python_single_target_python2_7
+dev-python/openpyxl-compat python_single_target_python2_7
 dev-python/openstack-nose-plugin python_single_target_python2_7
 dev-python/optcomplete python_single_target_python2_7
 dev-python/ordereddict python_single_target_python2_7

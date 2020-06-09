@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy{,3} )
 
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
 SRC_URI="https://files.pythonhosted.org/packages/25/bf/a37e89d3148221fedd4def62bb68749041d79f3840d58a7943f81a6f6c6e/setuptools-47.1.1.zip -> setuptools-47.1.1.zip"
@@ -24,8 +24,7 @@ test? (
 )
 "
 RDEPEND=" python_targets_python2_7? ( dev-python/setuptools-compat )"
-PDEPEND=""
-BDEPEND=""
+PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="test python_targets_python2_7 python_single_target_python2_7"
 RESTRICT="!test? ( test )"
 SLOT="0"
@@ -34,7 +33,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-${PV}"
 
-# Convert 2-space indents to tabs in the ebuild:
+
 python_prepare_all() {
 	# disable tests requiring a network connection
 	rm setuptools/tests/test_packageindex.py || die
