@@ -14,7 +14,9 @@ https://pypi.org/project/openpyxl/
 SRC_URI="https://files.pythonhosted.org/packages/d6/26/eb28e975b7a37aad38d7ec4f7a0f652bdee6ecf36e6bd06f473c5af9b87b/openpyxl-2.6.4.tar.gz -> openpyxl-2.6.4.tar.gz"
 
 DEPEND=""
-RDEPEND=" !<dev-python/openpyxl-3"
+RDEPEND="dev-python/et_xmlfile[$PYTHON_USEDEP]
+dev-python/jdcal[$PYTHON_USEDEP]
+ !<dev-python/openpyxl-3"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
