@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2+ )
 
 inherit distutils-r1
 
-DESCRIPTION="An implementation of lxml.xmlfile for the standard library"
+DESCRIPTION="An implementation of lxml.xmlfile for the standard library
 "
 HOMEPAGE="https://pypi.org/project/et_xmlfile/
 https://pypi.org/project/et_xmlfile/
