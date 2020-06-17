@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Polyfill package for Flake8 plugins"
 HOMEPAGE="https://gitlab.com/pycqa/flake8"
-SRC_URI="https://files.pythonhosted.org/packages/e6/67/1c26634a770db5c442e361311bee73cb3a177adb2eb3f7af8953cfd9f553/flake8-polyfill-1.0.2.tar.gz -> flake8-polyfill-1.0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/67/1c26634a770db5c442e361311bee73cb3a177adb2eb3f7af8953cfd9f553/flake8-polyfill-1.0.2.tar.gz"
 EGIT_REPO_URI="https://gitlab.com/pycqa/flake8-polyfill.git"
 
 LICENSE="MIT"

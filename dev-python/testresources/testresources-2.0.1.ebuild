@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A pyunit extension for managing expensive test resources"
 HOMEPAGE="https://launchpad.net/testresources"
-SRC_URI="https://files.pythonhosted.org/packages/9d/57/8e3986cd95a80dd23195f599befa023eb85d031d2d870c47124fa5ccbf06/testresources-2.0.1.tar.gz -> testresources-2.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9d/57/8e3986cd95a80dd23195f599befa023eb85d031d2d870c47124fa5ccbf06/testresources-2.0.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

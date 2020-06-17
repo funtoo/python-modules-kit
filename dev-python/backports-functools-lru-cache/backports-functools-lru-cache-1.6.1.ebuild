@@ -10,7 +10,7 @@ MY_PN="${PN/-/.}"
 MY_PN="${MY_PN//-/_}"
 DESCRIPTION="Backport of functools.lru_cache from Python 3.3"
 HOMEPAGE="https://github.com/jaraco/backports.functools_lru_cache"
-SRC_URI="https://files.pythonhosted.org/packages/ad/2e/aa84668861c3de458c5bcbfb9813f0e26434e2232d3e294469e96efac884/backports.functools_lru_cache-1.6.1.tar.gz -> backports.functools_lru_cache-1.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ad/2e/aa84668861c3de458c5bcbfb9813f0e26434e2232d3e294469e96efac884/backports.functools_lru_cache-1.6.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

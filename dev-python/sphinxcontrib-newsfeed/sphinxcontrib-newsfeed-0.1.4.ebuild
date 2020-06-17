@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="News Feed extension for Sphinx"
 HOMEPAGE="https://bitbucket.org/prometheus/sphinxcontrib-newsfeed"
-SRC_URI="https://files.pythonhosted.org/packages/2b/5e/8bc839b5c4ef030bf26eede24208a49f25d00033cbd4969b3895264f14db/sphinxcontrib-newsfeed-0.1.4.tar.gz -> sphinxcontrib-newsfeed-0.1.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/5e/8bc839b5c4ef030bf26eede24208a49f25d00033cbd4969b3895264f14db/sphinxcontrib-newsfeed-0.1.4.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

@@ -9,7 +9,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope Generic Transport Proxies"
 HOMEPAGE="https://docs.zope.org/zope.proxy/"
-SRC_URI="https://files.pythonhosted.org/packages/ab/37/26899cb231ecfa04822a17a669eac6df7ef0c2a86e2b78001db0cd3edd46/zope.proxy-4.3.5.tar.gz -> zope.proxy-4.3.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ab/37/26899cb231ecfa04822a17a669eac6df7ef0c2a86e2b78001db0cd3edd46/zope.proxy-4.3.5.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

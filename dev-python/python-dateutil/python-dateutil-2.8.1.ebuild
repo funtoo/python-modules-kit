@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://pypi.org/project/python-dateutil
 	https://github.com/dateutil/dateutil/
 "
-SRC_URI="https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz -> python-dateutil-2.8.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

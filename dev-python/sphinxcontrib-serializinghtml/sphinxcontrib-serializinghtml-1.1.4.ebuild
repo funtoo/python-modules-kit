@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx extension which outputs outputs serialized HTML files"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/ac/86/021876a9dd4eac9dae0b1d454d848acbd56d5574d350d0f835043b5ac2cd/sphinxcontrib-serializinghtml-1.1.4.tar.gz -> sphinxcontrib-serializinghtml-1.1.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/86/021876a9dd4eac9dae0b1d454d848acbd56d5574d350d0f835043b5ac2cd/sphinxcontrib-serializinghtml-1.1.4.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

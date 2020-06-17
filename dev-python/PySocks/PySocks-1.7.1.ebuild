@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="SOCKS client module"
 HOMEPAGE="https://github.com/Anorov/PySocks https://pypi.org/project/PySocks/"
-SRC_URI="https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz -> PySocks-1.7.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

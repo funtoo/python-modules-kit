@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface to xattr"
 HOMEPAGE="https://pyxattr.k1024.org"
-SRC_URI="https://files.pythonhosted.org/packages/cf/b1/7ed931d98b5a91a59b69fcc2860e5b720a22ed1ddb85268415181c9b0986/pyxattr-0.7.1.tar.gz -> pyxattr-0.7.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/b1/7ed931d98b5a91a59b69fcc2860e5b720a22ed1ddb85268415181c9b0986/pyxattr-0.7.1.tar.gz"
 
 DEPEND="sys-apps/attr:="
 RDEPEND="sys-apps/attr:= python_targets_python2_7? ( dev-python/pyxattr-compat )"

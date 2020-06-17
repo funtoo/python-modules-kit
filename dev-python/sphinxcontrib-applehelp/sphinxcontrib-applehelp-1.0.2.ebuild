@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx extension which outputs Apple help book"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/9f/01/ad9d4ebbceddbed9979ab4a89ddb78c9760e74e6757b1880f1b2760e8295/sphinxcontrib-applehelp-1.0.2.tar.gz -> sphinxcontrib-applehelp-1.0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/01/ad9d4ebbceddbed9979ab4a89ddb78c9760e74e6757b1880f1b2760e8295/sphinxcontrib-applehelp-1.0.2.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

@@ -10,7 +10,7 @@ MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Flask-JWT is a Flask extension that adds basic Json Web Token features to any application"
 HOMEPAGE="https://pythonhosted.org/Flask-JWT"
-SRC_URI="https://files.pythonhosted.org/packages/9b/8a/5d3b2e593f1fc5c1b464aa1cbf35023a4400a2b53ce6a52801f68d7a1eeb/Flask-JWT-0.3.2.tar.gz -> Flask-JWT-0.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9b/8a/5d3b2e593f1fc5c1b464aa1cbf35023a4400a2b53ce6a52801f68d7a1eeb/Flask-JWT-0.3.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

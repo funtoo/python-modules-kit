@@ -11,7 +11,7 @@ DESCRIPTION="A full-featured template engine for Python"
 HOMEPAGE="http://jinja.pocoo.org/ https://pypi.org/project/Jinja2/"
 
 # pypi tarball is missing tests
-SRC_URI="https://files.pythonhosted.org/packages/64/a7/45e11eebf2f15bf987c3bc11d37dcc838d9dc81250e67e4c5968f6008b6c/Jinja2-2.11.2.tar.gz -> Jinja2-2.11.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/a7/45e11eebf2f15bf987c3bc11d37dcc838d9dc81250e67e4c5968f6008b6c/Jinja2-2.11.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

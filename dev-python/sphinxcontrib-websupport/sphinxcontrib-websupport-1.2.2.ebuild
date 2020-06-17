@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx websupport extension"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/91/f9/f59a951aa1eaa1be31b72932ea3118d05e8750d82c462d11687c6253c294/sphinxcontrib-websupport-1.2.2.tar.gz -> sphinxcontrib-websupport-1.2.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/91/f9/f59a951aa1eaa1be31b72932ea3118d05e8750d82c462d11687c6253c294/sphinxcontrib-websupport-1.2.2.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

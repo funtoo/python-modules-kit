@@ -10,7 +10,7 @@ GIT_COMMIT="be7e71e54a6edc87ead1b15af8981b8921e0e83d"
 
 DESCRIPTION="DNS toolkit for Python"
 HOMEPAGE="http://www.dnspython.org/ https://pypi.org/project/dnspython/"
-SRC_URI="https://files.pythonhosted.org/packages/ec/c5/14bcd63cb6d06092a004793399ec395405edf97c2301dfdc146dfbd5beed/dnspython-1.16.0.zip -> dnspython-1.16.0.zip"
+SRC_URI="https://files.pythonhosted.org/packages/ec/c5/14bcd63cb6d06092a004793399ec395405edf97c2301dfdc146dfbd5beed/dnspython-1.16.0.zip"
 
 LICENSE="ISC"
 SLOT="0"

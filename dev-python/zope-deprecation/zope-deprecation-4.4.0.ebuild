@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope Deprecation Infrastructure"
 HOMEPAGE="https://github.com/zopefoundation/zope.deprecation"
-SRC_URI="https://files.pythonhosted.org/packages/34/da/46e92d32d545dd067b9436279d84c339e8b16de2ca393d7b892bc1e1e9fd/zope.deprecation-4.4.0.tar.gz -> zope.deprecation-4.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/34/da/46e92d32d545dd067b9436279d84c339e8b16de2ca393d7b892bc1e1e9fd/zope.deprecation-4.4.0.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

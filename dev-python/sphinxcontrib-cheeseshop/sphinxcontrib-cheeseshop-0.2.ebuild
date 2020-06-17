@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx extension cheeseshop"
 HOMEPAGE="https://bitbucket.org/birkenfeld/sphinx-contrib"
-SRC_URI="https://files.pythonhosted.org/packages/c4/71/59e097a25780de7d86febe3a48dae8d2f7b01f2cff8ab05bc7cbc4d619b7/sphinxcontrib-cheeseshop-0.2.tar.gz -> sphinxcontrib-cheeseshop-0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/71/59e097a25780de7d86febe3a48dae8d2f7b01f2cff8ab05bc7cbc4d619b7/sphinxcontrib-cheeseshop-0.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

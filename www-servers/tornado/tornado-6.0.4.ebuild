@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python web framework and asynchronous networking library"
 HOMEPAGE="http://www.tornadoweb.org/"
-SRC_URI="https://files.pythonhosted.org/packages/95/84/119a46d494f008969bf0c775cb2c6b3579d3c4cc1bb1b41a022aa93ee242/tornado-6.0.4.tar.gz -> tornado-6.0.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/84/119a46d494f008969bf0c775cb2c6b3579d3c4cc1bb1b41a022aa93ee242/tornado-6.0.4.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
