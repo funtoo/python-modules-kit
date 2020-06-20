@@ -8,7 +8,7 @@ inherit distutils-r1 prefix readme.gentoo-r1
 
 DESCRIPTION="Python package for providing Mozilla's CA Bundle"
 HOMEPAGE="http://certifi.io/ https://pypi.org/project/certifi"
-SRC_URI="https://files.pythonhosted.org/packages/b4/19/53433f37a31543364c8676f30b291d128cdf4cd5b31b755b7890f8e89ac8/certifi-2020.4.5.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/40/a7/ded59fa294b85ca206082306bba75469a38ea1c7d44ea7e1d64f5443d67a/certifi-2020.6.20.tar.gz"
 
 LICENSE="MPL-2.0"
 SLOT="0"
