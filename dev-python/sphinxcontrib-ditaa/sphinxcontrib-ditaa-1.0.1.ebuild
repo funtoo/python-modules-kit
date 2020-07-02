@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Ditaa Sphinx extension"
 HOMEPAGE="https://pypi.org/project/sphinxcontrib-ditaa/"
-SRC_URI="https://files.pythonhosted.org/packages/a1/75/a66e54c3c5ed5a724fe5ecf4e652a5e3f1c09931fa51c9e2542e74620130/sphinxcontrib-ditaa-0.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d9/9a/a0d41509f6335d4f275414c1b45f5be699db03a58599f63ed290b737ace6/sphinxcontrib-ditaa-1.0.1.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
