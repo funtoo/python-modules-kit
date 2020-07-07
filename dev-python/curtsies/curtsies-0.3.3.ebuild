@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Curses-like terminal wrapper, with colored strings"
 HOMEPAGE="https://github.com/thomasballinger/curtsies"
-SRC_URI="https://files.pythonhosted.org/packages/91/b4/bd1840a78ca6824aaa3b1ab18a0604580ccc2204b241f3e9ab1ec2d7d576/curtsies-0.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2d/e7/e69aaed62d4547a023ec8f34accbcbad314125cbbdd610a6dfadaeb346d5/curtsies-0.3.3.tar.gz"
 
 SLOT="0"
 LICENSE="MIT"

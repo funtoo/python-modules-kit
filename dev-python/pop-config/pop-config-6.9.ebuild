@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Configuration sub for Plugin-Oriented Programming"
 HOMEPAGE="https://pypi.org/project/pop-config/"
-SRC_URI="https://files.pythonhosted.org/packages/3c/56/c86c0694fed477a61649f20b9aec2e0a67bc60dcfe2e562206190aa3443b/pop-config-6.8.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/79/736fdea86a6c81fe99c1eacbce3d22c5badbb033d718fa92dcff8813a576/pop-config-6.9.tar.gz"
 
 LICENSE=""
 SLOT="0"
