@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="General purpose exceptions for Zope packages"
 HOMEPAGE="https://pypi.org/project/zope.exceptions/ https://github.com/zopefoundation/zope.exceptions"
-SRC_URI="https://files.pythonhosted.org/packages/46/14/295359a015e9fccbb6bb7247698478e4bf54c8f0f7e62b5058135433c145/zope.exceptions-4.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/c5/84f68fa73055d6a6937e55ee31888e5a8ca4a877a192e4a844f9fcacd00d/zope.exceptions-4.4.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
