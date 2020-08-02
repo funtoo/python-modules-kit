@@ -1,22 +1,21 @@
-# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 pypy )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Stateful programmatic web browsing in Python"
 HOMEPAGE="https://github.com/python-mechanize/mechanize"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/1b/7e4b644108e4e99b136e52c6aae34873fcd267e3d2489f3bd2cff8655a59/mechanize-0.4.5.tar.gz"
 
 LICENSE="|| ( BSD ZPL )"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos"
+KEYWORDS="*"
 IUSE="doc"
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND=">=dev-python/html5lib-0.999999999[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 
 python_test() {

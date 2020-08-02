@@ -1,18 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="Fast C based HTML 5 parsing for python"
 HOMEPAGE="https://github.com/kovidgoyal/html5-parser/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a6/78/6a80c13be6c02fd2fb615b473a6ceff5b28bafca184f428ab197f677fd7a/html5-parser-0.4.9.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="*"
 IUSE=""
 
 BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"

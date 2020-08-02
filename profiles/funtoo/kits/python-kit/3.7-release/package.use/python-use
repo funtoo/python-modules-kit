@@ -274,7 +274,6 @@ dev-python/lxc-python2 python_single_target_python2_7
 dev-python/m2secret python_single_target_python2_7
 dev-python/mantissa python_single_target_python2_7
 dev-python/markdown-compat python_single_target_python2_7
-dev-python/mechanize python_single_target_python2_7
 dev-python/medusa python_single_target_python2_7
 dev-python/milk python_single_target_python2_7
 dev-python/milksets python_single_target_python2_7
