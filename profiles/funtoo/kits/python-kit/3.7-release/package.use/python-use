@@ -367,7 +367,6 @@ dev-python/pystdf python_single_target_python2_7
 dev-python/pysvg python_single_target_python2_7
 dev-python/python-bibtex python_single_target_python2_7
 dev-python/python-biggles python_single_target_python2_7
-dev-python/python-caja python_single_target_python2_7
 dev-python/python-catcher python_single_target_python2_7
 dev-python/python-cdb python_single_target_python2_7
 dev-python/python-daap python_single_target_python2_7
