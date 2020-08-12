@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION=""
 HOMEPAGE="https://github.com/MagicStack/asyncpg
 "
-SRC_URI="https://files.pythonhosted.org/packages/fd/b0/f55fd9262faca7e93af3b4f5f677a16dcc380545d1ae76124f09bc6b58ac/asyncpg-0.20.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/4b/ae73e69c5ec9c45f6b07d3cb151ee8597ddb5c3f3b539cf4dfa4af13031d/asyncpg-0.21.0.tar.gz"
 
 DEPEND=""
 BDEPEND="dev-python/setuptools[$PYTHON_USEDEP]"
