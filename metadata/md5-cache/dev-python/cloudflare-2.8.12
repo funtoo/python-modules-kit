@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=dev-python/jsonlines[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/future[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/requests[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] dev-python/pyyaml[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/36/ac/0d3b73376b1813fb3ac1f5c992f8ebb32902041b42a1d84b47174a01a08f/cloudflare-2.8.11.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/af/65/b7df0f9120f9d30e6aed07be71283b02532ecbf962d71612863277408767/cloudflare-2.8.12.tar.gz
 _eclasses_=distutils-r1	1a001b95d3bfb24277ebc93f461847da	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	6ae4f9eb4881e5c5489344ee122e05d0	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=cefb3a5f5c9986733269dfa3b3c18d72
+_md5_=7b036f221fde3add45260af219a9f0a2
