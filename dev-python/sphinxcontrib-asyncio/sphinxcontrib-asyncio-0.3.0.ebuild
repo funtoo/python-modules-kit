@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="sphinx extension to support coroutines in markup"
 HOMEPAGE="https://github.com/aio-libs/sphinxcontrib-asyncio"
-SRC_URI="https://files.pythonhosted.org/packages/03/52/14e11f82a263a6b4c3c66738952f557ee78cde51077cbd949fbf739fa9b4/sphinxcontrib-asyncio-0.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e3/04/5bfea4f0658dba09f910919f96b6445fb0d984bc9c2e6f7fc6448345e42a/sphinxcontrib-asyncio-0.3.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
