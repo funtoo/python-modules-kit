@@ -16,7 +16,7 @@ SRC_URI="https://files.pythonhosted.org/packages/40/32/ee6469111cc624ec00c073986
 DEPEND=""
 RDEPEND="dev-python/et_xmlfile[$PYTHON_USEDEP]
 dev-python/jdcal[$PYTHON_USEDEP]
- python_targets_python2_7? ( dev-python/openpyxl-compat )"
+ python_targets_python2_7? ( dev-python/openpyxl-compat ) "
 IUSE=" python_targets_python2_7 python_single_target_python2_7"
 SLOT="0"
 LICENSE="MIT"

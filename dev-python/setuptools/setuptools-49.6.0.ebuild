@@ -23,7 +23,7 @@ test? (
   virtual/python-futures[${PYTHON_USEDEP}]
 )
 "
-RDEPEND=" python_targets_python2_7? ( dev-python/setuptools-compat )"
+RDEPEND=" python_targets_python2_7? ( dev-python/setuptools-compat ) "
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="test python_targets_python2_7 python_single_target_python2_7"
 RESTRICT="!test? ( test )"
