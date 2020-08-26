@@ -12,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/cf/b1/7ed931d98b5a91a59b69fcc28
 
 DEPEND="sys-apps/attr:="
 RDEPEND="sys-apps/attr:= python_targets_python2_7? ( dev-python/pyxattr-compat ) "
-IUSE=" python_targets_python2_7 python_single_target_python2_7"
+IUSE=" python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"

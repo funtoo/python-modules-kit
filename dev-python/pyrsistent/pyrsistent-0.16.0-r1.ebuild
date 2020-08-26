@@ -13,7 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/9f/0d/cbca4d0bbc5671822a59f270e
 DEPEND=""
 RDEPEND=" python_targets_python2_7? ( dev-python/pyrsistent-compat ) dev-python/six[${PYTHON_USEDEP}]
 "
-IUSE=" python_targets_python2_7 python_single_target_python2_7"
+IUSE=" python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

@@ -17,7 +17,7 @@ DEPEND=""
 RDEPEND="dev-python/et_xmlfile[$PYTHON_USEDEP]
 dev-python/jdcal[$PYTHON_USEDEP]
  python_targets_python2_7? ( dev-python/openpyxl-compat ) "
-IUSE=" python_targets_python2_7 python_single_target_python2_7"
+IUSE=" python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
