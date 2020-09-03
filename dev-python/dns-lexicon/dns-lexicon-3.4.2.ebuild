@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Manipulate DNS records on various DNS providers in a standardized/agnostic way"
 HOMEPAGE="https://pypi.org/project/dns-lexicon/"
-SRC_URI="https://files.pythonhosted.org/packages/bd/20/2be1c4d726d2f58d984e8b13dd6f02862713fb6a05d6e6b2c2ec678ed935/dns-lexicon-3.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/99/0aea172c126e84547952a1fb251077cc05bf04f0fa3c238c2a6283c42ea7/dns-lexicon-3.4.2.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
