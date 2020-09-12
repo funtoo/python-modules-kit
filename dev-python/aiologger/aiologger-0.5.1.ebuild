@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Asynchronous logging for python and asyncio"
 HOMEPAGE="https://github.com/b2wdigital/aiologger"
-SRC_URI="https://files.pythonhosted.org/packages/74/c1/ee5d896fe5bd2199c27a70027e429001bf3a2e3f65de34fa120d02e33a1e/aiologger-0.5.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/b9/c9f1ec4900dd8c41972db5f904caa6598e5058f35f4791d16efc8d113e81/aiologger-0.5.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
