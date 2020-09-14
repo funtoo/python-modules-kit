@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Persistent/Functional/Immutable data structures"
 HOMEPAGE="https://github.com/tobgu/pyrsistent/ https://pypi.org/project/pyrsistent/"
-SRC_URI="https://files.pythonhosted.org/packages/9f/0d/cbca4d0bbc5671822a59f270e4ce3f2195f8a899c97d0d5abb81b191efb5/pyrsistent-0.16.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4d/70/fd441df751ba8b620e03fd2d2d9ca902103119616f0f6cc42e6405035062/pyrsistent-0.17.3.tar.gz"
 
 DEPEND=""
 RDEPEND=" python_targets_python2_7? ( dev-python/pyrsistent-compat ) dev-python/six[${PYTHON_USEDEP}]
