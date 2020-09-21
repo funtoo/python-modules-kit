@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Cheap setup.py hack to install flit & poetry-based projects"
 HOMEPAGE="https://github.com/mgorny/pyproject2setuppy"
-SRC_URI="https://files.pythonhosted.org/packages/8e/d4/83f6745164bc660b6e7b3d702e7c8869d504867d4cb831ba3bf7aa627bad/pyproject2setuppy-7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/6b/70cb9bbfdc96030d56fa3d38388fca298939089bbc4cd80601ed08b6bf9d/pyproject2setuppy-8.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
