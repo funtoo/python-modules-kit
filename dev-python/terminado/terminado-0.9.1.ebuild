@@ -2,13 +2,14 @@
 
 EAPI=7
 
+DISTUTILS_USE_SETUPTOOLS=pyproject.toml
 PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Terminals served to term.js using Tornado websockets"
 HOMEPAGE="https://pypi.org/project/terminado/ https://github.com/jupyter/terminado"
-SRC_URI="https://files.pythonhosted.org/packages/94/e7/e1144c90d474156000831d1781a184d267de23f620378c0d95cae8a1ef37/terminado-0.9.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/87/ab5f5bb7e51f5bca46aeee902e216b144e503e93f317c98e2dfebbae1445/terminado-0.9.1.tar.gz"
 
 SLOT="0"
 LICENSE="BSD-2"

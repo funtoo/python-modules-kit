@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=|| ( dev-python/appi:0/0.1 dev-python/appi:0/0.2 )
 SLOT=0
 SRC_URI=https://github.com/apinsard/chuse/archive/1.2.tar.gz -> chuse-1.2.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	d93acbd6ef50348b41ff4ead9a020a16	python-utils-r1	8914c9c220fed51dbc06d700c5ce75bc	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	a811e2c445a5fb40db1a1eba728dca7f	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
 _md5_=1f295784d533c2d6dc6970bb56e4fddd
