@@ -34,4 +34,4 @@ python_prepare_all() {
 
 python_test() {
 	esetup.py test
-}
+} hacktober
