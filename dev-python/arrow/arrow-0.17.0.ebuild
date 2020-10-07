@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Better dates and times for Python"
 HOMEPAGE="https://github.com/crsmithdev/arrow/"
-SRC_URI="https://files.pythonhosted.org/packages/06/32/e3c0b4232b706632abe7e6b3e37f59a9db17ec1531ec0047033b52b58fc8/arrow-0.16.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ec/74/1cf2d9912921cebdba3fa954949206c8aa159c9cc803b88140fb227f8a0e/arrow-0.17.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
