@@ -1,4 +1,5 @@
 app-portage
 dev-python
+dev-vcs
 virtual
 www-servers
