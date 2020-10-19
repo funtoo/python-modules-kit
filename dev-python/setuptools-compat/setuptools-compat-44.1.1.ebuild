@@ -24,7 +24,7 @@ DEPEND="
 		dev-python/wheel[${PYTHON_USEDEP}]
 		virtual/python-futures[${PYTHON_USEDEP}]
 	)"
-RDEPEND="!<dev-python/setuptools-47"
+RDEPEND="!<dev-python/setuptools-47 "
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="test"
 RESTRICT="!test? ( test )"
