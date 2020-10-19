@@ -19,4 +19,3 @@ LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/jdcal-${PV}"
-

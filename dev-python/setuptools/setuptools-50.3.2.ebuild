@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy{,3} )
+DISTUTILS_USE_SETUPTOOLS="no"
 
 inherit distutils-r1
 
@@ -11,19 +12,19 @@ HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools
 "
 SRC_URI="https://files.pythonhosted.org/packages/a7/e0/30642b9c2df516506d40b563b0cbd080c49c6b3f11a70b4c7a670f13a78b/setuptools-50.3.2.zip"
 
-DEPEND="app-arch/unzip
-test? (
-  dev-python/mock[${PYTHON_USEDEP}]
-  dev-python/pip[${PYTHON_USEDEP}]
-  >=dev-python/pytest-3.7.0[${PYTHON_USEDEP}]
-  <dev-python/pytest-4
-  dev-python/pytest-fixture-config[${PYTHON_USEDEP}]
-  dev-python/pytest-virtualenv[${PYTHON_USEDEP}]
-  dev-python/wheel[${PYTHON_USEDEP}]
-  virtual/python-futures[${PYTHON_USEDEP}]
-)
-"
-RDEPEND=" python_targets_python2_7? ( dev-python/setuptools-compat ) "
+DEPEND="
+	app-arch/unzip
+	test? (
+		dev-python/mock[${PYTHON_USEDEP}]
+		dev-python/pip[${PYTHON_USEDEP}]
+		>=dev-python/pytest-3.7.0[${PYTHON_USEDEP}]
+		<dev-python/pytest-4
+		dev-python/pytest-fixture-config[${PYTHON_USEDEP}]
+		dev-python/pytest-virtualenv[${PYTHON_USEDEP}]
+		dev-python/wheel[${PYTHON_USEDEP}]
+		virtual/python-futures[${PYTHON_USEDEP}]
+	)"
+RDEPEND="python_targets_python2_7? ( dev-python/setuptools-compat )"
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="test python_targets_python2_7"
 RESTRICT="!test? ( test )"
@@ -32,7 +33,6 @@ LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-${PV}"
-
 
 python_prepare_all() {
 	# disable tests requiring a network connection

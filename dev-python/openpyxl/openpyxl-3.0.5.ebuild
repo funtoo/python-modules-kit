@@ -14,14 +14,12 @@ https://pypi.org/project/openpyxl/
 SRC_URI="https://files.pythonhosted.org/packages/40/32/ee6469111cc624ec00c073986dbd05430ba7265138260cd6dd3771311c3b/openpyxl-3.0.5.tar.gz"
 
 DEPEND=""
-RDEPEND="dev-python/et_xmlfile[$PYTHON_USEDEP]
-dev-python/jdcal[$PYTHON_USEDEP]
- python_targets_python2_7? ( dev-python/openpyxl-compat ) "
+RDEPEND="python_targets_python2_7? ( dev-python/openpyxl-compat )
+	dev-python/et_xmlfile[$PYTHON_USEDEP]
+	dev-python/jdcal[$PYTHON_USEDEP]"
 IUSE=" python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/openpyxl-${PV}"
-
-

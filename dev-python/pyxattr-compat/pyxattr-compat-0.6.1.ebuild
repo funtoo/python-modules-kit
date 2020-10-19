@@ -11,14 +11,13 @@ HOMEPAGE="https://pyxattr.k1024.org"
 SRC_URI="https://files.pythonhosted.org/packages/36/1d/1a5f3165f330e1a0427636f2bd995dbcc02d0f7660e89458d64806a2ed1e/pyxattr-0.6.1.tar.gz"
 
 DEPEND="sys-apps/attr:="
-RDEPEND="sys-apps/attr:= !<dev-python/pyxattr-0.7.1"
+RDEPEND="!<dev-python/pyxattr-0.7.1sys-apps/attr:="
 IUSE=""
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
 
 S="${WORKDIR}/pyxattr-${PV}"
-
 
 distutils_enable_tests pytest
 distutils_enable_sphinx doc dev-python/recommonmark

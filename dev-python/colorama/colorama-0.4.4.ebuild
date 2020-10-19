@@ -19,4 +19,3 @@ LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/colorama-${PV}"
-

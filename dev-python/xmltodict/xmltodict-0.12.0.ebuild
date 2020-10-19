@@ -19,4 +19,3 @@ LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/xmltodict-${PV}"
-

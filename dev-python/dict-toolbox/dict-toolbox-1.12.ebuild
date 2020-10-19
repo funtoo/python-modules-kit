@@ -20,7 +20,6 @@ KEYWORDS="*"
 
 S="${WORKDIR}/dict-toolbox-${PV}"
 
-
 src_prepare() {
 	touch ${S}/requirements.txt
 	default
