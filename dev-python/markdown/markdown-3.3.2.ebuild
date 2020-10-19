@@ -14,9 +14,10 @@ https://github.com/Python-Markdown/markdown
 SRC_URI="https://files.pythonhosted.org/packages/a1/c4/baa09aa2da7281e3da5137b1073e6ebfd6acf52ac885a363b7b3b5556402/Markdown-3.3.2.tar.gz"
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/markdown-compat )
+RDEPEND="
+	python_targets_python2_7? ( dev-python/markdown-compat )
 	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_{6,7} pypy3)"
-IUSE=" python_targets_python2_7"
+IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
