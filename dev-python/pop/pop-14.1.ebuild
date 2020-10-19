@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Plugin-Oriented Programming"
 HOMEPAGE="https://pypi.org/project/pop/"
-SRC_URI="https://files.pythonhosted.org/packages/21/cd/0e0170022e3487ceeb0ec78668959be11b3fadc550acc985f0fb9e0de47b/pop-14.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/83/60/2238faa932e21b3d669f6ea97e7f7afe91bb45c3d5a8c1c509bf4205ab2e/pop-14.1.tar.gz"
 
 LICENSE=""
 SLOT="0"

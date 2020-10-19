@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library with thread-safe connection pooling, file post, and more"
 HOMEPAGE="https://github.com/shazow/urllib3"
-SRC_URI="https://files.pythonhosted.org/packages/81/f4/87467aeb3afc4a6056e1fe86626d259ab97e1213b1dfec14c7cb5f538bf0/urllib3-1.25.10.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/d9/bbbafc76b18da706451fa91bc2ebe21c0daf8868ef3c30b869ac7cb7f01d/urllib3-1.25.11.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
