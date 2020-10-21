@@ -13,7 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/28/1e/1726b212239edc78999874e0b
 DEPEND=""
 RDEPEND="
 	dev-python/httpcore[${PYTHON_USEDEP}]
-	dev-python/brotlipy[${PYTHON_USEDEP}]"
+	dev-python/brotlipy[${PYTHON_USEDEP}]
+	dev-python/rfc3986[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
