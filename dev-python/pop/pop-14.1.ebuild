@@ -23,3 +23,8 @@ LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/pop-${PV}"
+
+src_prepare() {
+	touch ${S}/requirements.txt
+	default
+}
