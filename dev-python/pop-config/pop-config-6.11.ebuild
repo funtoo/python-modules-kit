@@ -22,3 +22,8 @@ LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/pop-config-${PV}"
+
+src_prepare() {
+	touch ${S}/requirements.txt
+	default
+}
