@@ -12,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ec/2e/1602fca477ab3ccb1952f07db
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-RDEPEND="
+RDEPEND="!<dev-python/pytest-6.1.1 
 	$(python_gen_cond_dep '
 			dev-python/atomicwrites[${PYTHON_USEDEP}]
 			dev-python/pathlib2[${PYTHON_USEDEP}]
