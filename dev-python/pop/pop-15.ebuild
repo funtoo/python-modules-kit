@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/83/60/2238faa932e21b3d669f6ea97e7f7afe91bb45c3d5a8c1c509bf4205ab2e/pop-14.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/74/ac/df22ee20c7e60727125fefe68bc2193ec130a6962fd520b9c3bb17fc7c32/pop-15.tar.gz"
 
 DEPEND=""
 RDEPEND="

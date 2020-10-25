@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/62/22/dcf5b6da25f779974e02914e53ce96f800514a95b5ba7ab51351add09f66/idem-7.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/d1/ae55ae3db2dbdf032cc9b659329f3421a2cbccba05c19626eccb74e0a7e4/idem-7.6.tar.gz"
 
 DEPEND=""
 RDEPEND="
