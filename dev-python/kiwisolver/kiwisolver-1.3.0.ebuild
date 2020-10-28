@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="An efficient C++ implementation of the Cassowary constraint solving algorithm"
 HOMEPAGE="https://github.com/nucleic/kiwi"
-SRC_URI="https://files.pythonhosted.org/packages/62/b8/db619d97819afb52a3ff5ff6ad3f7de408cc83a8ec2dfb31a1731c0a97c2/kiwisolver-1.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/4a/02235aace8c1db66f708a7bdff0cf5b231fad7359a21551fcab1bff4c68d/kiwisolver-1.3.0.tar.gz"
 
 LICENSE="Clear-BSD"
 SLOT="0"
