@@ -1,10 +1,10 @@
 DEFINED_PHASES=-
 DESCRIPTION=A virtual for the Python typing module
 EAPI=6
-IUSE=python_targets_pypy3 python_targets_python3_7 python_targets_python2_7
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-fbsd ~amd64-linux ~x64-solaris
-RDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python2_7(-)] python_targets_python2_7? ( dev-python/typing[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )
-REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python2_7 )
+IUSE=python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7
+KEYWORDS=*
+RDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)] python_targets_python2_7? ( dev-python/typing[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )
+REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 SLOT=0
 _eclasses_=multibuild	b2c915190b051f55a23b9354b9849847	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=c403bf025091e1fb5357382369c68275
+_md5_=3c959ea04814f1503939c5943e5d30d6
