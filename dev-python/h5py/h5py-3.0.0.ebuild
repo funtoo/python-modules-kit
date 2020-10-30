@@ -9,7 +9,7 @@ inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="Simple Python interface to HDF5 files"
 HOMEPAGE="http://www.h5py.org/"
-SRC_URI="https://files.pythonhosted.org/packages/5f/97/a58afbcf40e8abecededd9512978b4e4915374e5b80049af082f49cebe9a/h5py-2.10.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/fb/86d26128a5ea42d20f402109e76a63e59845d73171887a08a43a28b847dc/h5py-3.0.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
