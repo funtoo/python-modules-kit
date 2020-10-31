@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/1c/ff/c23dad89e2220b0b9cc3d3563
 DEPEND=""
 RDEPEND="
 	dev-python/pytest[${PYTHON_USEDEP}]
-	# This dep may be missing from upstream:
 	dev-python/psutil[${PYTHON_USEDEP}]"
 
 IUSE=""

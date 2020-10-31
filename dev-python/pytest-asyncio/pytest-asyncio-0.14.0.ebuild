@@ -11,8 +11,7 @@ HOMEPAGE=""
 SRC_URI="https://files.pythonhosted.org/packages/65/09/9472d4db0625cf56d40f4e405f955faf6469be00858a273b71332f3fcd1f/pytest-asyncio-0.14.0.tar.gz"
 
 DEPEND=""
-RDEPEND="
-	dev-python/pytest[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

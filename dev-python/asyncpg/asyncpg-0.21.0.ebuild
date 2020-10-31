@@ -12,6 +12,7 @@ HOMEPAGE="https://github.com/MagicStack/asyncpg
 SRC_URI="https://files.pythonhosted.org/packages/08/4b/ae73e69c5ec9c45f6b07d3cb151ee8597ddb5c3f3b539cf4dfa4af13031d/asyncpg-0.21.0.tar.gz"
 
 DEPEND=""
+RDEPEND=""
 BDEPEND="dev-python/setuptools[$PYTHON_USEDEP]"
 IUSE=""
 SLOT="0"

@@ -13,24 +13,26 @@ SRC_URI="https://files.pythonhosted.org/packages/ec/2e/1602fca477ab3ccb1952f07db
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/pytest-6.1.1 
-	$(python_gen_cond_dep '
-			dev-python/atomicwrites[${PYTHON_USEDEP}]
-			dev-python/pathlib2[${PYTHON_USEDEP}]
-			dev-python/funcsigs[${PYTHON_USEDEP}]
-			dev-python/wcwidth[${PYTHON_USEDEP}]
-			dev-python/six[${PYTHON_USEDEP}]
-	' -2)
 	>=dev-python/attrs-17.4.0[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-			dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' -2 python3_{6,7} pypy3)
 	dev-python/iniconfig[${PYTHON_USEDEP}]
-	>=dev-python/more-itertools-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/more-itertools-4[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/pluggy-0.12[${PYTHON_USEDEP}]
-	<dev-python/pluggy-1
+	<dev-python/pluggy-1[${PYTHON_USEDEP}]
 	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+	dev-python/toml[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
+	dev-python/funcsigs[${PYTHON_USEDEP}]
+	dev-python/wcwidth[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	' -2
+	)
+	$(python_gen_cond_dep '
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	' -2 python3_6 python3_7 pypy3
+	)"
 IUSE=""
 SLOT="0"
 LICENSE=""

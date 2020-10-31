@@ -15,8 +15,9 @@ DEPEND="
 RDEPEND="
 	python_targets_python2_7? ( dev-python/mock-compat )
 	$(python_gen_cond_dep '
-			dev-python/funcsigs[${PYTHON_USEDEP}]
-	' -2)
+	dev-python/funcsigs[${PYTHON_USEDEP}]
+	' -2
+	)
 	>=dev-python/six-1.9[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"

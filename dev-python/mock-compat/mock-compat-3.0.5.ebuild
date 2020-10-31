@@ -14,8 +14,9 @@ DEPEND="
 	>=dev-python/setuptools-17.1[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/mock-3.0.5 
 	$(python_gen_cond_dep '
-			dev-python/funcsigs[${PYTHON_USEDEP}]
-	' -2)
+	dev-python/funcsigs[${PYTHON_USEDEP}]
+	' -2
+	)
 	>=dev-python/six-1.9[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
