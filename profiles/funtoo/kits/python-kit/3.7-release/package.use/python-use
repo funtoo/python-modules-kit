@@ -6,10 +6,6 @@
 =dev-python/beautifulsoup-3.2.1-r1 python_single_target_python2_7
 =dev-python/carbon-0.9.13 python_single_target_python2_7
 =dev-python/carbon-0.9.13-r1 python_single_target_python2_7
-=dev-python/configparser-3.3.0.2 python_single_target_python2_7
-=dev-python/configparser-3.5.0 python_single_target_python2_7
-=dev-python/configparser-3.5.0-r1 python_single_target_python2_7
-=dev-python/configparser-4.0.2 python_single_target_python2_7
 =dev-python/cov-core-1.7 python_single_target_python2_7
 =dev-python/discogs-client-2.0.2 python_single_target_python2_7
 =dev-python/django-auth-ldap-1.2.2 python_single_target_python2_7
@@ -128,6 +124,7 @@ dev-python/cddb-py python_single_target_python2_7
 dev-python/cement python_single_target_python2_7
 dev-python/cheetah python_single_target_python2_7
 dev-python/clientcookie python_single_target_python2_7
+dev-python/configparser python_single_target_python2_7
 dev-python/ctypesgen python_single_target_python2_7
 dev-python/dap python_single_target_python2_7
 dev-python/decoratortools python_single_target_python2_7
