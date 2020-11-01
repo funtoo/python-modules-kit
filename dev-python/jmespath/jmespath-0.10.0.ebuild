@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/0e/2aeb982552f892c301bbeb432c5fca5c7fa0a7cd68709cffb37934920e96/cucumber-tag-expressions-3.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/56/3f325b1eef9791759784aa5046a8f6a1aff8f7c898a2e34506771d3b99d8/jmespath-0.10.0.tar.gz"
 
 DEPEND=""
 RDEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/cucumber-tag-expressions-${PV}"
+S="${WORKDIR}/jmespath-${PV}"
