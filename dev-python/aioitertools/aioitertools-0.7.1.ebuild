@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f5/47/6ca467ccc0cc2ce4b633490b357f257f4d90cb7f0e251967abfc81bf4102/aioitertools-0.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/a0/f149e54ea082e5f4ae71c68e8e72cab8749283329a7c2747336ef7b68dc0/aioitertools-0.7.1.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
