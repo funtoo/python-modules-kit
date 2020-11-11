@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Low-level, pure Python DBus protocol wrapper"
 HOMEPAGE="https://gitlab.com/takluyver/jeepney"
-SRC_URI="https://files.pythonhosted.org/packages/74/24/9b720cc6b2a73c908896a0ed64cb49780dcfbf4964e23a725aa6323f4452/jeepney-0.4.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/23/4a234a61e9c3352e4165b2394da877903fd0c680ba0045e5abb3268da3e1/jeepney-0.5.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
