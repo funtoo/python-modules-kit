@@ -10,7 +10,7 @@ inherit distutils-r1
 
 DESCRIPTION="Collection of tools for internationalizing Python applications"
 HOMEPAGE="http://babel.pocoo.org/ https://pypi.org/project/Babel/"
-SRC_URI="https://files.pythonhosted.org/packages/13/1e/17cbd78f3b0b0115c6fa10e55c0bb5d3dd2c0d482d2114339e9d33c171a1/Babel-2.8.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/41/1b/5ed6e564b9ca54318df20ebe5d642ab25da4118df3c178247b8c4b26fa13/Babel-2.9.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
