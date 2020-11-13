@@ -25,6 +25,7 @@ KEYWORDS="*"
 S="${WORKDIR}/pop-${PV}"
 
 src_prepare() {
-	touch ${S}/requirements.txt
+	install -d ${S}/requirements
+	touch ${S}/requirements/base.txt
 	default
 }
