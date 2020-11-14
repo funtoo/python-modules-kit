@@ -237,6 +237,7 @@ dev-python/pyutil python_single_target_python2_7
 dev-python/pyvorbis python_single_target_python2_7
 dev-python/pyxattr-compat python_single_target_python2_7
 dev-python/pyxenstore python_single_target_python2_7
+dev-python/pyzmq-compat python_single_target_python2_7
 dev-python/quex python_single_target_python2_7
 dev-python/restkit python_single_target_python2_7
 dev-python/ropemacs python_single_target_python2_7

@@ -2,19 +2,18 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1 flag-o-matic toolchain-funcs
 
 DESCRIPTION=""
 HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/
 "
-SRC_URI="https://files.pythonhosted.org/packages/15/81/009a2cd08bc5de6ed092c94508b45d6dbc6f6d0bbeddbe14d36b51f28216/pyzmq-20.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/05/77/7483975d84fe1fd24cc67881ba7810e0e7b3ee6c2a0e002a5d6703cca49b/pyzmq-19.0.2.tar.gz"
 
 DEPEND="
 	dev-python/cython[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pyzmq-compat )
+RDEPEND="!<=dev-python/pyzmq-19.0.2 
 	>=net-libs/zeromq-4.2.2-r2:=[drafts]
 	dev-python/py[${PYTHON_USEDEP}]
 	dev-python/cffi[${PYTHON_USEDEP}]
@@ -22,7 +21,7 @@ RDEPEND="
 	dev-python/gevent[${PYTHON_USEDEP}]
 	' -2
 	)"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
