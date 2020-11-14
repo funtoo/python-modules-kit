@@ -9,7 +9,7 @@ inherit flag-o-matic distutils-r1 toolchain-funcs
 
 DESCRIPTION="Lightweight and super-fast messaging library built on top of the ZeroMQ library"
 HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/"
-SRC_URI="https://files.pythonhosted.org/packages/05/77/7483975d84fe1fd24cc67881ba7810e0e7b3ee6c2a0e002a5d6703cca49b/pyzmq-19.0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/15/81/009a2cd08bc5de6ed092c94508b45d6dbc6f6d0bbeddbe14d36b51f28216/pyzmq-20.0.0.tar.gz"
 
 LICENSE="LGPL-3"
 SLOT="0"
