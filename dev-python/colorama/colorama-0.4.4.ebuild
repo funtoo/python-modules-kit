@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python2+ pypy3 )
 
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="ANSI escape character sequences for colored terminal text & cursor positioning"
+HOMEPAGE="https://github.com/tartley/colorama https://pypi.org/project/colorama/"
 SRC_URI="https://files.pythonhosted.org/packages/1f/bb/5d3246097ab77fa083a61bd8d3d527b7ae063c7d8e8671b1cf8c4ec10cbe/colorama-0.4.4.tar.gz"
 
 DEPEND=""
@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/colorama-${PV}"
