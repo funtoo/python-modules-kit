@@ -6,7 +6,7 @@ PYTHON_COMPAT=( pypy3 python{2_7,3_{6,7,8}} )
 
 inherit distutils-r1
 
-SRC_URI="https://files.pythonhosted.org/packages/88/e6/13dde83089386c9aa200c4539891948094443d4f6fe85fe95c7806c1f3d5/tqdm-4.51.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/30/8c8015735a54e13444a3d4982a7a9538bde27f8b3bd35203f9e920f0d78c/tqdm-4.52.0.tar.gz"
 KEYWORDS="*"
 
 DESCRIPTION="Add a progress meter to your loops in a second"
