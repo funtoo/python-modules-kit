@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="digitalocean.com API to manage Droplets and Images"
 HOMEPAGE="https://pypi.org/project/python-digitalocean"
-SRC_URI="https://files.pythonhosted.org/packages/24/e6/a4c8cc8b84beb19627996a46733f63130d26b7d157556d761c623cacd42c/python-digitalocean-1.15.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/56/c6/48bbb3b11c9c3bf9cb4ff6d7a9d87bceabd77c683158a2b7529dff5fdda1/python-digitalocean-1.16.0.tar.gz"
 
 LICENSE="LGPL v3"
 SLOT="0"
