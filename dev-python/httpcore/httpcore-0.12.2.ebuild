@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/cb/4d/44ce82d016e1bd8407600c6fc92849339e437c9334399942ca07a6ac476b/httpcore-0.12.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/9f/32/0001b9ebc116f78df57428cc9971e9dd518baa3b5b754d7685866837051e/httpcore-0.12.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
