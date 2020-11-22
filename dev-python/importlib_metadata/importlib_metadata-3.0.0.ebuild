@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Read metadata from Python packages"
 HOMEPAGE="https://importlib-metadata.readthedocs.io/"
-SRC_URI="https://files.pythonhosted.org/packages/56/1f/74c3e29389d34feea2d62ba3de1169efea2566eb22e9546d379756860525/importlib_metadata-2.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/98/13/3d29de81a3db8d8b7cf476f0b6f14b187794e398dc541de96d2818779bb1/importlib_metadata-3.0.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
