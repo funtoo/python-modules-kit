@@ -3,6 +3,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2+ pypy{,3} )
+DISTUTILS_USE_SETUPTOOLS=rdepend
 
 inherit distutils-r1
 
@@ -13,5 +14,3 @@ SRC_URI="https://files.pythonhosted.org/packages/cc/b4/ed8dcb0d67d5cfb7f83c4d546
 LICENSE="BSD"
 KEYWORDS="*"
 SLOT="0"
-
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
