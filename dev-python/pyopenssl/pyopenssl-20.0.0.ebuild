@@ -16,7 +16,7 @@ HOMEPAGE="
 	https://launchpad.net/pyopenssl
 	https://pypi.org/project/pyOpenSSL/
 "
-SRC_URI="https://files.pythonhosted.org/packages/0d/1d/6cc4bd4e79f78be6640fab268555a11af48474fac9df187c3361a1d1d2f0/pyOpenSSL-19.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/67/38a1080fabbb908515c47694238e00b6a73a82d9dbc76372263a231abfcb/pyOpenSSL-20.0.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
