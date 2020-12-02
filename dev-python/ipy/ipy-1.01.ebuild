@@ -12,7 +12,7 @@ MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Class and tools for handling of IPv4 and IPv6 addresses and networks"
 HOMEPAGE="https://github.com/haypo/python-ipy/wiki https://pypi.org/project/IPy/"
-SRC_URI="https://files.pythonhosted.org/packages/e1/66/b6dd22472bb027556849876beae2dd4dca3a4eaf2dd3039277b4edb8c6af/IPy-1.00.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/64/a4/9c0d88d95666ff1571d7baec6c5e26abc08051801feb6e6ddf40f6027e22/IPy-1.01.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
