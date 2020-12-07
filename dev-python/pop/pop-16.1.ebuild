@@ -24,6 +24,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/pop-${PV}"
 
+# drobbins fixed upstream
 src_prepare() {
 	install -d ${S}/requirements
 	touch ${S}/requirements/base.txt

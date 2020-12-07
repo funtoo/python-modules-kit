@@ -25,6 +25,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/acct-${PV}"
 
+# drobbins fixed upstream
 src_prepare() {
 	touch ${S}/requirements.txt
 	default

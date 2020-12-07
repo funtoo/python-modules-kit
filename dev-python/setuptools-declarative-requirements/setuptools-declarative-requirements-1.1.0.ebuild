@@ -20,6 +20,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-declarative-requirements-${PV}"
 
+# https://github.com/s0undt3ch/setuptools-declarative-requirements/pull/3
 src_prepare() {
 	rm ${S}/tests/__init__.py || die
 	default

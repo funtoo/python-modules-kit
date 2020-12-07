@@ -28,6 +28,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/pytest-salt-factories-${PV}"
 
+# submitted PR https://github.com/saltstack/pytest-salt-factories/pull/33
 src_prepare() {
 	rm ${S}/tests/__init__.py || die
 	default
