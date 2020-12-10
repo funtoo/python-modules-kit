@@ -11,7 +11,7 @@ inherit distutils-r1 flag-o-matic
 VEC_P=cryptography_vectors-${PV}
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE="https://github.com/pyca/cryptography/ https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/70/62/8c39b26e1944c68787b3cb6eac098e18236816074896bb8bcb205a629a6b/cryptography-3.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b7/82/f7a4ddc1af185936c1e4fa000942ffa8fb2d98cff26b75afa7b3c63391c4/cryptography-3.3.1.tar.gz
 	test? ( mirror://pypi/c/cryptography_vectors/${VEC_P}.tar.gz )"
 
 LICENSE="|| ( Apache-2.0 BSD )"
