@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Stand-alone version of unittest.mock included in py3.3+"
 HOMEPAGE="https://github.com/testing-cabal/mock"
-SRC_URI="https://files.pythonhosted.org/packages/2e/35/594f501b2a0fb3732c8190ca885dfdf60af72d678cd5fa8169c358717567/mock-4.0.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1bff2df7a610bca93c8ede7475e32d8b73a0/mock-4.0.3.tar.gz"
 
 DEPEND="
 	>=dev-python/setuptools-17.1[${PYTHON_USEDEP}]"
