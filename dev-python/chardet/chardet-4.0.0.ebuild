@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Universal encoding detector"
 HOMEPAGE="https://github.com/chardet/chardet https://pypi.org/project/chardet/"
-SRC_URI="https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b86647d567985940ac3698eeabc7ffaccb4ea61/chardet-4.0.0.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
