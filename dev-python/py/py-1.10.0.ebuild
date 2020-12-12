@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="library with cross-python path, ini-parsing, io, code, log facilities"
 HOMEPAGE="https://pylib.readthedocs.io/en/latest/ https://pypi.org/project/py/"
-SRC_URI="https://files.pythonhosted.org/packages/97/a6/ab9183fe08f69a53d06ac0ee8432bc0ffbb3989c575cc69b73a0229a9a99/py-1.9.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/8c/50e9f3999419bb7d9639c37e83fa9cdcf0f601a9d407162d6c37ad60be71/py-1.10.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
