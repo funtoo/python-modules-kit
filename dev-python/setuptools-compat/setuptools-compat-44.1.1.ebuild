@@ -31,6 +31,7 @@ RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
+
 S="${WORKDIR}/setuptools-${PV}"
 
 python_prepare_all() {

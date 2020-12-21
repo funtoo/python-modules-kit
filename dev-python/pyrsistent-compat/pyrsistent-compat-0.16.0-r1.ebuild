@@ -16,4 +16,5 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
+
 S="${WORKDIR}/pyrsistent-${PV}"

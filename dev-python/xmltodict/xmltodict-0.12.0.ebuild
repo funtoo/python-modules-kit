@@ -18,4 +18,5 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/xmltodict-"
+
+S="${WORKDIR}/xmltodict-${PV}"

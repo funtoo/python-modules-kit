@@ -18,4 +18,5 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/jdcal-"
+
+S="${WORKDIR}/jdcal-${PV}"

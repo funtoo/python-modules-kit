@@ -18,7 +18,8 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/pyxattr-"
+
+S="${WORKDIR}/pyxattr-${PV}"
 
 distutils_enable_tests pytest
 distutils_enable_sphinx doc dev-python/recommonmark

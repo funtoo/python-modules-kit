@@ -21,7 +21,8 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/markdown-"
+
+S="${WORKDIR}/markdown-${PV}"
 
 S="${WORKDIR}/Markdown-${PV}"
 

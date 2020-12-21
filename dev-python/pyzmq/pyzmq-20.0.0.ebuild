@@ -26,7 +26,8 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
-S="${WORKDIR}/pyzmq-"
+
+S="${WORKDIR}/pyzmq-${PV}"
 
 python_configure_all() {
 	tc-export CC

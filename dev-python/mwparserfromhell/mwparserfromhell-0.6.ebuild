@@ -17,4 +17,5 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/mwparserfromhell-"
+
+S="${WORKDIR}/mwparserfromhell-${PV}"

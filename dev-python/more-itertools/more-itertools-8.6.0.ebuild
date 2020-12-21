@@ -17,4 +17,5 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/more-itertools-"
+
+S="${WORKDIR}/more-itertools-${PV}"

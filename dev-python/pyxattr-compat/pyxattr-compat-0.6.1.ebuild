@@ -17,6 +17,7 @@ IUSE=""
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
+
 S="${WORKDIR}/pyxattr-${PV}"
 
 distutils_enable_tests pytest

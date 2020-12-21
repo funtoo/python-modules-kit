@@ -21,4 +21,5 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/et_xmlfile-"
+
+S="${WORKDIR}/et_xmlfile-${PV}"
