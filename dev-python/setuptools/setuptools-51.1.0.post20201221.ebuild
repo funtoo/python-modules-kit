@@ -32,8 +32,7 @@ RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
-S="${WORKDIR}/setuptools-${PV}"
+S="${WORKDIR}/setuptools-"
 
 python_prepare_all() {
 	# disable tests requiring a network connection

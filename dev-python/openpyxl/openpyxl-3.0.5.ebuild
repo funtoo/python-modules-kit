@@ -22,5 +22,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
-S="${WORKDIR}/openpyxl-${PV}"
+S="${WORKDIR}/openpyxl-"

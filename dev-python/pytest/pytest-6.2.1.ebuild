@@ -38,8 +38,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
-S="${WORKDIR}/pytest-${PV}"
+S="${WORKDIR}/pytest-"
 
 post_src_install() {
 	if [ "$PV" == "4.6.9" ]; then

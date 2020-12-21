@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python MediaWiki parser"
 HOMEPAGE="https://github.com/earwig/mwparserfromhell/"
-SRC_URI="https://files.pythonhosted.org/packages/23/03/4fb04da533c7e237c0104151c028d8bff856293d34e51d208c529696fb79/mwparserfromhell-0.5.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/18/b30c6db8c2a3dcb5abf6a6666da39461e628512a63b74ffaf50322a2385e/mwparserfromhell-0.6.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

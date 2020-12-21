@@ -23,5 +23,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
-S="${WORKDIR}/mock-${PV}"
+S="${WORKDIR}/mock-"

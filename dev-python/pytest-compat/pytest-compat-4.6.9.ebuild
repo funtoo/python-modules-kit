@@ -37,7 +37,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/pytest-${PV}"
 
 post_src_install() {

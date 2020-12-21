@@ -19,5 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
-S="${WORKDIR}/xlrd-${PV}"
+S="${WORKDIR}/xlrd-"
