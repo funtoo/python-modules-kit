@@ -150,6 +150,7 @@ dev-python/mock-compat python_single_target_python2_7
 dev-python/more-itertools-compat python_single_target_python2_7
 dev-python/mox python_single_target_python2_7
 dev-python/msgpack-compat python_single_target_python2_7
+dev-python/mwparserfromhell-compat python_single_target_python2_7
 dev-python/nautilus-python python_single_target_python2_7
 dev-python/nevow python_single_target_python2_7
 dev-python/notify-python python_single_target_python2_7
