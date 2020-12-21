@@ -10,7 +10,7 @@ inherit distutils-r1
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/12/e1/b9a2926a3c5a3fb055b8f85052f5baa890106a0e21b64a977c10affea751/setuptools-51.0.0.zip"
+SRC_URI="https://files.pythonhosted.org/packages/dc/10/903b6f02c98789b1341c9ba61f72ca2d37340f79239e8e8fe2cc9d79c2d7/setuptools-51.1.0.post20201221.tar.gz"
 
 DEPEND="
 	app-arch/unzip
