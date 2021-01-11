@@ -137,6 +137,7 @@ dev-python/hachoir-parser python_single_target_python2_7
 dev-python/hachoir-regex python_single_target_python2_7
 dev-python/hcs-utils python_single_target_python2_7
 dev-python/id3-py python_single_target_python2_7
+dev-python/idna-compat python_single_target_python2_7
 dev-python/inotifyx python_single_target_python2_7
 dev-python/jaxml python_single_target_python2_7
 dev-python/keyczar python_single_target_python2_7
@@ -234,4 +235,5 @@ dev-python/weakrefmethod python_single_target_python2_7
 dev-python/zbase32 python_single_target_python2_7
 dev-python/zfec python_single_target_python2_7
 dev-python/zsi python_single_target_python2_7
+dev-python/zstandard-compat python_single_target_python2_7
 www-servers/tornado-compat python_single_target_python2_7
