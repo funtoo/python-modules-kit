@@ -11,7 +11,7 @@ DESCRIPTION="A Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files
 HOMEPAGE="https://openpyxl.readthedocs.io/
 https://pypi.org/project/openpyxl/
 "
-SRC_URI="https://files.pythonhosted.org/packages/40/32/ee6469111cc624ec00c073986dbd05430ba7265138260cd6dd3771311c3b/openpyxl-3.0.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/71/a6/5c9316f45b5c7ab0954b2550b8045f385296a2aa97272228e38bfe58ac59/openpyxl-3.0.6.tar.gz"
 
 DEPEND=""
 RDEPEND="

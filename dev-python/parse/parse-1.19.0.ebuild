@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/b8/49/85f19d9ff908817b864deebf7f68211f9a6fc0b48746d372d970f60d01f5/parse-1.18.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/89/a1/82ce536be577ba09d4dcee45db58423a180873ad38a2d014d26ab7b7cb8a/parse-1.19.0.tar.gz"
 
 DEPEND=""
 RDEPEND=""
