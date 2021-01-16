@@ -11,7 +11,7 @@ HOMEPAGE="https://gitlab.com/saltstack/open/dict-toolbox https://pypi.org/projec
 SRC_URI="https://files.pythonhosted.org/packages/ae/1c/e6a77e6a99e948eccfa1b6a1ab7a533f4b12c67f418578daa7b54ac7f2f2/dict-toolbox-1.16.tar.gz"
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-python/msgpack[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
