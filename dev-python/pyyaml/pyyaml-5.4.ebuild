@@ -11,7 +11,7 @@ DESCRIPTION="YAML parser and emitter for Python"
 HOMEPAGE="https://pyyaml.org/wiki/PyYAML
 	https://pypi.org/project/PyYAML/
 	https://github.com/yaml/pyyaml"
-SRC_URI="https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b5/fd/15638de2da0a5aa91c095718444624aa565f766fc178249ca6faa372f71a/PyYAML-5.4.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
