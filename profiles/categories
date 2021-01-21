@@ -1,4 +1,5 @@
 app-portage
+app-shells
 dev-python
 dev-vcs
 virtual
