@@ -138,6 +138,7 @@ dev-python/hachoir-regex python_single_target_python2_7
 dev-python/hcs-utils python_single_target_python2_7
 dev-python/id3-py python_single_target_python2_7
 dev-python/idna-compat python_single_target_python2_7
+dev-python/importlib_metadata-compat python_single_target_python2_7
 dev-python/inotifyx python_single_target_python2_7
 dev-python/jaxml python_single_target_python2_7
 dev-python/keyczar python_single_target_python2_7
