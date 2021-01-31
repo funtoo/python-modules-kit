@@ -22,9 +22,9 @@ BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	test? (
-		 ${RDEPEND}
-		 $(python_gen_cond_dep 'dev-python/importlib_resources[${PYTHON_USEDEP}]' pypy{,3} python{2_7,3_{5,6}})
-		 dev-python/packaging[${PYTHON_USEDEP}]
+		${RDEPEND}
+		$(python_gen_cond_dep 'dev-python/importlib_resources[${PYTHON_USEDEP}]' pypy{,3} python{2_7,3_{5,6}})
+		dev-python/packaging[${PYTHON_USEDEP}]
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
