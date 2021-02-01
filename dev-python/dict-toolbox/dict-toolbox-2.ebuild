@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Dict tools for Python projects"
 HOMEPAGE="https://gitlab.com/saltstack/open/dict-toolbox https://pypi.org/project/dict-toolbox/"
-SRC_URI="https://files.pythonhosted.org/packages/ae/1c/e6a77e6a99e948eccfa1b6a1ab7a533f4b12c67f418578daa7b54ac7f2f2/dict-toolbox-1.16.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/61/0b70eb812a3bf19972feeccd290c1ce9387c79444706eb2337c1782012ce/dict-toolbox-2.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/msgpack[${PYTHON_USEDEP}]"
