@@ -13,18 +13,17 @@ SRC_URI="https://files.pythonhosted.org/packages/0c/89/412afa5f0018dccf637c2d25b
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_metadata-compat )
-	dev-python/zipp[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]' -3)
-	$(python_gen_cond_dep '>=dev-python/configparser-3.5[${PYTHON_USEDEP}]' -2)
-	$(python_gen_cond_dep 'dev-python/contextlib2[${PYTHON_USEDEP}]' -2)
-	$(python_gen_cond_dep 'dev-python/pathlib2[${PYTHON_USEDEP}]' -2)"
-BDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	test? (
-		${RDEPEND}
-		$(python_gen_cond_dep 'dev-python/importlib_resources[${PYTHON_USEDEP}]' pypy{,3} python{2_7,3_{5,6}})
-		dev-python/packaging[${PYTHON_USEDEP}]
+	dev-python/zipp[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]
+	' -3
+	)
+	$(python_gen_cond_dep '
+	>=dev-python/configparser-3.5[${PYTHON_USEDEP}]
+	dev-python/contextlib2[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
+	' -2
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
@@ -34,4 +33,3 @@ KEYWORDS="*"
 S="${WORKDIR}/importlib_metadata-${PV}"
 
 distutils_enable_sphinx "${PN}/docs" '>=dev-python/rst-linker-1.9'
-distutils_enable_tests unittest

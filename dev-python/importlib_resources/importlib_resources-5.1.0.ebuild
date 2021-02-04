@@ -24,5 +24,4 @@ KEYWORDS="*"
 
 S="${WORKDIR}/importlib_resources-${PV}"
 
-distutils_enable_tests unittest
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging
