@@ -17,11 +17,7 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/pyzmq-compat )
 	>=net-libs/zeromq-4.2.2-r2:=[drafts]
 	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/gevent[${PYTHON_USEDEP}]
-	' -2
-	)"
+	dev-python/cffi[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"

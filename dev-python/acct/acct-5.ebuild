@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/74/d7971c699aa5ec140ef48fb8d93c9f4fb0149932e1003bda681447a97f9e/acct-2.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ed/b7/a64687fc323a2e59dba09405c80597790979269efbb6a8580a200663d9fa/acct-5.tar.gz"
 
 DEPEND=""
 RDEPEND="

@@ -2,29 +2,24 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Read metadata from Python packages"
 HOMEPAGE="https://importlib-metadata.readthedocs.io/"
-SRC_URI="https://files.pythonhosted.org/packages/40/a2/0d11187bdde4237a2f5413f3dd47bdce4d198215392cf6c69945e89c6797/importlib_metadata-2.1.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/89/412afa5f0018dccf637c2d25b9d6a41623cd22beef6797c0d67a2082ccfe/importlib_metadata-3.4.0.tar.gz"
 
 DEPEND=""
-RDEPEND="!<dev-python/importlib_metadata-3.0.0 
+RDEPEND="
+	python_targets_python2_7? ( dev-python/importlib_metadata-compat )
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/zipp[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 	>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]
 	' -3
-	)
-	$(python_gen_cond_dep '
-	>=dev-python/configparser-3.5[${PYTHON_USEDEP}]
-	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	' -2
 	)"
-IUSE=""
+IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
