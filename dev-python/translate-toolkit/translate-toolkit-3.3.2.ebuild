@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Toolkit to convert between many translation formats"
 HOMEPAGE="https://github.com/translate/translate"
-SRC_URI="https://files.pythonhosted.org/packages/ab/47/d7e0a2fddd457cef11b0f144c4854751e820b2fdaff7671f4b3ef05f5f0e/translate-toolkit-3.3.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3b/8e/ff64fa52bb085310f9f6534ba09a5833db93ca5c228f8c2b246ff4cd36d4/translate-toolkit-3.3.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
