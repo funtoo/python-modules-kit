@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION="Library providing cryptographic recipes and primitives
 "
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/35/52/a3b9c3d8ce84544bfe8d663ba993e0593d9c518d6c08f01f6f8fff87b895/cryptography-3.4.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f8/04/51dc8a4ccb37b69a4e165a94837f70653b0b6ca49a6346361062b1f6bb09/cryptography-3.4.3.tar.gz"
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
