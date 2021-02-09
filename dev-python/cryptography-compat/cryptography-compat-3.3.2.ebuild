@@ -1,0 +1,34 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python2_7 )
+
+inherit distutils-r1
+
+DESCRIPTION="Library providing cryptographic recipes and primitives
+"
+HOMEPAGE=""
+SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz"
+
+DEPEND="
+	libressl? ( dev-libs/libressl:0= )
+	!libressl? ( dev-libs/openssl:0= )"
+RDEPEND="!<dev-python/cryptography-3.3.2 
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	virtual/python-enum34[${PYTHON_USEDEP}]
+	virtual/python-ipaddress[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
+	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
+IUSE="libressl idna"
+SLOT="0"
+LICENSE="|| ( Apache-2.0 BSD )"
+KEYWORDS="*"
+
+S="${WORKDIR}/cryptography-${PV}"
+
+src_prepare() {
+	default
+	export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+}

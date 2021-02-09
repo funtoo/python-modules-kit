@@ -106,6 +106,7 @@ dev-python/cddb-py python_single_target_python2_7
 dev-python/cement python_single_target_python2_7
 dev-python/cheetah python_single_target_python2_7
 dev-python/configparser python_single_target_python2_7
+dev-python/cryptography-compat python_single_target_python2_7
 dev-python/dap python_single_target_python2_7
 dev-python/e4u python_single_target_python2_7
 dev-python/editobj python_single_target_python2_7

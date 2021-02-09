@@ -8,13 +8,14 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/af/df/f8aa8a78d4d29e0cffa4512e9bc223ed02f24893fe1837c6cee2749ebd67/setuptools_scm-5.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0d/b9/23b10663a58f50f00847577f3597d49d527a3a0c4449d3d2868488df901a/subpop-0.3.0.tar.gz"
 
 DEPEND=""
 RDEPEND=""
+
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools_scm-${PV}"
+S="${WORKDIR}/subpop-${PV}"
