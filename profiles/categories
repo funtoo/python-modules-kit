@@ -3,5 +3,6 @@ app-shells
 dev-python
 dev-vcs
 net-im
+sys-process
 virtual
 www-servers
