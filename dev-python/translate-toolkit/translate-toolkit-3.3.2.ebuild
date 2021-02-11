@@ -40,7 +40,7 @@ S="${WORKDIR}/translate-toolkit-${PV}"
 distutils_enable_sphinx docs dev-python/sphinx-bootstrap-theme
 src_prepare() {
 	sed -i -e 's#"docs", "share"#"share"#' setup.py
-	distutils_src_prepare
+	distutils-r1_src_prepare
 }
 
 python_install_all() {
