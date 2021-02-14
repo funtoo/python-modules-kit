@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Linux/OSX/FreeBSD resource monitor"
 HOMEPAGE="https://github.com/aristocratos/bpytop"
-SRC_URI="https://files.pythonhosted.org/packages/4a/68/af63843b898c9b8a6010147ec306aab21b4d8cb684087ce9c50a94f065e7/bpytop-1.0.61.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/39/64/a72dd8d462de428f36d1f4a17f21ff5f71d382eb92dc1ddbb6b98e6ebb2e/bpytop-1.0.62.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/psutil[${PYTHON_USEDEP}]"

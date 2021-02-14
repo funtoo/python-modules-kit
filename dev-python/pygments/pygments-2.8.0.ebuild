@@ -12,7 +12,7 @@ MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Pygments is a syntax highlighting package written in Python"
 HOMEPAGE="https://pygments.org/ https://pypi.org/project/Pygments/"
-SRC_URI="https://files.pythonhosted.org/packages/e1/86/8059180e8217299079d8719c6e23d674aadaba0b1939e25e0cc15dcf075b/Pygments-2.7.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/19/d0/dec5604a275b19b0ebd2b9c43730ce39549c8cd8602043eaf40c541a7256/Pygments-2.8.0.tar.gz"
 S="${WORKDIR}/${MY_P}"
 
 LICENSE="BSD"
