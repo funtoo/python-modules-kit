@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/e5/6c062f810833ec3e4aaca789cadb534dab12bc59905b57d5afbb7918598a/pytest-salt-factories-0.120.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/7a/03b2ac2e7aa74a95ac79e8ba8e5e0ef688f29ffd2f54d64e4b45f73811d9/pytest-salt-factories-0.121.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
