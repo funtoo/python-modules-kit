@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/94/98/9dc814f391b2293ecc790b9752e005296c69c3694fd9975b6cb77c448135/uvloop-0.15.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/44/6e/0cb292e4e6ee1382e2ede458f90c94b4f990b261f738403ac45cb8183bc2/uvloop-0.15.2.tar.gz"
 
 DEPEND=""
 RDEPEND=""
