@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Zstandard Bindings for Python"
 HOMEPAGE="https://pypi.org/project/zstandard/ https://github.com/indygreg/python-zstandard"
-SRC_URI="https://files.pythonhosted.org/packages/2e/76/a62609404a34a406366eff62dadf127c6600956465f24636d9d6cfc912fa/zstandard-0.15.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b4/79/7b192e51a2952dee3a3c9dbd9208a9838d8d497745a18a5528e2dbfb465e/zstandard-0.15.2.tar.gz"
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
 RDEPEND="
