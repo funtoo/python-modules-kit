@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f7/7f/ca3250b1c9d6992592ae00623030edec3568273e3f74b0af685beb17fa7d/aioboto3-8.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d6/4e/7b361585b77a8f71859c777d7ba67c336e4f382f11f8717233b85aeacfa0/aioboto3-8.2.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
