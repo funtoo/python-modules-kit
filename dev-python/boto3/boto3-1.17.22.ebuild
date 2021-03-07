@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/59/9da0e01fbf674321c7d185176173d4aead772086c1f793dc0b23697b1f76/boto3-1.17.20.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/80/62c4fe4151ce95384474f7fe30915bf201beced795d879eb17483ee4654e/boto3-1.17.22.tar.gz"
 
 DEPEND=""
 RDEPEND="
