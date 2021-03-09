@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/uvloop-${PV}"
+S="${WORKDIR}/uvloop-0.15.2"

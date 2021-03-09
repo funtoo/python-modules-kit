@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/subpop-${PV}"
+S="${WORKDIR}/subpop-0.4.1"

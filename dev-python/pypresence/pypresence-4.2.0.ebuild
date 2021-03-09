@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pypresence-${PV}"
+S="${WORKDIR}/pypresence-4.2.0"

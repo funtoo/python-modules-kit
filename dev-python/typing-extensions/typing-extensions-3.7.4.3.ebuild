@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/typing-extensions-${PV}"
+S="${WORKDIR}/typing-extensions-3.7.4.3"
 
 src_unpack() {
 	unpack ${A}

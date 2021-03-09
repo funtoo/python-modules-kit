@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-tempdir-${PV}"
+S="${WORKDIR}/pytest-tempdir-2019.10.12"

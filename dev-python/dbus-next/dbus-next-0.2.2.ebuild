@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/dbus_next-${PV}"
+S="${WORKDIR}/dbus_next-0.2.2"

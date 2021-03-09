@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/sniffio-${PV}"
+S="${WORKDIR}/sniffio-1.2.0"

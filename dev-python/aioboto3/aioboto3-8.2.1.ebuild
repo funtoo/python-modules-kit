@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/aioboto3-${PV}"
+S="${WORKDIR}/aioboto3-8.2.1"

@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/aioitertools-${PV}"
+S="${WORKDIR}/aioitertools-0.7.1"

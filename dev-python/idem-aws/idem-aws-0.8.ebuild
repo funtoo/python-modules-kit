@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/idem-aws-${PV}"
+S="${WORKDIR}/idem-aws-0.8"
 
 src_prepare() {
 	touch ${S}/requirements.txt

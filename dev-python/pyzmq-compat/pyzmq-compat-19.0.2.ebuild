@@ -26,7 +26,7 @@ SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyzmq-${PV}"
+S="${WORKDIR}/pyzmq-19.0.2"
 
 python_configure_all() {
 	tc-export CC

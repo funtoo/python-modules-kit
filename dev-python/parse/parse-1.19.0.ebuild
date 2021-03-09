@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/parse-${PV}"
+S="${WORKDIR}/parse-1.19.0"

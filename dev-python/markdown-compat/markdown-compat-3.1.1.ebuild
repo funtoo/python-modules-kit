@@ -21,7 +21,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/markdown-${PV}"
+S="${WORKDIR}/markdown-3.1.1"
 
 S="${WORKDIR}/Markdown-${PV}"
 

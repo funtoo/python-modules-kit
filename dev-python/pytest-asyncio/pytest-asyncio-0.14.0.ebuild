@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-asyncio-${PV}"
+S="${WORKDIR}/pytest-asyncio-0.14.0"

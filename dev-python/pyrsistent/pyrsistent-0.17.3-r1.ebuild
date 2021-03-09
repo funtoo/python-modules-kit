@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyrsistent-${PV}"
+S="${WORKDIR}/pyrsistent-0.17.3"

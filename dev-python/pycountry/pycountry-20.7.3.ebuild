@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
 
-S="${WORKDIR}/pycountry-${PV}"
+S="${WORKDIR}/pycountry-20.7.3"

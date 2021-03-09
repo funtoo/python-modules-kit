@@ -24,4 +24,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/FetchCord-${PV}"
+S="${WORKDIR}/FetchCord-2.7.0"

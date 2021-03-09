@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/bpytop-${PV}"
+S="${WORKDIR}/bpytop-1.0.63"
 
 src_install() {
 	insinto "/usr/share/${PN}/themes"

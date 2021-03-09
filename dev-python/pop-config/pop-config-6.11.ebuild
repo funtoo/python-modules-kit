@@ -22,7 +22,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pop-config-${PV}"
+S="${WORKDIR}/pop-config-6.11"
 
 # drobbins fixed upstream
 src_prepare() {

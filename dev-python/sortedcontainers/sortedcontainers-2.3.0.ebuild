@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/sortedcontainers-${PV}"
+S="${WORKDIR}/sortedcontainers-2.3.0"

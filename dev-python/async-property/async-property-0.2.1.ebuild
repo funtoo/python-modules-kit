@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/async_property-${PV}"
+S="${WORKDIR}/async_property-0.2.1"

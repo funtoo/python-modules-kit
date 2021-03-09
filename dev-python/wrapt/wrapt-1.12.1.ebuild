@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/wrapt-${PV}"
+S="${WORKDIR}/wrapt-1.12.1"

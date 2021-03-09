@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/asynctest-${PV}"
+S="${WORKDIR}/asynctest-0.13.0"

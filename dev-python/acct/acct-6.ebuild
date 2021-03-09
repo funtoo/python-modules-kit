@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/acct-${PV}"
+S="${WORKDIR}/acct-6"
 
 # drobbins fixed upstream
 src_prepare() {

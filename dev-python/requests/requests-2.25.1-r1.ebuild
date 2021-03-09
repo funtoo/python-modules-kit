@@ -24,7 +24,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/requests-${PV}"
+S="${WORKDIR}/requests-2.25.1"
 
 # FL-7939: relax deps for idna
 src_prepare() {

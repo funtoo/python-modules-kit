@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/h11-${PV}"
+S="${WORKDIR}/h11-0.12.0"

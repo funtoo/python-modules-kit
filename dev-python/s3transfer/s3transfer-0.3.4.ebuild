@@ -23,4 +23,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/s3transfer-${PV}"
+S="${WORKDIR}/s3transfer-0.3.4"

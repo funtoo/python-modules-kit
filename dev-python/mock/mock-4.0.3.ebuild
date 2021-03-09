@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/mock-${PV}"
+S="${WORKDIR}/mock-4.0.3"

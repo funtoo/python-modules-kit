@@ -23,4 +23,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/behave-${PV}"
+S="${WORKDIR}/behave-1.2.6"

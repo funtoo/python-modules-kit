@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/thefuck-${PV}"
+S="${WORKDIR}/thefuck-3.30"
 
 python_prepare_all() {
 	sed -i -e "/import pip/s/^/#/" -e "/pip.__version__/,+3 s/^/#/" setup.py || die

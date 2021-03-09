@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/colorama-${PV}"
+S="${WORKDIR}/colorama-0.4.4"

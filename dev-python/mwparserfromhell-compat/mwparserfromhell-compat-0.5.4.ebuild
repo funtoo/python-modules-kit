@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/mwparserfromhell-${PV}"
+S="${WORKDIR}/mwparserfromhell-0.5.4"

@@ -18,6 +18,6 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyhamcrest-${PV}"
+S="${WORKDIR}/pyhamcrest-2.0.2"
 
 S="${WORKDIR}/PyHamcrest-${PV}"

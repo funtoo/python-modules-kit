@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools_scm-${PV}"
+S="${WORKDIR}/setuptools_scm-5.0.2"

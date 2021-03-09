@@ -20,7 +20,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/configparser-${PV}"
+S="${WORKDIR}/configparser-4.0.2"
 
 post_src_install() {
 	# This is installed by backports:

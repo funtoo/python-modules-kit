@@ -49,6 +49,7 @@ DEPEND="
 	)
 "
 RDEPEND="${CDEPEND}"
+S="${WORKDIR}/aiohttp-3.7.4.post0"
 
 DOCS=( CHANGES.rst CONTRIBUTORS.txt README.rst )
 

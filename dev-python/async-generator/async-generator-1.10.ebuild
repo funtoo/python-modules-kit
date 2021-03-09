@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/async_generator-${PV}"
+S="${WORKDIR}/async_generator-1.10"

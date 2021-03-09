@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="MIT PSF-2"
 KEYWORDS="*"
 
-S="${WORKDIR}/iniparse-${PV}"
+S="${WORKDIR}/iniparse-0.5"

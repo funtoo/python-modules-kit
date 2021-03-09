@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/dict-toolbox-${PV}"
+S="${WORKDIR}/dict-toolbox-2"
 
 src_prepare() {
 	touch ${S}/requirements.txt

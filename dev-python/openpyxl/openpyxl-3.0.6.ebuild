@@ -23,4 +23,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/openpyxl-${PV}"
+S="${WORKDIR}/openpyxl-3.0.6"

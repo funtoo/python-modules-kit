@@ -31,7 +31,7 @@ SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 
-S="${WORKDIR}/cryptography-${PV}"
+S="${WORKDIR}/cryptography-3.4.6"
 
 src_prepare() {
 	default

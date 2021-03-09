@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/more-itertools-${PV}"
+S="${WORKDIR}/more-itertools-8.7.0"

@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/httpcore-${PV}"
+S="${WORKDIR}/httpcore-0.12.3"

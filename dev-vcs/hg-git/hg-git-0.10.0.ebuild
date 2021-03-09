@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
 
-S="${WORKDIR}/hg-git-${PV}"
+S="${WORKDIR}/hg-git-0.10.0"

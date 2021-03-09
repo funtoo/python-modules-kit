@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/parse_type-${PV}"
+S="${WORKDIR}/parse_type-0.5.2"

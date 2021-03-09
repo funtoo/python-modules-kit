@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/xmltodict-${PV}"
+S="${WORKDIR}/xmltodict-0.12.0"

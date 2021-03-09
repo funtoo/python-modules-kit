@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/distro-${PV}"
+S="${WORKDIR}/distro-1.5.0"

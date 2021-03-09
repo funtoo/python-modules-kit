@@ -24,4 +24,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/trio-${PV}"
+S="${WORKDIR}/trio-0.18.0"

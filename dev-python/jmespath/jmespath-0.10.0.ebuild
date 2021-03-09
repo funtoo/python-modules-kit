@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/jmespath-${PV}"
+S="${WORKDIR}/jmespath-0.10.0"

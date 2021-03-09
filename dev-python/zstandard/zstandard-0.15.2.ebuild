@@ -20,7 +20,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/zstandard-${PV}"
+S="${WORKDIR}/zstandard-0.15.2"
 
 python_compile() {
 	local MAKEOPTS=-j1

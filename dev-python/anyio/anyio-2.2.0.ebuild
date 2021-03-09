@@ -23,4 +23,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/anyio-${PV}"
+S="${WORKDIR}/anyio-2.2.0"

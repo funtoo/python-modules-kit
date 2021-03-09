@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/iniconfig-${PV}"
+S="${WORKDIR}/iniconfig-1.1.1"

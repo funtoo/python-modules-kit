@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/cucumber-tag-expressions-${PV}"
+S="${WORKDIR}/cucumber-tag-expressions-3.0.0"

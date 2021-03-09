@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools-declarative-requirements-${PV}"
+S="${WORKDIR}/setuptools-declarative-requirements-1.2.0"
 
 # https://github.com/s0undt3ch/setuptools-declarative-requirements/pull/3
 src_prepare() {

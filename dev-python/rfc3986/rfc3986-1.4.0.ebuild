@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/rfc3986-${PV}"
+S="${WORKDIR}/rfc3986-1.4.0"

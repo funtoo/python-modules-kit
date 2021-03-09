@@ -26,7 +26,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-pop-${PV}"
+S="${WORKDIR}/pytest-pop-6.3"
 
 src_prepare() {
 	touch ${S}/requirements.txt

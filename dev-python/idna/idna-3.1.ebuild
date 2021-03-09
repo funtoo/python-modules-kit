@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/idna-${PV}"
+S="${WORKDIR}/idna-3.1"

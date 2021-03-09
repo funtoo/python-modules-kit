@@ -22,4 +22,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/aiobotocore-${PV}"
+S="${WORKDIR}/aiobotocore-1.2.1"

@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/jdcal-${PV}"
+S="${WORKDIR}/jdcal-1.4.1"

@@ -38,7 +38,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-${PV}"
+S="${WORKDIR}/pytest-4.6.9"
 
 post_src_install() {
 	if [ "$PV" == "4.6.9" ]; then

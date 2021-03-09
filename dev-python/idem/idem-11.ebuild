@@ -27,4 +27,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/idem-${PV}"
+S="${WORKDIR}/idem-11"

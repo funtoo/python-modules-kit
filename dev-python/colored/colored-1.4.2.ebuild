@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/colored-${PV}"
+S="${WORKDIR}/colored-1.4.2"

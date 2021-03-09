@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pluggy-${PV}"
+S="${WORKDIR}/pluggy-0.13.1"

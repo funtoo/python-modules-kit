@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/rend-${PV}"
+S="${WORKDIR}/rend-5"
 
 src_prepare() {
 	touch ${S}/requirements.txt

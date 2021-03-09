@@ -21,4 +21,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/httpx-${PV}"
+S="${WORKDIR}/httpx-0.17.0"

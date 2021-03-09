@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/outcome-${PV}"
+S="${WORKDIR}/outcome-1.1.0"
