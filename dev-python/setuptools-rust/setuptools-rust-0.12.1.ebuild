@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/5c/b3/2a89091f10f3484e88b28c6b8ecbcbfd7f72cd59425b390bed1564d8b30a/setuptools-rust-0.12.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/12/22/6ba3031e7cbd6eb002e13ffc7397e136df95813b6a2bd71ece52a8f89613/setuptools-rust-0.12.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools-rust-0.12.0"
+S="${WORKDIR}/setuptools-rust-0.12.1"
