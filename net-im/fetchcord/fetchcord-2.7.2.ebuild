@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="FetchCord grabs your OS info and displays it as Discord Rich Presence"
 HOMEPAGE="https://github.com/MrPotatoBobx/FetchCord"
-SRC_URI="https://files.pythonhosted.org/packages/4c/28/2081447848e38890a636a23a485727228dc9f29e974e44602da778060b9e/FetchCord-2.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/af/c7/32f4b4d73f2427a1a3aecf5b13d5aa8dd76f00ddb026bc610c11925e07dc/FetchCord-2.7.2.tar.gz"
 
 DEPEND="
 	net-im/discord-bin
@@ -24,4 +24,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/FetchCord-2.7.0"
+S="${WORKDIR}/FetchCord-2.7.2"
