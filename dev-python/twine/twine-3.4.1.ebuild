@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Collection of utilities for publishing packages on PyPI"
 HOMEPAGE="https://twine.readthedocs.io/ https://github.com/pypa/twine https://pypi.org/project/twine/"
-SRC_URI="https://files.pythonhosted.org/packages/61/ac/44da2609e4ec5c7a2328fd71d862f40dcd045601cb5197830b52a60513d7/twine-3.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/5c/e12811190a3560c85dfb4caea752635abea59c53390592493549d88f086a/twine-3.4.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
