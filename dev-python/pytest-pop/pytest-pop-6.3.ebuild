@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/0c/d2/dd7f62a3dcf0f38cec0195761845f6b051287151f6b8e3cc0494996d9f95/pytest-pop-6.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/d2/dd7f62a3dcf0f38cec0195761845f6b051287151f6b8e3cc0494996d9f95/pytest-pop-6.3.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( pypy3 python3_{7,8} )
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/c8/b2/d8263caf10de8632ef6756991d52e7fb0d8f5aa1e473344fad79b19ccb23/importlib_resources-5.1.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/b2/d8263caf10de8632ef6756991d52e7fb0d8f5aa1e473344fad79b19ccb23/importlib_resources-5.1.2.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

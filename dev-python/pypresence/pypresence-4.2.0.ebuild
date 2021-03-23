@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-
 inherit distutils-r1
 
 DESCRIPTION="A Discord RPC library in Python"
 HOMEPAGE="https://qwertyquerty.github.io/pypresence/html/index.html"
-SRC_URI="https://files.pythonhosted.org/packages/e2/d1/8d0fb2f2ceda70e3a5cb199ca019cb592c957976e1944c62d43335e1f29c/pypresence-4.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/d1/8d0fb2f2ceda70e3a5cb199ca019cb592c957976e1944c62d43335e1f29c/pypresence-4.2.0.tar.gz
+"
 
 DEPEND=""
 RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"

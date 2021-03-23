@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/48/c9/a445b0d85dd82ad5143e5e43a64acf7dac201da597e3251e10c2bd4dfc37/rend-5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/c9/a445b0d85dd82ad5143e5e43a64acf7dac201da597e3251e10c2bd4dfc37/rend-5.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

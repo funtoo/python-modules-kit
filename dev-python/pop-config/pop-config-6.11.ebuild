@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f2/3a/b8e17cbc1e346e0d522e215ce85471b43c88440f5e12d1b1ba434a77f6bc/pop-config-6.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f2/3a/b8e17cbc1e346e0d522e215ce85471b43c88440f5e12d1b1ba434a77f6bc/pop-config-6.11.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-
 inherit distutils-r1
 
 DESCRIPTION="Dict tools for Python projects"
 HOMEPAGE="https://gitlab.com/saltstack/open/dict-toolbox https://pypi.org/project/dict-toolbox/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/61/0b70eb812a3bf19972feeccd290c1ce9387c79444706eb2337c1782012ce/dict-toolbox-2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/61/0b70eb812a3bf19972feeccd290c1ce9387c79444706eb2337c1782012ce/dict-toolbox-2.tar.gz
+"
 
 DEPEND=""
 RDEPEND="dev-python/msgpack[${PYTHON_USEDEP}]"

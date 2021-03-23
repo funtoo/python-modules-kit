@@ -3,13 +3,13 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
-
 inherit distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives
 "
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz
+"
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
@@ -27,8 +27,3 @@ LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 
 S="${WORKDIR}/cryptography-3.3.2"
-
-src_prepare() {
-	default
-	export CRYPTOGRAPHY_DONT_BUILD_RUST=1
-}

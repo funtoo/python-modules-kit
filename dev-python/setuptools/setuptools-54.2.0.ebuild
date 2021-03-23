@@ -4,13 +4,13 @@ EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy{,3} )
 DISTUTILS_USE_SETUPTOOLS="no"
-
 inherit distutils-r1
 
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/94/75/05e1d69c61c4dfaf65ad12785cd18bedc1e0129976c55914d6aea59c7da8/setuptools-54.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/94/75/05e1d69c61c4dfaf65ad12785cd18bedc1e0129976c55914d6aea59c7da8/setuptools-54.2.0.tar.gz
+"
 
 DEPEND="
 	app-arch/unzip

@@ -3,12 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ )
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/fb/27/ecf1fb2a4b6e6f5c09d7d68e24191a4c3cec5ec836bc605b421fe170a273/botocore-1.20.34.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/27/ecf1fb2a4b6e6f5c09d7d68e24191a4c3cec5ec836bc605b421fe170a273/botocore-1.20.34.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

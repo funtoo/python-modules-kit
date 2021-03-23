@@ -4,12 +4,12 @@ EAPI=7
 
 PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
-
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/10/fe/b7240f0c75a0ecbdca03c31ef7ac1cf3ec9105652ba68a5244a5bffdd021/pytest-salt-factories-0.130.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/10/fe/b7240f0c75a0ecbdca03c31ef7ac1cf3ec9105652ba68a5244a5bffdd021/pytest-salt-factories-0.130.0.tar.gz
+"
 
 DEPEND=""
 RDEPEND="
