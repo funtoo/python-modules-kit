@@ -41,7 +41,7 @@ inherit cargo distutils-r1
 DESCRIPTION="Library providing cryptographic recipes and primitives
 "
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/fa/2d/2154d8cb773064570f48ec0b60258a4522490fcb115a6c7c9423482ca993/cryptography-3.4.6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9b/77/461087a514d2e8ece1c975d8216bc03f7048e6090c5166bc34115afdaa53/cryptography-3.4.7.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -65,4 +65,4 @@ SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 
-S="${WORKDIR}/cryptography-3.4.6"
+S="${WORKDIR}/cryptography-3.4.7"
