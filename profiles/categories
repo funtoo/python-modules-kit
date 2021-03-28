@@ -1,6 +1,7 @@
 app-portage
 app-shells
 dev-python
+dev-util
 dev-vcs
 net-im
 sys-process
