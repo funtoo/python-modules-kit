@@ -37,7 +37,6 @@
 =dev-python/netaddr-0.7.14 python_single_target_python2_7
 =dev-python/netaddr-0.7.15 python_single_target_python2_7
 =dev-python/netaddr-0.7.17 python_single_target_python2_7
-=dev-python/numpy-1.8.2 python_single_target_python2_7
 =dev-python/objgraph-1.7.2 python_single_target_python2_7
 =dev-python/objgraph-1.8.1 python_single_target_python2_7
 =dev-python/pdfrw-0.2 python_single_target_python2_7
