@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Extension to sphinx to include program output"
 HOMEPAGE="https://sphinxcontrib-programoutput.readthedocs.io/en/latest/"
-SRC_URI="https://files.pythonhosted.org/packages/3a/70/9d31f5ecaeaddfc7857de38b3dcec099690829122c084c2cdfee8f90a967/sphinxcontrib-programoutput-0.16.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/49/fe/8a6d8763674b3d3814a6008a83eb8002b6da188710dd7f4654ec77b4a8ac/sphinxcontrib-programoutput-0.17.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

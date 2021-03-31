@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/aa/0e/2aeb982552f892c301bbeb432c5fca5c7fa0a7cd68709cffb37934920e96/cucumber-tag-expressions-3.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f4/db/b482f5c1969017f2a4a0c065111809c3696501e76f16cc56a49710eaf034/cucumber-tag-expressions-3.0.1.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/cucumber-tag-expressions-3.0.0"
+S="${WORKDIR}/cucumber-tag-expressions-3.0.1"
