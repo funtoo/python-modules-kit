@@ -9,7 +9,7 @@ inherit distutils-r1 flag-o-matic virtualx toolchain-funcs prefix
 
 DESCRIPTION="Pure python plotting library with matlab like syntax"
 HOMEPAGE="https://matplotlib.org/"
-SRC_URI="https://files.pythonhosted.org/packages/05/3d/45415c62fe3f3e7f0dd0b06b8edb0ed2f3dd5f9ceedb7874642976cb3624/matplotlib-3.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/61/28711c7773a3a47c7f798cafc219968aab78d260c0d674696a077432bbd4/matplotlib-3.4.1.tar.gz"
 
 # Main license: matplotlib
 # Some modules: BSD
