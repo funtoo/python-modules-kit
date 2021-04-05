@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="ReadTheDocs.org theme for Sphinx"
 HOMEPAGE="https://github.com/snide/sphinx_rtd_theme/"
-SRC_URI="https://files.pythonhosted.org/packages/4e/e5/0d55470572e0a0934c600c4cda0c98209883aaeb45ff6bfbadcda7006255/sphinx_rtd_theme-0.5.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/16/5a94dfc1263cc4169e05b5f52628f26dffae9ac99892338145f26949270b/sphinx_rtd_theme-0.5.2.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
