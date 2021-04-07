@@ -15,7 +15,14 @@ DEPEND="
 	libressl? ( dev-libs/libressl:0= )
 	!libressl? ( dev-libs/openssl:0= )"
 RDEPEND="!<dev-python/cryptography-3.4.2 
+	$(python_gen_cond_dep '
+	dev-python/setuptools-rust[${PYTHON_USEDEP}]
+	' 3:build
+	)
+	$(python_gen_cond_dep '
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	' all:build
+	)
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
 	virtual/python-ipaddress[${PYTHON_USEDEP}]

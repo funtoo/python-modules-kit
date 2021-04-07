@@ -52,9 +52,12 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/cryptography-compat )
 	$(python_gen_cond_dep '
 	dev-python/setuptools-rust[${PYTHON_USEDEP}]
-	' -3
+	' 3:build
 	)
+	$(python_gen_cond_dep '
 	dev-python/setuptools[${PYTHON_USEDEP}]
+	' all:build
+	)
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
