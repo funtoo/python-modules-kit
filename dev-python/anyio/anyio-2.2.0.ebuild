@@ -11,12 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/d3/e6/901a94731af20e71094155256
 "
 
 DEPEND=""
-RDEPEND="
-	>=dev-python/sniffio-1.1[${PYTHON_USEDEP}]
-	>=dev-python/idna-2.8[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	>=dev-python/curio-1.4[${PYTHON_USEDEP}]
-	>=dev-python/trio-0.16[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/36/1d/1a5f3165f330e1a0427636f2b
 "
 
 DEPEND="sys-apps/attr:="
-RDEPEND="!<dev-python/pyxattr-0.7.1 
-	sys-apps/attr:="
+RDEPEND="!<dev-python/pyxattr-0.7.1 sys-apps/attr:="
 IUSE=""
 SLOT="0"
 LICENSE="LGPL-2.1"

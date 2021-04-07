@@ -11,15 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/0c/d2/dd7f62a3dcf0f38cec0195761
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/asynctest[${PYTHON_USEDEP}]
-	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	>=dev-python/mock-4.0.1[${PYTHON_USEDEP}]
-	dev-python/pop[${PYTHON_USEDEP}]
-	>=dev-python/pop-config-6.8[${PYTHON_USEDEP}]
-	dev-python/pytest-salt-factories[${PYTHON_USEDEP}]
-	>=dev-python/pytest-asyncio-0.12[${PYTHON_USEDEP}]
-	>=dev-python/pytest-5.4[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

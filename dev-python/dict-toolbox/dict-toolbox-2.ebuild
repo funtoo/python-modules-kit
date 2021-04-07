@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/dc/61/0b70eb812a3bf19972feeccd2
 "
 
 DEPEND=""
-RDEPEND="dev-python/msgpack[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

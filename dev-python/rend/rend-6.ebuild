@@ -11,12 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/25/81/d807672b1a38aaa483eedd99c
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/pop[${PYTHON_USEDEP}]
-	dev-python/colored[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

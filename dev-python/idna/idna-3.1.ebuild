@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/9f/24/1444ee2c9aee531783c031072
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/idna-compat )"
+RDEPEND="python_targets_python2_7? ( dev-python/idna-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"

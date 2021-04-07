@@ -11,16 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/f8/61/dd9bbbe26bb35ca2c1822ccbe
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/wheel[${PYTHON_USEDEP}]
-	dev-python/jinja[${PYTHON_USEDEP}]
-	dev-python/pop[${PYTHON_USEDEP}]
-	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/rend[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/acct[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

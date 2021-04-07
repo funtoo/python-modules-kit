@@ -11,9 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/2e/79/81bebd1b0446d46733db99d74
 "
 
 DEPEND=""
-RDEPEND="
-	>=dev-python/parse-1.18.0[${PYTHON_USEDEP}]
-	>=dev-python/six-1.11[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

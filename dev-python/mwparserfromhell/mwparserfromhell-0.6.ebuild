@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/4c/18/b30c6db8c2a3dcb5abf6a6666
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/mwparserfromhell-compat )"
+RDEPEND="python_targets_python2_7? ( dev-python/mwparserfromhell-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""

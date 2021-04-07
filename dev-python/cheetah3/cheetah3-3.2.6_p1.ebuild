@@ -12,9 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/23/33/ace0250068afca106c1df3434
 "
 
 DEPEND=""
-RDEPEND="
-	!dev-python/cheetah
-	dev-python/markdown[${PYTHON_USEDEP}]"
+RDEPEND="!dev-python/cheetah"
 
 IUSE=""
 RESTRICT="test"

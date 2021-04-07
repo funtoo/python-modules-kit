@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/65/09/9472d4db0625cf56d40f4e405
 "
 
 DEPEND=""
-RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

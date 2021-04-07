@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/30/bb/551cd25042138bdd2c36168b8
 "
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
-RDEPEND="!<dev-python/zstandard-0.15.0 
-	dev-python/cffi:=[${PYTHON_USEDEP}]"
+RDEPEND="!<dev-python/zstandard-0.15.0 dev-python/cffi:=[${PYTHON_USEDEP}]"
 IUSE="test"
 RESTRICT="!test? ( test )"
 SLOT="0"

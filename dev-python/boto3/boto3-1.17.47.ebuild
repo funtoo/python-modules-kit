@@ -11,10 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/d8/d8/99e76067d7d1cc295e4e1ff71
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/botocore[${PYTHON_USEDEP}]
-	dev-python/jmespath[${PYTHON_USEDEP}]
-	dev-python/s3transfer[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

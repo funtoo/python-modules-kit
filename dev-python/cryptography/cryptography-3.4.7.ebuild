@@ -47,17 +47,14 @@ $(cargo_crate_uris ${CRATES})
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
-	!libressl? ( dev-libs/openssl:0= )"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/cryptography-compat )
+	!libressl? ( dev-libs/openssl:0= )
 	$(python_gen_cond_dep '
 	dev-python/setuptools-rust[${PYTHON_USEDEP}]
-	' 3:build
+	' -3
 	)
-	$(python_gen_cond_dep '
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	' all:build
-	)
+	dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/cryptography-compat )
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
 	virtual/python-ipaddress[${PYTHON_USEDEP}]

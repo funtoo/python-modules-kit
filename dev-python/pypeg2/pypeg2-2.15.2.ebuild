@@ -12,8 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/f9/bd/10398e2c2d2070cc8a9c7153a
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/lxml[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/lxml[${PYTHON_USEDEP}]"
 
 IUSE=""
 RESTRICT="test"

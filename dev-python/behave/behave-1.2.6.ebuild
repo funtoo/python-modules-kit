@@ -11,12 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/c8/4b/d0a8c23b6c8985e5544ea96d2
 "
 
 DEPEND=""
-RDEPEND="
-	>=dev-python/cucumber-tag-expressions-1.1.2[${PYTHON_USEDEP}]
-	>=dev-python/parse-1.18.0[${PYTHON_USEDEP}]
-	>=dev-python/parse_type-0.4.2[${PYTHON_USEDEP}]
-	>=dev-python/six-1.12.0[${PYTHON_USEDEP}]
-	dev-python/colorama[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

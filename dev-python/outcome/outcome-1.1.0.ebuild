@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/88/b5/9ccedd89d641dcfa5771f636a
 "
 
 DEPEND=""
-RDEPEND=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

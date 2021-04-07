@@ -11,11 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/c3/39/3c4827e1cf6ef903324322958
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/pop-config[${PYTHON_USEDEP}]
-	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

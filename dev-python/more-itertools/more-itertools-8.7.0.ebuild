@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/fd/2d/90ea8e03076d46166b14c24c8
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/more-itertools-compat )"
+RDEPEND="python_targets_python2_7? ( dev-python/more-itertools-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""

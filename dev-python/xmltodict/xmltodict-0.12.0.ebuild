@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5
 "
 
 DEPEND=""
-RDEPEND=""
 BDEPEND="dev-python/setuptools[$PYTHON_USEDEP]"
 IUSE=""
 SLOT="0"

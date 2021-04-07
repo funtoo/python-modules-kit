@@ -11,11 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/f2/3a/b8e17cbc1e346e0d522e215ce
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/pop[${PYTHON_USEDEP}]
-	dev-python/dict-toolbox[${PYTHON_USEDEP}]
-	dev-python/aiologger[${PYTHON_USEDEP}]
-	dev-python/aiofiles[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

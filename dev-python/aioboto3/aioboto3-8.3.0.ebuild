@@ -11,9 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/74/91/f68ebfa7a715e9330b34ed9ce
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/aiobotocore[${PYTHON_USEDEP}]
-	dev-python/pytest-runner[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/57/38/930b1241372a9f266a7df2b18
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/setuptools_scm-compat )"
+RDEPEND="python_targets_python2_7? ( dev-python/setuptools_scm-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""

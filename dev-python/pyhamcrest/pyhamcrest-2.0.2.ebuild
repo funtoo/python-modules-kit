@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/58/05/7b993fabb44ff0b52a90916d9
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pyhamcrest-compat )"
+RDEPEND="python_targets_python2_7? ( dev-python/pyhamcrest-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
