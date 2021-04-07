@@ -49,7 +49,7 @@ DEPEND="
 	libressl? ( dev-libs/libressl:0= )
 	!libressl? ( dev-libs/openssl:0= )
 	$(python_gen_cond_dep '
-	dev-python/setuptools-rust[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
 	' -3
 	)
 	dev-python/setuptools[${PYTHON_USEDEP}]"
