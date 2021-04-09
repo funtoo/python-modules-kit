@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="Better INI parser for Python"
@@ -14,6 +15,7 @@ DEPEND=""
 RDEPEND=">=dev-python/six-1.10.0[${PYTHON_USEDEP}]"
 
 IUSE=""
+RESTRICT="test"
 SLOT="0"
 LICENSE="MIT PSF-2"
 KEYWORDS="*"

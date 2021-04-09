@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy3 )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="ANSI escape character sequences for colored terminal text & cursor positioning"
@@ -14,6 +15,7 @@ DEPEND=""
 RDEPEND=""
 
 IUSE=""
+RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"

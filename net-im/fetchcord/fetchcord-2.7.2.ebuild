@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="FetchCord grabs your OS info and displays it as Discord Rich Presence"
@@ -20,6 +21,7 @@ RDEPEND="
 	dev-python/pypresence[${PYTHON_USEDEP}]"
 
 IUSE=""
+RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

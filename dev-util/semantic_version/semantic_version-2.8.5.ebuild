@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="Python library providing a few tools handling SemVer in Python"
@@ -14,6 +15,7 @@ DEPEND=""
 RDEPEND=""
 
 IUSE=""
+RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"

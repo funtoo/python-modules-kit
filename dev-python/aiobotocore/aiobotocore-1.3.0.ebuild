@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/39/12/b09f17cb971ed606bbbff5773f36837da6054eb74248e3473a126967b5ee/aiobotocore-1.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/21/8e/4562029e179226051cd4aa3135444deb014fc9b0795f80f7f3563745f8d5/aiobotocore-1.3.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/aiobotocore-1.2.2"
+S="${WORKDIR}/aiobotocore-1.3.0"
