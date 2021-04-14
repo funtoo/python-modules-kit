@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy{,3} )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="A Python implementation of RFC 3986 including validation and authority parsing"
@@ -15,7 +14,6 @@ DEPEND=""
 RDEPEND=""
 
 IUSE=""
-RESTRICT="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

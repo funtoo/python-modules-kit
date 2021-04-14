@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy{,3} )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
@@ -21,7 +20,6 @@ RDEPEND="
 	ssl? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )"
 
 IUSE="socks5 +ssl"
-RESTRICT="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

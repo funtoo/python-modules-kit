@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="Magnificent app which corrects your previous console command"
@@ -20,7 +19,6 @@ RDEPEND="
 	dev-python/pyte[${PYTHON_USEDEP}]"
 
 IUSE=""
-RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

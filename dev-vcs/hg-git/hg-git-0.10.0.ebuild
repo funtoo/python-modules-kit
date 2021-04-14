@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="push to and pull from a Git repository using Mercurial"
@@ -17,7 +16,6 @@ RDEPEND="
 	>=dev-python/dulwich-0.19.0[${PYTHON_USEDEP}]"
 
 IUSE=""
-RESTRICT="test"
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
