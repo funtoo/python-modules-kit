@@ -6,6 +6,6 @@ KEYWORDS=*
 RDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/af/f3/2985732950033cb615fe6c6d633bf49c13a2cfe10bbb79972d3e2970f3ae/botocore-1.20.52.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/eb/20/64d797ba05d5e5d4dfe45a3bcb94b8dace79ca25a2787280440147e0898a/boto3-1.17.53.tar.gz
 _eclasses_=distutils-r1	eb92d1a6d9057e2422cc9610f79f919c	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=4ffbea16dcfe71fa502421096dd39a2d
+_md5_=9a4f6fdd947feef6024b05bc7efcc0a5
