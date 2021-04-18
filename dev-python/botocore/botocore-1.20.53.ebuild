@@ -11,7 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/01/2a/fe23b1f7fb14a3b2d8726984f
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="
+	dev-python/tox[${PYTHON_USEDEP}]
+	dev-python/wheel[${PYTHON_USEDEP}]
+	dev-python/behave[${PYTHON_USEDEP}]
+	dev-python/jsonschema[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

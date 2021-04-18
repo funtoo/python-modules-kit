@@ -11,7 +11,12 @@ SRC_URI="https://files.pythonhosted.org/packages/e5/65/ffa48f79f8ab6f775dcb1c747
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="
+	>=dev-python/acct-2.3[${PYTHON_USEDEP}]
+	dev-python/aioboto3[${PYTHON_USEDEP}]
+	>=dev-python/dict-toolbox-1.12[${PYTHON_USEDEP}]
+	>=dev-python/pop-15[${PYTHON_USEDEP}]
+	>=dev-python/idem-7.6[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/dc/a0/f149e54ea082e5f4ae71c68e8
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

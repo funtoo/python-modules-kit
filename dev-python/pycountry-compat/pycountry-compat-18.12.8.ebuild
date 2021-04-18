@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/87/c7/c2c76c3ae4ac79c74c1871ae7
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/pycountry-19.7.15 "
+RDEPEND="!<dev-python/pycountry-19.7.15 dev-python/setuptools[${PYTHON_USEDEP}]"
 IUSE=""
 RESTRICT="test"
 SLOT="0"

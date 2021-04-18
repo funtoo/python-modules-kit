@@ -11,7 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/21/8e/4562029e179226051cd4aa313
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aioitertools[${PYTHON_USEDEP}]
+	dev-python/botocore[${PYTHON_USEDEP}]
+	dev-python/wrapt[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

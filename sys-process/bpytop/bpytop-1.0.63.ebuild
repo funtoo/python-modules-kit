@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/a5/4b/6822d87164e2696705e8e3d08
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-python/psutil[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
