@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/bb/f1/178f8965c84dd0f5d10e63ee9e4a9da89c06517fdd45a7094dd3f375fbdc/subpop-0.4.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8e/62/7366050cdbd82a2865606fff5ed2af4f4e9c442336d61be42e3943d1a2fb/subpop-0.4.3.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/subpop-0.4.1"
+S="${WORKDIR}/subpop-0.4.3"
