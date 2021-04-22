@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/5f/be/288b5aed3bf0e4297859c3a1e3eaaaf809cbc1e1f6bdadf5b03276d18cb5/pytest-asyncio-0.15.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/de/c1/b2b0119e30f61f7ec8b44f129f6fde46a1a7329de17110f124639aa8896b/pytest-asyncio-0.15.1.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-asyncio-0.15.0"
+S="${WORKDIR}/pytest-asyncio-0.15.1"

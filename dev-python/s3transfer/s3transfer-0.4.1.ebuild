@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/27/b65041a2e68ce4ad9e51622f630f2be356d7e1ff1bfef687dde07e4a3d26/s3transfer-0.4.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b6/70/8d082143e4a4aa24830d64fa7eaca1d5780dc63259e5d53c6cb8da33588e/s3transfer-0.4.1.tar.gz
 "
 
 DEPEND=""
@@ -23,4 +23,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/s3transfer-0.4.0"
+S="${WORKDIR}/s3transfer-0.4.1"
