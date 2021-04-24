@@ -12,12 +12,27 @@ SRC_URI="https://files.pythonhosted.org/packages/be/d0/bf4e7003369c6d8a6e490741c
 "
 
 DEPEND=""
-RDEPEND=""
-
-IUSE=""
+RDEPEND="python_targets_python2_7? ( dev-util/scons-compat )"
+IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/SCons-4.1.0.post1"
+
+if [ "$PN"  == 'scons-compat' ]; then
+	S="${WORKDIR}/scons-${PV}"
+fi
+python_install() {
+	distutils-r1_python_install
+	rm "${D}"/usr/*.1
+	doman *.1
+
+	if [ "$PN"  == 'scons-compat' ]; then
+		rm -rf "${D}"/usr/bin
+		find "${D}" -type d -name "man" -exec rm -rf \{\} \;
+
+	fi
+
+}

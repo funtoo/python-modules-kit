@@ -240,4 +240,5 @@ dev-python/zbase32 python_single_target_python2_7
 dev-python/zfec python_single_target_python2_7
 dev-python/zsi python_single_target_python2_7
 dev-python/zstandard-compat python_single_target_python2_7
+dev-util/scons-compat python_single_target_python2_7
 www-servers/tornado-compat python_single_target_python2_7

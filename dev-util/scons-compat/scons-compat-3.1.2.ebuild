@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python2_7 )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
@@ -12,12 +12,27 @@ SRC_URI="https://files.pythonhosted.org/packages/de/95/29892f46a6da11e90154147b9
 "
 
 DEPEND=""
-RDEPEND=""
-
+RDEPEND="!<dev-util/scons-4.0.0 "
 IUSE=""
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/scons-3.1.2"
+S="${WORKDIR}/SCons-3.1.2"
+
+if [ "$PN"  == 'scons-compat' ]; then
+	S="${WORKDIR}/scons-${PV}"
+fi
+python_install() {
+	distutils-r1_python_install
+	rm "${D}"/usr/*.1
+	doman *.1
+
+	if [ "$PN"  == 'scons-compat' ]; then
+		rm -rf "${D}"/usr/bin
+		find "${D}" -type d -name "man" -exec rm -rf \{\} \;
+
+	fi
+
+}
