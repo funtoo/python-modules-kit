@@ -9,7 +9,7 @@ DESCRIPTION="An implementation of lxml.xmlfile for the standard library
 "
 HOMEPAGE="https://pypi.org/project/et_xmlfile/
 "
-SRC_URI="https://files.pythonhosted.org/packages/22/28/a99c42aea746e18382ad9fb36f64c1c1f04216f41797f2f0fa567da11388/et_xmlfile-1.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3d/5d/0413a31d184a20c763ad741cc7852a659bf15094c24840c5bdd1754765cd/et_xmlfile-1.1.0.tar.gz
 "
 
 DEPEND="
@@ -21,4 +21,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/et_xmlfile-1.0.1"
+S="${WORKDIR}/et_xmlfile-1.1.0"
