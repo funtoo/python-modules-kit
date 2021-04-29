@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/ae/38/e8528bc20c3e5315502f263bfdce1b306107c0a6ab9e43343926a569dace/httpx-0.18.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/91/e3/290e3a3729cf92ed39d1bee594e698f99bbb7f9b0a041282c987a6376d66/httpx-0.18.1.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/httpx-0.18.0"
+S="${WORKDIR}/httpx-0.18.1"
