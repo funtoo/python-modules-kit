@@ -21,7 +21,7 @@ RESTRICT="!test? ( test )"
 S="${WORKDIR}/Cython-0.29.23"
 
 RDEPEND="
-	emacs? ( virtual/emacs )
+	emacs? ( app-editors/emacs )
 "
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]
