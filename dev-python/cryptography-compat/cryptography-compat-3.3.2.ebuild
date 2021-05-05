@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
+CARGO_OPTIONAL="yes"
 inherit distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives

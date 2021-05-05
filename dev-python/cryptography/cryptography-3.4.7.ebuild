@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+CARGO_OPTIONAL="yes"
 CRATES="
 bitflags-1.2.1
 cfg-if-1.0.0
