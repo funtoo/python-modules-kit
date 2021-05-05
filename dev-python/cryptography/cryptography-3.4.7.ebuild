@@ -79,5 +79,9 @@ pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
 }
 src_unpack() {
-	[[ ${CRYPTOGRAPHY_DONT_BUILD_RUST} ]] && default || cargo_src_unpack
+	if [[ ${CRYPTOGRAPHY_DONT_BUILD_RUST} ]] || [ "$PN"  == 'cryptography-compat' ] ; then
+		default
+	else
+		cargo_src_unpack
+	fi
 }
