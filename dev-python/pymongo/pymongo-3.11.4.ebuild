@@ -7,7 +7,7 @@ inherit check-reqs distutils-r1
 
 DESCRIPTION="Python driver for MongoDB"
 HOMEPAGE="https://github.com/mongodb/mongo-python-driver https://pypi.org/project/pymongo/"
-SRC_URI="https://files.pythonhosted.org/packages/72/82/e7196f2f69318dd206db26db68fcfa0ff821d88fbca6d0f0c7b678ba0353/pymongo-3.11.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c4/2f/79e933655adcf6dbd00738b556cecae5f8ec709301ac10df6f488d83bb53/pymongo-3.11.4.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

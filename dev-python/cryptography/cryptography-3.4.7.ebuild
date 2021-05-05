@@ -60,9 +60,23 @@ RDEPEND="
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
-IUSE="libressl idna python_targets_python2_7"
+BDEPEND="
+	!x86? ( >=virtual/rust-1.37.0 )
+	x86? (
+		cpu_flags_x86_sse2? (
+			>=virtual/rust-1.37.0
+		)
+	)"
+IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 
 S="${WORKDIR}/cryptography-3.4.7"
+
+pkg_setup() {
+	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
+}
+src_unpack() {
+	[[ ${CRYPTOGRAPHY_DONT_BUILD_RUST} ]] && default || cargo_src_unpack
+}
