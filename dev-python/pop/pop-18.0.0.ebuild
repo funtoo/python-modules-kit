@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f6/17/5c8e35c886ed175eae3c9fcad6875ae89e97e2a1673c2293fc6c205e634b/pop-17.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a0/a3/3d909e1e0b39d4d2fcfbb8fca6fc259c14b7bf06f34482c70c198d9c1c9a/pop-18.0.0.tar.gz
 "
 
 DEPEND=""
@@ -22,7 +22,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pop-17.1"
+S="${WORKDIR}/pop-18.0.0"
 
 # drobbins fixed upstream
 src_prepare() {
