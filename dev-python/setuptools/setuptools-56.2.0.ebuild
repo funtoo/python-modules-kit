@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/71/a0/96ab4813ede181fa6c5d01c951dbf156b7d126f7589d0efa3f7861ce7a67/setuptools-56.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fc/0a/b486efab52f8ad03c3eca0c998dd3deafba0c39b29e0c49c68a7152c8b2d/setuptools-56.2.0.tar.gz
 "
 
 DEPEND="
@@ -32,7 +32,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools-56.1.0"
+S="${WORKDIR}/setuptools-56.2.0"
 
 python_prepare_all() {
 	# disable tests requiring a network connection
