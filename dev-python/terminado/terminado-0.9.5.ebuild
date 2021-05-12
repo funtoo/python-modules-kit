@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Terminals served to term.js using Tornado websockets"
 HOMEPAGE="https://pypi.org/project/terminado/ https://github.com/jupyter/terminado"
-SRC_URI="https://files.pythonhosted.org/packages/93/65/bdfa6296624e647008bec3dc47a1d2c4f52ab6104b55b3961e0b30e9b80f/terminado-0.9.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e6/7d/509f24644348856e2eff7328ad7294127d85eccbb4ac049125ff02caf979/terminado-0.9.5.tar.gz"
 
 SLOT="0"
 LICENSE="BSD-2"
