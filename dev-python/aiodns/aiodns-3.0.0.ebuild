@@ -17,15 +17,7 @@ RESTRICT="test"
 
 RDEPEND=">=dev-python/pycares-3[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND} dev-python/setuptools[${PYTHON_USEDEP}]"
-GITHUB_REPO="aiodns"
-GITHUB_USER="saghul"
-GITHUB_TAG="d653c5c8fb475e3ea7fd06792d97a56ad974710d"
-SRC_URI="https://www.github.com/${GITHUB_USER}/${GITHUB_REPO}/tarball/${GITHUB_TAG} -> ${PN}-${GITHUB_TAG}.tar.gz"
-
-src_unpack() {
-	unpack ${A}
-	mv "${WORKDIR}/${GITHUB_USER}-${GITHUB_REPO}"-??????? "${S}" || die
-}
+SRC_URI="https://files.pythonhosted.org/packages/27/79/df72e25df0fdd9bf5a5ab068539731d27c5f2ae5654621ae0c92ceca94cf/aiodns-3.0.0.tar.gz"
 
 python_test() {
 	"${EPYTHON}" tests.py -v || die

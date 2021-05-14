@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/a2/12/5dee081883bbf920e9ebe96f1532020f25c69eaa021ff36345d84a505c6f/acct-6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/05/62/27fbc16b8a808eebecc15db2777dd1c7cd7dc5277c6dbc99f89d1ab034f3/acct-6.1.1.tar.gz
 "
 
 DEPEND=""
@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/acct-6"
+S="${WORKDIR}/acct-6.1.1"
 
 # drobbins fixed upstream
 src_prepare() {
