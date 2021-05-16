@@ -1,26 +1,24 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-PYTHON_COMPAT=( python{2_7,3_5,3_6} )
+EAPI=7
 
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Logging integration for Click."
+DESCRIPTION="Logging integration for Click"
 HOMEPAGE="https://github.com/click-contrib/click-log https://pypi.org/project/click-log/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a2723728088c96189c8b52bd2ee3c3de8040efc3c1b8/click-log-0.3.2.tar.gz
+"
 
-LICENSE="MIT"
+DEPEND=""
+RDEPEND="
+	dev-python/click[${PYTHON_USEDEP}]"
+
+IUSE=""
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
-IUSE="test"
+LICENSE=""
+KEYWORDS="*"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]"
-DEPEND="${RDEPEND}
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+S="${WORKDIR}/click-log-0.3.2"
 
 DOCS=( README.rst )
-
-python_test() {
-	py.test -v || die "Tests fail with ${EPYTHON}"
-}
