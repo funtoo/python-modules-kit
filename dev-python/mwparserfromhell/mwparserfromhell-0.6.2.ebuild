@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/4c/18/b30c6db8c2a3dcb5abf6a6666da39461e628512a63b74ffaf50322a2385e/mwparserfromhell-0.6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/35/7c/2e0d48f42d7a5c48d788194d4853e49196460e125941649f409236ece717/mwparserfromhell-0.6.2.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/mwparserfromhell-0.6"
+S="${WORKDIR}/mwparserfromhell-0.6.2"
