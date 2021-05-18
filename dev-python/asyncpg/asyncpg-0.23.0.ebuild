@@ -8,7 +8,7 @@ inherit distutils-r1
 DESCRIPTION=""
 HOMEPAGE="https://github.com/MagicStack/asyncpg
 "
-SRC_URI="https://files.pythonhosted.org/packages/fe/80/1bee9b4bd29faa8bd5c9b87f252788aeaea645d3e7860ffe1c3dfcc3eb0c/asyncpg-0.22.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/97/b0/acacd8496670b24bad90b92c105fd2f66e83051bf5e23b978a059e5f9608/asyncpg-0.23.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/asyncpg-0.22.0"
+S="${WORKDIR}/asyncpg-0.23.0"
