@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/e6/24/51b2cf4e9f5844647cad1dbb35b8b592e7fe732f984ce41aee6b0bd1fa20/botocore-1.20.76.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ec/2d/3afed96be739677d0815eaec8746352dca3ee5b2eef4ce007b95bb73ce41/botocore-1.20.77.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/botocore-1.20.76"
+S="${WORKDIR}/botocore-1.20.77"

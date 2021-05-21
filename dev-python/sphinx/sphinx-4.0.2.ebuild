@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE="http://www.sphinx-doc.org/"
-SRC_URI="https://files.pythonhosted.org/packages/53/9f/ab9ac21a877c181312c2cf26089ea4eb8181edd503dc5bcfb73aa2f34f5c/Sphinx-4.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/4d/8a80613d0ceefca5a84e2e30b29da7719d429b4adcdb793d86079fad3790/Sphinx-4.0.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
