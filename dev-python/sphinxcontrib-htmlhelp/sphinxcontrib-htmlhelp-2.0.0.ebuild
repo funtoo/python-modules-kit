@@ -5,9 +5,9 @@ PYTHON_COMPAT=( python3+ pypy3 )
 
 inherit distutils-r1
 
-DESCRIPTION="Sphinx extension which outputs outputs serialized HTML files"
+DESCRIPTION="Sphinx extension which outputs HTML help book"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/ac/86/021876a9dd4eac9dae0b1d454d848acbd56d5574d350d0f835043b5ac2cd/sphinxcontrib-serializinghtml-1.1.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/eb/85/93464ac9bd43d248e7c74573d58a791d48c475230bcf000df2b2700b9027/sphinxcontrib-htmlhelp-2.0.0.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
