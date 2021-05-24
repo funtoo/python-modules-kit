@@ -141,6 +141,7 @@ dev-python/idna-compat python_single_target_python2_7
 dev-python/importlib_metadata-compat python_single_target_python2_7
 dev-python/importlib_resources-compat python_single_target_python2_7
 dev-python/inotifyx python_single_target_python2_7
+dev-python/itsdangerous-compat python_single_target_python2_7
 dev-python/jaxml python_single_target_python2_7
 dev-python/jinja-compat python_single_target_python2_7
 dev-python/keyczar python_single_target_python2_7
