@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface to the PROJ library"
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/2c/12/7a8cca32506747c05ffd5c6ba556cf8435754af0939906cbcc7fa5802ea3/pyproj-3.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/7c/1d/20ea3b603db61ccc60f45064a9e00ba2e6263f1de560e33306f6f3d42fcb/pyproj-3.1.0.tar.gz
 "
 
 DEPEND="
@@ -21,6 +21,6 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyproj-3.0.1"
+S="${WORKDIR}/pyproj-3.1.0"
 
 distutils_enable_sphinx docs dev-python/sphinx_rtd_theme
