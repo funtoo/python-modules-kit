@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/0a/5d/e1ca472535c06628388f1500773f64ea2a07e9803ab4afac4827fe82cc1e/pytest-pop-7.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/35/12/11094958fe6067693f4d05767b56953c21d985eb235b9654ccd224e3c672/pytest-pop-8.0.0.tar.gz
 "
 
 DEPEND=""
@@ -26,7 +26,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-pop-7.0.1"
+S="${WORKDIR}/pytest-pop-8.0.0"
 
 src_prepare() {
 	touch ${S}/requirements.txt

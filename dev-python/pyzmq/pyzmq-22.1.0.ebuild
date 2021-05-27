@@ -8,7 +8,7 @@ inherit distutils-r1 flag-o-matic toolchain-funcs
 DESCRIPTION=""
 HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/
 "
-SRC_URI="https://files.pythonhosted.org/packages/a3/7a/561526861908d366ddc2764933a6090078654b0f2ff20c3c180dd5851554/pyzmq-22.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/99/3b/69360102db726741053d1446cbe9f7f06df7e2a6d5b805ee71841abf1cdc/pyzmq-22.1.0.tar.gz
 "
 
 DEPEND="
@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyzmq-22.0.3"
+S="${WORKDIR}/pyzmq-22.1.0"
 
 python_configure_all() {
 	tc-export CC
