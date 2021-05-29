@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/f8/61/dd9bbbe26bb35ca2c1822ccbe3932b13505e18d57461ee5546c03a111d19/idem-11.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f9/2c/caf84898de3bdcb4ef6039850bdc45f7ff48f0ee5edf41170edea3ed3b1c/idem-12.0.0.tar.gz
 "
 
 DEPEND=""
@@ -27,4 +27,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/idem-11"
+S="${WORKDIR}/idem-12.0.0"
