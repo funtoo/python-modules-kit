@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Multithreaded Click apps made easy"
 HOMEPAGE="https://github.com/click-contrib/click-threading https://pypi.org/project/click-threading/"
-SRC_URI="https://files.pythonhosted.org/packages/82/5f/6f61961ab1310c12fd90d5dd036b86134e9ad35b48e50207a23b6fbaa2fb/click-threading-0.4.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/df/ea/0b20b8e09a6ba1df6defc29479c462437a8e8a3b6f4203fcad8b0a5e3fa3/click-threading-0.5.0.tar.gz
 "
 
 DEPEND=""
@@ -19,6 +19,6 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/click-threading-0.4.4"
+S="${WORKDIR}/click-threading-0.5.0"
 
 DOCS=( README.rst )
