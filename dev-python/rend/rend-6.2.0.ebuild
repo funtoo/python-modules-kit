@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/be/33/9d7d911dc9e463656ae5d2fde2b4c10192f3d70f305fb6c78b7c5727d047/rend-6.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3e/a2/21abb7bca7fb00d8d785fffb58e1ef4bb14fc9d3656320b8d0a33d7ae32d/rend-6.2.0.tar.gz
 "
 
 DEPEND=""
@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/rend-6.1.0"
+S="${WORKDIR}/rend-6.2.0"
 
 src_prepare() {
 	touch ${S}/requirements.txt

@@ -22,6 +22,6 @@ S="${WORKDIR}/bpytop-1.0.66"
 
 src_install() {
 	insinto "/usr/share/${PN}/themes"
-	doins bpytop-themes/*.theme
+	doins themes/*.theme
 	distutils-r1_src_install
 }

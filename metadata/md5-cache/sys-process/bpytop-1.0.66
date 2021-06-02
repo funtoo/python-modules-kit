@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targe
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/d5/b7/0a8783bc25cccf20da0086ee733184470e4a9c155a5c62e3af81bf8dc187/bpytop-1.0.66.tar.gz
 _eclasses_=distutils-r1	eb92d1a6d9057e2422cc9610f79f919c	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=17b10d5c4f4d7d1995d6fea5f2df2af6
+_md5_=a41d88407cb740c9710b915cdb77b47c
