@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Linux/OSX/FreeBSD resource monitor"
 HOMEPAGE="https://github.com/aristocratos/bpytop"
-SRC_URI="https://files.pythonhosted.org/packages/d5/b7/0a8783bc25cccf20da0086ee733184470e4a9c155a5c62e3af81bf8dc187/bpytop-1.0.66.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e9/1a/fd710c94c0888b139681d132f60608c657ff265b50b9312fd3cba35e08dc/bpytop-1.0.67.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/bpytop-1.0.66"
+S="${WORKDIR}/bpytop-1.0.67"
 
 src_install() {
 	insinto "/usr/share/${PN}/themes"
