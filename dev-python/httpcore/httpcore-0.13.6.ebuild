@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/e2/a4/b9cac2dcb27325aef5f2a850cfbcde7b8a35b349187c30a7a4ea4b717b74/httpcore-0.13.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/41/08/f5f998964b4c60944ae1aad4b0d377d76c4c564c689ac780cfe3c88a46e6/httpcore-0.13.6.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/httpcore-0.13.5"
+S="${WORKDIR}/httpcore-0.13.6"

@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=""
-SRC_URI="https://files.pythonhosted.org/packages/c0/4c/684e548bca35a5c9ec261bdfbc9199e3d50f0003acdd52c5121812320465/trio-0.18.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9e/27/c2d5106a97bfe441d19343edcf6c32d61dcc4bf1cae0f1f6f7ed9a635dd0/trio-0.19.0.tar.gz
 "
 
 DEPEND=""
@@ -24,4 +24,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/trio-0.18.0"
+S="${WORKDIR}/trio-0.19.0"
