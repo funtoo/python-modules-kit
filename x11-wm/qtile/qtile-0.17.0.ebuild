@@ -15,6 +15,7 @@ DEPEND=""
 RDEPEND="
 	x11-libs/cairo[X,xcb(+)]
 	x11-libs/pango
+	x11-libs/libnotify
 	media-sound/pulseaudio
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	>=dev-python/cairocffi-0.9.0[${PYTHON_USEDEP}]
