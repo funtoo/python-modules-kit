@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/sortedcontainers-2.4.0"

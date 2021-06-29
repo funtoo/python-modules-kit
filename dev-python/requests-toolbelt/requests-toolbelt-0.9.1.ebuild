@@ -11,12 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/28/30/7bf7e5071081f761766d46820
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/requests-toolbelt-0.9.1"

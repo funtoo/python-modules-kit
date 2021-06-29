@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="A Discord RPC library in Python"
@@ -11,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/e2/d1/8d0fb2f2ceda70e3a5cb199ca
 "
 
 DEPEND=""
-RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

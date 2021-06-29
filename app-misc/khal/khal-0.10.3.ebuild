@@ -10,23 +10,23 @@ HOMEPAGE="http://lostpackets.de/khal/"
 SRC_URI="https://files.pythonhosted.org/packages/f2/7d/c7d88bf11e6e62c5671d7b89fbc6dd7ce67d09a79ab8951ed6726791cc48/khal-0.10.3.tar.gz
 "
 
-DEPEND=""
+DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
+	zsh-completion? ( app-shells/zsh )
 	dev-python/atomicwrites[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/freezegun[${PYTHON_USEDEP}]
 	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	dev-python/python-dateutils[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/urwid[${PYTHON_USEDEP}]
-	dev-python/vdirsyncer[${PYTHON_USEDEP}]
-	zsh-completion? ( app-shells/zsh )"
+	dev-python/vidrsyncer[${PYTHON_USEDEP}]"
 
 IUSE="zsh-completion"
 SLOT="0"

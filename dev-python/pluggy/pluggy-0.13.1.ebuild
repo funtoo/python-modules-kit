@@ -11,12 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/f8/04/7a8542bed4b16a65c2714bf76
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT license"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/pluggy-0.13.1"

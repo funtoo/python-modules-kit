@@ -15,7 +15,7 @@ RDEPEND=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT -or- Apache License 2.0"
+LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
 
 S="${WORKDIR}/outcome-1.1.0"

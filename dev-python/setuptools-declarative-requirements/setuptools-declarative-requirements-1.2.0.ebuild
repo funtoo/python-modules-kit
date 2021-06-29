@@ -15,7 +15,7 @@ RDEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache Software License 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-declarative-requirements-1.2.0"

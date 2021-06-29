@@ -16,7 +16,6 @@ RDEPEND="
 	!dev-python/pydiff
 	app-text/iso-codes
 	sys-devel/gettext
-	subtitles? ( media-video/gaupol[${PYTHON_USEDEP}] )
 	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
 	dev-python/cheroot[${PYTHON_USEDEP}]
@@ -27,7 +26,8 @@ RDEPEND="
 	html? ( dev-python/utidylib[${PYTHON_USEDEP}] )
 	ical? ( dev-python/vobject[${PYTHON_USEDEP}] )
 	ini? ( >=dev-python/iniparse-0.5[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
+	subtitles? ( media-video/gaupol[${PYTHON_USEDEP}] )"
 
 IUSE="+html +ical +ini +subtitles +yaml"
 RESTRICT="test"

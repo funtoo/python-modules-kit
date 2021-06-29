@@ -15,7 +15,7 @@ RDEPEND="dev-python/backports[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/configparser-4.0.2"

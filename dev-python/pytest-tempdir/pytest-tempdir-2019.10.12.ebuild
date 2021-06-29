@@ -15,7 +15,7 @@ RDEPEND=">=dev-python/pytest-2.8.1[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache Software License 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/pytest-tempdir-2019.10.12"

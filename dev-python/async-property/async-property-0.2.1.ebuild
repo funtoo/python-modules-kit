@@ -13,7 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/94/00/ade26bd5fdb637e2e83b53711
 DEPEND=""
 IUSE=""
 SLOT="0"
-LICENSE="MIT license"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/async_property-0.2.1"

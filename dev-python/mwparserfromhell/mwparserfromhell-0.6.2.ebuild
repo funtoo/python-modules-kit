@@ -14,7 +14,7 @@ DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/mwparserfromhell-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/mwparserfromhell-0.6.2"

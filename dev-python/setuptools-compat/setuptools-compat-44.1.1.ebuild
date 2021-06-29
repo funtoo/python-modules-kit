@@ -13,40 +13,16 @@ SRC_URI="https://files.pythonhosted.org/packages/b2/40/4e00501c204b457f10fe410da
 "
 
 DEPEND="
-	app-arch/unzip
-	test? (
-		dev-python/mock[${PYTHON_USEDEP}]
-		dev-python/pip[${PYTHON_USEDEP}]
-		>=dev-python/pytest-3.7.0[${PYTHON_USEDEP}]
-		<dev-python/pytest-4
-		dev-python/pytest-fixture-config[${PYTHON_USEDEP}]
-		dev-python/pytest-virtualenv[${PYTHON_USEDEP}]
-		dev-python/wheel[${PYTHON_USEDEP}]
-		virtual/python-futures[${PYTHON_USEDEP}]
-	)"
+	app-arch/unzip"
 RDEPEND="!<dev-python/setuptools-47 "
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
-IUSE="test"
-RESTRICT="!test? ( test )"
+IUSE=""
+RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-44.1.1"
-
-python_prepare_all() {
-	# disable tests requiring a network connection
-	rm setuptools/tests/test_packageindex.py || die
-	# don't run integration tests
-	rm setuptools/tests/test_integration.py || die
-	distutils-r1_python_prepare_all
-}
-
-python_test() {
-	# test_easy_install raises a SandboxViolation due to ${HOME}/.pydistutils.cfg
-	# It tries to sandbox the test in a tempdir
-	HOME="${PWD}" pytest -vv ${PN} || die "Tests failed under ${EPYTHON}"
-}
 
 python_install() {
 	export DISTRIBUTE_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1

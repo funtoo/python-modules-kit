@@ -1,6 +1,6 @@
 BDEPEND=doc? ( || ( ( dev-lang/python:3.8 dev-python/sphinx[python_targets_python3_8(-),python_single_target_python3_8(+)] dev-python/sphinx_rtd_theme[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.9 dev-python/sphinx[python_targets_python3_9(-),python_single_target_python3_9(+)] dev-python/sphinx_rtd_theme[python_targets_python3_9(-),python_single_target_python3_9(+)] ) ( dev-lang/python:3.7 dev-python/sphinx[python_targets_python3_7(-),python_single_target_python3_7(+)] dev-python/sphinx_rtd_theme[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ) ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=>=sci-libs/proj-6.2.0:= dev-python/cython[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+DEPEND=dev-python/cython[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 DESCRIPTION=Python interface to the PROJ library
 EAPI=7
 HOMEPAGE=https://github.com/pyproj4/pyproj https://pypi.org/project/pyproj/
@@ -12,4 +12,4 @@ REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targe
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/7c/1d/20ea3b603db61ccc60f45064a9e00ba2e6263f1de560e33306f6f3d42fcb/pyproj-3.1.0.tar.gz
 _eclasses_=distutils-r1	eb92d1a6d9057e2422cc9610f79f919c	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=19632c82e776e334a7ea8738bcf3f35d
+_md5_=5714f935d9799e30c9e8f23d5d1468f1

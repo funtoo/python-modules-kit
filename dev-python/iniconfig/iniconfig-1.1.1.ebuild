@@ -10,14 +10,12 @@ HOMEPAGE="http://github.com/RonnyPfannschmidt/iniconfig https://pypi.org/project
 SRC_URI="https://files.pythonhosted.org/packages/23/a2/97899f6bd0e873fed3a7e67ae8d3a08b21799430fb4da15cfedf10d6e2c2/iniconfig-1.1.1.tar.gz
 "
 
-DEPEND=""
+DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND=""
-BDEPEND="
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/iniconfig-1.1.1"

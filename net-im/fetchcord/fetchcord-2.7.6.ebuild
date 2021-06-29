@@ -15,7 +15,6 @@ DEPEND="
 	app-misc/neofetch
 	x11-apps/mesa-progs"
 RDEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pypresence[${PYTHON_USEDEP}]"
 

@@ -10,8 +10,7 @@ HOMEPAGE="https://docs.pytest.org/en/latest/ https://pypi.org/project/pytest/"
 SRC_URI="https://files.pythonhosted.org/packages/5b/98/92bbda5f83ed995ef8953349ef30c77c934abcc251c42ab3d7787a40c49c/pytest-6.2.4.tar.gz
 "
 
-DEPEND="
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
+DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pytest-compat )
 	$(python_gen_cond_dep '

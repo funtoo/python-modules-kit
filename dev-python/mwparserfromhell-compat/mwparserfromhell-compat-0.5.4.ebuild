@@ -14,7 +14,7 @@ DEPEND=""
 RDEPEND="!<dev-python/mwparserfromhell-0.6 "
 IUSE=""
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/mwparserfromhell-0.5.4"

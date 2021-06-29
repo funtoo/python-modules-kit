@@ -19,7 +19,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache License 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/botocore-1.20.102"

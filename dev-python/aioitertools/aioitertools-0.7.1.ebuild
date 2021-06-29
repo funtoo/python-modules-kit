@@ -15,7 +15,7 @@ RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/aioitertools-0.7.1"

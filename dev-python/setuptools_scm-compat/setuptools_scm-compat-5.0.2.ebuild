@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2_7 )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"

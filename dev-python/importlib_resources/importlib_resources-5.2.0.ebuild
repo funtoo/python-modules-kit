@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy3 python3_{7,8} )
+PYTHON_COMPAT=( pypy3 python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
@@ -11,12 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ac/94/30b82b3a3a7c4f7fd7be10820
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/importlib_resources-compat )
-	$(python_gen_cond_dep 'dev-python/zipp[${PYTHON_USEDEP}]' pypy3 python3_{6,7})"
-BDEPEND="
-	dev-python/toml[${PYTHON_USEDEP}]
-	>=dev-python/setuptools_scm-3.4.1[${PYTHON_USEDEP}]"
+RDEPEND="python_targets_python2_7? ( dev-python/importlib_resources-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"

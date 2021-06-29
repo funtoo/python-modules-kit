@@ -11,9 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/76/73/6f1a412f14f68c273feea29a6
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pycountry-compat )
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="python_targets_python2_7? ( dev-python/pycountry-compat )"
 IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"

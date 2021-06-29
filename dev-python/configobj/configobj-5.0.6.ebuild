@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/64/61/079eb60459c44929e684fa7d9
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/six[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

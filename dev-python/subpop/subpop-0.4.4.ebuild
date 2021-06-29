@@ -15,7 +15,7 @@ RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/subpop-0.4.4"

@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ce/73/99e4cc30db6b21cba6c3b3b80
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

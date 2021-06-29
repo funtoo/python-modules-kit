@@ -14,18 +14,14 @@ SRC_URI="https://files.pythonhosted.org/packages/ac/df/0ae25a9fd5bb528fe3c65af71
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/markdown-3.2 
-	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_{6,7} pypy3)"
+RDEPEND="!<dev-python/markdown-3.2 "
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/markdown-3.1.1"
-
-S="${WORKDIR}/Markdown-${PV}"
+S="${WORKDIR}/Markdown-3.1.1"
 
 post_src_install() {
-	# We should start to do this automatically:
-	[ "$PV" == "3.1.1" ] && rm -rf ${D}/usr/bin
+	rm -rf ${D}/usr/bin
 }

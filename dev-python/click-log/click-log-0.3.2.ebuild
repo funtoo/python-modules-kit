@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/22/44/3d73579b547f0790a27237280
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/click[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/click[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

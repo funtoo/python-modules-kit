@@ -14,19 +14,10 @@ SRC_URI="https://files.pythonhosted.org/packages/49/02/37bd82ae255bb4dfef97a4b32
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/markdown-compat )
-	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' python3_{6,7} pypy3)"
+RDEPEND="python_targets_python2_7? ( dev-python/markdown-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/markdown-3.3.4"
-
-S="${WORKDIR}/Markdown-${PV}"
-
-post_src_install() {
-	# We should start to do this automatically:
-	[ "$PV" == "3.1.1" ] && rm -rf ${D}/usr/bin
-}
+S="${WORKDIR}/Markdown-3.3.4"

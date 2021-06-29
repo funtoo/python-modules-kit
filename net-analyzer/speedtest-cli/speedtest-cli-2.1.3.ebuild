@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="Command line interface for testing internet bandwidth using speedtest.net"
@@ -11,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/85/d2/32c8a30768b788d319f94cde3
 "
 
 DEPEND=""
-RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 IUSE=""
 SLOT="0"

@@ -10,7 +10,7 @@ HOMEPAGE="http://aws.amazon.com/cli/ https://pypi.org/project/awscli/"
 SRC_URI="https://files.pythonhosted.org/packages/7a/7e/43cf3a36a4d99febd5b942b5af988cfb2907bb11e53fb937b6b811562802/awscli-1.19.102.tar.gz
 "
 
-DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND=""
 RDEPEND="
 	dev-python/botocore[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]

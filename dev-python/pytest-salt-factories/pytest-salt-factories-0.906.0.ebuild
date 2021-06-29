@@ -23,7 +23,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache Software License 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/pytest-salt-factories-0.906.0"

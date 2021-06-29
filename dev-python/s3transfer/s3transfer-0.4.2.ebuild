@@ -20,7 +20,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE="Apache License 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/s3transfer-0.4.2"
