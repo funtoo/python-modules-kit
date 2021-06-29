@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="A friendly Python library for async concurrency and I/O"
+HOMEPAGE="https://github.com/python-trio/trio https://pypi.org/project/trio/"
 SRC_URI="https://files.pythonhosted.org/packages/9e/27/c2d5106a97bfe441d19343edcf6c32d61dcc4bf1cae0f1f6f7ed9a635dd0/trio-0.19.0.tar.gz
 "
 
@@ -21,7 +21,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT -or- Apache License 2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/trio-0.19.0"

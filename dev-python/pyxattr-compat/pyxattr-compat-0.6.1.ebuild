@@ -28,3 +28,8 @@ python_prepare_all() {
 	sed -e "s:html_theme = 'default':html_theme = 'classic':" -i doc/conf.py || die
 	distutils-r1_python_prepare_all
 }
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

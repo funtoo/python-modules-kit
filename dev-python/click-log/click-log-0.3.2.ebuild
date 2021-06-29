@@ -16,7 +16,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/click-log-0.3.2"

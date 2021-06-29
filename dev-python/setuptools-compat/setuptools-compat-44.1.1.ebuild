@@ -57,3 +57,8 @@ python_install() {
 	fi
 
 }
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

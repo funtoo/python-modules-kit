@@ -23,3 +23,8 @@ LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/openpyxl-2.6.4"
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="High level compatibility layer for multiple asynchronous event loop implementations"
+HOMEPAGE=" https://pypi.org/project/anyio/"
 SRC_URI="https://files.pythonhosted.org/packages/ff/b7/9730df0dd70a2d77bc03fb5e3dca62735fc6b39719a62eb7785ef070d07e/anyio-3.2.1.tar.gz
 "
 
@@ -20,7 +20,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/anyio-3.2.1"

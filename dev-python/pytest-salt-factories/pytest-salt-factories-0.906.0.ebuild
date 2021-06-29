@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="Pytest Salt Plugin"
+HOMEPAGE="https://github.com/saltstack/pytest-salt-factories https://pypi.org/project/pytest-salt-factories/"
 SRC_URI="https://files.pythonhosted.org/packages/80/e4/858939fb86987625e8056c72cb808a852b5c33bb3715c6af4607c60f4bda/pytest-salt-factories-0.906.0.tar.gz
 "
 
@@ -23,7 +23,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="Apache Software License 2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/pytest-salt-factories-0.906.0"

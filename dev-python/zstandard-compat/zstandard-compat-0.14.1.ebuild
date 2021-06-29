@@ -27,3 +27,8 @@ python_compile() {
 python_test() {
 	esetup.py test
 }
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

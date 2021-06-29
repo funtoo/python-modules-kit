@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives
 "
-HOMEPAGE=""
+HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
 SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz
 "
 
@@ -45,4 +45,9 @@ src_unpack() {
 	else
 		cargo_src_unpack
 	fi
+}
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
 }

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( pypy3 python3_{7,8} )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="Read resources from Python packages"
+HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
 SRC_URI="https://files.pythonhosted.org/packages/ac/94/30b82b3a3a7c4f7fd7be1082047cc9a135a10c1bcb0158a2aec20d8fec57/importlib_resources-5.2.0.tar.gz
 "
 

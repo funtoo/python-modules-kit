@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="An asyncio PostgreSQL driver"
 HOMEPAGE="https://github.com/MagicStack/asyncpg
 "
 SRC_URI="https://files.pythonhosted.org/packages/97/b0/acacd8496670b24bad90b92c105fd2f66e83051bf5e23b978a059e5f9608/asyncpg-0.23.0.tar.gz

@@ -29,3 +29,8 @@ KEYWORDS="*"
 S="${WORKDIR}/importlib_metadata-2.1.1"
 
 distutils_enable_sphinx "${PN}/docs" '>=dev-python/rst-linker-1.9'
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

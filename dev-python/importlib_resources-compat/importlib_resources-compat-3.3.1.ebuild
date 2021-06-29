@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="Read resources from Python packages"
+HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
 SRC_URI="https://files.pythonhosted.org/packages/e1/bf/b40e6ecb611fa3be5b0ecae7b37ae1fa0d8df3146477ec0a554e8f62c976/importlib_resources-3.3.1.tar.gz
 "
 
@@ -24,3 +24,8 @@ KEYWORDS="*"
 S="${WORKDIR}/importlib_resources-3.3.1"
 
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

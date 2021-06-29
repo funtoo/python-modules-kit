@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="Universal Command Line Environment for AWS."
+HOMEPAGE="http://aws.amazon.com/cli/ https://pypi.org/project/awscli/"
 SRC_URI="https://files.pythonhosted.org/packages/7a/7e/43cf3a36a4d99febd5b942b5af988cfb2907bb11e53fb937b6b811562802/awscli-1.19.102.tar.gz
 "
 

@@ -43,3 +43,8 @@ pkg_postinst() {
 		elog "For i18n support, please emerge dev-python/Babel."
 	fi
 }
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
+}

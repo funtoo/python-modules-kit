@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=""
+DESCRIPTION="Updated configparser from Python 3.8 for Python 2.6+."
+HOMEPAGE="https://github.com/jaraco/configparser/ https://pypi.org/project/configparser/"
 SRC_URI="https://files.pythonhosted.org/packages/16/4f/48975536bd488d3a272549eb795ac4a13a5f7fcdc8995def77fbef3532ee/configparser-4.0.2.tar.gz
 "
 

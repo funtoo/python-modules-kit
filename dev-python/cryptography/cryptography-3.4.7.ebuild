@@ -41,26 +41,15 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives
 "
-HOMEPAGE=""
+HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
 SRC_URI="https://files.pythonhosted.org/packages/9b/77/461087a514d2e8ece1c975d8216bc03f7048e6090c5166bc34115afdaa53/cryptography-3.4.7.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
-	!libressl? ( dev-libs/openssl:0= )
-	$(python_gen_cond_dep '
-	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
-	' -3
-	)
-	dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/cryptography-compat )
-	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
-	virtual/python-enum34[${PYTHON_USEDEP}]
-	virtual/python-ipaddress[${PYTHON_USEDEP}]
-	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
-	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
+	!libressl? ( dev-libs/openssl:0= )"
+RDEPEND="python_targets_python2_7? ( dev-python/cryptography-compat )"
 BDEPEND="
 	!x86? ( >=virtual/rust-1.37.0 )
 	x86? (
