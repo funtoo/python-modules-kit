@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A full-featured, hackable tiling window manager written in Python"
 HOMEPAGE="http://www.qtile.org/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/53/279a28b40f584eb1d17dd7ff8010d5a6386e010abc78564b4bd4c63b57f6/qtile-0.17.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/13/73/d95073e4568f1f2371ea2a817920457756b074d84635bd468f1194f8cbc6/qtile-0.18.0.tar.gz
 "
 
 DEPEND=""
@@ -29,7 +29,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/qtile-0.17.0"
+S="${WORKDIR}/qtile-0.18.0"
 
 python_install_all() {
 	local DOCS=( CHANGELOG README.rst )
