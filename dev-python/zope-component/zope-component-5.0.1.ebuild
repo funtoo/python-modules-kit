@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 DESCRIPTION="Zope Component Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.component
 	https://docs.zope.org/zope.component/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/e1/4f413e088d0c80c1f616b773f326096eee9f0fe13fbf745ed6e8c1a10af3/zope.component-5.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/c0/64931e1e8f2bfde9d8bc01670de2d2a395efcf8f49d3a9daa21cf3ffee2b/zope.component-5.0.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
