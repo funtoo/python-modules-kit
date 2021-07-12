@@ -11,16 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/5b/98/92bbda5f83ed995ef8953349e
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pytest-compat )
-	$(python_gen_cond_dep '
-	dev-python/atomicwrites[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	dev-python/funcsigs[${PYTHON_USEDEP}]
-	dev-python/wcwidth[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	' -2
-	)"
+RDEPEND="python_targets_python2_7? ( dev-python/pytest-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"

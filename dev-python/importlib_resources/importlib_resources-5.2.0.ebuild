@@ -11,7 +11,12 @@ SRC_URI="https://files.pythonhosted.org/packages/ac/94/30b82b3a3a7c4f7fd7be10820
 "
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/importlib_resources-compat )"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/importlib_resources-compat )
+	$(python_gen_cond_dep '
+	dev-python/zipp[${PYTHON_USEDEP}]
+	' -3 pypy3
+	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"

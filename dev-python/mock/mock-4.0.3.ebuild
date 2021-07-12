@@ -11,12 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/mock-compat )
-	$(python_gen_cond_dep '
-	dev-python/funcsigs[${PYTHON_USEDEP}]
-	' -2
-	)"
+RDEPEND="python_targets_python2_7? ( dev-python/mock-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"

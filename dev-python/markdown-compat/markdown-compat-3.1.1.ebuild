@@ -14,7 +14,11 @@ SRC_URI="https://files.pythonhosted.org/packages/ac/df/0ae25a9fd5bb528fe3c65af71
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/markdown-3.2 "
+RDEPEND="!<dev-python/markdown-3.2 
+	$(python_gen_cond_dep '
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	' -3 pypy3
+	)"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

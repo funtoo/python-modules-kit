@@ -14,11 +14,7 @@ SRC_URI="https://files.pythonhosted.org/packages/99/3b/69360102db726741053d1446c
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyzmq-compat )
-	>=net-libs/zeromq-4.2.2-r2:=[drafts]
-	$(python_gen_cond_dep '
-	dev-python/gevent[${PYTHON_USEDEP}]
-	' -2
-	)"
+	>=net-libs/zeromq-4.2.2-r2:=[drafts]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"

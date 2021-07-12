@@ -14,10 +14,8 @@ DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_metadata-compat )
 	$(python_gen_cond_dep '
-	>=dev-python/configparser-3.5[${PYTHON_USEDEP}]
-	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	' -2
+	>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]
+	' -3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"

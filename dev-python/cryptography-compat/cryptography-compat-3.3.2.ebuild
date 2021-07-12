@@ -13,7 +13,11 @@ SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
-	!libressl? ( dev-libs/openssl:0= )"
+	!libressl? ( dev-libs/openssl:0= )
+	$(python_gen_cond_dep '
+	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
+	' -3
+	)"
 RDEPEND="!<dev-python/cryptography-3.4.2 
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	virtual/python-enum34[${PYTHON_USEDEP}]
