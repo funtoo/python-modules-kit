@@ -11,10 +11,12 @@ HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/
 SRC_URI="https://files.pythonhosted.org/packages/99/3b/69360102db726741053d1446cbe9f7f06df7e2a6d5b805ee71841abf1cdc/pyzmq-22.1.0.tar.gz
 "
 
-DEPEND=""
+DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyzmq-compat )
-	>=net-libs/zeromq-4.2.2-r2:=[drafts]"
+	>=net-libs/zeromq-4.2.2-r2:=[drafts]
+	dev-python/py[${PYTHON_USEDEP}]
+	dev-python/cffi[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"

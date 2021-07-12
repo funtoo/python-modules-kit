@@ -21,8 +21,16 @@ RDEPEND="!<dev-python/pytest-6.1.1
 	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
+	dev-python/atomicwrites[${PYTHON_USEDEP}]
+	dev-python/pathlib2[${PYTHON_USEDEP}]
+	dev-python/funcsigs[${PYTHON_USEDEP}]
+	dev-python/wcwidth[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+	' -2
+	)
+	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' python3_6 pypy3 python3_7 -2
+	' -2 python3_7 pypy3 python3_6
 	)"
 IUSE=""
 SLOT="0"

@@ -52,7 +52,13 @@ DEPEND="
 	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
 	' -3
 	)"
-RDEPEND="python_targets_python2_7? ( dev-python/cryptography-compat )"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/cryptography-compat )
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	virtual/python-enum34[${PYTHON_USEDEP}]
+	virtual/python-ipaddress[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
+	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
 BDEPEND="
 	!x86? ( >=virtual/rust-1.37.0 )
 	x86? (

@@ -11,6 +11,10 @@ SRC_URI="https://files.pythonhosted.org/packages/12/22/6ba3031e7cbd6eb002e13ffc7
 "
 
 DEPEND=""
+RDEPEND="
+	dev-python/wheel[${PYTHON_USEDEP}]
+	>=dev-python/semantic_version-2.8.5[${PYTHON_USEDEP}]
+	dev-python/toml[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

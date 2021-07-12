@@ -11,7 +11,9 @@ SRC_URI="https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1
 "
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/mock-compat )"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/mock-compat )
+	>=dev-python/six-1.9[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"

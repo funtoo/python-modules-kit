@@ -15,7 +15,11 @@ DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="!<=dev-python/pyzmq-19.0.2 
 	>=net-libs/zeromq-4.2.2-r2:=[drafts]
 	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]"
+	dev-python/cffi[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	dev-python/gevent[${PYTHON_USEDEP}]
+	' -2
+	)"
 IUSE=""
 SLOT="0"
 LICENSE="LGPL-3"

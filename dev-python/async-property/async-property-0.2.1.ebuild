@@ -11,6 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/94/00/ade26bd5fdb637e2e83b53711
 "
 
 DEPEND=""
+RDEPEND="dev-python/pytest-runner[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
