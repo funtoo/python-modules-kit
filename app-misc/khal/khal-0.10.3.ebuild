@@ -19,7 +19,7 @@ RDEPEND="
 	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/freezegun[${PYTHON_USEDEP}]
 	dev-python/icalendar[${PYTHON_USEDEP}]
-	dev-python/python-dateutils[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pyxdg[${PYTHON_USEDEP}]
 	dev-python/setproctitle[${PYTHON_USEDEP}]

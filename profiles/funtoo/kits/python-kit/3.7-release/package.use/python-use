@@ -93,6 +93,7 @@
 =dev-python/whisper-0.9.15 python_single_target_python2_7
 dev-python/PyECLib python_single_target_python2_7
 dev-python/SchemaObject python_single_target_python2_7
+dev-python/arrow-compat python_single_target_python2_7
 dev-python/asciitree python_single_target_python2_7
 dev-python/backports-lzma python_single_target_python2_7
 dev-python/backports-shutil_get_terminal_size python_single_target_python2_7
@@ -225,6 +226,7 @@ dev-python/soya python_single_target_python2_7
 dev-python/sphinxtogithub python_single_target_python2_7
 dev-python/subprocess32 python_single_target_python2_7
 dev-python/symboltype python_single_target_python2_7
+dev-python/tenacity-compat python_single_target_python2_7
 dev-python/timelib python_single_target_python2_7
 dev-python/tlslite python_single_target_python2_7
 dev-python/ttystatus python_single_target_python2_7
