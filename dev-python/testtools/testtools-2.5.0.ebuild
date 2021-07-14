@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Extensions to the Python standard library unit testing framework"
 HOMEPAGE="https://github.com/testing-cabal/testtools"
-SRC_URI="https://files.pythonhosted.org/packages/11/9a/26b2f192024c4abcf702750ce7f4eb4cad305d8aad9482d9b5f3760118c7/testtools-2.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/29/0f/99dbb1801e341d74cd74e493906a16d8ddffffa86879d90ac3dc1f367b13/testtools-2.5.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
