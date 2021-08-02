@@ -1,31 +1,23 @@
-# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
+EAPI=7
 
+PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
-MY_PN=pyPEG2
-MY_P=${MY_PN}-${PV}
-
 DESCRIPTION="An intrinsic PEG Parser-Interpreter for Python"
-HOMEPAGE="https://fdik.org/pyPEG/
-	https://bitbucket.org/fdik/pypeg/
-	https://pypi.org/project/pyPEG2/"
-SRC_URI="mirror://pypi/${PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
+HOMEPAGE="https://pypi.org/project/pyPEG2/ https://fdik.org/pyPEG/"
+SRC_URI="https://files.pythonhosted.org/packages/f9/bd/10398e2c2d2070cc8a9c7153abfbd4ddb2895a2c52a32722ab8689e0cc7d/pyPEG2-2.15.2.tar.gz
+"
 
-LICENSE="GPL-2"
-SLOT="0"
-KEYWORDS="~amd64 ~x86"
-
+DEPEND=""
 RDEPEND="dev-python/lxml[${PYTHON_USEDEP}]"
-DEPEND="${RDEPEND}"
 
-S=${WORKDIR}/${MY_P}
+IUSE=""
+RESTRICT="test"
+SLOT="0"
+LICENSE="GPL-2"
+KEYWORDS="*"
 
-PATCHES=( "${FILESDIR}"/${PN}-2.15.1-test.patch )
-
-python_test() {
-	"${PYTHON}" -m unittest discover || die "Tests failed with ${EPYTHON}"
-}
+S="${WORKDIR}/pyPEG2-2.15.2"

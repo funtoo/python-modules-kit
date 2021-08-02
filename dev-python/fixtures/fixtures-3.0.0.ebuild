@@ -1,19 +1,18 @@
-# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} pypy pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 
 inherit distutils-r1
 
 DESCRIPTION="Fixtures, reusable state for writing clean tests and more"
 HOMEPAGE="https://launchpad.net/python-fixtures https://pypi.org/project/fixtures/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/84/be/94ecbc3f2487bd14aa8b44852f498086219b7cc0c8250ee65a03e2c63119/fixtures-3.0.0.tar.gz"
 
 LICENSE="|| ( Apache-2.0 BSD )"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ~ppc ~ppc64 s390 ~sh ~sparc x86 ~amd64-fbsd ~amd64-linux ~x86-linux"
+KEYWORDS="*"
 IUSE="test"
 
 # nose not listed but provides coverage output of tests

@@ -1,2 +1,12 @@
+app-misc
+app-portage
+app-shells
 dev-python
+dev-util
+dev-vcs
+net-analyzer
+net-im
+sys-process
 virtual
+www-servers
+x11-wm
