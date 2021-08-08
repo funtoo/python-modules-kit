@@ -30,7 +30,7 @@ RDEPEND="!<dev-python/pytest-6.1.1
 	)
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' python3_6 python3_7 -2 pypy3
+	' pypy3 python3_6 python3_7 -2
 	)"
 IUSE=""
 SLOT="0"
