@@ -8,7 +8,7 @@ inherit distutils-r1
 DESCRIPTION="A database interface library designed specifically for PostgresSQL and Python/asyncio."
 HOMEPAGE="https://github.com/MagicStack/asyncpg
 "
-SRC_URI="https://files.pythonhosted.org/packages/97/b0/acacd8496670b24bad90b92c105fd2f66e83051bf5e23b978a059e5f9608/asyncpg-0.23.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ba/29/cca39b99164d9e99a2b30c207e1a8fb682d062b39cef0f214a293bba113c/asyncpg-0.24.0.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/asyncpg-0.23.0"
+S="${WORKDIR}/asyncpg-0.24.0"
