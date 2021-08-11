@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Fast implementation of asyncio event loop on top of libuv"
 HOMEPAGE="http://github.com/MagicStack/uvloop https://pypi.org/project/uvloop/"
-SRC_URI="https://files.pythonhosted.org/packages/41/49/d2cdac6450430f444d3df59ccd1abc8225ea51ffcecd9ac2e36b111074a4/uvloop-0.15.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ab/d9/22bbffa8f8d7e075ccdb29e8134107adfb4710feb10039f9d357db8b589c/uvloop-0.16.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/uvloop-0.15.3"
+S="${WORKDIR}/uvloop-0.16.0"
