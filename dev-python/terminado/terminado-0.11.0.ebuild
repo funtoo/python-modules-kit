@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
 HOMEPAGE="https://github.com/jupyter/terminado https://pypi.org/project/terminado/"
-SRC_URI="https://files.pythonhosted.org/packages/e1/83/0ea6eee5c5fd82278ebce1567e2d6703a97ff19fd4e07b9361894a64dfbb/terminado-0.10.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/79/ef/f2c8152a845278b84284fbbeb8a3bef0d8eb4b12ab211e3fec327132ef56/terminado-0.11.0.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="BSD-2"
 KEYWORDS="*"
 
-S="${WORKDIR}/terminado-0.10.1"
+S="${WORKDIR}/terminado-0.11.0"
