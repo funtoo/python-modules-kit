@@ -1,24 +1,22 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
-
+PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Strict, simple, lightweight RFC3339 functions"
-HOMEPAGE="https://pypi.org/project/strict-rfc3339/ https://github.com/danielrichman/strict-rfc3339"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+HOMEPAGE="http://www.danielrichman.co.uk/libraries/strict-rfc3339.html https://pypi.org/project/strict-rfc3339/"
+SRC_URI="https://files.pythonhosted.org/packages/56/e4/879ef1dbd6ddea1c77c0078cd59b503368b0456bcca7d063a870ca2119d3/strict-rfc3339-0.7.tar.gz
+"
 
-SLOT="0"
-LICENSE="GPL-3+"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~amd64-linux ~x86-linux"
+DEPEND=""
+RDEPEND=""
+
 IUSE=""
+RESTRICT="test"
+SLOT="0"
+LICENSE="GNU General Public License Version 3"
+KEYWORDS="*"
 
-# Not shipped
-RESTRICT=test
-
-python_test() {
-	${PYTHON} test_strict_rfc3339.py || die
-}
+S="${WORKDIR}/strict-rfc3339-0.7"

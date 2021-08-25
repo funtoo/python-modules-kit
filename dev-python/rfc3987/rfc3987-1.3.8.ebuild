@@ -1,27 +1,22 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
-
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)"
-HOMEPAGE="https://github.com/dgerber/rfc3987 https://pypi.org/project/rfc3987/"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
-
-LICENSE="GPL-3"
-SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~amd64-linux ~x86-linux"
-IUSE=""
-
-RDEPEND="$(python_gen_cond_dep \
-	'dev-python/regex[${PYTHON_USEDEP}]' python2_7 'python3*' pypy)"
-DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
+HOMEPAGE="http://pypi.python.org/pypi/rfc3987 https://pypi.org/project/rfc3987/"
+SRC_URI="https://files.pythonhosted.org/packages/14/bb/f1395c4b62f251a1cb503ff884500ebd248eed593f41b469f89caa3547bd/rfc3987-1.3.8.tar.gz
 "
 
-python_test() {
-	${EPYTHON} -m doctest -v "${S}/${PN}.py" || die
-}
+DEPEND=""
+RDEPEND="dev-python/regex[${PYTHON_USEDEP}]"
+
+IUSE=""
+RESTRICT="test"
+SLOT="0"
+LICENSE="GNU GPLv3+"
+KEYWORDS="*"
+
+S="${WORKDIR}/rfc3987-1.3.8"
