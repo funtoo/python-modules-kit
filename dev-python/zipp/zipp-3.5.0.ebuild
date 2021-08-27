@@ -11,21 +11,29 @@ SRC_URI="https://files.pythonhosted.org/packages/3a/9f/1d4b62cbe8d222539a84089ee
 "
 
 DEPEND="
+	$(python_gen_cond_dep '
 	dev-python/toml[${PYTHON_USEDEP}]
-	>=dev-python/setuptools_scm-3.4.2[${PYTHON_USEDEP}]"
-RDEPEND=""
-
-IUSE=""
+	>=dev-python/setuptools_scm-3.4.2[${PYTHON_USEDEP}]
+	' pypy3 -3
+	)"
+RDEPEND="python_targets_python2_7? ( dev-python/zipp-compat )"
+IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/zipp-3.5.0"
 
 python_prepare_all() {
-	# Skip a potentially flaky performance test
-	sed -i -e '/^import func_timeout\|^ *@func_timeout\.func_set_timeout/d' \
-		-e 's/test_implied_dirs_performance/_&/' test_zipp.py || die
+	if [ "$PN" == 'zipp-compat' ]; then
+		sed -i "s:use_scm_version=True:version='${PV}',name='${PN//-/.}':" setup.py || die
+		sed -r -i "s:setuptools_scm[[:space:]]*([><=]{1,2}[[:space:]]*[0-9.a-zA-Z]+|)[[:space:]]*::" \
+			setup.cfg || die
+	else
+		# Skip a potentially flaky performance test
+		sed -i -e '/^import func_timeout\|^ *@func_timeout\.func_set_timeout/d' \
+			-e 's/test_implied_dirs_performance/_&/' test_zipp.py || die
+	fi
 	distutils-r1_python_prepare_all
 }

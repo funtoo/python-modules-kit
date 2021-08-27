@@ -11,12 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/a7/df/b97bf02a97bbd5ed874fec7c5
 "
 
 DEPEND="dev-python/six[${PYTHON_USEDEP}]"
-RDEPEND=""
-
-IUSE=""
+RDEPEND="python_targets_python2_7? ( dev-python/webcolors-compat )"
+IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
-LICENSE="BSD 3-Clause"
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/webcolors-1.11.1"

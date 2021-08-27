@@ -16,7 +16,7 @@ RDEPEND="app-crypt/mit-krb5"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="ASL 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/pykerberos-1.2.1"

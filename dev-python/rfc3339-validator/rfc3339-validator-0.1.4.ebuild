@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="A pure python RFC3339 validator"
@@ -18,7 +18,7 @@ RDEPEND="
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT license"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/rfc3339-validator-0.1.4"

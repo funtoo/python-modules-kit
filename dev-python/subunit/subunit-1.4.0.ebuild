@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Python implementation of subunit test streaming protocol"
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="Apache-2.0 or BSD"
+LICENSE="|| ( Apache-2.0 BSD-2 )"
 KEYWORDS="*"
 
 S="${WORKDIR}/python-subunit-1.4.0"

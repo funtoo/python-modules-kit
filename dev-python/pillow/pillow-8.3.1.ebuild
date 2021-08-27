@@ -20,10 +20,11 @@ DEPEND="
 	webp? ( media-libs/libwebp:0= )
 	xcb? ( x11-libs/libxcb )
 	zlib? ( sys-libs/zlib:0= )"
-RDEPEND="dev-python/olefile[${PYTHON_USEDEP}]"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/pillow-compat )
+	dev-python/olefile[${PYTHON_USEDEP}]"
 BDEPEND="virtual/pkgconfig"
-
-IUSE="examples imagequant +jpeg jpeg2k lcms tiff tk truetype webp xcb zlib"
+IUSE="examples imagequant +jpeg jpeg2k lcms tiff tk truetype webp xcb zlib python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
 LICENSE="HPND"

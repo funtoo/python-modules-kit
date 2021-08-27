@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Core utilities for Python packages"
@@ -16,7 +16,7 @@ RDEPEND=">=dev-python/pyparsing-2.1.10[${PYTHON_USEDEP}]"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="BSD-2-Clause or Apache-2.0"
+LICENSE="|| ( Apache-2.0 BSD-2 )"
 KEYWORDS="*"
 
 S="${WORKDIR}/packaging-21.0"

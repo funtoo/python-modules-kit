@@ -12,9 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/52/e1/06c018197d8151383f66ebf69
 "
 
 DEPEND=""
-RDEPEND=""
-
-IUSE="vanilla"
+RDEPEND="python_targets_python2_7? ( dev-python/pip-compat )"
+IUSE="vanilla python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"

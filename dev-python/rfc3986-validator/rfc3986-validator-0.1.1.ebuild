@@ -16,7 +16,7 @@ RDEPEND="dev-python/rfc3987[${PYTHON_USEDEP}]"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT license"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/rfc3986-validator-0.1.1"

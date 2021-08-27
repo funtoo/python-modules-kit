@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Cryptographic library for Python"
@@ -22,7 +22,7 @@ RDEPEND="
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="BSD, Public Domain"
+LICENSE="BSD-2 Unlicense"
 KEYWORDS="*"
 
 S="${WORKDIR}/pycryptodome-3.10.1"
