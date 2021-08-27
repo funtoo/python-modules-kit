@@ -19,7 +19,7 @@ RDEPEND="
 	virtual/python-backports_abc[${PYTHON_USEDEP}]
 	virtual/python-futures[${PYTHON_USEDEP}]
 	virtual/python-singledispatch[${PYTHON_USEDEP}]
-	' -3 pypy3
+	' pypy3 -3
 	)"
 IUSE="examples python_targets_python2_7"
 RESTRICT="test"
