@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Async http client/server framework (asyncio)"
@@ -22,7 +22,7 @@ RDEPEND="
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="Apache 2"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/aiohttp-3.7.4.post0"

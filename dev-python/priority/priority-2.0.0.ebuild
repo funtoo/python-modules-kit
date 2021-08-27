@@ -11,12 +11,11 @@ SRC_URI="https://files.pythonhosted.org/packages/f5/3c/eb7c35f4dcede96fca1842dac
 "
 
 DEPEND=""
-RDEPEND=""
-
-IUSE=""
+RDEPEND="python_targets_python2_7? ( dev-python/priority-compat )"
+IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/priority-2.0.0"

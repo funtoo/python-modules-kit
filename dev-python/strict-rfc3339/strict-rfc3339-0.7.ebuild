@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Strict, simple, lightweight RFC3339 functions"
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="GNU General Public License Version 3"
+LICENSE="GPL-3+"
 KEYWORDS="*"
 
 S="${WORKDIR}/strict-rfc3339-0.7"

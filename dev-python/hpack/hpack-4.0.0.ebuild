@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/hpack-4.0.0"

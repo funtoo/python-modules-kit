@@ -12,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/b2/46/ee13d2d8dd4d380132199d5b3
 
 DEPEND=">=dev-python/incremental-21.3.0[${PYTHON_USEDEP}]"
 RDEPEND="
+	python_targets_python2_7? ( dev-python/twisted-compat )
 	!dev-python/twisted-core
 	!dev-python/twisted-conch
 	!dev-python/twisted-lore
@@ -34,8 +35,7 @@ RDEPEND="
 	crypt? ( >=dev-python/pyopenssl-16.0.0[${PYTHON_USEDEP}] dev-python/service_identity[${PYTHON_USEDEP}] >=dev-python/idna-0.6[${PYTHON_USEDEP}] )
 	serial? ( >=dev-python/pyserial-3.0[${PYTHON_USEDEP}] )
 	http2? ( >=dev-python/hyper-h2-3.0.0[${PYTHON_USEDEP}] <dev-python/hyper-h2-4.0.0[${PYTHON_USEDEP}] >=dev-python/priority-1.1.0[${PYTHON_USEDEP}] <dev-python/priority-2.0[${PYTHON_USEDEP}] )"
-
-IUSE="conch crypt http2 serial"
+IUSE="conch crypt http2 serial python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"

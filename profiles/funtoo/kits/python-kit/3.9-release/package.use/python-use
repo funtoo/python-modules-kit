@@ -2,7 +2,6 @@
 =dev-python/Numdifftools-0.9.13 python_single_target_python2_7
 =dev-python/Numdifftools-0.9.14 python_single_target_python2_7
 =dev-python/bandit-0.13.2-r1 python_single_target_python2_7
-=dev-python/beautifulsoup-3.2.1-r1 python_single_target_python2_7
 =dev-python/carbon-0.9.13 python_single_target_python2_7
 =dev-python/carbon-0.9.13-r1 python_single_target_python2_7
 =dev-python/cov-core-1.7 python_single_target_python2_7
@@ -16,7 +15,6 @@
 =dev-python/falcon-0.1.8 python_single_target_python2_7
 =dev-python/flask-cors-1.8.0 python_single_target_python2_7
 =dev-python/flask-cors-1.9.0 python_single_target_python2_7
-=dev-python/fonttools-3.0 python_single_target_python2_7
 =dev-python/funcy-1.8 python_single_target_python2_7
 =dev-python/fuse-python-0.2.1-r1 python_single_target_python2_7
 =dev-python/gcs-oauth2-boto-plugin-1.8-r1 python_single_target_python2_7
@@ -64,7 +62,6 @@
 =dev-python/python-lzo-1.08-r1 python_single_target_python2_7
 =dev-python/python-memcached-1.53-r1 python_single_target_python2_7
 =dev-python/python-troveclient-1.3.0 python_single_target_python2_7
-=dev-python/python-xlib-0.15_rc1-r2 python_single_target_python2_7
 =dev-python/pythondialog-3.3.0-r200 python_single_target_python2_7
 =dev-python/pythondialog-3.4.0-r200 python_single_target_python2_7
 =dev-python/pyx-0.12.1-r1 python_single_target_python2_7
@@ -164,7 +161,10 @@ dev-python/nototools python_single_target_python2_7
 dev-python/openpyxl-compat python_single_target_python2_7
 dev-python/ordereddict python_single_target_python2_7
 dev-python/pathlib python_single_target_python2_7
+dev-python/pillow-compat python_single_target_python2_7
+dev-python/pip-compat python_single_target_python2_7
 dev-python/pkipplib python_single_target_python2_7
+dev-python/priority-compat python_single_target_python2_7
 dev-python/pupynere python_single_target_python2_7
 dev-python/py-notify python_single_target_python2_7
 dev-python/py2play python_single_target_python2_7
@@ -173,6 +173,7 @@ dev-python/pycdio python_single_target_python2_7
 dev-python/pychm python_single_target_python2_7
 dev-python/pycountry-compat python_single_target_python2_7
 dev-python/pycryptopp python_single_target_python2_7
+dev-python/pycurl-compat python_single_target_python2_7
 dev-python/pyemf python_single_target_python2_7
 dev-python/pygments-compat python_single_target_python2_7
 dev-python/pygtkglext python_single_target_python2_7
@@ -211,6 +212,7 @@ dev-python/pyxattr-compat python_single_target_python2_7
 dev-python/pyxenstore python_single_target_python2_7
 dev-python/pyzmq-compat python_single_target_python2_7
 dev-python/quex python_single_target_python2_7
+dev-python/regex-compat python_single_target_python2_7
 dev-python/restkit python_single_target_python2_7
 dev-python/ropemacs python_single_target_python2_7
 dev-python/rst2pdf python_single_target_python2_7
@@ -230,6 +232,7 @@ dev-python/tenacity-compat python_single_target_python2_7
 dev-python/timelib python_single_target_python2_7
 dev-python/tlslite python_single_target_python2_7
 dev-python/ttystatus python_single_target_python2_7
+dev-python/twisted-compat python_single_target_python2_7
 dev-python/twisted-conch python_single_target_python2_7
 dev-python/twisted-core python_single_target_python2_7
 dev-python/twisted-mail python_single_target_python2_7
@@ -240,8 +243,10 @@ dev-python/twisted-words python_single_target_python2_7
 dev-python/typing python_single_target_python2_7
 dev-python/urlgrabber python_single_target_python2_7
 dev-python/weakrefmethod python_single_target_python2_7
+dev-python/webcolors-compat python_single_target_python2_7
 dev-python/zbase32 python_single_target_python2_7
 dev-python/zfec python_single_target_python2_7
+dev-python/zipp-compat python_single_target_python2_7
 dev-python/zsi python_single_target_python2_7
 dev-python/zstandard-compat python_single_target_python2_7
 dev-util/scons-compat python_single_target_python2_7

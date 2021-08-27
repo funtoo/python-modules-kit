@@ -16,7 +16,7 @@ RDEPEND="dev-python/regex[${PYTHON_USEDEP}]"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="GNU GPLv3+"
+LICENSE="GPL-3"
 KEYWORDS="*"
 
 S="${WORKDIR}/rfc3987-1.3.8"

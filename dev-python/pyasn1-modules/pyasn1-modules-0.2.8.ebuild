@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="A collection of ASN.1-based protocols modules."
@@ -16,7 +16,7 @@ RDEPEND=">=dev-python/pyasn1-0.4.6[${PYTHON_USEDEP}]"
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="BSD-2-Clause"
+LICENSE="BSD-2"
 KEYWORDS="*"
 
 S="${WORKDIR}/pyasn1-modules-0.2.8"

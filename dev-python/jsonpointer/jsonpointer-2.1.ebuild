@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Identify specific nodes in a JSON document (RFC 6901)"
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="Modified BSD License"
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/jsonpointer-2.1"

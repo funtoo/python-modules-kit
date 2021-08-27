@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Python Build Reasonableness"
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE=""
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/pbr-5.6.0"

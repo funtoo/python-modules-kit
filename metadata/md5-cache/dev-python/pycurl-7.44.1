@@ -3,13 +3,13 @@ DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=PycURL -- A Python Interface To The cURL library
 EAPI=7
 HOMEPAGE=http://pycurl.io/ https://pypi.org/project/pycurl/
-IUSE=curl_ssl_gnutls curl_ssl_nss +curl_ssl_openssl examples ssl python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
+IUSE=curl_ssl_gnutls curl_ssl_libressl curl_ssl_nss +curl_ssl_openssl examples ssl python_targets_python2_7 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
 KEYWORDS=*
-LICENSE=LGPL/MIT
-RDEPEND=>=net-misc/curl-7.25.0-r1:=[ssl=] ssl? ( net-misc/curl[curl_ssl_gnutls(-)=,curl_ssl_nss(-)=,curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)] curl_ssl_gnutls? ( >=net-libs/gnutls-2.11.0:= ) curl_ssl_openssl? ( dev-libs/openssl:= ) ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+LICENSE=LGPL-2.1
+RDEPEND=python_targets_python2_7? ( dev-python/pycurl-compat ) >=net-misc/curl-7.25.0-r1:=[ssl=] ssl? ( net-misc/curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,curl_ssl_nss(-)=,curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)] curl_ssl_gnutls? ( >=net-libs/gnutls-2.11.0:= ) curl_ssl_openssl? ( dev-libs/openssl:= ) ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/47/f9/c41d6830f7bd4e70d5726d26f8564538d08ca3a7ac3db98b325f94cdcb7f/pycurl-7.44.1.tar.gz
 _eclasses_=distutils-r1	6543ff3f958acee58397e5d4d7f299b5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=4f2f3679611c2d54b83c6df14ee2b97d
+_md5_=c89d9fa34e433e8349290604332bd749

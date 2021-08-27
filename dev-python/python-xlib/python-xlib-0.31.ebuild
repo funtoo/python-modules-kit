@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Python X Library"
@@ -17,7 +17,7 @@ BDEPEND="doc? ( sys-apps/texinfo )"
 IUSE="doc"
 RESTRICT="test"
 SLOT="0"
-LICENSE="LGPLv2+"
+LICENSE="LGPL-2+"
 KEYWORDS="*"
 
 S="${WORKDIR}/python-xlib-0.31"

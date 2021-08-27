@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="A modern CSS selector implementation for Beautiful Soup."
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="MIT License"
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/soupsieve-2.2.1"

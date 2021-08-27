@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Universal Command Line Environment for AWS."
 HOMEPAGE="http://aws.amazon.com/cli/ https://pypi.org/project/awscli/"
-SRC_URI="https://files.pythonhosted.org/packages/4f/3e/df36712cb7a141c5858784c1dce8a92e78e7622d8156b501161521fc1af0/awscli-1.20.28.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/5b/2c/5850a46d5baba6f57fa5503f22bbe2815c32b60cfe15d184f8ec8db67006/awscli-1.20.30.tar.gz
 "
 
 DEPEND=""
@@ -25,7 +25,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/awscli-1.20.28"
+S="${WORKDIR}/awscli-1.20.30"
 
 python_install_all() {
 		newbashcomp bin/aws_bash_completer aws

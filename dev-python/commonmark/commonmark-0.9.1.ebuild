@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Python parser for the CommonMark Markdown spec"
@@ -16,7 +16,7 @@ RDEPEND=""
 IUSE=""
 RESTRICT="test"
 SLOT="0"
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/commonmark-0.9.1"
