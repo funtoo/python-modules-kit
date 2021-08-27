@@ -14,7 +14,7 @@ DEPEND="
 	$(python_gen_cond_dep '
 	dev-python/toml[${PYTHON_USEDEP}]
 	>=dev-python/setuptools_scm-3.4.2[${PYTHON_USEDEP}]
-	' pypy3 -3
+	' -3 pypy3
 	)"
 RDEPEND="python_targets_python2_7? ( dev-python/zipp-compat )"
 IUSE="python_targets_python2_7"
