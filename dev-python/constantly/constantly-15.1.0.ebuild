@@ -1,22 +1,24 @@
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=6
+PYTHON_COMPAT=( python2_7 python3_{5,6} pypy)
 
-PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Symbolic constants in Python"
 HOMEPAGE="https://github.com/twisted/constantly https://pypi.org/project/constantly/"
-SRC_URI="https://files.pythonhosted.org/packages/95/f1/207a0a478c4bb34b1b49d5915e2db574cadc415c9ac3a7ef17e29b2e8951/constantly-15.1.0.tar.gz
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86"
+IUSE=""
+
+RDEPEND=""
+DEPEND="
+	${RDEPEND}
+	dev-python/setuptools[${PYTHON_USEDEP}]
 "
 
-DEPEND=""
-RDEPEND=""
-
-IUSE=""
-RESTRICT="test"
-SLOT="0"
-LICENSE="MIT"
-KEYWORDS="*"
-
-S="${WORKDIR}/constantly-15.1.0"
+#S=${WORKDIR}/${P}
