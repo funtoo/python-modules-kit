@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/uvloop-0.16.0"

@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/cucumber-tag-expressions-3.0.1"

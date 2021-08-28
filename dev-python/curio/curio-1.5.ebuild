@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/curio-1.5"

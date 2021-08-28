@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE=""
+LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/rawkit-0.6.0"

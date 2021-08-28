@@ -14,7 +14,7 @@ DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/tenacity-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
-LICENSE="Apache 2.0"
+LICENSE="Apache-2.0"
 KEYWORDS="*"
 
 S="${WORKDIR}/tenacity-8.0.1"
