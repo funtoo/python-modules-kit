@@ -15,7 +15,7 @@ RDEPEND=""
 
 IUSE=""
 SLOT="0"
-LICENSE="PSF"
+LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/typing-extensions-3.10.0.0"

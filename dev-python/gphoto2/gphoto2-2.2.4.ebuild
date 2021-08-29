@@ -16,7 +16,7 @@ RDEPEND="
 
 IUSE=""
 SLOT="0"
-LICENSE="GNU GPL"
+LICENSE=""
 KEYWORDS="*"
 
 S="${WORKDIR}/gphoto2-2.2.4"

@@ -15,7 +15,7 @@ RDEPEND="dev-python/d2to1[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
-LICENSE="BSD 3-Clause License"
+LICENSE="BSD"
 KEYWORDS="*"
 
 S="${WORKDIR}/colour-0.1.5"
