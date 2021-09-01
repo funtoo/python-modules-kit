@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Stateful programmatic web browsing in Python"
 HOMEPAGE="https://github.com/python-mechanize/mechanize"
-SRC_URI="https://files.pythonhosted.org/packages/77/1b/7e4b644108e4e99b136e52c6aae34873fcd267e3d2489f3bd2cff8655a59/mechanize-0.4.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/77/4c/df62283d6e24ffff77e4fc1b07b14e3e32d52749ed6181df905b204ee214/mechanize-0.4.6.tar.gz"
 
 LICENSE="|| ( BSD ZPL )"
 SLOT="0"
