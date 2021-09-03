@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="More routines for operating on iterables, beyond itertools"
 HOMEPAGE="https://pypi.org/project/more-itertools/"
-SRC_URI="https://files.pythonhosted.org/packages/03/0a/4769cc0557fbe690f86bc4c183faa116f1050e5c9296f1b7b5806f063cdb/more-itertools-8.8.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e7/79/46de03872e1bb6e02b087d3e42d9077c344fc5aa83c14c641628e809c629/more-itertools-8.9.0.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/more-itertools-8.8.0"
+S="${WORKDIR}/more-itertools-8.9.0"
