@@ -21,7 +21,8 @@ RDEPEND="
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
 	>=dev-python/rfc3986-1.4.0[${PYTHON_USEDEP}]
-	>=dev-python/tqdm-4.14[${PYTHON_USEDEP}]"
+	>=dev-python/tqdm-4.14[${PYTHON_USEDEP}]
+	>=dev-python/packaging-20[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
