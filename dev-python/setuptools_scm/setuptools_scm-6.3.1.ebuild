@@ -11,7 +11,7 @@ HOMEPAGE="https://github.com/pypa/setuptools_scm/ https://pypi.org/project/setup
 SRC_URI="https://files.pythonhosted.org/packages/4e/62/056c0127bf45c493168167aed15c4ccb70d2c69154fb1f4acaffc2bab761/setuptools_scm-6.3.1.tar.gz
 "
 
-DEPEND=""
+DEPEND=">=dev-python/tomli-1.0"
 RDEPEND="python_targets_python2_7? ( dev-python/setuptools_scm-compat )"
 IUSE="python_targets_python2_7"
 SLOT="0"
