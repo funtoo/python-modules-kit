@@ -13,7 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/b2/40/4e00501c204b457f10fe410da
 "
 
 DEPEND="
-	app-arch/unzip"
+	app-arch/unzip
+	>dev-python/packaging-20[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/setuptools-47 "
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE=""

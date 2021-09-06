@@ -12,6 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/4e/62/056c0127bf45c493168167aed
 "
 
 DEPEND="
+	>dev-python/packaging-20[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3

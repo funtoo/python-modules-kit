@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python3+ pypy3 )
 DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
@@ -13,7 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/11/c6/9e16df5a5526f7dd2ad172849
 "
 
 DEPEND="
-	app-arch/unzip"
+	app-arch/unzip
+	>dev-python/packaging-20[${PYTHON_USEDEP}]"
 RDEPEND="python_targets_python2_7? ( dev-python/setuptools-compat )"
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
