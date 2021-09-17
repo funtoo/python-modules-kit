@@ -36,6 +36,7 @@
 =dev-python/netaddr-0.7.14 python_single_target_python2_7
 =dev-python/netaddr-0.7.15 python_single_target_python2_7
 =dev-python/netaddr-0.7.17 python_single_target_python2_7
+=dev-python/nototools-20180827 python_single_target_python2_7
 =dev-python/objgraph-1.7.2 python_single_target_python2_7
 =dev-python/objgraph-1.8.1 python_single_target_python2_7
 =dev-python/pdfrw-0.2 python_single_target_python2_7
@@ -159,7 +160,6 @@ dev-python/mwparserfromhell-compat python_single_target_python2_7
 dev-python/nautilus-python python_single_target_python2_7
 dev-python/nevow python_single_target_python2_7
 dev-python/notify-python python_single_target_python2_7
-dev-python/nototools python_single_target_python2_7
 dev-python/openpyxl-compat python_single_target_python2_7
 dev-python/ordereddict python_single_target_python2_7
 dev-python/packaging-compat python_single_target_python2_7
