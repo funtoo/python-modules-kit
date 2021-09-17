@@ -15,7 +15,6 @@
 =dev-python/falcon-0.1.8 python_single_target_python2_7
 =dev-python/flask-cors-1.8.0 python_single_target_python2_7
 =dev-python/flask-cors-1.9.0 python_single_target_python2_7
-=dev-python/fonttools-3.0 python_single_target_python2_7
 =dev-python/funcy-1.8 python_single_target_python2_7
 =dev-python/fuse-python-0.2.1-r1 python_single_target_python2_7
 =dev-python/gcs-oauth2-boto-plugin-1.8-r1 python_single_target_python2_7
@@ -36,7 +35,6 @@
 =dev-python/netaddr-0.7.14 python_single_target_python2_7
 =dev-python/netaddr-0.7.15 python_single_target_python2_7
 =dev-python/netaddr-0.7.17 python_single_target_python2_7
-=dev-python/nototools-20180827 python_single_target_python2_7
 =dev-python/objgraph-1.7.2 python_single_target_python2_7
 =dev-python/objgraph-1.8.1 python_single_target_python2_7
 =dev-python/pdfrw-0.2 python_single_target_python2_7
