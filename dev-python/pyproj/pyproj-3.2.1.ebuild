@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface to the PROJ library"
 HOMEPAGE="https://github.com/pyproj4/pyproj https://pypi.org/project/pyproj/"
-SRC_URI="https://files.pythonhosted.org/packages/2e/9f/217f0cfb328b57a5e471e3d8e1eb58376086ffb50ce74f9977b5bb86f56a/pyproj-3.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/02/48/9d64166dfbb98d515655c3d28bce68f4b984a96c3bfe5ce81b160f16c763/pyproj-3.2.1.tar.gz
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -19,6 +19,6 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyproj-3.2.0"
+S="${WORKDIR}/pyproj-3.2.1"
 
 distutils_enable_sphinx docs dev-python/sphinx_rtd_theme
