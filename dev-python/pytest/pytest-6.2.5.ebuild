@@ -23,7 +23,7 @@ RDEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' -2 pypy3 python3_7 python3_6
+	' python3_7 pypy3 python3_6 -2
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
