@@ -9,7 +9,7 @@ DESCRIPTION="A Python library to read/write Excel 2010 xlsx/xlsm files"
 HOMEPAGE="https://openpyxl.readthedocs.io/
 https://pypi.org/project/openpyxl/
 "
-SRC_URI="https://files.pythonhosted.org/packages/1f/fd/b8d831d0cc949c454b1f02d26b4cd5bafaf71e959a68f326909291fb2089/openpyxl-3.0.8.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f1/7d/fb475cd963bd9d244f95a90c98f518f5c834fefe749f25f9f479ca2d8a51/openpyxl-3.0.7.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/openpyxl-3.0.8"
+S="${WORKDIR}/openpyxl-3.0.7"
