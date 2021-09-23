@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 pypy )
+PYTHON_COMPAT=( python3+ pypy3 pypy )
 inherit distutils-r1
 
 DESCRIPTION="A library for working with color names and color values formats defined by HTML and CSS."
