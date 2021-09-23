@@ -209,6 +209,7 @@ dev-python/pyxattr-compat python_single_target_python2_7
 dev-python/pyxenstore python_single_target_python2_7
 dev-python/pyzmq-compat python_single_target_python2_7
 dev-python/quex python_single_target_python2_7
+dev-python/regex-compat python_single_target_python2_7
 dev-python/restkit python_single_target_python2_7
 dev-python/ropemacs python_single_target_python2_7
 dev-python/rst2pdf python_single_target_python2_7
@@ -238,8 +239,10 @@ dev-python/twisted-words python_single_target_python2_7
 dev-python/typing python_single_target_python2_7
 dev-python/urlgrabber python_single_target_python2_7
 dev-python/weakrefmethod python_single_target_python2_7
+dev-python/webcolors-compat python_single_target_python2_7
 dev-python/zbase32 python_single_target_python2_7
 dev-python/zfec python_single_target_python2_7
+dev-python/zipp-compat python_single_target_python2_7
 dev-python/zsi python_single_target_python2_7
 dev-python/zstandard-compat python_single_target_python2_7
 dev-util/scons-compat python_single_target_python2_7
