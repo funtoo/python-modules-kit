@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Extension to link to external Doxygen API documentation"
 HOMEPAGE="https://pypi.org/project/sphinxcontrib-doxylink/ https://pythonhosted.org/sphinxcontrib-doxylink/ https://bitbucket.org/birkenfeld/sphinx-contrib"
-SRC_URI="https://files.pythonhosted.org/packages/e4/5b/a690d3a74b54095777e62e1992f068b16285f6be6a4ceca88578c266ddb8/sphinxcontrib-doxylink-1.10.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/59/9d29e2d822121c231a9a2965f0a320c059cc220dfa561c193015822c34a5/sphinxcontrib-doxylink-1.11.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
