@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Standalone version of django.utils.feedgenerator"
 HOMEPAGE="https://pypi.org/project/feedgenerator/"
-SRC_URI="https://files.pythonhosted.org/packages/9b/80/15fd050f2dcb8e81732959cfb7c7192d5181f421c6dc8ef213a9d5da86d1/feedgenerator-1.9.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/69/67/ee0bbc3fd0a2e9e0c02e3bcb3105302c6c88951f3f8e9d86ea81e4f8f293/feedgenerator-2.0.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
