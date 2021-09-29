@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/rfc3339-validator-0.1.4"
+S="${WORKDIR}/rfc3339_validator-0.1.4"
