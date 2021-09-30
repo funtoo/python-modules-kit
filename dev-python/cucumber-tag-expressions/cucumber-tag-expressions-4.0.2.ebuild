@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Provides tag-expression parser for cucumber/behave"
