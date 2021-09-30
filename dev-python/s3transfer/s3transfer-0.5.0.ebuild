@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="An Amazon S3 Transfer Manager"
