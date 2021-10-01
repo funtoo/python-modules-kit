@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/PyO3/setuptools-rust https://pypi.org/project/setup
 SRC_URI="https://files.pythonhosted.org/packages/12/22/6ba3031e7cbd6eb002e13ffc7397e136df95813b6a2bd71ece52a8f89613/setuptools-rust-0.12.1.tar.gz
 "
 
-DEPEND=""
+DEPEND=">=dev-python/setuptools_scm-3.4.3[${PYTHON_USEDEP}]"
 RDEPEND="
 	dev-python/wheel[${PYTHON_USEDEP}]
 	>=dev-python/semantic_version-2.8.5[${PYTHON_USEDEP}]
