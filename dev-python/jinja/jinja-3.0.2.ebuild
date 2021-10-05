@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A full-featured template engine for Python"
 HOMEPAGE="https://palletsprojects.com/p/jinja/ https://pypi.org/project/Jinja2/"
-SRC_URI="https://files.pythonhosted.org/packages/39/11/8076571afd97303dfeb6e466f27187ca4970918d4b36d5326725514d3ed3/Jinja2-3.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f8/86/7c0eb6e8b05385d1ce682abc0f994abd1668e148fb52603fa86e15d4c110/Jinja2-3.0.2.tar.gz
 "
 
 DEPEND=""
@@ -22,7 +22,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/Jinja2-3.0.1"
+S="${WORKDIR}/Jinja2-3.0.2"
 
 distutils_enable_sphinx docs \
 	dev-python/sphinx-issues \
