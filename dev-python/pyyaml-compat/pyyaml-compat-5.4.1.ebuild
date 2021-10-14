@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="YAML parser and emitter for Python"
@@ -10,19 +10,17 @@ HOMEPAGE="https://pyyaml.org/wiki/PyYAML
 https://pypi.org/project/PyYAML/
 https://github.com/yaml/pyyaml
 "
-SRC_URI="https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/pyyaml-compat )
-	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
-IUSE="examples +libyaml python_targets_python2_7"
+RDEPEND="<dev-python/pyyaml-6.0.0 libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
+IUSE="examples +libyaml"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/PyYAML-6.0"
+S="${WORKDIR}/PyYAML-5.4.1"
 
 python_configure_all() {
 	mydistutilsargs=( $(use_with libyaml) )
@@ -34,4 +32,9 @@ python_install_all() {
 		dodoc -r examples
 		docompress -x /usr/share/doc/${PF}
 	fi
+}
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
 }
