@@ -11,7 +11,7 @@ MY_PN="PyJWT"
 
 DESCRIPTION="JSON Web Token implementation in Python"
 HOMEPAGE="https://github.com/progrium/pyjwt https://pypi.org/project/PyJWT/"
-SRC_URI="https://files.pythonhosted.org/packages/b9/6d/e5ac4eb80724cb4201de6dcbc1e8a9f5cb65a0424b30c4c69e49bc1363d1/PyJWT-2.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1d/8e/01bdcfdbb352daaba8ea406d9df149c5bba7dbf70f908d4fa4c269fe6a08/PyJWT-2.3.0.tar.gz"
 
 LICENSE=" MIT"
 SLOT="0"
