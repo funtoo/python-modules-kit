@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
 HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
-SRC_URI="https://files.pythonhosted.org/packages/b1/7a/b9e2309e5c619ba3da8806e43bb17873ec6eab22a3d79347778c80563028/importlib_resources-5.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e6/eb/9a21e2ae696a0530c73304f9d1d3c063065f82d3562822b55466c6ef62ef/importlib_resources-5.2.3.tar.gz
 "
 
 DEPEND="
@@ -17,13 +17,13 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_resources-compat )
 	$(python_gen_cond_dep '
 	dev-python/zipp[${PYTHON_USEDEP}]
-	' -3 pypy3
+	' pypy3 -3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/importlib_resources-5.2.2"
+S="${WORKDIR}/importlib_resources-5.2.3"
 
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging
