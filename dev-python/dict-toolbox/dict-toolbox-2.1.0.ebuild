@@ -21,6 +21,6 @@ KEYWORDS="*"
 S="${WORKDIR}/dict-toolbox-2.1.0"
 
 src_prepare() {
-	touch ${S}/requirements.txt
+	touch ${S}/requirements/base.txt
 	default
 }
