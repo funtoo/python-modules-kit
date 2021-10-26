@@ -21,6 +21,7 @@ KEYWORDS="*"
 S="${WORKDIR}/dict-toolbox-2.1.0"
 
 src_prepare() {
-	touch ${S}/requirements/base.txt
+	install -d ${S}/requirements
+	touch ${S}/requirements/base.txt || die
 	default
 }
