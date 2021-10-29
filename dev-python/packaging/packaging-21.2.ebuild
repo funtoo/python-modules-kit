@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Core utilities for Python packages"
 HOMEPAGE="https://github.com/pypa/packaging https://pypi.org/project/packaging/"
-SRC_URI="https://files.pythonhosted.org/packages/df/86/aef78bab3afd461faecf9955a6501c4999933a48394e90f03cd512aad844/packaging-21.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/4d/34/523195b783e799fd401ad4bbc40d787926dd4c61838441df08bf42297792/packaging-21.2.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/packaging-21.0"
+S="${WORKDIR}/packaging-21.2"
