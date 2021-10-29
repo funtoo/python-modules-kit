@@ -14,10 +14,10 @@ SRC_URI="https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f7457
 "
 
 DEPEND="
-	libyaml? ( dev-libs/pyyaml )"
+	libyaml? ( dev-libs/libyaml )"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyyaml-compat )
-	libyaml? ( dev-libs/pyyaml )
+	libyaml? ( dev-libs/libyaml )
 	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 IUSE="examples +libyaml python_targets_python2_7"
 SLOT="0"
