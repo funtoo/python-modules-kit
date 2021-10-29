@@ -13,9 +13,11 @@ https://github.com/yaml/pyyaml
 SRC_URI="https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz
 "
 
-DEPEND=""
+DEPEND="
+	libyaml? ( dev-libs/pyyaml )"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyyaml-compat )
+	libyaml? ( dev-libs/pyyaml )
 	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 IUSE="examples +libyaml python_targets_python2_7"
 SLOT="0"
