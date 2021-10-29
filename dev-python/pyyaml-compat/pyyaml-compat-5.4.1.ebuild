@@ -13,8 +13,11 @@ https://github.com/yaml/pyyaml
 SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz
 "
 
-DEPEND=""
-RDEPEND="<dev-python/pyyaml-6.0.0 libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
+DEPEND="
+	libyaml? ( dev-libs/pyyaml )"
+RDEPEND="<dev-python/pyyaml-6.0.0 
+	libyaml? ( dev-libs/pyyaml )
+	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 IUSE="examples +libyaml"
 SLOT="0"
 LICENSE="MIT"
