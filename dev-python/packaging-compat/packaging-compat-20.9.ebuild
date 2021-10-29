@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf6950092
 "
 
 DEPEND=""
-RDEPEND="!<=dev-python/packaging-18.0 >=dev-python/pyparsing-2.1.10[${PYTHON_USEDEP}]"
+RDEPEND="!<=dev-python/packaging-18.0 <dev-python/pyparsing-3[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
