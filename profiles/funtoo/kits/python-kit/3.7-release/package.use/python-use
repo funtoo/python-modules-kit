@@ -187,7 +187,6 @@ dev-python/pyoembed python_single_target_python2_7
 dev-python/pyogg python_single_target_python2_7
 dev-python/pyopenal python_single_target_python2_7
 dev-python/pyorbit python_single_target_python2_7
-dev-python/pyparsing-compat python_single_target_python2_7
 dev-python/pypy python_single_target_python2_7
 dev-python/pypy3 python_single_target_python2_7
 dev-python/pypy3-bin python_single_target_python2_7
