@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
 DESCRIPTION="Python parsing module"
@@ -11,14 +11,9 @@ SRC_URI="https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f76
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/pyparsing-3.0.0 "
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/pyparsing-2.4.7"
-
-post_src_install() {
-	rm -rf ${D}/usr/bin
-}

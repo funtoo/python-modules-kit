@@ -13,7 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/4d/34/523195b783e799fd401ad4bbc
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/packaging-compat )
-	>=dev-python/pyparsing-2.1.10[${PYTHON_USEDEP}]"
+	<dev-python/pyparsing-3[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
