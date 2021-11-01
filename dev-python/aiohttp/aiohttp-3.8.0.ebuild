@@ -53,6 +53,11 @@ S="${WORKDIR}/aiohttp-3.8.0"
 
 DOCS=( CHANGES.rst CONTRIBUTORS.txt README.rst )
 
+src_prepare() {
+	# Prevent installing examples
+	rm ${S}/examples/__init__.py
+}
+
 python_compile_all() {
 	use doc && emake -C docs html
 }
