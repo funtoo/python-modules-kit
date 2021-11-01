@@ -32,5 +32,6 @@ KEYWORDS="*"
 S="${WORKDIR}/aiohttp-3.8.0"
 
 src_prepare() {
+	default
 	rm ${S}/examples/__init__.py
 }
