@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 pypy )
 inherit distutils-r1
 
 DESCRIPTION="Alternative regular expression module, to replace re."
-HOMEPAGE="https://bitbucket.org/mrabarnett/mrab-regex https://pypi.org/project/regex/"
-SRC_URI="https://files.pythonhosted.org/packages/33/a0/2ee4938d1e21eb280a79136e290d9e4a80e66115a093f8b7f1be74ac99e2/regex-2021.10.23.tar.gz
+HOMEPAGE="https://github.com/mrabarnett/mrab-regex https://pypi.org/project/regex/"
+SRC_URI="https://files.pythonhosted.org/packages/c9/e5/779cf0a5f50f1208397d315745203189e765be938eccc15d45f741aebb4e/regex-2021.11.1.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/regex-2021.10.23"
+S="${WORKDIR}/regex-2021.11.1"
