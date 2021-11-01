@@ -54,6 +54,7 @@ S="${WORKDIR}/aiohttp-3.8.0"
 DOCS=( CHANGES.rst CONTRIBUTORS.txt README.rst )
 
 src_prepare() {
+	default
 	# Prevent installing examples
 	rm ${S}/examples/__init__.py
 }
