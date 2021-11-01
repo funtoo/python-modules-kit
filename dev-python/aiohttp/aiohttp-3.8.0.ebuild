@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="http client/server for asyncio"
 HOMEPAGE="https://pypi.org/project/aiohttp/"
-SRC_URI="https://files.pythonhosted.org/packages/99/f5/90ede947a3ce2d6de1614799f5fea4e93c19b6520a59dc5d2f64123b032f/aiohttp-3.7.4.post0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/1a/ba9542a545aed4b0b6ef128561f68dd3c2812ff5abfa9ed5b96547a728ea/aiohttp-3.8.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -49,7 +49,7 @@ DEPEND="
 	)
 "
 RDEPEND="${CDEPEND}"
-S="${WORKDIR}/aiohttp-3.7.4.post0"
+S="${WORKDIR}/aiohttp-3.8.0"
 
 DOCS=( CHANGES.rst CONTRIBUTORS.txt README.rst )
 
