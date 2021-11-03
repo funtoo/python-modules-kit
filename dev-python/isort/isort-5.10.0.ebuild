@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A python utility/library to sort imports"
 HOMEPAGE="https://pypi.org/project/isort/"
-SRC_URI="https://files.pythonhosted.org/packages/1c/34/ed9178b5b23ade4561bf77b91856e0e3bc094620fd81bd74d535817a0f0d/isort-5.9.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8c/dc/ebd5c077651ac901bdbbf121082d27911f5caefbb1b7bf82540c5fb89697/isort-5.10.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
