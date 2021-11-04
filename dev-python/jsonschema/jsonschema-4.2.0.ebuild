@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="An implementation of JSON Schema validation for Python"
 HOMEPAGE="https://github.com/Julian/jsonschema https://pypi.org/project/jsonschema/"
-SRC_URI="https://files.pythonhosted.org/packages/94/b9/8be410108f775bbb97d74b9d95fbcaa8ca55de9f43fe73c5a3bd82a3a867/jsonschema-4.1.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ca/49/e6bb44c7eedc5377680cbad642527b4f7714d96bdfcb1f1f56f8b469724f/jsonschema-4.2.0.tar.gz
 "
 
 DEPEND="
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/jsonschema-4.1.2"
+S="${WORKDIR}/jsonschema-4.2.0"
