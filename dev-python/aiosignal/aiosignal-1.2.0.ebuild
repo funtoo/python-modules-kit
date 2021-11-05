@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/27/6b/a89fbcfae70cf53f066ec2259
 "
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-python/frozenlist[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
