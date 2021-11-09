@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Library for manipulating TrueType, OpenType, AFM and Type1 fonts"
 HOMEPAGE="https://github.com/fonttools/fonttools/"
-SRC_URI="https://files.pythonhosted.org/packages/d5/41/cafdf42a67ff794d912960952fec7c481b2470ee29f1c671df8c19bd84a9/fonttools-4.28.0.zip
+SRC_URI="https://files.pythonhosted.org/packages/47/bb/7d54c8764ec928c348a329bf745bc73029742cd57efffc1530f8c5ac6d4c/fonttools-4.28.1.zip
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/fonttools-4.28.0"
+S="${WORKDIR}/fonttools-4.28.1"
 
 src_configure() {
 	DISTUTILS_ARGS=( --with-cython )
