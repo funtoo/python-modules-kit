@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Pure Python module for getting image size from png/jpeg/jpeg2000/gif files"
 HOMEPAGE="https://github.com/shibukawa/imagesize_py"
-SRC_URI="https://files.pythonhosted.org/packages/e4/9f/0452b459c8ba97e07c3cd2bd243783936a992006cf4cd1353c314a927028/imagesize-1.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/27/b147794d43249e8303a06f427e407a090696b65b81045e36f8873d8d8a42/imagesize-1.3.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
