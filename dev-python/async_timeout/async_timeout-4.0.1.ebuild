@@ -8,7 +8,7 @@ inherit distutils-r1
 MY_P=${PN/_/-}-${PV}
 DESCRIPTION="Timeout context manager for asyncio programs"
 HOMEPAGE="https://github.com/aio-libs/async-timeout"
-SRC_URI="https://files.pythonhosted.org/packages/28/0c/1cd218ea84964f0740a3ab6152dfa99661174abdd8e4053e06c0285ac42a/async-timeout-4.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/cf/9452ab2a5936f96aa94e3c1cf21e8038b643cd27f33aeebc3aea5d25bcd1/async-timeout-4.0.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
