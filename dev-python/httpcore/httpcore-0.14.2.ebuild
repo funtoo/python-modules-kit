@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A minimal low-level HTTP client."
 HOMEPAGE="https://github.com/encode/httpcore https://pypi.org/project/httpcore/"
-SRC_URI="https://files.pythonhosted.org/packages/e6/24/510787b2b34e3007a17073486ad14f8062abf189953f92c0240f38e73d00/httpcore-0.14.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/0d/4b/8eb754a8aa328cd06178f68ae6eab7093b4ed9ba0634111db9524e1c8ce3/httpcore-0.14.2.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/httpcore-0.14.1"
+S="${WORKDIR}/httpcore-0.14.2"
