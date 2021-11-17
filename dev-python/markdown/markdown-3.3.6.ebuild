@@ -10,7 +10,7 @@ HOMEPAGE="https://python-markdown.github.io/
 https://pypi.org/project/Markdown/
 https://github.com/Python-Markdown/markdown
 "
-SRC_URI="https://files.pythonhosted.org/packages/e8/62/6137b2d0b5d69e80004373fac8e84735c975b4a63d4bcab237012e6b486e/Markdown-3.3.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/15/06/d60f21eda994b044cbd496892d4d4c5c708aa597fcaded7d421513cb219b/Markdown-3.3.6.tar.gz
 "
 
 DEPEND=""
@@ -25,4 +25,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/Markdown-3.3.5"
+S="${WORKDIR}/Markdown-3.3.6"
