@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Backported and Experimental Type Hints for Python 3.6+"
 HOMEPAGE=" https://pypi.org/project/typing-extensions/"
-SRC_URI="https://files.pythonhosted.org/packages/1a/23/748b0c9a5578110b31580c8d2643319adcb3ec91f601b50a955051b51f1d/typing_extensions-4.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/16/06/0f7367eafb692f73158e5c5cbca1aec798cdf78be5167f6415dd4205fa32/typing_extensions-3.7.4.3.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/typing-extensions-4.0.0"
+S="${WORKDIR}/typing-extensions-3.7.4.3"
 
 src_unpack() {
 	unpack ${A}
