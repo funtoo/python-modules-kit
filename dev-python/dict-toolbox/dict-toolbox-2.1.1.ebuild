@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Dict tools for Python projects"
 HOMEPAGE="https://gitlab.com/saltstack/open/dict-toolbox https://pypi.org/project/dict-toolbox/"
-SRC_URI="https://files.pythonhosted.org/packages/92/be/21d3a7c6e965942714ca459e75f51a9102c06b34b7a05b11228c9fe6f319/dict-toolbox-2.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d1/85/6bbaff6b889749cab79923cb7e8cb1554e39272c57e5b7bc53c8294e17f0/dict-toolbox-2.1.1.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/dict-toolbox-2.1.0"
+S="${WORKDIR}/dict-toolbox-2.1.1"
 
 src_prepare() {
 	install -d ${S}/requirements
