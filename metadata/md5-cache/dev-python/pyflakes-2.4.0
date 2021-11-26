@@ -1,14 +1,14 @@
 BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=flake8 plugin: McCabe complexity checker
+DESCRIPTION=Passive checker for Python programs
 EAPI=7
-HOMEPAGE=https://github.com/PyCQA/mccabe
+HOMEPAGE=https://github.com/PyCQA/pyflakes https://pypi.org/project/pyflakes/
 IUSE=python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7
 KEYWORDS=*
 LICENSE=MIT
-RDEPEND=dev-python/flake8[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)] python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)]
+RDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python2_7(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python2_7(-)]
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/06/18/fa675aa501e11d6d6ca0ae73a101b2f3571a565e0f7d38e062eec18a91ee/mccabe-0.6.1.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/15/60/c577e54518086e98470e9088278247f4af1d39cb43bcbd731e2c307acd6a/pyflakes-2.4.0.tar.gz
 _eclasses_=distutils-r1	d8e145fbbe57f3a15ae504741fb95f66	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=b167c145a80cf696751a9ebcfa932e60
+_md5_=2dddad3e94f31a6bd47f0e3a0689ee1c
