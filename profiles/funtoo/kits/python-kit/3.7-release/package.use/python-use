@@ -182,6 +182,7 @@ dev-python/pyilmbase python_single_target_python2_7
 dev-python/pylirc python_single_target_python2_7
 dev-python/pylzma python_single_target_python2_7
 dev-python/pymad python_single_target_python2_7
+dev-python/pymongo-compat python_single_target_python2_7
 dev-python/pynotifier python_single_target_python2_7
 dev-python/pyode python_single_target_python2_7
 dev-python/pyoembed python_single_target_python2_7
