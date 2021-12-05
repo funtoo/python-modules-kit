@@ -9,7 +9,7 @@ DESCRIPTION="A sphinx extension for embedding block diagrams using blockdiag"
 
 HOMEPAGE="https://github.com/blockdiag/sphinxcontrib-blockdiag"
 
-SRC_URI="https://files.pythonhosted.org/packages/ad/7a/d9e57607522d414e1a089f8da982750ded0e100b1bfc210b17f0fe98db47/sphinxcontrib-blockdiag-2.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/83/0624c9f694fd942b9c11dbd3d6694bb9b10a68b22f65b1623b4657f4b7ac/sphinxcontrib-blockdiag-3.0.0.tar.gz"
 
 LICENSE="BSD"
 
