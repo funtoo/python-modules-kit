@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Collection of utilities for publishing packages on PyPI"
 HOMEPAGE="https://twine.readthedocs.io/ https://pypi.org/project/twine/"
-SRC_URI="https://files.pythonhosted.org/packages/85/81/95fb7385d079d9f79c32143dcc3dc84f5021c9b63c1254f14f577bff818a/twine-3.7.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9d/12/0e4c8df764d87c15b8256444d0b8b433c183ce3a986ffae3086df3f876ef/twine-3.7.1.tar.gz
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -29,7 +29,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/twine-3.7.0"
+S="${WORKDIR}/twine-3.7.1"
 
 python_prepare_all() {
 	distutils-r1_python_prepare_all
