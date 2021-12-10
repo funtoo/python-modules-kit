@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="a library for rendering \"readme\" descriptions for Warehouse"
 HOMEPAGE="https://github.com/pypa/readme_renderer https://pypi.org/project/readme_renderer/"
-SRC_URI="https://files.pythonhosted.org/packages/cb/a5/9d2333bd020bb1979ba51ab5acf59d77559951405e024e49576b5bee1a90/readme_renderer-30.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1a/fe/8121b1059dde05ea9b5c251c3e752c13e12892f6e2acf9fe1d5ec544cde7/readme_renderer-31.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
