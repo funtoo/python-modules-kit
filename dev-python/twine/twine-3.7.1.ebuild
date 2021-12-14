@@ -16,7 +16,7 @@ RDEPEND="
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-3.6[${PYTHON_USEDEP}]
 	>=dev-python/keyring-15.1[${PYTHON_USEDEP}]
-	>=dev-python/pkginfo-1.4.2[${PYTHON_USEDEP}]
+	>=dev-python/pkginfo-1.8.1[${PYTHON_USEDEP}]
 	>=dev-python/readme_renderer-21.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-0.8.0[${PYTHON_USEDEP}]
