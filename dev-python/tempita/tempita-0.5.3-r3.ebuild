@@ -1,9 +1,8 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( pypy{,3} python{2_7,3_{5,6,7}} )
+PYTHON_COMPAT=( pypy{,3} python2+ )
 
 inherit distutils-r1
 
@@ -16,7 +15,7 @@ SRC_URI="https://bitbucket.org/ianb/${PN}/get/${MY_COMMIT}.tar.gz -> ${P}-bitbuc
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
+KEYWORDS="*"
 IUSE="doc test"
 
 BDEPEND="
@@ -25,7 +24,13 @@ BDEPEND="
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )
 "
 
-PATCHES=( "${FILESDIR}/${P}-pypy-tests.patch" )
+PATCHES=(
+	# cgi.escape has been removed in Python 3.9
+	"${FILESDIR}/${P}-cgi-escape.patch"
+	# The 2to3 option for setuptools is deprecated
+	"${FILESDIR}/${P}-2to3.patch"
+	"${FILESDIR}/${P}-pypy-tests.patch"
+)
 
 S="${WORKDIR}/ianb-${PN}-${MY_COMMIT}"
 
