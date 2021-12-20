@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Read metadata from Python packages"
 HOMEPAGE="https://importlib-metadata.readthedocs.io/"
-SRC_URI="https://files.pythonhosted.org/packages/c0/76/f43f83e15a990bf8dc9c9c18d6ec89bc3821abb237b8ee4f5b94dc8ed7bb/importlib_metadata-4.9.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/50/05/fef7fbb7e781e0632ebba4e6e37bcc88b9615e76338850dc31435091ddc0/importlib_metadata-4.10.0.tar.gz
 "
 
 DEPEND=""
@@ -25,6 +25,6 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/importlib_metadata-4.9.0"
+S="${WORKDIR}/importlib_metadata-4.10.0"
 
 distutils_enable_sphinx "${PN}/docs" '>=dev-python/rst-linker-1.9'
