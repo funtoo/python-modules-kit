@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION="Collection of extensions to Distutils"
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
 "
-SRC_URI="https://files.pythonhosted.org/packages/57/e8/675eabec05702d8f3cddff494a4bb8c9cdb9e76d295705377b1eb73bfadf/setuptools-60.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/7f/0c/df74ee211715db60b333eaa7bf1793b1b21c777ce53295a45a98b9b1a0fe/setuptools-60.0.3.tar.gz
 "
 
 DEPEND="
@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools-60.0.0"
+S="${WORKDIR}/setuptools-60.0.3"
 
 python_install() {
 	export DISTRIBUTE_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1
