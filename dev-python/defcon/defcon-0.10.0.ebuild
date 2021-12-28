@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A set of UFO based objects for use in font editing applications"
 HOMEPAGE="https://github.com/robotools/defcon"
-SRC_URI="https://files.pythonhosted.org/packages/31/94/f9c0112cc40c89d6d224a6aa61c1999ba8e17ef9f2bafdfb574a198a59f3/defcon-0.9.0.zip
+SRC_URI="https://files.pythonhosted.org/packages/c0/69/1ce8ecc807061e15901ea792d962d7f698aa0ce5259e8f680f86d0ec4213/defcon-0.10.0.zip
 "
 
 DEPEND="dev-python/fonttools[${PYTHON_USEDEP}]"
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/defcon-0.9.0"
+S="${WORKDIR}/defcon-0.10.0"
