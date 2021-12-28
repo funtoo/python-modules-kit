@@ -11,7 +11,7 @@ HOMEPAGE="
 	https://github.com/hynek/attrs
 	https://attrs.readthedocs.org/
 	https://pypi.org/project/attrs/"
-SRC_URI="https://files.pythonhosted.org/packages/ed/d6/3ebca4ca65157c12bd08a63e20ac0bdc21ac7f3694040711f9fd073c0ffb/attrs-21.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/53/04/e3468cac2a3eccd7312eba87341cc111335466277a0c97c43a026977cc9d/attrs-21.3.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
