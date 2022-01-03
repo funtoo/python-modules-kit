@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Magnificent app which corrects your previous console command"
 HOMEPAGE="https://github.com/nvbn/thefuck"
-SRC_URI="https://files.pythonhosted.org/packages/21/d2/f5194c2d51b2aab4bda6de97c5eb1ca5a547ad9b9f778ab5bf4ce19fba88/thefuck-3.31.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16aa0685018f21c60a6769a496558da7d9d8f1/thefuck-3.32.tar.gz
 "
 
 DEPEND=""
@@ -23,7 +23,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/thefuck-3.31"
+S="${WORKDIR}/thefuck-3.32"
 
 python_prepare_all() {
 	sed -i -e "/import pip/s/^/#/" -e "/pip.__version__/,+3 s/^/#/" setup.py || die
