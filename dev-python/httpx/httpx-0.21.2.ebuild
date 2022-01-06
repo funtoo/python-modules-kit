@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="The next generation HTTP client."
 HOMEPAGE="https://github.com/encode/httpx https://pypi.org/project/httpx/"
-SRC_URI="https://files.pythonhosted.org/packages/5d/d4/739bdfb68a7dee54c795e1977abd0c81f83235499488a10717b699dab061/httpx-0.21.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/cc/51/3dc36938b7476c8890a55e3bc594b72ce6d33a1ac45fc3a2dbb503d301aa/httpx-0.21.2.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/httpx-0.21.1"
+S="${WORKDIR}/httpx-0.21.2"
