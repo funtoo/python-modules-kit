@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Zstandard bindings for Python"
 HOMEPAGE="https://pypi.org/project/zstandard/ https://github.com/indygreg/python-zstandard"
-SRC_URI="https://files.pythonhosted.org/packages/7d/74/50521e915f23ea5fecee190e933527174a34e8623317369d3b9a13ba109c/zstandard-0.16.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/55/29/a4dc59d4df31a5797b07d83a0e53137f6dcd1be0c9ac1e4dbcaac8522a11/zstandard-0.17.0.tar.gz
 "
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
@@ -20,7 +20,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/zstandard-0.16.0"
+S="${WORKDIR}/zstandard-0.17.0"
 
 python_compile() {
 	local MAKEOPTS=-j1
