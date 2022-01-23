@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="multidict implementation"
 HOMEPAGE="https://github.com/aio-libs/multidict/"
-SRC_URI="https://files.pythonhosted.org/packages/8e/7c/e12a69795b7b7d5071614af2c691c97fbf16a2a513c66ec52dd7d0a115bb/multidict-5.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/91/db40f5e6bd2b5d2f3fff0f5edee05035513c11fff09c565368f22129240a/multidict-6.0.1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
