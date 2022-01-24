@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="flake8 plugin: McCabe complexity checker"
 HOMEPAGE="https://github.com/PyCQA/mccabe"
-SRC_URI="https://files.pythonhosted.org/packages/06/18/fa675aa501e11d6d6ca0ae73a101b2f3571a565e0f7d38e062eec18a91ee/mccabe-0.6.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/mccabe-0.6.1"
+S="${WORKDIR}/mccabe-0.7.0"
 
 python_prepare_all() {
 	sed -i -e '/pytest-runner/d' setup.py || die
