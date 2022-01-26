@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="push to and pull from a Git repository using Mercurial"
 HOMEPAGE="https://hg-git.github.io  https://pypi.org/project/hg-git/"
-SRC_URI="https://files.pythonhosted.org/packages/0a/f2/10ed2e9646893fb2c3958fec1c6e802c41673181c1974a53ab1d89ceccd4/hg-git-0.10.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/65/52/ee181ffcac320486c1d330388293e64c351170cc60ee5a46dcd26ffc7a9a/hg-git-0.10.4.tar.gz
 "
 
 DEPEND="${RDEPEND}"
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
 
-S="${WORKDIR}/hg-git-0.10.3"
+S="${WORKDIR}/hg-git-0.10.4"
