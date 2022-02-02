@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="Discover and load entry points from installed packages"
 HOMEPAGE="https://github.com/takluyver/entrypoints"
-SRC_URI="https://files.pythonhosted.org/packages/b4/ef/063484f1f9ba3081e920ec9972c96664e2edb9fdc3d8669b0e3b8fc0ad7c/entrypoints-0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ea/8d/a7121ffe5f402dc015277d2d31eb82d2187334503a011c18f2e78ecbb9b2/entrypoints-0.4.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
