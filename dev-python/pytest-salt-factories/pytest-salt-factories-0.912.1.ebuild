@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Pytest Salt Plugin"
 HOMEPAGE="https://github.com/saltstack/pytest-salt-factories https://pypi.org/project/pytest-salt-factories/"
-SRC_URI="https://files.pythonhosted.org/packages/ab/7a/bef0d422d8ba9b64453ab6ee8c5b0e7814bd350a07b02c14f0952f4f21a2/pytest-salt-factories-0.912.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/4a/d7/becad1034e2dc5a8e38bee958a8c126397157fdd66028f2e6e39ecd4ffd0/pytest-salt-factories-0.912.1.tar.gz
 "
 
 DEPEND=""
@@ -26,7 +26,7 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/pytest-salt-factories-0.912.0"
+S="${WORKDIR}/pytest-salt-factories-0.912.1"
 
 # submitted PR https://github.com/saltstack/pytest-salt-factories/pull/33
 src_prepare() {
