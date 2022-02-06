@@ -1,23 +1,29 @@
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
+PYTHON_COMPAT=( python{2_7,3_{5,6,7}} pypy{,3} )
 
-PYTHON_COMPAT=( python2+ pypy3 pypy )
 inherit distutils-r1
 
-DESCRIPTION="Pure python rfc3986 validator"
-HOMEPAGE="https://github.com/naimetti/rfc3986-validator https://pypi.org/project/rfc3986-validator/"
-SRC_URI="https://files.pythonhosted.org/packages/da/88/f270de456dd7d11dcc808abfa291ecdd3f45ff44e3b549ffa01b126464d0/rfc3986_validator-0.1.1.tar.gz
-"
+# 0.1.1 isn't tagged on GitHub
+COMMIT_HASH="ee3dcca0df300e0584e129a4ab81828be002684b"
+MY_PN="${PN//-/_}"
+MY_P="${MY_PN}-${PV}"
 
-DEPEND=""
-RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
-IUSE=""
-SLOT="0"
+DESCRIPTION="Pure python RFC3986 validator"
+HOMEPAGE="https://pypi.org/project/rfc3986-validator/ https://github.com/naimetti/rfc3986-validator"
+SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
+
 LICENSE="MIT"
-KEYWORDS="*"
+SLOT="0"
+KEYWORDS="~amd64 ~sparc ~x86"
 
-S="${WORKDIR}/rfc3986_validator-0.1.1"
+RDEPEND="dev-python/rfc3987[${PYTHON_USEDEP}]"
+
+S="${WORKDIR}/${MY_P}"
+
+distutils_enable_tests pytest
 
 python_prepare_all() {
 	# remove dep on pytest-runner
