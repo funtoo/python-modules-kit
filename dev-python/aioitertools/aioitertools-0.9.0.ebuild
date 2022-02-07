@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="itertools and builtins for AsyncIO and mixed iterables"
 HOMEPAGE="https://aioitertools.omnilib.dev https://pypi.org/project/aioitertools/"
-SRC_URI="https://files.pythonhosted.org/packages/78/f7/ea3904946e33c6e2799b5303e11ae5f43cf6b08dda58c8db8d759e34c3fb/aioitertools-0.8.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a7/c5/fe985d8eab13f168341a80bba99bdc2608f7788050f87722786a80583873/aioitertools-0.9.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/aioitertools-0.8.0"
+S="${WORKDIR}/aioitertools-0.9.0"
