@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A lil' TOML parser"
 HOMEPAGE=" https://pypi.org/project/tomli/"
-SRC_URI="https://files.pythonhosted.org/packages/c0/3f/d7af728f075fb08564c5949a9c95e44352e23dee646869fa104a3b2060a3/tomli-2.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3d/6e/d290c9bf16159f02b70c432386aa5bfe22c2857ff460591912fd907b61f6/tomli-2.0.0.tar.gz
 "
 
 DEPEND=""
@@ -17,6 +17,6 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/tomli-2.0.1"
+S="${WORKDIR}/tomli-2.0.0"
 
 DOCS=( README.md )
