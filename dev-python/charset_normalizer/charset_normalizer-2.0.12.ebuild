@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="The Real First Universal Charset Detector"
 HOMEPAGE="https://github.com/ousret/charset_normalizer"
-SRC_URI="https://files.pythonhosted.org/packages/e8/e8/b6cfd28fb430b2ec9923ad0147025bf8bbdf304b1eb3039b69f1ce44ed6e/charset-normalizer-2.0.11.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/56/31/7bcaf657fafb3c6db8c787a865434290b726653c912085fbd371e9b92e1c/charset-normalizer-2.0.12.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/charset_normalizer-2.0.11"
+S="${WORKDIR}/charset_normalizer-2.0.12"
 
 src_unpack() {
 	default
