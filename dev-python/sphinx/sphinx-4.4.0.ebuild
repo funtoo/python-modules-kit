@@ -2,21 +2,21 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
-PYTHON_REQ_USE="threads(+)"
-
+PYTHON_COMPAT=( python3+ pypy )
 inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
-HOMEPAGE="http://www.sphinx-doc.org/"
-SRC_URI="https://files.pythonhosted.org/packages/c9/08/c2932e66460cfbc8973928d276dc82ccde2d24b365055eeda9f0afc1951e/Sphinx-4.4.0.tar.gz"
+HOMEPAGE="https://www.sphinx-doc.org/ https://pypi.org/project/Sphinx/"
+SRC_URI="https://files.pythonhosted.org/packages/c9/08/c2932e66460cfbc8973928d276dc82ccde2d24b365055eeda9f0afc1951e/Sphinx-4.4.0.tar.gz
+"
 
-LICENSE="BSD"
-SLOT="0"
-KEYWORDS="*"
-IUSE="doc latex"
-
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
+	latex? (
+		dev-texlive/texlive-latexextra
+		dev-texlive/texlive-luatex
+		app-text/dvipng
+	)
 	<dev-python/alabaster-0.8[${PYTHON_USEDEP}]
 	dev-python/Babel[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
@@ -33,19 +33,20 @@ RDEPEND="
 	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
 	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	latex? (
-		dev-texlive/texlive-latexextra
-		dev-texlive/texlive-luatex
-		app-text/dvipng
-	)"
-DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]"
+
+IUSE="latex doc"
+SLOT="0"
+LICENSE="BSD"
+KEYWORDS="*"
+
+S="${WORKDIR}/sphinx-4.4.0"
+
+S="${WORKDIR}/${P^}"
 
 PATCHES=(
 	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
 )
-
-S="${WORKDIR}/${P^}"
 
 # FL-8369: relax various deps
 src_prepare() {
