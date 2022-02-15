@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Distro - an OS platform information API"
 HOMEPAGE="https://github.com/python-distro/distro https://pypi.org/project/distro/"
-SRC_URI="https://files.pythonhosted.org/packages/a5/26/256fa167fe1bf8b97130b4609464be20331af8a3af190fb636a8a7efd7a2/distro-1.6.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b5/7e/ddfbd640ac9a82e60718558a3de7d5988a7d4648385cf00318f60a8b073a/distro-1.7.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/distro-1.6.0"
+S="${WORKDIR}/distro-1.7.0"
