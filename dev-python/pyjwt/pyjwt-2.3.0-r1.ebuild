@@ -17,7 +17,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/pyjwt-2.3.0"
+S="${WORKDIR}/PyJWT-2.3.0"
 
 pkg_postinst() {
 	elog "Available optional features:"
