@@ -11,6 +11,6 @@ RDEPEND=emacs? ( app-editors/emacs ) python_targets_pypy3? ( >=dev-python/pypy3-
 REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/eb/46/80dd9e5ad67ebc766ff3229901bde4a7bc82907efe93cd7007c4df458dd5/Cython-0.29.27.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/cb/da/54a5d7a7d9afc90036d21f4b58229058270cc14b4c81a86d9b2c77fd072e/Cython-0.29.28.tar.gz
 _eclasses_=distutils-r1	d8e145fbbe57f3a15ae504741fb95f66	elisp-common	23f47b2e1de7abf387105eddd1318738	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	8b6048ab112e99353b21b318b9074eb6	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=863809fe16b05e16665fce1862379772
+_md5_=28517e68c61a6e0770f8ce18d119de0d
