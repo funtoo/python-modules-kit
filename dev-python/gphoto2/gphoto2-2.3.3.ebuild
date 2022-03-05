@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface to libgphoto2"
 HOMEPAGE="https://github.com/jim-easterbrook/python-gphoto2 https://pypi.org/project/gphoto2/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/ef/0394be9c42ee664c3255128cd6b55ef429e969681d33609555fc523da454/gphoto2-2.3.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ef/8d/9121798c88f6f38f31fc7170c194b205d2d98db097be27ba0db6757d12d3/gphoto2-2.3.3.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE=""
 KEYWORDS="*"
 
-S="${WORKDIR}/gphoto2-2.3.2"
+S="${WORKDIR}/gphoto2-2.3.3"
