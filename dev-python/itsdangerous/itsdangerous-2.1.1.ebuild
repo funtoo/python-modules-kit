@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Various helpers to pass trusted data to untrusted environments and back"
 HOMEPAGE="https://palletsprojects.com/p/itsdangerous/ https://pypi.org/project/itsdangerous/"
-SRC_URI="https://files.pythonhosted.org/packages/82/00/89037083314067f1605233f6f30b94fdddc89d18e283b30b0c5be9e7f801/itsdangerous-2.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9d/86/39f81e23f49eaf62d22248d48771dbf3bce7c52dfdf566e3d8d4c0657f15/itsdangerous-2.1.1.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/itsdangerous-2.1.0"
+S="${WORKDIR}/itsdangerous-2.1.1"
