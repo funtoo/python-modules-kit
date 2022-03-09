@@ -24,3 +24,10 @@ LICENSE="MIT"
 KEYWORDS="*"
 
 S="${WORKDIR}/anyio-3.5.0"
+
+src_prepare() {
+	default
+	# See FL-9522
+	cd ${S}/src/anyio/_core || die
+	( cat ${FILESDIR}/get_asynclib_thread_fix.patch | patch -p0 ) || die
+}
