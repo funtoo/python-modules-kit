@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="C++ header library which makes it easier to write Python extension modules"
 HOMEPAGE="https://pypi.org/project/cppy"
-SRC_URI="https://files.pythonhosted.org/packages/36/64/be592e84c443a70ea5dcfb1c30bfe6f10ba7d8eb05c2264c7ceca8498548/cppy-1.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e0/94/3cca7fccecf9b63219f3bf8f08af719f6d3ab06c4acdcc9372a15a12b593/cppy-1.2.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
