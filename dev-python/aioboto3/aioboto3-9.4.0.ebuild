@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Async boto3 wrapper"
 HOMEPAGE="https://github.com/terrycain/aioboto3 https://pypi.org/project/aioboto3/"
-SRC_URI="https://files.pythonhosted.org/packages/8c/12/ab52b5022d47577e45f4de097f8bdc724344aacec862b2cdbd0a8ddb4a01/aioboto3-9.3.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/4e/bc/73404548c1f637ab7845865aa68cdd46c0e88a6e92dd295cae896d934c2e/aioboto3-9.4.0.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/aioboto3-9.3.1"
+S="${WORKDIR}/aioboto3-9.4.0"
