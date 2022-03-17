@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Async client for aws services using botocore and aiohttp"
 HOMEPAGE="https://github.com/aio-libs/aiobotocore https://pypi.org/project/aiobotocore/"
-SRC_URI="https://files.pythonhosted.org/packages/4e/8d/01035d9b56893bd3b5d6eb4505d3ed1383d124b1c9c2b6024c175681c64b/aiobotocore-2.1.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/31/7b/8deeef984da97814e098c2f64ae16560aef4a465c136d4c9286f57a7c08d/aiobotocore-2.2.0.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/aiobotocore-2.1.2"
+S="${WORKDIR}/aiobotocore-2.2.0"
