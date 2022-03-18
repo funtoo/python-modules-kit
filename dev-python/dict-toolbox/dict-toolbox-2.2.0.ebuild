@@ -11,7 +11,10 @@ SRC_URI="https://files.pythonhosted.org/packages/c5/0e/a87cc52d6032dbeae30b0089f
 "
 
 DEPEND=""
-RDEPEND="dev-python/msgpack[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiofiles[${PYTHON_USEDEP}]
+	dev-python/msgpack[${PYTHON_USEDEP}]
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
