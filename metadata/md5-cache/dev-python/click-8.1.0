@@ -10,6 +10,6 @@ RDEPEND=python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_pyt
 REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python3_10 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/dd/cf/706c1ad49ab26abed0b77a2f867984c1341ed7387b8030a6aa914e2942a0/click-8.0.4.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/45/2b/7ebad1e59a99207d417c0784f7fb67893465eef84b5b47c788324f1b4095/click-8.1.0.tar.gz
 _eclasses_=distutils-r1	99f25357716a44b67680afc3b47219f2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	c6ddaeb7a3e68d2564fa886420d0ae41	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=9009da62b50360d4b8d1ef2dfdcfa8d3
+_md5_=073840d5dfc5c115b8b159117994fe5d
