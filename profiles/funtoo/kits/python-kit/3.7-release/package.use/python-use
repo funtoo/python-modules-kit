@@ -1,7 +1,6 @@
 =dev-python/Numdifftools-0.9.12 python_single_target_python2_7
 =dev-python/Numdifftools-0.9.13 python_single_target_python2_7
 =dev-python/Numdifftools-0.9.14 python_single_target_python2_7
-=dev-python/bandit-0.13.2-r1 python_single_target_python2_7
 =dev-python/carbon-0.9.13 python_single_target_python2_7
 =dev-python/carbon-0.9.13-r1 python_single_target_python2_7
 =dev-python/cov-core-1.7 python_single_target_python2_7
@@ -186,7 +185,6 @@ dev-python/pymad python_single_target_python2_7
 dev-python/pymongo-compat python_single_target_python2_7
 dev-python/pynotifier python_single_target_python2_7
 dev-python/pyode python_single_target_python2_7
-dev-python/pyoembed python_single_target_python2_7
 dev-python/pyogg python_single_target_python2_7
 dev-python/pyopenal python_single_target_python2_7
 dev-python/pyorbit python_single_target_python2_7
