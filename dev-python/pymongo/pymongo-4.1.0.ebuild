@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python driver for MongoDB <http://www.mongodb.org>"
 HOMEPAGE="http://github.com/mongodb/mongo-python-driver https://pypi.org/project/pymongo/"
-SRC_URI="https://files.pythonhosted.org/packages/16/90/dfac3185ed5cc1890a09980ed64578c84b74c3017a9a141d698c81914fc0/pymongo-4.0.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3f/d8/d0c1f1b753cb70e6286e6ba45711130e5019c578b416e2cc086e483ac9ef/pymongo-4.1.0.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/pymongo-4.0.2"
+S="${WORKDIR}/pymongo-4.1.0"
