@@ -13,8 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/a2/13/229d17002cbab8c8f07b46f8a
 "
 
 DEPEND="
-	app-arch/unzip
-	>dev-python/packaging-20[${PYTHON_USEDEP}]"
+	app-arch/unzip"
 RDEPEND="python_targets_python2_7? ( dev-python/setuptools-compat )"
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
@@ -25,6 +24,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-62.0.0"
 
+SETUPTOOLS_USE_DISTUTILS=stdlib
 python_install() {
 	export DISTRIBUTE_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1
 	distutils-r1_python_install

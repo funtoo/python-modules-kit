@@ -13,8 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/b2/40/4e00501c204b457f10fe410da
 "
 
 DEPEND="
-	app-arch/unzip
-	>dev-python/packaging-20[${PYTHON_USEDEP}]"
+	app-arch/unzip"
 RDEPEND="!<dev-python/setuptools-47 "
 PDEPEND=">=dev-python/certifi-2016.9.26[${PYTHON_USEDEP}]"
 IUSE=""
@@ -25,6 +24,7 @@ KEYWORDS="*"
 
 S="${WORKDIR}/setuptools-44.1.1"
 
+SETUPTOOLS_USE_DISTUTILS=stdlib
 python_install() {
 	export DISTRIBUTE_DISABLE_VERSIONED_EASY_INSTALL_SCRIPT=1
 	distutils-r1_python_install
