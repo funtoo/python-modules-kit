@@ -148,6 +148,7 @@ dev-python/libgnome-python python_single_target_python2_7
 dev-python/libgnomecanvas-python python_single_target_python2_7
 dev-python/liblarch python_single_target_python2_7
 dev-python/librsvg-python python_single_target_python2_7
+dev-python/mako-compat python_single_target_python2_7
 dev-python/markdown-compat python_single_target_python2_7
 dev-python/markupsafe-compat python_single_target_python2_7
 dev-python/mock-compat python_single_target_python2_7
