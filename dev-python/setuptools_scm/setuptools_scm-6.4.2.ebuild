@@ -17,7 +17,12 @@ DEPEND="
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
 	)"
-RDEPEND="python_targets_python2_7? ( dev-python/setuptools_scm-compat )"
+RDEPEND="
+	python_targets_python2_7? ( dev-python/setuptools_scm-compat )
+	$(python_gen_cond_dep '
+	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
+	' -3
+	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
