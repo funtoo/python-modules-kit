@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Backported and Experimental Type Hints for Python 3.6+"
+DESCRIPTION="Backported and Experimental Type Hints for Python 3.7+"
 HOMEPAGE=" https://pypi.org/project/typing-extensions/"
 SRC_URI="https://files.pythonhosted.org/packages/16/06/0f7367eafb692f73158e5c5cbca1aec798cdf78be5167f6415dd4205fa32/typing_extensions-3.7.4.3.tar.gz
 "
