@@ -11,6 +11,6 @@ RDEPEND=>=dev-python/bleach-2.1.0[python_targets_pypy3(-)?,python_targets_python
 REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/52/c5/6c090aad067a6f05681367fc33ab2c8d571a3739405bec60f7ba486e83de/readme_renderer-34.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/3f/e8/8a6fe77582ae0f2617a57ec239eda638f7b1939b78e303a81b9c91fb0b96/readme_renderer-35.0.tar.gz
 _eclasses_=distutils-r1	d8e145fbbe57f3a15ae504741fb95f66	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=a9d76a1cff467447e8e33a5e5c458ae2
+_md5_=4435f0ac9cc6c5b8cea3010ca44ab9b1
