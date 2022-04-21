@@ -88,6 +88,7 @@
 =dev-python/urdf_parser_py-0.4.0 python_single_target_python2_7
 =dev-python/whisper-0.9.13 python_single_target_python2_7
 =dev-python/whisper-0.9.15 python_single_target_python2_7
+dev-python/Babel-compat python_single_target_python2_7
 dev-python/PyECLib python_single_target_python2_7
 dev-python/SchemaObject python_single_target_python2_7
 dev-python/arrow-compat python_single_target_python2_7
