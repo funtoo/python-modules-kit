@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Setuptools Rust extension plugin"
 HOMEPAGE="https://github.com/PyO3/setuptools-rust https://pypi.org/project/setuptools-rust/"
-SRC_URI="https://files.pythonhosted.org/packages/4e/02/2fc4c83b4f816fdd30f38c0c4837a322d21967f953bb9a51bce91b4511f6/setuptools-rust-1.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a9/55/5db4a5b137af2afdc23a6e251d5ebb3b4e04c8deb68fbb5ffdacbd134c0c/setuptools-rust-1.3.0.tar.gz
 "
 
 DEPEND=">=dev-python/setuptools_scm-3.4.3[${PYTHON_USEDEP}]"
@@ -21,4 +21,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/setuptools-rust-1.2.0"
+S="${WORKDIR}/setuptools-rust-1.3.0"
