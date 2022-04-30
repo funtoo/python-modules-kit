@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx spelling extension"
 HOMEPAGE="https://bitbucket.org/dhellmann/sphinxcontrib-spelling"
-SRC_URI="https://files.pythonhosted.org/packages/ec/57/d68b1e45d28fc4906bb547e8bdb23bd91cfff4a49f499810b94d815c909e/sphinxcontrib-spelling-7.3.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/a5/24a02843204c75690ecca9c1be9b395740b9a6fd72466483d50cc26ee5da/sphinxcontrib-spelling-7.3.3.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
