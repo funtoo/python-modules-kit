@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Filesystem abstraction layer"
 HOMEPAGE="https://pypi.org/project/fs/ https://docs.pyfilesystem.org https://www.willmcgugan.com/tag/fs/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/51/f2d13086c997f7c7c39b9e11817dc122ca6cf19f7b67a337c372ecae3f7c/fs-2.4.15.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/5d/a9/af5bfd5a92592c16cdae5c04f68187a309be8a146b528eac3c6e30edbad2/fs-2.4.16.tar.gz
 "
 
 DEPEND=""
@@ -21,7 +21,7 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/fs-2.4.15"
+S="${WORKDIR}/fs-2.4.16"
 
 pkg_postinst() {
 	echo "S3 support dev-python/boto"
