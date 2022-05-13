@@ -28,6 +28,5 @@ S="${WORKDIR}/anyio-3.6.1"
 src_prepare() {
 	default
 	# See FL-9522
-	cd ${S}/src/anyio/_core || die
-	( cat ${FILESDIR}/get_asynclib_thread_fix.patch | patch -p0 ) || die
+	( cat ${FILESDIR}/anyio-3.6.1-get_asynclib-thread-fix.patch | patch -p1 ) || die
 }
