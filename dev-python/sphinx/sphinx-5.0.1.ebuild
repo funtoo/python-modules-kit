@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE="https://www.sphinx-doc.org/ https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/ea/c0/8a5833e4e2f5924f96c34d0a546ef22ac487c4c423a4c1b93f72186683bb/Sphinx-5.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9c/4e/a1a978d4b4f0de4632e2f00e67472a6135346b35c142dea873e8e92803c1/Sphinx-5.0.1.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -40,7 +40,7 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/sphinx-5.0.0"
+S="${WORKDIR}/sphinx-5.0.1"
 
 S="${WORKDIR}/${P^}"
 
