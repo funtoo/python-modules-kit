@@ -7,8 +7,8 @@ DISTUTILS_USE_SETUPTOOLS="autostub"
 inherit distutils-r1
 
 DESCRIPTION="An implementation of JSON Schema validation for Python"
-HOMEPAGE="https://github.com/python-jsonschema/jsonschema https://pypi.org/project/jsonschema/"
-SRC_URI="https://files.pythonhosted.org/packages/9e/62/93a54db0e44c4de57868a7d638d7a8abce113c8bc43a20b10b1109b2a517/jsonschema-4.5.1.tar.gz
+HOMEPAGE=" https://pypi.org/project/jsonschema/"
+SRC_URI="https://files.pythonhosted.org/packages/b5/a0/dd13abb5f371f980037d271fd09461df18c85188216008a1e3a9c3f8bd0c/jsonschema-4.6.0.tar.gz
 "
 
 DEPEND="
@@ -20,4 +20,4 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 
-S="${WORKDIR}/jsonschema-4.5.1"
+S="${WORKDIR}/jsonschema-4.6.0"
