@@ -9,7 +9,7 @@ DESCRIPTION="MessagePack (de)serializer for Python"
 HOMEPAGE="https://msgpack.org
 	https://github.com/msgpack/msgpack-python/
 	https://pypi.org/project/msgpack/"
-SRC_URI="https://files.pythonhosted.org/packages/61/3c/2206f39880d38ca7ad8ac1b28d2d5ca81632d163b2d68ef90e46409ca057/msgpack-1.0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/22/44/0829b19ac243211d1d2bd759999aa92196c546518b0be91de9cacc98122a/msgpack-1.0.4.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
