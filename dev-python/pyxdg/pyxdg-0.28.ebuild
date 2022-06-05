@@ -8,7 +8,7 @@ inherit distutils-r1
 DESCRIPTION="A Python module to deal with freedesktop.org specifications"
 HOMEPAGE="https://freedesktop.org/wiki/Software/pyxdg https://cgit.freedesktop.org/xdg/pyxdg/"
 # official mirror of the git repo
-SRC_URI="https://files.pythonhosted.org/packages/6f/2e/2251b5ae2f003d865beef79c8fcd517e907ed6a69f58c32403cec3eba9b2/pyxdg-0.27.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/25/7998cd2dec731acbd438fbf91bc619603fc5188de0a9a17699a781840452/pyxdg-0.28.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
