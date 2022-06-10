@@ -214,6 +214,7 @@ dev-python/pyxenstore python_single_target_python2_7
 dev-python/pyyaml-compat python_single_target_python2_7
 dev-python/pyzmq-compat python_single_target_python2_7
 dev-python/quex python_single_target_python2_7
+dev-python/requests-compat python_single_target_python2_7
 dev-python/restkit python_single_target_python2_7
 dev-python/rfc3986-compat python_single_target_python2_7
 dev-python/ropemacs python_single_target_python2_7

@@ -2,37 +2,37 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
 HOMEPAGE="https://requests.readthedocs.io/en/master/"
-SRC_URI="https://files.pythonhosted.org/packages/e9/23/384d9953bb968731212dc37af87cb75a885dc48e0615bd6a303577c4dc4b/requests-2.28.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/60/f3/26ff3767f099b73e0efa138a9998da67890793bfa475d8278f84a30fec77/requests-2.27.1.tar.gz
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/requests-compat )
+RDEPEND="!<dev-python/requests-2.28.0 
 	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
 	dev-python/chardet[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/charset_normalizer[${PYTHON_USEDEP}]
-	' -3
-	)
 	socks5? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
 	ssl? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )"
-IUSE="socks5 +ssl python_targets_python2_7"
+IUSE="socks5 +ssl"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
 
-S="${WORKDIR}/requests-2.28.0"
+S="${WORKDIR}/requests-2.27.1"
 
 # FL-7939: relax deps for idna
 src_prepare() {
 	sed -i -e '/^idna/c idna' requests.egg-info/requires.txt || die
 	sed -i -e "s/'idna.*$/'idna',/" setup.py || die
 	distutils-r1_src_prepare
+}
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
 }
