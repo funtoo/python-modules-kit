@@ -10,6 +10,6 @@ RDEPEND=!dev-python/pydiff app-text/iso-codes sys-devel/gettext >=dev-python/six
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/b6/71/1b7b4b74cfe2c3ec0ec25da29555d487c0a68be03112246a34d1f380dfec/translate-toolkit-3.6.2.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/b5/eb/627acb832cab45f001af16347d24cbcfa702997c18653542c2eefd3482b6/translate-toolkit-3.7.0.tar.gz
 _eclasses_=distutils-r1	d8e145fbbe57f3a15ae504741fb95f66	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	263e4bbfa6a84be6dc6272a6702aedca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=d7a19dfda5adc70658a39da67662646e
+_md5_=5a7644c5a7d2583417568e01896d954f
