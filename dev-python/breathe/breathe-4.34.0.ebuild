@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx Doxygen renderer"
 HOMEPAGE="https://github.com/michaeljones/breathe https://pypi.org/project/breathe/"
-SRC_URI="https://files.pythonhosted.org/packages/e3/1e/3c973e2f8483a0237cd7240d9d4e06232234fd9b0646c86bb3749897a502/breathe-4.33.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ff/24/12938b8549a84d500a0717f50302bd9b87893d8ed4e0b6c12a8952ff0c41/breathe-4.34.0.tar.gz
 "
 
 DEPEND=""
@@ -25,4 +25,4 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 
-S="${WORKDIR}/breathe-4.33.1"
+S="${WORKDIR}/breathe-4.34.0"
