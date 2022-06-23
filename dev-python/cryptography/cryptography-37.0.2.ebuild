@@ -56,7 +56,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/67/82/9dd8ef695c7f928b25927e8956f73bdba09a752a51871678f320c498c535/cryptography-37.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/51/05/bb2b681f6a77276fc423d04187c39dafdb65b799c8d87b62ca82659f9ead/cryptography-37.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -86,7 +86,7 @@ SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
 
-S="${WORKDIR}/cryptography-37.0.3"
+S="${WORKDIR}/cryptography-37.0.2"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
