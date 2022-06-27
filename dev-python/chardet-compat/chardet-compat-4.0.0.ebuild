@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ee/2d/9cdc2b527e127b4c9db64b866
 "
 
 DEPEND=""
-RDEPEND="!<dev-python-chardet-5.0.0-r1 "
+RDEPEND="!<dev-python/chardet-5.0.0-r1 "
 IUSE=""
 SLOT="0"
 LICENSE=""
