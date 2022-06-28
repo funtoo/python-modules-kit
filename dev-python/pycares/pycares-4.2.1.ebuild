@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python interface for c-ares"
 HOMEPAGE="https://github.com/saghul/pycares/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/88/f6f157d757b873ff20c64001cd44d0f9d90bf665be7d9e71322fcc9c4cf3/pycares-4.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/da/d3d20bc7bd5baadeea04ee84db16f1f07557138c313bd6200e1cffab5bee/pycares-4.2.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
