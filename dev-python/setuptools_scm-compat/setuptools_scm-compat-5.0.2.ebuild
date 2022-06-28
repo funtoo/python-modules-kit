@@ -17,7 +17,7 @@ DEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]
 	' -2
 	)"
-RDEPEND="!<=dev-python/setuptools_scm-7.0.2 "
+RDEPEND="!<=dev-python/setuptools_scm-7.0.2 !<=dev-python/setuptools_scm-7.0.2"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
