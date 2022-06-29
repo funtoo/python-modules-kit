@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
 HOMEPAGE="https://requests.readthedocs.io/en/master/"
-SRC_URI="https://files.pythonhosted.org/packages/e9/23/384d9953bb968731212dc37af87cb75a885dc48e0615bd6a303577c4dc4b/requests-2.28.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz
 "
 
 DEPEND=""
@@ -27,7 +27,7 @@ IUSE="socks5 +ssl python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/requests-2.28.0"
+S="${WORKDIR}/requests-2.28.1"
 
 # FL-7939: relax deps for idna
 src_prepare() {
