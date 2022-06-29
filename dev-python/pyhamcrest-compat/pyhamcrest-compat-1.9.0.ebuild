@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/PyHamcrest-1.9.0"
 
 post_src_install() {

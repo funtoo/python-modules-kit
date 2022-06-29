@@ -17,5 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/soupsieve-2.3.1"

@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/testtools-2.4.0"
 
 post_src_install() {

@@ -19,7 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/icalendar-4.0.9"
 
 distutils_enable_sphinx docs

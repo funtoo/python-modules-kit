@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/mccabe-0.7.0"
 
 python_prepare_all() {

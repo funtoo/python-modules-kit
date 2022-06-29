@@ -24,7 +24,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/importlib_metadata-4.12.0"
 
 distutils_enable_sphinx "${PN}/docs" '>=dev-python/rst-linker-1.9'

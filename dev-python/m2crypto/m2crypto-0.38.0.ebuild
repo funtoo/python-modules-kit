@@ -22,7 +22,6 @@ IUSE="libressl"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/M2Crypto-0.38.0"
 
 swig_define() {

@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/click-log-0.4.0"
 
 DOCS=( README.rst )

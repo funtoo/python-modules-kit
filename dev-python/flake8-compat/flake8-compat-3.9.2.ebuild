@@ -20,7 +20,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/flake8-3.9.2"
 
 src_prepare() {

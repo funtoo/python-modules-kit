@@ -18,7 +18,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/SCons-3.1.2"
 
 if [ "$PN"  == 'scons-compat' ]; then

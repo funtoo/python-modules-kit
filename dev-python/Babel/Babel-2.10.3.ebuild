@@ -18,5 +18,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/Babel-2.10.3"

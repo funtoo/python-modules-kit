@@ -17,7 +17,6 @@ IUSE="examples"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-
 S="${WORKDIR}/urwid-2.1.2"
 
 distutils_enable_sphinx docs

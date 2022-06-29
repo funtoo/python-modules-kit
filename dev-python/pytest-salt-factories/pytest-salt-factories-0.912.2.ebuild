@@ -25,7 +25,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/pytest-salt-factories-0.912.2"
 
 # submitted PR https://github.com/saltstack/pytest-salt-factories/pull/33

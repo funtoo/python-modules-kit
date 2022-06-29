@@ -17,12 +17,11 @@ DEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]
 	' -2
 	)"
-RDEPEND="!<dev-python/setuptools_scm-6.0.0 "
+RDEPEND="!<=dev-python/setuptools_scm-7.0.2 "
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/setuptools_scm-5.0.2"
 
 post_src_install() {

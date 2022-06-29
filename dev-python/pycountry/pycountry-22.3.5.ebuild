@@ -17,5 +17,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-
 S="${WORKDIR}/pycountry-22.3.5"

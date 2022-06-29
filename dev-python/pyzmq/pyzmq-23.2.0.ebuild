@@ -21,7 +21,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
-
 S="${WORKDIR}/pyzmq-23.2.0"
 
 python_configure_all() {

@@ -17,5 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/pbr-5.9.0"

@@ -22,7 +22,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/anyio-3.6.1"
 
 src_prepare() {

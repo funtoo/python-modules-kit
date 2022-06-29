@@ -16,5 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/chardet-5.0.0"

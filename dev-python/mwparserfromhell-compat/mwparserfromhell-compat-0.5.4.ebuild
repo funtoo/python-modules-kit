@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/mwparserfromhell-0.5.4"
 
 post_src_install() {

@@ -20,7 +20,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/fs-2.4.16"
 
 pkg_postinst() {

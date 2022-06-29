@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/configparser-4.0.2"
 
 post_src_install() {

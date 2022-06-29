@@ -16,7 +16,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/PyJWT-2.4.0"
 
 pkg_postinst() {

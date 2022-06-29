@@ -20,7 +20,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/openpyxl-2.6.4"
 
 

@@ -28,7 +28,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/twine-4.0.1"
 
 python_prepare_all() {

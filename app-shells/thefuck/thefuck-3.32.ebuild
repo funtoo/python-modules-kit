@@ -22,7 +22,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/thefuck-3.32"
 
 python_prepare_all() {

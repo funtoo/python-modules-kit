@@ -21,7 +21,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/mock-3.0.5"
 
 post_src_install() {

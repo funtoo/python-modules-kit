@@ -20,5 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/httpcore-0.15.0"

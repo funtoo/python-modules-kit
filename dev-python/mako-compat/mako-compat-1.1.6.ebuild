@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/Mako-1.1.6"
 
 pkg_postinst() {

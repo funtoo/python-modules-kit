@@ -17,7 +17,6 @@ RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/zstandard-0.14.1"
 
 python_compile() {

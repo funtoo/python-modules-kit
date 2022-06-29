@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/importlib_resources-3.3.1"
 
 distutils_enable_sphinx docs dev-python/rst-linker dev-python/jaraco-packaging

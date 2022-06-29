@@ -21,5 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/beautifulsoup4-4.11.1"

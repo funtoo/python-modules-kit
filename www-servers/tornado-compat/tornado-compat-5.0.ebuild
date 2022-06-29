@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/tornado-5.0"
 
 post_src_install() {

@@ -19,7 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/Markdown-3.1.1"
 
 post_src_install() {

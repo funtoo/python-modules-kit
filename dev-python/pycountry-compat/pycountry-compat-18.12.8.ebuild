@@ -17,7 +17,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-
 S="${WORKDIR}/pycountry-18.12.8"
 
 post_src_install() {

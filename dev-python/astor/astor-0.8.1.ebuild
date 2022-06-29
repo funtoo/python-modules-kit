@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/astor-0.8.1"
 
 python_prepare_all() {

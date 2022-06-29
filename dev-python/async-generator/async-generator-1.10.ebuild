@@ -17,5 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-
 S="${WORKDIR}/async_generator-1.10"

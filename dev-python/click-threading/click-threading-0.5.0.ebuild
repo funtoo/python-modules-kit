@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/click-threading-0.5.0"
 
 DOCS=( README.rst )

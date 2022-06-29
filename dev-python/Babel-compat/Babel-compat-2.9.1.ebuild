@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/Babel-2.9.1"
 
 post_src_install() {

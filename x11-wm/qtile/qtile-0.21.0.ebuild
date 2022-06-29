@@ -29,7 +29,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/qtile-0.21.0"
 
 python_install_all() {

@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/bpytop-1.0.68"
 
 src_install() {

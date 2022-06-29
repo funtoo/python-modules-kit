@@ -17,5 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/curio-1.5"

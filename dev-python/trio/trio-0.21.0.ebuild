@@ -23,5 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-
 S="${WORKDIR}/trio-0.21.0"

@@ -22,7 +22,6 @@ IUSE="socks5 +ssl"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/requests-2.27.1"
 
 # FL-7939: relax deps for idna

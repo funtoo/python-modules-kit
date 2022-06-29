@@ -18,7 +18,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/pybind11-2.9.2"
 
 python_install() {

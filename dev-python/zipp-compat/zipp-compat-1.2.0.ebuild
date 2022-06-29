@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/zipp-1.2.0"
 
 post_src_install() {

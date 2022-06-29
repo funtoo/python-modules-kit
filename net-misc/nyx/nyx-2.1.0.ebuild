@@ -19,5 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="GPL-3"
 KEYWORDS="*"
-
 S="${WORKDIR}/nyx-2.1.0"

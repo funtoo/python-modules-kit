@@ -19,7 +19,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/Mako-1.2.0"
 
 pkg_postinst() {

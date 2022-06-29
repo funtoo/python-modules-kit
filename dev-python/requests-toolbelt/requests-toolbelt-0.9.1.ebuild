@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/requests-toolbelt-0.9.1"
 
 DOCS=( AUTHORS.rst HISTORY.rst README.rst )

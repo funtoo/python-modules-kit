@@ -20,7 +20,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/dict-toolbox-2.3.0"
 
 src_prepare() {

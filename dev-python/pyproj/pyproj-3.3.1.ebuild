@@ -18,7 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/pyproj-3.3.1"
 
 distutils_enable_sphinx docs dev-python/sphinx_rtd_theme

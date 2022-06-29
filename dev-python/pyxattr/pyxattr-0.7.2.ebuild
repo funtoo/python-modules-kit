@@ -18,7 +18,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-
 S="${WORKDIR}/pyxattr-0.7.2"
 
 distutils_enable_tests pytest
