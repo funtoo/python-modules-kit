@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="GPL-3+"
 KEYWORDS="*"
-
 S="${WORKDIR}/asciinema-2.2.0"
 
 python_prepare_all() {

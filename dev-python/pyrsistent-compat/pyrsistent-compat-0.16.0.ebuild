@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/pyrsistent-0.16.0"
 
 post_src_install() {

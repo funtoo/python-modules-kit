@@ -39,7 +39,6 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/sphinx-5.0.2"
 
 S="${WORKDIR}/${P^}"

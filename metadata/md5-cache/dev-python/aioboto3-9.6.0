@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targe
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/8b/e3/7a500d59808725fd2a9614bb29f14a84ec00f93e0d9f1bf59006f29ec1ee/aioboto3-9.6.0.tar.gz
 _eclasses_=distutils-r1	99f25357716a44b67680afc3b47219f2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	c6ddaeb7a3e68d2564fa886420d0ae41	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=6cf779a4828e80be09f1d75ed1d21d4a
+_md5_=737bfea4efd1e41d6f9114116a72cb78

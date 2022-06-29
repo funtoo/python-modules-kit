@@ -15,7 +15,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/commonmark-0.9.1"
 
 src_prepare() {

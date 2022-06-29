@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/charset_normalizer-2.1.0"
 
 src_unpack() {

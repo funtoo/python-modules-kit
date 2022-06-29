@@ -24,7 +24,6 @@ IUSE=""
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
-
 S="${WORKDIR}/pyzmq-19.0.2"
 
 python_configure_all() {

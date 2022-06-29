@@ -18,7 +18,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/pip-22.1.2"
 
 python_prepare_all() {

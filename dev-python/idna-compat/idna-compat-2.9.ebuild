@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/idna-2.9"
 
 post_src_install() {

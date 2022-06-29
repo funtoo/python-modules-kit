@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/fonttools-4.33.3"
 
 src_configure() {

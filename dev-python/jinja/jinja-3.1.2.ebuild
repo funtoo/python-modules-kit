@@ -21,7 +21,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/Jinja2-3.1.2"
 
 distutils_enable_sphinx docs \

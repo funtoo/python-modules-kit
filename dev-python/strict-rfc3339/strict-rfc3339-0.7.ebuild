@@ -15,5 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/strict-rfc3339-0.7"

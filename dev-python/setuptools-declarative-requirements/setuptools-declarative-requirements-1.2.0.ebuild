@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/setuptools-declarative-requirements-1.2.0"
 
 # https://github.com/s0undt3ch/setuptools-declarative-requirements/pull/3

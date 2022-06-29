@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/regex-2020.9.27"
 
 post_src_install() {

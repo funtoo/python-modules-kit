@@ -18,5 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/gphoto2-2.3.3"

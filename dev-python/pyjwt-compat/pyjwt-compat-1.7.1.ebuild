@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/PyJWT-1.7.1"
 
 pkg_postinst() {

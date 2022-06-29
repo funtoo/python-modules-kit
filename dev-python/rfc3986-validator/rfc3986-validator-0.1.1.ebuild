@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/rfc3986_validator-0.1.1"
 
 python_prepare_all() {

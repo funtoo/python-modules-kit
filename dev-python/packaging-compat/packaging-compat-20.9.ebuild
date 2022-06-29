@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/packaging-20.9"
 
 post_src_install() {

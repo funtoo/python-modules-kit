@@ -23,5 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 OFL-1.1"
 KEYWORDS="*"
-
 S="${WORKDIR}/notofonttools-0.2.16"

@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/wheel-0.37.1"
 
 src_prepare() {

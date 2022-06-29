@@ -19,5 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD-2"
 KEYWORDS="*"
-
 S="${WORKDIR}/terminado-0.15.0"

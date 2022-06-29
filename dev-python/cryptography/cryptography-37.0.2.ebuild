@@ -85,7 +85,6 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-
 S="${WORKDIR}/cryptography-37.0.2"
 
 pkg_setup() {

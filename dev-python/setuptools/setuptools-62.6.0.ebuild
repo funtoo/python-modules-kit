@@ -21,7 +21,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/setuptools-62.6.0"
 
 SETUPTOOLS_USE_DISTUTILS=stdlib

@@ -21,5 +21,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/Cheetah3-3.2.6.post1"

@@ -31,7 +31,6 @@ IUSE="cpu_flags_x86_sse2 libressl idna"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-
 S="${WORKDIR}/cryptography-3.3.2"
 
 pkg_setup() {

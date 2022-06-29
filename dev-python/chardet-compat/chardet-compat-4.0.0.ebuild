@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/chardet-4.0.0"
 
 post_src_install() {

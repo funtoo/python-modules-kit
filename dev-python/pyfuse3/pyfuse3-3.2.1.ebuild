@@ -19,7 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
 S="${WORKDIR}/pyfuse3-3.2.1"
 
 distutils_enable_tests pytest

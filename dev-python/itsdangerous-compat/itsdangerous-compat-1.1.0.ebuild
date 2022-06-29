@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/itsdangerous-1.1.0"
 
 post_src_install() {

@@ -19,5 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-
 S="${WORKDIR}/hg-git-1.0.0"

@@ -17,7 +17,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/easygui-0.98.3"
 
 src_prepare() {

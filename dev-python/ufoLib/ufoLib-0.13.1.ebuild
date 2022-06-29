@@ -23,7 +23,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/ufoLib2-0.13.1"
 
 python_prepare_all() {

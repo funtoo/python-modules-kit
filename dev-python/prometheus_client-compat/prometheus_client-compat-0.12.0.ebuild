@@ -16,7 +16,6 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-
 S="${WORKDIR}/prometheus_client-0.12.0"
 
 post_src_install() {

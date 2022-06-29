@@ -22,7 +22,6 @@ IUSE="examples +libyaml"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-
 S="${WORKDIR}/PyYAML-5.4.1"
 
 python_configure_all() {

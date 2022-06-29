@@ -25,7 +25,6 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-
 S="${WORKDIR}/cairocffi-1.3.0"
 
 src_prepare() {

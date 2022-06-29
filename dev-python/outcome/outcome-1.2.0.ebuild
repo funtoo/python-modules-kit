@@ -17,5 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-
 S="${WORKDIR}/outcome-1.2.0"
