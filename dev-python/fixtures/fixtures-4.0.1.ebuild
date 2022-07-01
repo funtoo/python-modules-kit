@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Fixtures, reusable state for writing clean tests and more"
 HOMEPAGE="https://launchpad.net/python-fixtures https://pypi.org/project/fixtures/"
-SRC_URI="https://files.pythonhosted.org/packages/64/e0/45cdd4842cf2e97e6e43acc57914ca562c2624af562837d2aefbeabb44a2/fixtures-4.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3c/3d/f106b3278ba50067e9cd397f836d33d141aa790853152dbb3512aaee19f3/fixtures-4.0.1.tar.gz"
 
 LICENSE="|| ( Apache-2.0 BSD )"
 SLOT="0"
