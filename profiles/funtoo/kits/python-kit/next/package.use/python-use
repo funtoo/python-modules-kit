@@ -79,7 +79,6 @@
 =dev-python/sure-1.2.3 python_single_target_python2_7 python_targets_python2_7
 =dev-python/sure-1.2.5 python_single_target_python2_7 python_targets_python2_7
 =dev-python/theano-0.7.0 python_single_target_python2_7 python_targets_python2_7
-=dev-python/thunarx-python-0.3.0-r2 python_single_target_python2_7 python_targets_python2_7
 =dev-python/treq-0.2.1 python_single_target_python2_7 python_targets_python2_7
 =dev-python/tvdb_api-1.9 python_single_target_python2_7 python_targets_python2_7
 =dev-python/tweepy-2.3 python_single_target_python2_7 python_targets_python2_7
