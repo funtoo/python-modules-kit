@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION="pytest: simple powerful testing with Python"
+DESCRIPTION=""
 HOMEPAGE="https://docs.pytest.org/en/latest/ https://pypi.org/project/pytest/"
 SRC_URI="https://files.pythonhosted.org/packages/4e/1f/34657c6ac56f3c58df650ba41f8ffb2620281ead8e11bcdc7db63cf72a78/pytest-7.1.2.tar.gz
 "

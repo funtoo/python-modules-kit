@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Read metadata from Python packages"
-HOMEPAGE="https://importlib-metadata.readthedocs.io/"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/python/importlib_metadata https://pypi.org/project/importlib-metadata/"
 SRC_URI="https://files.pythonhosted.org/packages/1a/16/441080c907df829016729e71d8bdd42d99b9bdde48b01492ed08912c0aa9/importlib_metadata-4.12.0.tar.gz
 "
 

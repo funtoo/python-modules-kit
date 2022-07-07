@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Filesystem abstraction layer"
-HOMEPAGE="https://pypi.org/project/fs/ https://docs.pyfilesystem.org https://www.willmcgugan.com/tag/fs/"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/PyFilesystem/pyfilesystem2 https://pypi.org/project/fs/"
 SRC_URI="https://files.pythonhosted.org/packages/5d/a9/af5bfd5a92592c16cdae5c04f68187a309be8a146b528eac3c6e30edbad2/fs-2.4.16.tar.gz
 "
 

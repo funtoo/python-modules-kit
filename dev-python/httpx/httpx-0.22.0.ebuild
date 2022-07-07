@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="The next generation HTTP client."
+DESCRIPTION=""
 HOMEPAGE="https://github.com/encode/httpx https://pypi.org/project/httpx/"
 SRC_URI="https://files.pythonhosted.org/packages/59/07/de30dd4bb26131bf34fe82bf721a392ff21e35bb2707ef8cbec954054a23/httpx-0.22.0.tar.gz
 "

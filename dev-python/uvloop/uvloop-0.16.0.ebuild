@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Fast implementation of asyncio event loop on top of libuv"
+DESCRIPTION=""
 HOMEPAGE="http://github.com/MagicStack/uvloop https://pypi.org/project/uvloop/"
 SRC_URI="https://files.pythonhosted.org/packages/ab/d9/22bbffa8f8d7e075ccdb29e8134107adfb4710feb10039f9d357db8b589c/uvloop-0.16.0.tar.gz
 "

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A utility belt for advanced users of python-requests"
-HOMEPAGE="https://toolbelt.readthedocs.org/"
+DESCRIPTION=""
+HOMEPAGE="https://toolbelt.readthedocs.org https://pypi.org/project/requests-toolbelt/"
 SRC_URI="https://files.pythonhosted.org/packages/28/30/7bf7e5071081f761766d46820e52f4b16c8a08fef02d2eb4682ca7534310/requests-toolbelt-0.9.1.tar.gz
 "
 

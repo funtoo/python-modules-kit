@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION="Simple DNS resolver for asyncio"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/saghul/aiodns https://pypi.org/project/aiodns/"
 SRC_URI="https://files.pythonhosted.org/packages/27/79/df72e25df0fdd9bf5a5ab068539731d27c5f2ae5654621ae0c92ceca94cf/aiodns-3.0.0.tar.gz
 "

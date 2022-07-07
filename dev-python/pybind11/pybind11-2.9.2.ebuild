@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION="Seamless operability between C++11 and Python"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/pybind/pybind11 https://pypi.org/project/pybind11/"
 SRC_URI="https://files.pythonhosted.org/packages/cf/6a/a7f2c40fdb43fcf59bc1eebb0a4c4206a99ccddee6391a1168fa6efebce9/pybind11-2.9.2.tar.gz
 "

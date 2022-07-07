@@ -5,11 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION="YAML parser and emitter for Python"
-HOMEPAGE="https://pyyaml.org/wiki/PyYAML
-https://pypi.org/project/PyYAML/
-https://github.com/yaml/pyyaml
-"
+DESCRIPTION=""
+HOMEPAGE="https://pyyaml.org/ https://pypi.org/project/PyYAML/"
 SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz
 "
 

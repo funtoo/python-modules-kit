@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A CalDAV based calendar"
-HOMEPAGE="http://lostpackets.de/khal/"
+DESCRIPTION=""
+HOMEPAGE="http://lostpackets.de/khal/ https://pypi.org/project/khal/"
 SRC_URI="https://files.pythonhosted.org/packages/d8/99/6ef24e33472b343800ffb7300e9702faa715ccd986a0a0706f01e44d8cb6/khal-0.10.5.tar.gz
 "
 

@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Retry code until it succeeds"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/jd/tenacity https://pypi.org/project/tenacity/"
 SRC_URI="https://files.pythonhosted.org/packages/2c/f5/04748914f5c78f7418b803226bd56cdddd70ac369b936b3e24f5158017f1/tenacity-8.0.1.tar.gz
 "

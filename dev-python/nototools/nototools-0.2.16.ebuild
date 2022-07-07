@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Noto fonts support tools and scripts plus web site generation"
-HOMEPAGE="https://github.com/googlefonts/nototools"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/googlefonts/nototools https://pypi.org/project/notofonttools/"
 SRC_URI="https://files.pythonhosted.org/packages/0f/46/07752d7ffbb9e3ca3b83518568eee91e4f1e1dbd0e39f7ad9fd59461eadb/notofonttools-0.2.16.tar.gz
 "
 

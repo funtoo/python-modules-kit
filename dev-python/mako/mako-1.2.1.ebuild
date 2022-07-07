@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1 eutils
 
-DESCRIPTION="A super-fast templating language that borrows the best ideas from the existing templating languages."
+DESCRIPTION=""
 HOMEPAGE="https://www.makotemplates.org/ https://pypi.org/project/Mako/"
 SRC_URI="https://files.pythonhosted.org/packages/ad/dd/34201dae727bb183ca14fd8417e61f936fa068d6f503991f09ee3cac6697/Mako-1.2.1.tar.gz
 "

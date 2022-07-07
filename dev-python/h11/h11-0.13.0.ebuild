@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/python-hyper/h11 https://pypi.org/project/h11/"
 SRC_URI="https://files.pythonhosted.org/packages/fa/a6/450568b2d62dd633be53f69890332bb0ce78183ffbe1e514c2b3102efff5/h11-0.13.0.tar.gz
 "
