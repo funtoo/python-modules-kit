@@ -5,9 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="A wrapper around PyFlakes, pep8 & mccabe"
-HOMEPAGE="https://gitlab.com/pycqa/flake8 https://pypi.org/project/flake8/
-"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/pycqa/flake8 https://pypi.org/project/flake8/"
 SRC_URI="https://files.pythonhosted.org/packages/e6/84/d8db922289195c435779b4ca3a3f583f263f87e67954f7b2e83c8da21f48/flake8-4.0.1.tar.gz
 "
 

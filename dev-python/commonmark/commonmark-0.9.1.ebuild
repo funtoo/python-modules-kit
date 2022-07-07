@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ pypy3 pypy )
 inherit distutils-r1
 
-DESCRIPTION="Python parser for the CommonMark Markdown spec"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/rtfd/commonmark.py https://pypi.org/project/commonmark/"
 SRC_URI="https://files.pythonhosted.org/packages/60/48/a60f593447e8f0894ebb7f6e6c1f25dafc5e89c5879fdc9360ae93ff83f0/commonmark-0.9.1.tar.gz
 "

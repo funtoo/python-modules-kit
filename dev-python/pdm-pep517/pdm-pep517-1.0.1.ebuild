@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
-DESCRIPTION="A PEP 517 backend for PDM that supports PEP 621 metadata"
+DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/pdm-pep517/"
 SRC_URI="https://files.pythonhosted.org/packages/52/de/4fd74493cde9d75d0299ed89b3154a45fa431e14e93e485635e4c6942ed4/pdm-pep517-1.0.1.tar.gz
 "

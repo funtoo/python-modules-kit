@@ -1,8 +1,7 @@
 BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python3_10(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python3_10(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,python_targets_python3_10(-)?,-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-),-python_single_target_python3_10(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=A Discord RPC library in Python
 EAPI=7
-HOMEPAGE=https://qwertyquerty.github.io/pypresence/html/index.html
+HOMEPAGE=https://github.com/qwertyquerty/pypresence https://pypi.org/project/pypresence/
 IUSE=python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python3_10
 KEYWORDS=*
 LICENSE=MIT
@@ -11,4 +10,4 @@ REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targe
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/58/df/be2dbd7ed2262791536278295d3c4e56d5c17d4291666f35fd6190a7f2ab/pypresence-4.2.1.tar.gz
 _eclasses_=distutils-r1	a6faa57104895c5a59047629ff9d779c	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	116c0e643beeb6fc359101546f38b362	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=4c2c908e60466e4a260772ed1883754b
+_md5_=05e08c526e453e986ff1706dd758a585

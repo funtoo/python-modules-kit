@@ -54,7 +54,7 @@ winapi-x86_64-pc-windows-gnu-0.4.0
 
 inherit cargo distutils-r1
 
-DESCRIPTION="Library providing cryptographic recipes and primitives"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
 SRC_URI="https://files.pythonhosted.org/packages/89/d9/5fcd312d5cce0b4d7ee8b551a0ea99e4ea9db0fdbf6dd455a19042e3370b/cryptography-37.0.4.tar.gz
 $(cargo_crate_uris ${CRATES})

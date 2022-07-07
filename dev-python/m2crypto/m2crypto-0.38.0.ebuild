@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1 toolchain-funcs
 
-DESCRIPTION="A Python crypto and SSL toolkit"
+DESCRIPTION=""
 HOMEPAGE="https://gitlab.com/m2crypto/m2crypto https://pypi.org/project/M2Crypto/"
 SRC_URI="https://files.pythonhosted.org/packages/2c/52/c35ec79dd97a8ecf6b2bbd651df528abb47705def774a4a15b99977274e8/M2Crypto-0.38.0.tar.gz
 "

@@ -5,11 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION="Python implementation of the markdown markup language"
-HOMEPAGE="https://python-markdown.github.io/
-https://pypi.org/project/Markdown/
-https://github.com/Python-Markdown/markdown
-"
+DESCRIPTION=""
+HOMEPAGE="https://Python-Markdown.github.io/ https://pypi.org/project/Markdown/"
 SRC_URI="https://files.pythonhosted.org/packages/d6/58/79df20de6e67a83f0d0bbfe6c19bb82adf68cdf362885257eb01099f930a/Markdown-3.3.7.tar.gz
 "
 

@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="False"
 inherit distutils-r1
 
-DESCRIPTION="A backend script to aid installing Python packages in Gentoo."
+DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/gpep517/"
 SRC_URI="https://files.pythonhosted.org/packages/89/7d/8c165fa3cce78b57b13e21652bc4d55d503fe2fe76982f55c84730d3d9cb/gpep517-6.tar.gz
 "

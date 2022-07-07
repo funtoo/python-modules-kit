@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Utility to monitor real time Tor status information"
-HOMEPAGE="https://nyx.torproject.org"
+DESCRIPTION=""
+HOMEPAGE="https://nyx.torproject.org/ https://pypi.org/project/nyx/"
 SRC_URI="https://files.pythonhosted.org/packages/f4/da/68419425cb0f64f996e2150045c7043c2bb61f77b5928c2156c26a21db88/nyx-2.1.0.tar.gz
 "
 

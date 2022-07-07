@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
-DESCRIPTION="A lil' TOML writer"
+DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/tomli-w/"
 SRC_URI="https://files.pythonhosted.org/packages/49/05/6bf21838623186b91aedbda06248ad18f03487dc56fbc20e4db384abde6c/tomli_w-1.0.0.tar.gz
 "

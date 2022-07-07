@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 pypy )
 inherit distutils-r1
 
-DESCRIPTION="Alternative regular expression module, to replace re."
+DESCRIPTION=""
 HOMEPAGE="https://github.com/mrabarnett/mrab-regex https://pypi.org/project/regex/"
 SRC_URI="https://files.pythonhosted.org/packages/1a/6b/9b6b8284e88105acbcb39e71bd3bfcaffcd36c2601152ae23b00e6e04d91/regex-2022.6.2.tar.gz
 "

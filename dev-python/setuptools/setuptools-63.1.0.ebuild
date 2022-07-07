@@ -6,9 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
-DESCRIPTION="Collection of extensions to Distutils"
-HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/
-"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/"
 SRC_URI="https://files.pythonhosted.org/packages/67/25/42e2d6664c3e106c33ecad8356a55e3ae5d81708c89098061a97fbff7cee/setuptools-63.1.0.tar.gz
 "
 

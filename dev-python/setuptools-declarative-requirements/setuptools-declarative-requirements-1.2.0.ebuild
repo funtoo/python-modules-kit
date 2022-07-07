@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="File support for setuptools declarative setup.cfg"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/s0undt3ch/setuptools-declarative-requirements https://pypi.org/project/setuptools-declarative-requirements/"
 SRC_URI="https://files.pythonhosted.org/packages/db/4d/4a828c4fcec19c5275f1bed6320de8cb6b65e9ba5bbcf58b93846a9195c1/setuptools-declarative-requirements-1.2.0.tar.gz
 "

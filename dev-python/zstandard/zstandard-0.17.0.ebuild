@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Zstandard bindings for Python"
-HOMEPAGE="https://pypi.org/project/zstandard/ https://github.com/indygreg/python-zstandard"
+DESCRIPTION=""
+HOMEPAGE="https://github.com/indygreg/python-zstandard https://pypi.org/project/zstandard/"
 SRC_URI="https://files.pythonhosted.org/packages/55/29/a4dc59d4df31a5797b07d83a0e53137f6dcd1be0c9ac1e4dbcaac8522a11/zstandard-0.17.0.tar.gz
 "
 

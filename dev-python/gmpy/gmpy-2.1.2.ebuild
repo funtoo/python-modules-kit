@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="gmpy2 interface to GMP/MPIR, MPFR, and MPC for Python 2.7 and 3.5+"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/aleaxit/gmpy https://pypi.org/project/gmpy2/"
 SRC_URI="https://files.pythonhosted.org/packages/80/02/a9f4de927fc1677a68b40d966f9ea757b58997cfe06cf305ffa2159979ce/gmpy2-2.1.2.tar.gz
 "

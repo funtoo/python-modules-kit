@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="MWParserFromHell is a parser for MediaWiki wikicode."
+DESCRIPTION=""
 HOMEPAGE="https://github.com/earwig/mwparserfromhell https://pypi.org/project/mwparserfromhell/"
 SRC_URI="https://files.pythonhosted.org/packages/29/01/a694dd2768d584a90802f317a8560042cc6e72c25cf017c500a7bb4b10fe/mwparserfromhell-0.6.4.tar.gz
 "

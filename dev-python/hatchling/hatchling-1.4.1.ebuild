@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
-DESCRIPTION="Modern, extensible Python build backend"
+DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/hatchling/"
 SRC_URI="https://files.pythonhosted.org/packages/51/40/9007232411fdb941d2c517f71476329ed2e967b3e861082df01dda82d917/hatchling-1.4.1.tar.gz
 "

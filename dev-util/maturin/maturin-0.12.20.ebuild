@@ -308,7 +308,7 @@ zvariant_derive-2.10.0
 
 inherit cargo distutils-r1
 
-DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
+DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
 SRC_URI="https://files.pythonhosted.org/packages/39/ba/fec598956393230341def42367c6ad0efbee6ddc899f8858e5b25a7f37a5/maturin-0.12.20.tar.gz
 $(cargo_crate_uris ${CRATES})
