@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/pdm-pep517/"
-SRC_URI="https://files.pythonhosted.org/packages/52/de/4fd74493cde9d75d0299ed89b3154a45fa431e14e93e485635e4c6942ed4/pdm-pep517-1.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b8/f2/19376707a470ceeeff96fdeb7526adef4f692fb78fdb2eb19af6bd5f26f7/pdm-pep517-1.0.2.tar.gz
 "
 
 DEPEND=""
@@ -24,4 +24,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pdm-pep517-1.0.1"
+S="${WORKDIR}/pdm-pep517-1.0.2"
