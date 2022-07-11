@@ -18,6 +18,8 @@ DEPEND="
 	' -2
 	)"
 RDEPEND="!<=dev-python/setuptools_scm-7.0.2 "
+PDEPEND="
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
