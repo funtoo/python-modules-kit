@@ -23,6 +23,8 @@ RDEPEND="
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
 	)"
+PDEPEND="
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
