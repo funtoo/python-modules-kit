@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/hatchling/"
-SRC_URI="https://files.pythonhosted.org/packages/51/40/9007232411fdb941d2c517f71476329ed2e967b3e861082df01dda82d917/hatchling-1.4.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/83/2d/8fe45dabfdc8630999420fa9439f5dd8138f2a375a41a78f97dd2b7304dc/hatchling-1.5.0.tar.gz
 "
 
 DEPEND=""
@@ -23,4 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/hatchling-1.4.1"
+S="${WORKDIR}/hatchling-1.5.0"
