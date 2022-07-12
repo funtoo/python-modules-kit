@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_7 python_targets_p
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/a5/66/b844887f2225049abd75a0c54415d419e334b7a7e2a69c5a5c4968e30906/importlib_resources-5.8.0.tar.gz
 _eclasses_=distutils-r1	18cee10dce8b3df280b49fcd5d5601ca	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	62a980ca9c5f570cad01b65ab90228ca	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=3598baf1ab10d262975edd1eab482c83
+_md5_=35f5bfac61a81e6a44afced1f1280e43
