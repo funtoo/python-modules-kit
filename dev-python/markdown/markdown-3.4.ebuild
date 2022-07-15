@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://Python-Markdown.github.io/ https://pypi.org/project/Markdown/"
-SRC_URI="https://files.pythonhosted.org/packages/d6/58/79df20de6e67a83f0d0bbfe6c19bb82adf68cdf362885257eb01099f930a/Markdown-3.3.7.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/83/9b/fec56574eb7cedf6a85ad5092403784177f491247f54baea5411cd1b093a/Markdown-3.4.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Markdown-3.3.7"
+S="${WORKDIR}/Markdown-3.4"
