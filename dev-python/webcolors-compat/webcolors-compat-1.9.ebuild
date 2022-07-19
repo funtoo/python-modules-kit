@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/ubernostrum/webcolors https://pypi.org/project/webcolors/"
-SRC_URI="https://files.pythonhosted.org/packages/c3/ac/f09dba195203627a626ee298f8649e5705d3f7f3b89ef09f524b9aa50443/webcolors-1.9.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c3/ac/f09dba195203627a626ee298f8649e5705d3f7f3b89ef09f524b9aa50443/webcolors-1.9.tar.gz -> webcolors-1.9.tar.gz
 "
 
 DEPEND=""

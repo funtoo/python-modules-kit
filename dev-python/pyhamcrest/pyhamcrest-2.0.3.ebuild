@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/hamcrest/PyHamcrest https://pypi.org/project/PyHamcrest/"
-SRC_URI="https://files.pythonhosted.org/packages/33/6d/49d61fc2de276137397f3a9ec2658cb3e162d4f31b9f12fb671d6ec24a7c/PyHamcrest-2.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/33/6d/49d61fc2de276137397f3a9ec2658cb3e162d4f31b9f12fb671d6ec24a7c/PyHamcrest-2.0.3.tar.gz -> PyHamcrest-2.0.3.tar.gz
 "
 
 DEPEND=""

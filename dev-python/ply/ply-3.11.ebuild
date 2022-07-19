@@ -3,13 +3,13 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Python Lex-Yacc library"
 HOMEPAGE="http://www.dabeaz.com/ply/ https://pypi.org/project/ply/"
-SRC_URI="https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz -> ply-3.11.tar.gz"
 
 LICENSE="BSD"
 SLOT="0/${PV}"

@@ -2,13 +2,13 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pybind/pybind11 https://pypi.org/project/pybind11/"
-SRC_URI="https://files.pythonhosted.org/packages/59/f6/aafe0b7e798f25632b199523cce98552fde53e8c552b9d96765426532d5f/pybind11-2.10.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/59/f6/aafe0b7e798f25632b199523cce98552fde53e8c552b9d96765426532d5f/pybind11-2.10.0.tar.gz -> pybind11-2.10.0.tar.gz
 "
 
 DEPEND=""

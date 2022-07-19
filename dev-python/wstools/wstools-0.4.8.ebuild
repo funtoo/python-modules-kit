@@ -2,14 +2,14 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 PYTHON_REQ_USE="xml(+)"
 
 inherit distutils-r1
 
 DESCRIPTION="WSDL parsing services package for Web Services for Python"
 HOMEPAGE="https://github.com/pycontribs/wstools https://pypi.org/project/wstools/"
-SRC_URI="https://files.pythonhosted.org/packages/8d/d0/0e48ae89e4b2a9aa3a1a088782ae183dc09ca1f3545b29051c46d9efbc0f/wstools-0.4.8.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8d/d0/0e48ae89e4b2a9aa3a1a088782ae183dc09ca1f3545b29051c46d9efbc0f/wstools-0.4.8.tar.gz -> wstools-0.4.8.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

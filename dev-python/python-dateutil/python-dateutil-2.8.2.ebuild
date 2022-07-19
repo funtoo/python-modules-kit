@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -12,7 +12,7 @@ HOMEPAGE="
 	https://pypi.org/project/python-dateutil
 	https://github.com/dateutil/dateutil/
 "
-SRC_URI="https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz -> python-dateutil-2.8.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

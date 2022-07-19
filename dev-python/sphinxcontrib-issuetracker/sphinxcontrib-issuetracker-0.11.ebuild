@@ -2,13 +2,13 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Extension to sphinx to create links to issue trackers"
 HOMEPAGE="http://sphinxcontrib-issuetracker.readthedocs.org/"
-SRC_URI="https://files.pythonhosted.org/packages/bd/dc/7802f5cb801e9af00372dd95dc58de6f3b3821082b33acae1b159789f939/sphinxcontrib-issuetracker-0.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/bd/dc/7802f5cb801e9af00372dd95dc58de6f3b3821082b33acae1b159789f939/sphinxcontrib-issuetracker-0.11.tar.gz -> sphinxcontrib-issuetracker-0.11.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

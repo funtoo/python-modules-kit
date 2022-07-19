@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/dabeaz/curio https://pypi.org/project/curio/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/bc/2c438a1e8402a45b3f1a27abf45e3f280004c28d7bec6e2d1d8eb964a3cc/curio-1.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bc/bc/2c438a1e8402a45b3f1a27abf45e3f280004c28d7bec6e2d1d8eb964a3cc/curio-1.5.tar.gz -> curio-1.5.tar.gz
 "
 
 DEPEND=""

@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/Kozea/cairocffi https://pypi.org/project/cairocffi/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/d2/137b346d64f0d6428a90f60b51a06706592a86b74fd21ff66c853537cb9b/cairocffi-1.3.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8b/d2/137b346d64f0d6428a90f60b51a06706592a86b74fd21ff66c853537cb9b/cairocffi-1.3.0.tar.gz -> cairocffi-1.3.0.tar.gz
 "
 
 DEPEND=""

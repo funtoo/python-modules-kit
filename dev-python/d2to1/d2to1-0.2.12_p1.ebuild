@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/embray/d2to1 https://pypi.org/project/d2to1/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/bd/eac45e4e77d76f6c0ae539819c40f1babb891d7855129663e37957a7c2df/d2to1-0.2.12.post1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/dc/bd/eac45e4e77d76f6c0ae539819c40f1babb891d7855129663e37957a7c2df/d2to1-0.2.12.post1.tar.gz -> d2to1-0.2.12.post1.tar.gz
 "
 
 DEPEND=""

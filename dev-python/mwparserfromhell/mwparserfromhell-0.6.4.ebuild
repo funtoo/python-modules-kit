@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/earwig/mwparserfromhell https://pypi.org/project/mwparserfromhell/"
-SRC_URI="https://files.pythonhosted.org/packages/29/01/a694dd2768d584a90802f317a8560042cc6e72c25cf017c500a7bb4b10fe/mwparserfromhell-0.6.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/29/01/a694dd2768d584a90802f317a8560042cc6e72c25cf017c500a7bb4b10fe/mwparserfromhell-0.6.4.tar.gz -> mwparserfromhell-0.6.4.tar.gz
 "
 
 DEPEND=""

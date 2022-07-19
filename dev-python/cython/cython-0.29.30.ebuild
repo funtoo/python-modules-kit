@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1 toolchain-funcs elisp-common
@@ -11,7 +11,7 @@ inherit distutils-r1 toolchain-funcs elisp-common
 DESCRIPTION="A Python to C compiler"
 HOMEPAGE="https://cython.org https://pypi.org/project/Cython/
 	https://github.com/cython/cython"
-SRC_URI="https://files.pythonhosted.org/packages/d4/ad/7ce0cccd68824ac9623daf4e973c587aa7e2d23418cd028f8860c80651f5/Cython-0.29.30.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d4/ad/7ce0cccd68824ac9623daf4e973c587aa7e2d23418cd028f8860c80651f5/Cython-0.29.30.tar.gz -> Cython-0.29.30.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

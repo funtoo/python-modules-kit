@@ -2,14 +2,14 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 PYTHON_REQ_USE="threads(+)"
 
 inherit autotools python-r1
 
 DESCRIPTION="Python bindings for the D-Bus messagebus"
 HOMEPAGE="https://www.freedesktop.org/wiki/Software/DBusBindings https://dbus.freedesktop.org/doc/dbus-python/"
-SRC_URI="https://files.pythonhosted.org/packages/b1/5c/ccfc167485806c1936f7d3ba97db6c448d0089c5746ba105b6eb22dba60e/dbus-python-1.2.18.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/5c/ccfc167485806c1936f7d3ba97db6c448d0089c5746ba105b6eb22dba60e/dbus-python-1.2.18.tar.gz -> dbus-python-1.2.18.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

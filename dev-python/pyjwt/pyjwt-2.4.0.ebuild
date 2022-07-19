@@ -7,7 +7,7 @@ inherit distutils-r1 eutils
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/jpadilla/pyjwt https://pypi.org/project/PyJWT/"
-SRC_URI="https://files.pythonhosted.org/packages/d8/6b/6287745054dbcccf75903630346be77d4715c594402cec7c2518032416c2/PyJWT-2.4.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d8/6b/6287745054dbcccf75903630346be77d4715c594402cec7c2518032416c2/PyJWT-2.4.0.tar.gz -> PyJWT-2.4.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"

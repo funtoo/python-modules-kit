@@ -1,7 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="General purpose exceptions for Zope packages"
 HOMEPAGE="https://pypi.org/project/zope.exceptions/ https://github.com/zopefoundation/zope.exceptions"
-SRC_URI="https://files.pythonhosted.org/packages/1b/63/7e651aba4d137405d8a6eafb911a51a457c7efce727798c027db1f290963/zope.exceptions-4.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1b/63/7e651aba4d137405d8a6eafb911a51a457c7efce727798c027db1f290963/zope.exceptions-4.5.tar.gz -> zope.exceptions-4.5.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

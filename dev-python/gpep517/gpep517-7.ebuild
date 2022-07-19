@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/gpep517/"
-SRC_URI="https://files.pythonhosted.org/packages/fe/ad/157e3791bd9230d6df2b0b9dfde5c3fd50962925f3778c24ba5afba01544/gpep517-7.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fe/ad/157e3791bd9230d6df2b0b9dfde5c3fd50962925f3778c24ba5afba01544/gpep517-7.tar.gz -> gpep517-7.tar.gz
 "
 
 DEPEND=""

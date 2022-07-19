@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1 vcs-snapshot
 
@@ -10,7 +10,7 @@ GIT_COMMIT="be7e71e54a6edc87ead1b15af8981b8921e0e83d"
 
 DESCRIPTION="DNS toolkit for Python"
 HOMEPAGE="http://www.dnspython.org/ https://pypi.org/project/dnspython/"
-SRC_URI="https://files.pythonhosted.org/packages/99/fb/e7cd35bba24295ad41abfdff30f6b4c271fd6ac70d20132fa503c3e768e0/dnspython-2.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/99/fb/e7cd35bba24295ad41abfdff30f6b4c271fd6ac70d20132fa503c3e768e0/dnspython-2.2.1.tar.gz -> dnspython-2.2.1.tar.gz"
 
 LICENSE="ISC"
 SLOT="0"

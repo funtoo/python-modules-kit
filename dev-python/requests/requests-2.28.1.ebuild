@@ -2,12 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://requests.readthedocs.io https://pypi.org/project/requests/"
-SRC_URI="https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz -> requests-2.28.1.tar.gz
 "
 
 DEPEND=""

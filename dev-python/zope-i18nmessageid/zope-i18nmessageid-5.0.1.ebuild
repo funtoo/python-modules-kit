@@ -1,7 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope i18nmessageid Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.i18nmessageid http://docs.zope.org/zope.i18nmessageid/"
-SRC_URI="https://files.pythonhosted.org/packages/fb/13/88454ff27740d9be8140a7be208b09114be79d99c732f058f4b01a684590/zope.i18nmessageid-5.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fb/13/88454ff27740d9be8140a7be208b09114be79d99c732f058f4b01a684590/zope.i18nmessageid-5.0.1.tar.gz -> zope.i18nmessageid-5.0.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

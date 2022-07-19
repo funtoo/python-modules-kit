@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/libfuse/pyfuse3 https://pypi.org/project/pyfuse3/"
-SRC_URI="https://files.pythonhosted.org/packages/2f/99/ceb3f424cfac5011b6749160285fa265a2297344351381f524cdbb5542a2/pyfuse3-3.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/2f/99/ceb3f424cfac5011b6749160285fa265a2297344351381f524cdbb5542a2/pyfuse3-3.2.1.tar.gz -> pyfuse3-3.2.1.tar.gz
 "
 
 DEPEND=""

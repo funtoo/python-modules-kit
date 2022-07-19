@@ -2,12 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pycqa/mccabe https://pypi.org/project/mccabe/"
-SRC_URI="https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4e0ba8a408f215002cd178ad1df0f2806ff8/mccabe-0.7.0.tar.gz -> mccabe-0.7.0.tar.gz
 "
 
 DEPEND=""

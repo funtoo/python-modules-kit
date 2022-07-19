@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/indygreg/python-zstandard https://pypi.org/project/zstandard/"
-SRC_URI="https://files.pythonhosted.org/packages/30/bb/551cd25042138bdd2c36168b837c4ed6196da58fa1cfe3d9de8e70ac23dc/zstandard-0.14.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/30/bb/551cd25042138bdd2c36168b837c4ed6196da58fa1cfe3d9de8e70ac23dc/zstandard-0.14.1.tar.gz -> zstandard-0.14.1.tar.gz
 "
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"

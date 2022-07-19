@@ -2,12 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1 flag-o-matic toolchain-funcs
 
 DESCRIPTION=""
 HOMEPAGE="https://pyzmq.readthedocs.org https://pypi.org/project/pyzmq/"
-SRC_URI="https://files.pythonhosted.org/packages/36/80/50962c33a3ad813b086fe2bf023bb8b79cb232f8e15b1b54a4d5b05b62ff/pyzmq-23.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/36/80/50962c33a3ad813b086fe2bf023bb8b79cb232f8e15b1b54a4d5b05b62ff/pyzmq-23.2.0.tar.gz -> pyzmq-23.2.0.tar.gz
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"

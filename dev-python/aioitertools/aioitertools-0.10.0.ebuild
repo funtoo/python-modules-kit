@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://aioitertools.omnilib.dev https://pypi.org/project/aioitertools/"
-SRC_URI="https://files.pythonhosted.org/packages/c2/9c/36180745f894257a50b1473fa348daf996b959d66f5985bbc868e44ef3ee/aioitertools-0.10.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c2/9c/36180745f894257a50b1473fa348daf996b959d66f5985bbc868e44ef3ee/aioitertools-0.10.0.tar.gz -> aioitertools-0.10.0.tar.gz
 "
 
 DEPEND=""

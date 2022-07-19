@@ -1,7 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 MY_PN=zope.deferredimport
@@ -9,7 +9,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope Deferred Impport"
 HOMEPAGE="https://docs.zope.org/zope.deferredimport/"
-SRC_URI="https://files.pythonhosted.org/packages/50/0b/751237130777dc4497bd7c404b29c483efa7c39672a8796d7bfe4ef059cd/zope.deferredimport-4.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/50/0b/751237130777dc4497bd7c404b29c483efa7c39672a8796d7bfe4ef059cd/zope.deferredimport-4.4.tar.gz -> zope.deferredimport-4.4.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

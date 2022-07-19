@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/testing-cabal/fixtures https://pypi.org/project/fixtures/"
-SRC_URI="https://files.pythonhosted.org/packages/3c/3d/f106b3278ba50067e9cd397f836d33d141aa790853152dbb3512aaee19f3/fixtures-4.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3c/3d/f106b3278ba50067e9cd397f836d33d141aa790853152dbb3512aaee19f3/fixtures-4.0.1.tar.gz -> fixtures-4.0.1.tar.gz
 "
 
 DEPEND=""

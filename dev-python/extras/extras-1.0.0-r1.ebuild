@@ -2,12 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy pypy3 )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/testing-cabal/extras https://pypi.org/project/extras/"
-SRC_URI="https://files.pythonhosted.org/packages/be/18/0b7283f0ebf6ad4bb6b9937538495eadf05ef097b102946b9445c4242636/extras-1.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/be/18/0b7283f0ebf6ad4bb6b9937538495eadf05ef097b102946b9445c4242636/extras-1.0.0.tar.gz -> extras-1.0.0.tar.gz
 "
 
 DEPEND="

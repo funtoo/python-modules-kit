@@ -1,7 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 MY_PN=zope.component
@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 DESCRIPTION="Zope Component Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.component
 	https://docs.zope.org/zope.component/"
-SRC_URI="https://files.pythonhosted.org/packages/c5/c0/64931e1e8f2bfde9d8bc01670de2d2a395efcf8f49d3a9daa21cf3ffee2b/zope.component-5.0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/c0/64931e1e8f2bfde9d8bc01670de2d2a395efcf8f49d3a9daa21cf3ffee2b/zope.component-5.0.1.tar.gz -> zope.component-5.0.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

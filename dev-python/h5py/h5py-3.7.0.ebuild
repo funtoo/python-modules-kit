@@ -3,13 +3,13 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="Simple Python interface to HDF5 files"
 HOMEPAGE="http://www.h5py.org/"
-SRC_URI="https://files.pythonhosted.org/packages/c5/40/7cf58e6230f0e76699f011c6d293dd47755997709a303a4e644823f3a753/h5py-3.7.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c5/40/7cf58e6230f0e76699f011c6d293dd47755997709a303a4e644823f3a753/h5py-3.7.0.tar.gz -> h5py-3.7.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

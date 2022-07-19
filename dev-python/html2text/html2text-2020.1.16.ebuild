@@ -2,13 +2,13 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Turn HTML into equivalent Markdown-structured text"
 HOMEPAGE="https://github.com/Alir3z4/html2text https://pypi.org/project/html2text/"
-SRC_URI="https://files.pythonhosted.org/packages/6c/f9/033a17d8ea8181aee41f20c74c3b20f1ccbefbbc3f7cd24e3692de99fb25/html2text-2020.1.16.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6c/f9/033a17d8ea8181aee41f20c74c3b20f1ccbefbbc3f7cd24e3692de99fb25/html2text-2020.1.16.tar.gz -> html2text-2020.1.16.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

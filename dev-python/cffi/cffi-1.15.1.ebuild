@@ -5,13 +5,13 @@ EAPI=6
 
 # DO NOT ADD pypy to PYTHON_COMPAT
 # pypy bundles a modified version of cffi. Use python_gen_cond_dep instead.
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="Foreign Function Interface for Python calling C code"
 HOMEPAGE="https://cffi.readthedocs.io/ https://pypi.org/project/cffi/"
-SRC_URI="https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz -> cffi-1.15.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0/${PV}"
