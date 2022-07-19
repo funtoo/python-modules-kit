@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -15,7 +15,7 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/markdown-compat )
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' pypy3 -3
+	' -3 pypy3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"

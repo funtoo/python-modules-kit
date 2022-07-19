@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 inherit distutils-r1
 
 DESCRIPTION="BLAKE2 hash function extension module"

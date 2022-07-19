@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 PYTHON_REQ_USE="threads(+)"
 
 inherit autotools python-r1

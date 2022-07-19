@@ -12,7 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/64/a1/9dc5c5e43b3d1b1832da34c8a
 "
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/scons-compat )"
+RDEPEND="python_targets_python2_7? ( dev-util/scons-compat )"
 IUSE="python_targets_python2_7"
 RESTRICT="test"
 SLOT="0"
