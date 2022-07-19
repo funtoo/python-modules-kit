@@ -2,13 +2,13 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Allow a different format in dosctrings for better clarity"
 HOMEPAGE="https://sphinxcontrib-napoleon.readthedocs.io/"
-SRC_URI="https://files.pythonhosted.org/packages/fa/eb/ad89500f4cee83187596e07f43ad561f293e8e6e96996005c3319653b89f/sphinxcontrib-napoleon-0.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fa/eb/ad89500f4cee83187596e07f43ad561f293e8e6e96996005c3319653b89f/sphinxcontrib-napoleon-0.7.tar.gz -> sphinxcontrib-napoleon-0.7.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

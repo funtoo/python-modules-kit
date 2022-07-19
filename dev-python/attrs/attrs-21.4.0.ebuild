@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -11,7 +11,7 @@ HOMEPAGE="
 	https://github.com/hynek/attrs
 	https://attrs.readthedocs.org/
 	https://pypi.org/project/attrs/"
-SRC_URI="https://files.pythonhosted.org/packages/d7/77/ebb15fc26d0f815839ecd897b919ed6d85c050feeb83e100e020df9153d2/attrs-21.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/d7/77/ebb15fc26d0f815839ecd897b919ed6d85c050feeb83e100e020df9153d2/attrs-21.4.0.tar.gz -> attrs-21.4.0.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

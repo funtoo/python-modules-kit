@@ -2,12 +2,12 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://github.com/tobgu/pyrsistent/ https://pypi.org/project/pyrsistent/"
-SRC_URI="https://files.pythonhosted.org/packages/42/ac/455fdc7294acc4d4154b904e80d964cc9aae75b087bbf486be04df9f2abd/pyrsistent-0.18.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/42/ac/455fdc7294acc4d4154b904e80d964cc9aae75b087bbf486be04df9f2abd/pyrsistent-0.18.1.tar.gz -> pyrsistent-0.18.1.tar.gz
 "
 
 DEPEND=""

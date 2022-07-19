@@ -1,7 +1,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope schema Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.schema http://docs.zope.org/zope.schema/"
-SRC_URI="https://files.pythonhosted.org/packages/b3/db/53f1ae9115b357ad012c5297ce9e3597a1608a02bdcc4707718a16060a27/zope.schema-6.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b3/db/53f1ae9115b357ad012c5297ce9e3597a1608a02bdcc4707718a16060a27/zope.schema-6.2.0.tar.gz -> zope.schema-6.2.0.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

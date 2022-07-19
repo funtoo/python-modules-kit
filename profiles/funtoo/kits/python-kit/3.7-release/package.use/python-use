@@ -111,7 +111,6 @@ dev-python/editobj python_single_target_python2_7
 dev-python/egenix-mx-base python_single_target_python2_7
 dev-python/elementtree python_single_target_python2_7
 dev-python/elib-intl python_single_target_python2_7
-dev-python/enum34 python_single_target_python2_7
 dev-python/epydoc python_single_target_python2_7
 dev-python/eyeD3 python_single_target_python2_7
 dev-python/faulthandler python_single_target_python2_7
@@ -157,7 +156,6 @@ dev-python/markupsafe-compat python_single_target_python2_7
 dev-python/mock-compat python_single_target_python2_7
 dev-python/more-itertools-compat python_single_target_python2_7
 dev-python/mox python_single_target_python2_7
-dev-python/msgpack-compat python_single_target_python2_7
 dev-python/mwparserfromhell-compat python_single_target_python2_7
 dev-python/nautilus-python python_single_target_python2_7
 dev-python/networkx-compat python_single_target_python2_7
@@ -179,7 +177,6 @@ dev-python/pychm python_single_target_python2_7
 dev-python/pycountry-compat python_single_target_python2_7
 dev-python/pycryptopp python_single_target_python2_7
 dev-python/pyemf python_single_target_python2_7
-dev-python/pygments-compat python_single_target_python2_7
 dev-python/pygtkglext python_single_target_python2_7
 dev-python/pygtksourceview python_single_target_python2_7
 dev-python/pyhamcrest-compat python_single_target_python2_7
@@ -226,6 +223,7 @@ dev-python/rst2pdf python_single_target_python2_7
 dev-python/sabyenc python_single_target_python2_7
 dev-python/scientificpython python_single_target_python2_7
 dev-python/sclapp python_single_target_python2_7
+dev-python/scons-compat python_single_target_python2_7
 dev-python/selectors34 python_single_target_python2_7
 dev-python/setuptools-compat python_single_target_python2_7
 dev-python/setuptools_scm-compat python_single_target_python2_7

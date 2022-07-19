@@ -1,13 +1,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Sphinx spelling extension"
 HOMEPAGE="https://bitbucket.org/dhellmann/sphinxcontrib-spelling"
-SRC_URI="https://files.pythonhosted.org/packages/93/76/c48f54d98e8eb96e2b02067c3c3b4373732af98e576fab16f4e88365ff80/sphinxcontrib-spelling-7.6.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/93/76/c48f54d98e8eb96e2b02067c3c3b4373732af98e576fab16f4e88365ff80/sphinxcontrib-spelling-7.6.0.tar.gz -> sphinxcontrib-spelling-7.6.0.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

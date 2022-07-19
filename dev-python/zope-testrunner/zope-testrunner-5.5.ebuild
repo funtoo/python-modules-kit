@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 MY_PN=${PN/-/.}
@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope testrunner script"
 HOMEPAGE="https://pypi.org/project/zope.testrunner/ https://github.com/zopefoundation/zope.testrunner"
-SRC_URI="https://files.pythonhosted.org/packages/f7/43/9630657f6f8df660ed46f9a52b4f1b14e837b43c5b1fb4c66d41195a0451/zope.testrunner-5.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f7/43/9630657f6f8df660ed46f9a52b4f1b14e837b43c5b1fb4c66d41195a0451/zope.testrunner-5.5.tar.gz -> zope.testrunner-5.5.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"

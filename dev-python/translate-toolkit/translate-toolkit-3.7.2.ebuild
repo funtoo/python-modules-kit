@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://toolkit.translatehouse.org/ https://pypi.org/project/translate-toolkit/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/af/847105c43a0e938267f21aefd0c9a860ab8687fc6b4940c52280de918863/translate-toolkit-3.7.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/dc/af/847105c43a0e938267f21aefd0c9a860ab8687fc6b4940c52280de918863/translate-toolkit-3.7.2.tar.gz -> translate-toolkit-3.7.2.tar.gz
 "
 
 DEPEND=""

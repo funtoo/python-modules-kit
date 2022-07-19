@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
@@ -10,7 +10,7 @@ MY_PN="sphinxcontrib_github_alt"
 
 DESCRIPTION="Link to GitHub issues, pull requests, commits and users from Sphinx docs"
 HOMEPAGE="https://github.com/jupyter/sphinxcontrib_github_alt"
-SRC_URI="https://files.pythonhosted.org/packages/b8/d5/2880f4f441f3b46f264cb031d9e7135714b5060c895c8a6458051002c41a/sphinxcontrib_github_alt-1.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b8/d5/2880f4f441f3b46f264cb031d9e7135714b5060c895c8a6458051002c41a/sphinxcontrib_github_alt-1.2.tar.gz -> sphinxcontrib_github_alt-1.2.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

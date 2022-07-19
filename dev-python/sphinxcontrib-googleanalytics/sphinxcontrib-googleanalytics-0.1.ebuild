@@ -1,13 +1,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python3+ )
 
 inherit distutils-r1
 
 DESCRIPTION="Sphinx extension googleanalytics"
 HOMEPAGE="https://bitbucket.org/birkenfeld/sphinx-contrib"
-SRC_URI="https://files.pythonhosted.org/packages/48/7e/1b383d54276a743ee195f6f97a2a77054fa1f976913923e1e64fe500d975/sphinxcontrib-googleanalytics-0.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/48/7e/1b383d54276a743ee195f6f97a2a77054fa1f976913923e1e64fe500d975/sphinxcontrib-googleanalytics-0.1.tar.gz -> sphinxcontrib-googleanalytics-0.1.tar.gz"
 
 LICENSE="BSD-2"
 KEYWORDS="*"

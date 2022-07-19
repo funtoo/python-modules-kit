@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/python/importlib_metadata https://pypi.org/project/importlib-metadata/"
-SRC_URI="https://files.pythonhosted.org/packages/40/a2/0d11187bdde4237a2f5413f3dd47bdce4d198215392cf6c69945e89c6797/importlib_metadata-2.1.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/40/a2/0d11187bdde4237a2f5413f3dd47bdce4d198215392cf6c69945e89c6797/importlib_metadata-2.1.1.tar.gz -> importlib_metadata-2.1.1.tar.gz
 "
 
 DEPEND=""

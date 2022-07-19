@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy{,3} )
+PYTHON_COMPAT=( python3+ )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1 flag-o-matic
@@ -16,7 +16,7 @@ HOMEPAGE="
 	https://launchpad.net/pyopenssl
 	https://pypi.org/project/pyOpenSSL/
 "
-SRC_URI="https://files.pythonhosted.org/packages/35/d3/d6a9610f19d943e198df502ae660c6b5acf84cc3bc421a2aa3c0fb6b21d1/pyOpenSSL-22.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/35/d3/d6a9610f19d943e198df502ae660c6b5acf84cc3bc421a2aa3c0fb6b21d1/pyOpenSSL-22.0.0.tar.gz -> pyOpenSSL-22.0.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
