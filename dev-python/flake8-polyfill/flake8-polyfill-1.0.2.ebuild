@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
 DESCRIPTION="Polyfill package for Flake8 plugins"

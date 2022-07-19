@@ -2,7 +2,7 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 PYTHON_REQ_USE="ssl(+)"
 
 inherit distutils-r1

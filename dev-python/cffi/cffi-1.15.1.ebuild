@@ -5,7 +5,7 @@ EAPI=6
 
 # DO NOT ADD pypy to PYTHON_COMPAT
 # pypy bundles a modified version of cffi. Use python_gen_cond_dep instead.
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ pypy{,3} )
 
 inherit distutils-r1 toolchain-funcs
 
