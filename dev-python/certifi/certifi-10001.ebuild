@@ -12,7 +12,7 @@ DESCRIPTION="Thin replacement for certifi using system certificate store"
 HOMEPAGE="
 	https://github.com/mgorny/certifi-shim/
 	https://pypi.org/project/certifi/"
-SRC_URI="https://api.github.com/repos/mgorny/certifi-shim/tarball/refs/tags/v10001 -> certifi-shim-10001-804dd07.tar.gz"
+SRC_URI="https://api.github.com/repos/projg2/certifi-shim/tarball/refs/tags/v10001 -> certifi-shim-10001-804dd07.tar.gz"
 
 S="${WORKDIR}/mgorny-certifi-shim-804dd07"
 
