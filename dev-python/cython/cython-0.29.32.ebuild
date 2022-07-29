@@ -11,14 +11,14 @@ inherit distutils-r1 toolchain-funcs elisp-common
 DESCRIPTION="A Python to C compiler"
 HOMEPAGE="https://cython.org https://pypi.org/project/Cython/
 	https://github.com/cython/cython"
-SRC_URI="https://files.pythonhosted.org/packages/d4/ad/7ce0cccd68824ac9623daf4e973c587aa7e2d23418cd028f8860c80651f5/Cython-0.29.30.tar.gz -> Cython-0.29.30.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4c/76/1e41fbb365ad20b6efab2e61b0f4751518444c953b390f9b2d36cf97eea0/Cython-0.29.32.tar.gz -> Cython-0.29.32.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="*"
 IUSE="doc emacs test"
 RESTRICT="!test? ( test )"
-S="${WORKDIR}/Cython-0.29.30"
+S="${WORKDIR}/Cython-0.29.32"
 
 RDEPEND="
 	emacs? ( app-editors/emacs )
