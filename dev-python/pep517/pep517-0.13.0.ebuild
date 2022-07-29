@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/pep517 https://pypi.org/project/pep517/"
-SRC_URI="https://files.pythonhosted.org/packages/0a/65/6e656d49c679136edfba25f25791f45ffe1ea4ae2ec1c59fe9c35e061cd1/pep517-0.12.0.tar.gz -> pep517-0.12.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/4d/19/e11fcc88288f68ae48e3aa9cf5a6fd092a88e629cb723465666c44d487a0/pep517-0.13.0.tar.gz -> pep517-0.13.0.tar.gz
 "
 
 DEPEND="dev-python/flit_core[${PYTHON_USEDEP}]"
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pep517-0.12.0"
+S="${WORKDIR}/pep517-0.13.0"
