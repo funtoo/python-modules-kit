@@ -7,7 +7,7 @@ DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="http://www.scons.org/ https://pypi.org/project/SCons/"
+HOMEPAGE="https://www.scons.org/ https://pypi.org/project/SCons/"
 SRC_URI="https://files.pythonhosted.org/packages/de/95/29892f46a6da11e90154147b96a18695c8562e94119e8084352f71e61d24/scons-3.1.2.tar.gz -> scons-3.1.2.tar.gz
 "
 
