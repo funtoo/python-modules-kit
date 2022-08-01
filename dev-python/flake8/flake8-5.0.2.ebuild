@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pycqa/flake8 https://pypi.org/project/flake8/"
-SRC_URI="https://files.pythonhosted.org/packages/dd/94/b407f9f904fa387522ed8ba7890bcd1af67b94e2988744159c263e516cf8/flake8-5.0.1.tar.gz -> flake8-5.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/61/b7/de862ffe731e4edae44783f04d153f56bc6081cff1ca5a6680f5e4258f75/flake8-5.0.2.tar.gz -> flake8-5.0.2.tar.gz
 "
 
 DEPEND=""
@@ -20,7 +20,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/flake8-5.0.1"
+S="${WORKDIR}/flake8-5.0.2"
 
 src_prepare() {
 	# remove version-limited dep
