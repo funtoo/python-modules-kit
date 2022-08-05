@@ -10,8 +10,11 @@ HOMEPAGE="https://github.com/docker/docker-py"
 SRC_URI="https://github.com/docker/docker-py/tarball/3686248bac901113dc9ed979aed98430fae69d84 -> docker-py-5.0.3-3686248.tar.gz
 "
 
-DEPEND="test? ( >=dev-python/mock-1.0.1[${PYTHON_USEDEP}] >=dev-python/paramiko-2.4.2[${PYTHON_USEDEP}] )"
-RDEPEND=">=dev-python/requests-2.24.0[${PYTHON_USEDEP}] >=dev-python/six-1.4.0[${PYTHON_USEDEP}] >=dev-python/websocket-client-0.32.0[${PYTHON_USEDEP}]"
+DEPEND=""
+RDEPEND="
+	>=dev-python/requests-2.24.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.4.0[${PYTHON_USEDEP}]
+	>=dev-python/websocket-client-0.32.0[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
@@ -24,7 +27,7 @@ post_src_unpack() {
 	fi
 }
 
-distutils_enable_sphinx docs dev-python/recommonmark >=dev-python/sphinx-1.4.6
+distutils_enable_sphinx docs 'dev-python/recommonmark' '>=dev-python/sphinx-1.4.6'
 src_prepare() {
 	default
 	# localhost has a better chance of being in /etc/hosts
