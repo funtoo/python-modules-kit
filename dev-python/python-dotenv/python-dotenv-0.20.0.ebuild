@@ -22,7 +22,7 @@ S="${WORKDIR}/python-dotenv-0.20.0"
 
 DOCS=( CHANGELOG.md README.md )
 python_install() {
-	distutils-r1_install
+	distutils-r1_python_install
 	ln -s dotenv "${D}$(python_get_scriptdir)"/python-dotenv || die
 }
 src_install() {
