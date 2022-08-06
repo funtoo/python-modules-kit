@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -21,6 +22,7 @@ S="${WORKDIR}/python-dotenv-0.20.0"
 
 DOCS=( CHANGELOG.md README.md )
 python_install() {
+	distutils-r1_install
 	ln -s dotenv "${D}$(python_get_scriptdir)"/python-dotenv || die
 }
 src_install() {
