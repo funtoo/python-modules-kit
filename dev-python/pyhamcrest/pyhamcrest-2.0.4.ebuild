@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="https://github.com/hamcrest/PyHamcrest https://pypi.org/project/PyHamcrest/"
-SRC_URI="https://files.pythonhosted.org/packages/33/6d/49d61fc2de276137397f3a9ec2658cb3e162d4f31b9f12fb671d6ec24a7c/PyHamcrest-2.0.3.tar.gz -> PyHamcrest-2.0.3.tar.gz
+HOMEPAGE=" https://pypi.org/project/PyHamcrest/"
+SRC_URI="https://files.pythonhosted.org/packages/b1/9a/588f086b64ace8d2e9843d8551e9068b2570c3c51b06cb49a107303f8700/pyhamcrest-2.0.4.tar.gz -> pyhamcrest-2.0.4.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/PyHamcrest-2.0.3"
+S="${WORKDIR}/PyHamcrest-2.0.4"
