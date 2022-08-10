@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/sdispater/tomlkit https://pypi.org/project/tomlkit/"
-SRC_URI="https://files.pythonhosted.org/packages/eb/e3/7b0bcc571314a728c2f84144ba72ca01f6ac68a645a1ac1848f2efd7948d/tomlkit-0.11.2.tar.gz -> tomlkit-0.11.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f6/33/e5e55afcc6e062ba706a0492460f5702955d077adbcaf561d04799b412d5/tomlkit-0.11.3.tar.gz -> tomlkit-0.11.3.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/tomlkit-0.11.2"
+S="${WORKDIR}/tomlkit-0.11.3"
