@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/terrycain/aioboto3 https://pypi.org/project/aioboto3/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/e3/7a500d59808725fd2a9614bb29f14a84ec00f93e0d9f1bf59006f29ec1ee/aioboto3-9.6.0.tar.gz -> aioboto3-9.6.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/12/f8/f2d2e0b410378a8fe1ebf6af977a61266a4d860bca7b13887c04021ac12b/aioboto3-10.0.0.tar.gz -> aioboto3-10.0.0.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/aioboto3-9.6.0"
+S="${WORKDIR}/aioboto3-10.0.0"
