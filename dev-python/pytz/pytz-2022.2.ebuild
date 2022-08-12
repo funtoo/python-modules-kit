@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="World timezone definitions for Python"
 HOMEPAGE="https://pythonhosted.org/pytz/ https://pypi.org/project/pytz/"
-SRC_URI="https://files.pythonhosted.org/packages/2f/5f/a0f653311adff905bbcaa6d3dfaf97edcf4d26138393c6ccd37a484851fb/pytz-2022.1.tar.gz -> pytz-2022.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cf/80/8246892889a36f4a12f719da27c72faea1c2bdb6998afbfffc4284dcd457/pytz-2022.2.tar.gz -> pytz-2022.2.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
