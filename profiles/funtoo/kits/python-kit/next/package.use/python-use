@@ -3,7 +3,7 @@
 =dev-python/Numdifftools-0.9.14 python_single_target_python2_7 python_targets_python2_7
 =dev-python/carbon-0.9.13 python_single_target_python2_7 python_targets_python2_7
 =dev-python/carbon-0.9.13-r1 python_single_target_python2_7 python_targets_python2_7
-=dev-python/cov-core-1.7 python_single_target_pypy python_targets_pypy
+=dev-python/cov-core-1.7 python_single_target_pypy3 python_targets_pypy3
 =dev-python/discogs-client-2.0.2 python_single_target_pypy python_targets_pypy
 =dev-python/django-auth-ldap-1.2.2 python_single_target_pypy python_targets_pypy
 =dev-python/django-auth-ldap-1.2.7 python_single_target_pypy python_targets_pypy
@@ -151,6 +151,7 @@ dev-python/libgnome-python python_single_target_python2_7 python_targets_python2
 dev-python/libgnomecanvas-python python_single_target_python2_7 python_targets_python2_7
 dev-python/liblarch python_single_target_python2_7 python_targets_python2_7
 dev-python/librsvg-python python_single_target_python2_7 python_targets_python2_7
+dev-python/m2r-compat python_single_target_python2_7 python_targets_python2_7
 dev-python/mako-compat python_single_target_python2_7 python_targets_python2_7
 dev-python/markdown-compat python_single_target_python2_7 python_targets_python2_7
 dev-python/markupsafe-compat python_single_target_python2_7 python_targets_python2_7
