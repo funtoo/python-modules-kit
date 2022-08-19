@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python client for Docker"
 HOMEPAGE="https://github.com/docker/docker-py"
-SRC_URI="https://github.com/docker/docker-py/tarball/3686248bac901113dc9ed979aed98430fae69d84 -> docker-py-5.0.3-3686248.tar.gz
+SRC_URI="https://github.com/docker/docker-py/tarball/e901eac7a8c5f29c7720eafb9f58c8356cca2324 -> docker-py-6.0.0-e901eac.tar.gz
 "
 
 DEPEND=""
