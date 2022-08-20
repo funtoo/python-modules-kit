@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/ousret/charset_normalizer https://pypi.org/project/charset-normalizer/"
-SRC_URI="https://files.pythonhosted.org/packages/93/1d/d9392056df6670ae2a29fcb04cfa5cee9f6fbde7311a1bb511d4115e9b7a/charset-normalizer-2.1.0.tar.gz -> charset-normalizer-2.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a1/34/44964211e5410b051e4b8d2869c470ae8a68ae274953b1c7de6d98bbcf94/charset-normalizer-2.1.1.tar.gz -> charset-normalizer-2.1.1.tar.gz
 "
 
 DEPEND=""
@@ -17,7 +17,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/charset_normalizer-2.1.0"
+S="${WORKDIR}/charset_normalizer-2.1.1"
 
 src_unpack() {
 	default
