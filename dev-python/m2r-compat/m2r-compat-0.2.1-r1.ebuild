@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/39/e7/9fae11a45f5e1a3a21d8a98d0
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="
+RDEPEND="!<=dev-python/m2r-0.2.1 
 	dev-python/mistune[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]"
 IUSE=""
