@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/aio-libs/aiobotocore https://pypi.org/project/aiobotocore/"
-SRC_URI="https://files.pythonhosted.org/packages/af/a3/9cc0962847239690e731329f754748a84ffcc64769a5e9a33d343f5f694e/aiobotocore-2.3.4.tar.gz -> aiobotocore-2.3.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/14/f1/61f49b9625eb15fc4f37b106d11dadaa6137f8135c2d0f77680e365ceef7/aiobotocore-2.4.0.tar.gz -> aiobotocore-2.4.0.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/aiobotocore-2.3.4"
+S="${WORKDIR}/aiobotocore-2.4.0"
