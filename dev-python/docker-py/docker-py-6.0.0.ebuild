@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python client for Docker"
 HOMEPAGE="https://github.com/docker/docker-py"
-SRC_URI="https://github.com/docker/docker-py/tarball/e901eac7a8c5f29c7720eafb9f58c8356cca2324 -> docker-py-6.0.0-e901eac.tar.gz
+SRC_URI="https://github.com/docker/docker-py/releases/download/6.0.0/docker-6.0.0.tar.gz -> docker-6.0.0.tar.gz
 "
 
 DEPEND=""
@@ -28,6 +28,10 @@ post_src_unpack() {
 }
 
 distutils_enable_sphinx docs 'dev-python/recommonmark' '>=dev-python/sphinx-1.4.6'
+src_unpack() {
+	default
+	mv ${WORKDIR}/docker-* ${S} || die
+}
 src_prepare() {
 	default
 	# localhost has a better chance of being in /etc/hosts
