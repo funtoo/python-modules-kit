@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/theskumar/python-dotenv https://pypi.org/project/python-dotenv/"
-SRC_URI="https://files.pythonhosted.org/packages/02/ee/43e1c862a3e7259a1f264958eaea144f0a2fac9f175c1659c674c34ea506/python-dotenv-0.20.0.tar.gz -> python-dotenv-0.20.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/87/8d/ab7352188f605e3f663f34692b2ed7457da5985857e9e4c2335cd12fb3c9/python-dotenv-0.21.0.tar.gz -> python-dotenv-0.21.0.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/python-dotenv-0.20.0"
+S="${WORKDIR}/python-dotenv-0.21.0"
 
 DOCS=( CHANGELOG.md README.md )
 python_install() {
