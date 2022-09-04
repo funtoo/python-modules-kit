@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Retrieve information on running processes and system utilization"
 HOMEPAGE="https://github.com/giampaolo/psutil https://pypi.org/project/psutil/"
-SRC_URI="https://files.pythonhosted.org/packages/d6/de/0999ea2562b96d7165812606b18f7169307b60cd378bc29cf3673322c7e9/psutil-5.9.1.tar.gz -> psutil-5.9.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8f/57/828ac1f70badc691a716e77bfae258ef5db76bb7830109bf4bcf882de020/psutil-5.9.2.tar.gz -> psutil-5.9.2.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
