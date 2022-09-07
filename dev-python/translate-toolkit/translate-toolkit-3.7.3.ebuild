@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://toolkit.translatehouse.org/ https://pypi.org/project/translate-toolkit/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/af/847105c43a0e938267f21aefd0c9a860ab8687fc6b4940c52280de918863/translate-toolkit-3.7.2.tar.gz -> translate-toolkit-3.7.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/09/75/527fd0f2edd605e25cbe18acdf499b8ecaa83070092b7ef7dad5c9df148f/translate-toolkit-3.7.3.tar.gz -> translate-toolkit-3.7.3.tar.gz
 "
 
 DEPEND=""
@@ -34,7 +34,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-S="${WORKDIR}/translate-toolkit-3.7.2"
+S="${WORKDIR}/translate-toolkit-3.7.3"
 
 distutils_enable_sphinx docs dev-python/sphinx-bootstrap-theme
 src_prepare() {
