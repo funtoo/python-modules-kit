@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://github.com/MagicStack/uvloop https://pypi.org/project/uvloop/"
-SRC_URI="https://files.pythonhosted.org/packages/ab/d9/22bbffa8f8d7e075ccdb29e8134107adfb4710feb10039f9d357db8b589c/uvloop-0.16.0.tar.gz -> uvloop-0.16.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ba/86/6dda1760481abf244cbd3908b79a4520d757040ca9ec37a79fc0fd01e2a0/uvloop-0.17.0.tar.gz -> uvloop-0.17.0.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/uvloop-0.16.0"
+S="${WORKDIR}/uvloop-0.17.0"
