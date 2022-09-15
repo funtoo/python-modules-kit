@@ -7,7 +7,7 @@ inherit distutils-r1 flag-o-matic toolchain-funcs
 
 DESCRIPTION=""
 HOMEPAGE="https://pyzmq.readthedocs.org https://pypi.org/project/pyzmq/"
-SRC_URI="https://files.pythonhosted.org/packages/72/37/d5603f352522e249e44ee767a8a59b3fe7cf7f708a94fd40a637c6890add/pyzmq-23.2.1.tar.gz -> pyzmq-23.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e7/5d/ec9bc6f18d14f9fa6c4aa60e621096f8057c18fc1d2b320e263433abda3f/pyzmq-24.0.0.tar.gz -> pyzmq-24.0.0.tar.gz
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -20,7 +20,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
-S="${WORKDIR}/pyzmq-23.2.1"
+S="${WORKDIR}/pyzmq-24.0.0"
 
 python_configure_all() {
 	tc-export CC
