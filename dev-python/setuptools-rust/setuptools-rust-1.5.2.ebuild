@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/PyO3/setuptools-rust https://pypi.org/project/setuptools-rust/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/20/0b16eb0dd28c3ec6fccef77230b11e4b9ec94aa7ade1c99b1ab66d237fbe/setuptools-rust-1.5.1.tar.gz -> setuptools-rust-1.5.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/99/db/e4ecb483ffa194d632ed44bda32cb740e564789fed7e56c2be8e2a0e2aa6/setuptools-rust-1.5.2.tar.gz -> setuptools-rust-1.5.2.tar.gz
 "
 
 DEPEND=">=dev-python/setuptools_scm-3.4.3[${PYTHON_USEDEP}]"
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/setuptools-rust-1.5.1"
+S="${WORKDIR}/setuptools-rust-1.5.2"
