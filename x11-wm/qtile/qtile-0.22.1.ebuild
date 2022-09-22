@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://qtile.org https://pypi.org/project/qtile/"
-SRC_URI="https://files.pythonhosted.org/packages/a4/7e/4f3921eda7e3912aa7487b0455e1993a638d99cf6075205de3cf8a13f291/qtile-0.21.0.tar.gz -> qtile-0.21.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c5/6d/662b20c4f19e4c68e44564e4c5b51e41d477722cfacfaa178acb548c40f2/qtile-0.22.1.tar.gz -> qtile-0.22.1.tar.gz
 "
 
 DEPEND=""
@@ -29,7 +29,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/qtile-0.21.0"
+S="${WORKDIR}/qtile-0.22.1"
 
 python_install_all() {
 	local DOCS=( CHANGELOG README.rst )
