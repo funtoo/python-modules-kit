@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="https://www.sphinx-doc.org/ https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/3a/30/ac07935542607c876f3fcee1c1ab043d253332567009994a1bf71d9b55cd/Sphinx-5.1.1.tar.gz -> Sphinx-5.1.1.tar.gz
+HOMEPAGE=" https://pypi.org/project/Sphinx/"
+SRC_URI="https://files.pythonhosted.org/packages/48/b0/cd22471db6986519cb8bd6e4b9475a8b0ab952cec74a0eadd854c1afe8f2/Sphinx-5.2.0.tar.gz -> Sphinx-5.2.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -39,7 +39,7 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-5.1.1"
+S="${WORKDIR}/sphinx-5.2.0"
 
 S="${WORKDIR}/${P^}"
 
