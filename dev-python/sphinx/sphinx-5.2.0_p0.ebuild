@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/48/b0/cd22471db6986519cb8bd6e4b9475a8b0ab952cec74a0eadd854c1afe8f2/Sphinx-5.2.0.tar.gz -> Sphinx-5.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/0f/0b/fa3b6a952a1559dce4e695c3edf9cb784ac3b83984e5c98cb14ee67f427e/Sphinx-5.2.0.post0.tar.gz -> Sphinx-5.2.0.post0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -40,7 +40,7 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-5.2.0"
+S="${WORKDIR}/sphinx-5.2.0.post0"
 
 S="${WORKDIR}/${P^}"
 
