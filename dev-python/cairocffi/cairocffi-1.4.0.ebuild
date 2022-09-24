@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/Kozea/cairocffi https://pypi.org/project/cairocffi/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/d2/137b346d64f0d6428a90f60b51a06706592a86b74fd21ff66c853537cb9b/cairocffi-1.3.0.tar.gz -> cairocffi-1.3.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f4/10/82a8384882b4a7096256ee5c3fba65b6a0be67f08e8de130cd3627edb12f/cairocffi-1.4.0.tar.gz -> cairocffi-1.4.0.tar.gz
 "
 
 DEPEND=""
@@ -25,7 +25,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/cairocffi-1.3.0"
+S="${WORKDIR}/cairocffi-1.4.0"
 
 src_prepare() {
 	sed -i -e '/pytest-/d' -e '/addopts/d' setup.cfg || die
