@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -28,8 +29,8 @@ RDEPEND="
 	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
 	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
 	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
@@ -46,16 +47,6 @@ S="${WORKDIR}/${P^}"
 PATCHES=(
 	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
 )
-
-# FL-8369: relax various deps
-src_prepare() {
-	for dep in {docutils,MarkupSafe,Jinja2}; do
-		sed -i -e '/^${dep}/c ${dep}' Sphinx.egg-info/requires.txt || die
-		sed -i -e "s/'${dep}.*$/'${dep}',/" setup.py || die
-	done
-	distutils-r1_src_prepare
-}
-
 python_compile_all() {
 	if use doc; then
 		esetup.py build_sphinx
