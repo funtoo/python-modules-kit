@@ -40,9 +40,7 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-5.2.0.post0"
-
-S="${WORKDIR}/${P^}"
+S="${WORKDIR}/Sphinx-5.2.0.post0"
 
 PATCHES=(
 	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
