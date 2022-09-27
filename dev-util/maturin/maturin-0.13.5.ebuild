@@ -7,6 +7,7 @@ CRATES="
 addr2line-0.17.0
 adler-1.0.2
 aes-0.7.5
+ahash-0.7.6
 aho-corasick-0.7.19
 anyhow-1.0.65
 async-io-1.9.0
@@ -67,7 +68,7 @@ derivative-2.2.0
 dialoguer-0.10.2
 diff-0.1.13
 digest-0.9.0
-digest-0.10.3
+digest-0.10.5
 dirs-4.0.0
 dirs-sys-0.3.7
 dunce-1.0.2
@@ -122,14 +123,14 @@ indexmap-1.9.1
 indicatif-0.17.1
 indoc-1.0.7
 instant-0.1.12
-itertools-0.10.4
+itertools-0.10.5
 itoa-1.0.3
 js-sys-0.3.60
 keyring-1.2.0
 lazy_static-1.4.0
 lddtree-0.3.1
-libc-0.2.132
-lock_api-0.4.8
+libc-0.2.133
+lock_api-0.4.9
 log-0.4.17
 lzxd-0.1.4
 mailparse-0.13.8
@@ -156,13 +157,13 @@ num_cpus-1.13.1
 num_threads-0.1.6
 number_prefix-0.4.0
 object-0.29.0
-once_cell-1.14.0
+once_cell-1.15.0
 opaque-debug-0.3.0
-openssl-0.10.41
+openssl-0.10.42
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.22.0+1.1.1q
-openssl-sys-0.9.75
+openssl-sys-0.9.76
 os_str_bytes-6.3.0
 os_type-2.4.0
 output_vt100-0.1.3
@@ -185,7 +186,7 @@ proc-macro-crate-0.1.5
 proc-macro-crate-1.2.1
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.43
+proc-macro2-1.0.44
 pyproject-toml-0.3.1
 python-pkginfo-0.5.4
 quick-error-1.2.3
@@ -193,7 +194,7 @@ quote-1.0.21
 quoted_printable-0.4.5
 rand-0.8.5
 rand_chacha-0.3.1
-rand_core-0.6.3
+rand_core-0.6.4
 rayon-1.5.3
 rayon-core-1.9.3
 redox_syscall-0.2.16
@@ -208,6 +209,7 @@ rpassword-6.0.1
 rustc-demangle-0.1.21
 rustc_version-0.4.0
 rustls-0.20.6
+rustversion-1.0.9
 ryu-1.0.11
 same-file-1.0.6
 schannel-0.1.20
@@ -220,12 +222,12 @@ secret-service-2.0.2
 security-framework-2.7.0
 security-framework-sys-2.6.1
 semver-1.0.14
-serde-1.0.144
-serde_derive-1.0.144
+serde-1.0.145
+serde_derive-1.0.145
 serde_json-1.0.85
 serde_repr-0.1.9
 sha2-0.9.9
-sha2-0.10.5
+sha2-0.10.6
 sharded-slab-0.1.4
 slab-0.4.7
 smallvec-1.9.0
@@ -236,15 +238,15 @@ spin-0.5.2
 static_assertions-1.1.0
 strsim-0.10.0
 subtle-2.4.1
-syn-1.0.99
+syn-1.0.101
 tar-0.4.38
 target-lexicon-0.12.4
 tempfile-3.3.0
 termcolor-1.1.3
 terminal_size-0.1.17
 textwrap-0.15.0
-thiserror-1.0.35
-thiserror-impl-1.0.35
+thiserror-1.0.36
+thiserror-impl-1.0.36
 thread_local-1.1.4
 time-0.3.14
 time-macros-0.2.4
@@ -262,8 +264,8 @@ typenum-1.15.0
 unicase-2.6.0
 unicode-bidi-0.3.8
 unicode-ident-1.0.4
-unicode-linebreak-0.1.2
-unicode-normalization-0.1.21
+unicode-linebreak-0.1.3
+unicode-normalization-0.1.22
 unicode-width-0.1.10
 untrusted-0.7.1
 ureq-2.5.0
@@ -283,7 +285,7 @@ wasm-bindgen-macro-support-0.2.83
 wasm-bindgen-shared-0.2.83
 web-sys-0.3.60
 webpki-0.22.0
-webpki-roots-0.22.4
+webpki-roots-0.22.5
 wepoll-ffi-0.1.2
 which-4.3.0
 winapi-0.3.9
@@ -310,7 +312,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/f2/5c/af29a40fde2c8fea1e34e79a5d43e2a4278a685c1c9039c107444f9312d9/maturin-0.13.3.tar.gz -> maturin-0.13.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/02/02/0bc5e44bc6f0a1ec21bd1b32d7d0ff6035a72858823ef394a95ac66327b7/maturin-0.13.5.tar.gz -> maturin-0.13.5.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -336,4 +338,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.13.3"
+S="${WORKDIR}/maturin-0.13.5"
