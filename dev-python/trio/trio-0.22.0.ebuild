@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/python-trio/trio https://pypi.org/project/trio/"
-SRC_URI="https://files.pythonhosted.org/packages/0b/81/47c8b8fc5303bed06d284a49a114e10032d2cbfa1ac51bef15949abf1b54/trio-0.21.0.tar.gz -> trio-0.21.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/0b/b8/1b81d2149c3e2c25900d40b8e6c8d3ca502a3cc844b90c962b0854aaf3f3/trio-0.22.0.tar.gz -> trio-0.22.0.tar.gz
 "
 
 DEPEND=""
@@ -23,4 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-S="${WORKDIR}/trio-0.21.0"
+S="${WORKDIR}/trio-0.22.0"
