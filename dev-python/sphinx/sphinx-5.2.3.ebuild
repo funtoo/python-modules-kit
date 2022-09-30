@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/7e/79/78be8beb3a0d39431e2c29d837f85fe3df77d31c92216ce22d7961607ef3/Sphinx-5.2.2.tar.gz -> Sphinx-5.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/38/f2/09c2c9c59eabf25e1b2d391dc5e0438689fbb0d973fff6350f7c7521dbd0/Sphinx-5.2.3.tar.gz -> Sphinx-5.2.3.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -40,7 +40,7 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Sphinx-5.2.2"
+S="${WORKDIR}/Sphinx-5.2.3"
 
 PATCHES=(
 	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch

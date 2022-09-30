@@ -33,4 +33,7 @@ S="${WORKDIR}/aiohttp-3.8.3"
 src_prepare() {
 	default
 	rm ${S}/examples/__init__.py
+
+	# Drop runtime dep to asynctest used for tests
+	sed -e '/^\tasynctest.*/d' -i ${S}/setup.cfg
 }
