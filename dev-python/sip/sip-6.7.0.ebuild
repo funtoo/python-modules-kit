@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://www.riverbankcomputing.com/software/sip/ https://pypi.org/project/sip/"
-SRC_URI="https://files.pythonhosted.org/packages/5b/cb/c27c925ae07bd03a2597fa1db17bfc2a4ac57da61aeb90f8ec98ffbb975b/sip-6.6.2.tar.gz -> sip-6.6.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/5b/0f/7889ef9f354f2d6aa47875cb13d8ce3d0ae925d4befb971a8455da4ac55f/sip-6.7.0.tar.gz -> sip-6.7.0.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="SIP"
 KEYWORDS="*"
-S="${WORKDIR}/sip-6.6.2"
+S="${WORKDIR}/sip-6.7.0"
