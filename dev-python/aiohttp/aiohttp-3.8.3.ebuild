@@ -22,7 +22,9 @@ RDEPEND="
 	dev-python/idna-ssl[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	dev-python/aiosignal[${PYTHON_USEDEP}]
-	dev-python/aiodns[${PYTHON_USEDEP}]"
+	dev-python/aiodns[${PYTHON_USEDEP}]
+	dev-python/charset_normalizer[${PYTHON_USEDEP}]
+	dev-python/frozenlist[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
