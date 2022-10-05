@@ -16,7 +16,6 @@ DEPEND="
 RDEPEND="
 	>dev-python/async_timeout-3[${PYTHON_USEDEP}]
 	>dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
-	dev-python/chardet[${PYTHON_USEDEP}]
 	>dev-python/multidict-4.5.0[${PYTHON_USEDEP}]
 	>dev-python/yarl-1[${PYTHON_USEDEP}]
 	dev-python/idna-ssl[${PYTHON_USEDEP}]
