@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/python-poetry/poetry-core https://pypi.org/project/poetry-core/"
-SRC_URI="https://files.pythonhosted.org/packages/27/ba/611a561ef300abdae81a576445334fb7a41e62c295b050338a4f54fa76d4/poetry-core-1.2.0.tar.gz -> poetry-core-1.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b1/a1/8f88872af29e6efd0ff5bf44a92d5882cd50fd8e106e6ebf655cdd0097f1/poetry-core-1.3.1.tar.gz -> poetry-core-1.3.1.tar.gz
 "
 
 DEPEND=""
@@ -26,4 +26,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/poetry-core-1.2.0"
+S="${WORKDIR}/poetry-core-1.3.1"
