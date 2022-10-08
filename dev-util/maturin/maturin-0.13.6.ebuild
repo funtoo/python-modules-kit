@@ -32,7 +32,7 @@ cache-padded-1.2.0
 camino-1.1.1
 cargo-options-0.3.1
 cargo-platform-0.1.2
-cargo-xwin-0.10.4
+cargo-xwin-0.10.2
 cargo-zigbuild-0.12.3
 cargo_metadata-0.15.0
 cbindgen-0.24.3
@@ -42,7 +42,7 @@ cfg-if-1.0.0
 charset-0.1.3
 chunked_transfer-1.4.0
 cipher-0.3.0
-clap-3.2.21
+clap-3.2.22
 clap_complete-3.2.5
 clap_complete_fig-3.2.4
 clap_derive-3.2.18
@@ -51,15 +51,15 @@ cli-table-0.4.7
 combine-4.6.6
 concurrent-queue-1.2.4
 configparser-3.0.2
-console-0.15.1
+console-0.15.2
 core-foundation-0.9.3
 core-foundation-sys-0.8.3
 cpufeatures-0.2.5
 crc32fast-1.3.2
 crossbeam-channel-0.5.6
 crossbeam-deque-0.8.2
-crossbeam-epoch-0.9.10
-crossbeam-utils-0.8.11
+crossbeam-epoch-0.9.11
+crossbeam-utils-0.8.12
 crypto-common-0.1.6
 crypto-mac-0.11.1
 ctor-0.1.23
@@ -71,7 +71,7 @@ digest-0.9.0
 digest-0.10.5
 dirs-4.0.0
 dirs-sys-0.3.7
-dunce-1.0.2
+dunce-1.0.3
 either-1.8.0
 encode_unicode-0.3.6
 encoding-0.2.33
@@ -84,7 +84,8 @@ encoding_index_tests-0.1.4
 encoding_rs-0.8.31
 enumflags2-0.6.4
 enumflags2_derive-0.6.4
-env_logger-0.7.1
+errno-0.2.8
+errno-dragonfly-0.1.2
 fastrand-1.8.0
 fat-macho-0.4.5
 filetime-0.2.17
@@ -116,20 +117,21 @@ hermit-abi-0.1.19
 hkdf-0.11.0
 hmac-0.11.0
 human-panic-1.0.3
-humantime-1.3.0
 idna-0.3.0
 ignore-0.4.18
 indexmap-1.9.1
-indicatif-0.17.1
+indicatif-0.17.0-rc.6
 indoc-1.0.7
 instant-0.1.12
+io-lifetimes-0.7.3
 itertools-0.10.5
-itoa-1.0.3
+itoa-1.0.4
 js-sys-0.3.60
 keyring-1.2.0
 lazy_static-1.4.0
 lddtree-0.3.1
-libc-0.2.133
+libc-0.2.134
+linux-raw-sys-0.0.46
 lock_api-0.4.9
 log-0.4.17
 lzxd-0.1.4
@@ -146,6 +148,7 @@ multipart-0.18.0
 native-tls-0.2.10
 nb-connect-1.2.0
 nix-0.22.3
+nu-ansi-term-0.46.0
 num-0.4.0
 num-bigint-0.4.3
 num-complex-0.4.2
@@ -165,8 +168,9 @@ openssl-probe-0.1.5
 openssl-src-111.22.0+1.1.1q
 openssl-sys-0.9.76
 os_str_bytes-6.3.0
-os_type-2.4.0
+os_type-2.6.0
 output_vt100-0.1.3
+overload-0.1.1
 parking-2.0.0
 parking_lot-0.12.1
 parking_lot_core-0.9.3
@@ -181,15 +185,13 @@ platform-info-1.0.0
 polling-2.3.0
 ppv-lite86-0.2.16
 pretty_assertions-1.3.0
-pretty_env_logger-0.4.0
 proc-macro-crate-0.1.5
 proc-macro-crate-1.2.1
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.44
+proc-macro2-1.0.46
 pyproject-toml-0.3.1
 python-pkginfo-0.5.4
-quick-error-1.2.3
 quote-1.0.21
 quoted_printable-0.4.5
 rand-0.8.5
@@ -208,6 +210,7 @@ ring-0.16.20
 rpassword-6.0.1
 rustc-demangle-0.1.21
 rustc_version-0.4.0
+rustix-0.35.11
 rustls-0.20.6
 rustversion-1.0.9
 ryu-1.0.11
@@ -230,7 +233,7 @@ sha2-0.9.9
 sha2-0.10.6
 sharded-slab-0.1.4
 slab-0.4.7
-smallvec-1.9.0
+smallvec-1.10.0
 smawk-0.3.1
 socket2-0.4.7
 socks-0.3.4
@@ -238,40 +241,42 @@ spin-0.5.2
 static_assertions-1.1.0
 strsim-0.10.0
 subtle-2.4.1
-syn-1.0.101
+syn-1.0.102
 tar-0.4.38
 target-lexicon-0.12.4
 tempfile-3.3.0
 termcolor-1.1.3
 terminal_size-0.1.17
-textwrap-0.15.0
-thiserror-1.0.36
-thiserror-impl-1.0.36
+terminal_size-0.2.1
+textwrap-0.15.1
+thiserror-1.0.37
+thiserror-impl-1.0.37
 thread_local-1.1.4
-time-0.3.14
+time-0.3.15
 time-macros-0.2.4
 tinyvec-1.6.0
 tinyvec_macros-0.1.0
 toml-0.5.9
 toml_edit-0.14.4
-tracing-0.1.36
-tracing-attributes-0.1.22
-tracing-core-0.1.29
+tracing-0.1.37
+tracing-attributes-0.1.23
+tracing-core-0.1.30
+tracing-log-0.1.3
 tracing-serde-0.1.3
-tracing-subscriber-0.3.15
+tracing-subscriber-0.3.16
 twox-hash-1.6.3
 typenum-1.15.0
 unicase-2.6.0
 unicode-bidi-0.3.8
 unicode-ident-1.0.4
-unicode-linebreak-0.1.3
+unicode-linebreak-0.1.4
 unicode-normalization-0.1.22
 unicode-width-0.1.10
 untrusted-0.7.1
 ureq-2.5.0
 url-2.3.1
 uuid-0.8.2
-uuid-1.1.2
+uuid-1.2.0
 valuable-0.1.0
 vcpkg-0.2.15
 version_check-0.9.4
@@ -299,7 +304,7 @@ windows_i686_msvc-0.36.1
 windows_x86_64_gnu-0.36.1
 windows_x86_64_msvc-0.36.1
 xattr-0.2.3
-xwin-0.2.8
+xwin-0.2.5
 yansi-0.5.1
 zbus-1.9.3
 zbus_macros-1.9.3
@@ -312,7 +317,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/02/02/0bc5e44bc6f0a1ec21bd1b32d7d0ff6035a72858823ef394a95ac66327b7/maturin-0.13.5.tar.gz -> maturin-0.13.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/78/25/c418cf59a7735a065405d9ab63423603c38bd55712ce0f5e11f2ae248cf9/maturin-0.13.6.tar.gz -> maturin-0.13.6.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -338,4 +343,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.13.5"
+S="${WORKDIR}/maturin-0.13.6"
