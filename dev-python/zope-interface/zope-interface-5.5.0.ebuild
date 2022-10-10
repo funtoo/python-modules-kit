@@ -11,7 +11,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Interfaces for Python"
 HOMEPAGE="https://pypi.org/project/zope.interface/ https://github.com/zopefoundation/zope.interface"
-SRC_URI="https://files.pythonhosted.org/packages/ae/58/e0877f58daa69126a5fb325d6df92b20b77431cd281e189c5ec42b722f58/zope.interface-5.4.0.tar.gz -> zope.interface-5.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/62/ba/e517891d44208f2a6cf493109dfff59134bb922a9c8bd2a896da7d9a82a1/zope.interface-5.5.0.tar.gz -> zope.interface-5.5.0.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
