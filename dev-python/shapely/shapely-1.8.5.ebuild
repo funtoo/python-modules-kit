@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/shapely/shapely https://pypi.org/project/Shapely/"
-SRC_URI="https://files.pythonhosted.org/packages/b5/9a/625d4fc91ef85873801a16700840786117df4c016162a4532c998a7fe6bc/Shapely-1.8.4.tar.gz -> Shapely-1.8.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/21/d0/82ea9573c9ba8e7a5709ee08681249ad25411382f6440f548981286f3b74/Shapely-1.8.5.tar.gz -> Shapely-1.8.5.tar.gz
 "
 
 DEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Shapely-1.8.4"
+S="${WORKDIR}/Shapely-1.8.5"
