@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/anyio/"
-SRC_URI="https://files.pythonhosted.org/packages/67/c4/fd50bbb2fb72532a4b778562e28ba581da15067cfb2537dbd3a2e64689c1/anyio-3.6.1.tar.gz -> anyio-3.6.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8b/94/6928d4345f2bc1beecbff03325cad43d320717f51ab74ab5a571324f4f5a/anyio-3.6.2.tar.gz -> anyio-3.6.2.tar.gz
 "
 
 DEPEND=""
@@ -22,7 +22,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/anyio-3.6.1"
+S="${WORKDIR}/anyio-3.6.2"
 
 src_prepare() {
 	default
