@@ -9,6 +9,6 @@ RDEPEND=dev-libs/icu:= python_targets_python3_7? ( dev-lang/python:3.7 ) python_
 REQUIRED_USE=|| ( python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python3_10 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz -> PyICU-2.9.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/bc/d5/32d875a6830a35d6efcabd6b62414f6df6ffbf16154ab8a4159864ea83c0/PyICU-2.10.tar.gz -> PyICU-2.10.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	32393cac272daca4c136cc44e6005b67	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=ec415523ae1bd0c9209c7957e13d6652
+_md5_=3c37c8d15e8ab5f018b5b3fb8ec17291

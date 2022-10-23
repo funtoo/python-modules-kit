@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://gitlab.pyicu.org/main/pyicu https://pypi.org/project/PyICU/"
-SRC_URI="https://files.pythonhosted.org/packages/11/76/9256430e729ad0dd4675a15a7bf0555b9085d1bea36083b9a1b095602f23/PyICU-2.9.tar.gz -> PyICU-2.9.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bc/d5/32d875a6830a35d6efcabd6b62414f6df6ffbf16154ab8a4159864ea83c0/PyICU-2.10.tar.gz -> PyICU-2.10.tar.gz
 "
 
 DEPEND=""
@@ -20,7 +20,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pyicu-2.9"
+S="${WORKDIR}/pyicu-2.10"
 
 post_src_unpack() {
 	default
