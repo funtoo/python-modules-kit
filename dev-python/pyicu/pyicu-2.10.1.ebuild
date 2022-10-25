@@ -13,18 +13,14 @@ SRC_URI="https://files.pythonhosted.org/packages/19/47/ca871546c4e6f69abc11fea27
 DEPEND=""
 RDEPEND="
 	dev-libs/icu:="
-BDEPEND="
-	test? ( dev-python/six[${PYTHON_USEDEP}] )"
 
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pyicu-2.10.1"
+PATCHES=(
+	"$FILESDIR"/pyicu-2.10-fix_displayoptions.patch
+)
+S="${WORKDIR}/PyICU-2.10.1"
 
-post_src_unpack() {
-	default
-	mv ${WORKDIR}/PyICU-* ${S} || die
-}
 DOCS=( CHANGES CREDITS README.md )
-distutils_enable_tests pytest
