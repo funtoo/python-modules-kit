@@ -10,11 +10,12 @@ aes-0.7.5
 ahash-0.7.6
 aho-corasick-0.7.19
 anyhow-1.0.65
-async-io-1.9.0
+async-io-1.10.0
+async-lock-2.6.0
 atty-0.2.14
 autocfg-1.1.0
 backtrace-0.3.66
-base64-0.13.0
+base64-0.13.1
 bitflags-1.3.2
 block-buffer-0.9.0
 block-buffer-0.10.3
@@ -42,7 +43,7 @@ cfg-if-1.0.0
 charset-0.1.3
 chunked_transfer-1.4.0
 cipher-0.3.0
-clap-3.2.22
+clap-3.2.23
 clap_complete-3.2.5
 clap_complete_fig-3.2.4
 clap_derive-3.2.18
@@ -86,6 +87,7 @@ enumflags2-0.6.4
 enumflags2_derive-0.6.4
 errno-0.2.8
 errno-dragonfly-0.1.2
+event-listener-2.5.3
 fastrand-1.8.0
 fat-macho-0.4.5
 filetime-0.2.17
@@ -95,18 +97,18 @@ foreign-types-0.3.2
 foreign-types-shared-0.1.1
 form_urlencoded-1.1.0
 fs-err-2.8.1
-futures-0.3.24
-futures-channel-0.3.24
-futures-core-0.3.24
-futures-executor-0.3.24
-futures-io-0.3.24
+futures-0.3.25
+futures-channel-0.3.25
+futures-core-0.3.25
+futures-executor-0.3.25
+futures-io-0.3.25
 futures-lite-1.12.0
-futures-macro-0.3.24
-futures-sink-0.3.24
-futures-task-0.3.24
-futures-util-0.3.24
+futures-macro-0.3.25
+futures-sink-0.3.25
+futures-task-0.3.25
+futures-util-0.3.25
 generic-array-0.14.6
-getrandom-0.2.7
+getrandom-0.2.8
 gimli-0.26.2
 glob-0.3.0
 globset-0.4.9
@@ -123,14 +125,14 @@ indexmap-1.9.1
 indicatif-0.17.0-rc.6
 indoc-1.0.7
 instant-0.1.12
-io-lifetimes-0.7.3
+io-lifetimes-0.7.4
 itertools-0.10.5
 itoa-1.0.4
 js-sys-0.3.60
 keyring-1.2.0
 lazy_static-1.4.0
 lddtree-0.3.1
-libc-0.2.134
+libc-0.2.137
 linux-raw-sys-0.0.46
 lock_api-0.4.9
 log-0.4.17
@@ -166,8 +168,8 @@ openssl-0.10.42
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.22.0+1.1.1q
-openssl-sys-0.9.76
-os_str_bytes-6.3.0
+openssl-sys-0.9.77
+os_str_bytes-6.3.1
 os_type-2.6.0
 output_vt100-0.1.3
 overload-0.1.1
@@ -189,7 +191,7 @@ proc-macro-crate-0.1.5
 proc-macro-crate-1.2.1
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.46
+proc-macro2-1.0.47
 pyproject-toml-0.3.1
 python-pkginfo-0.5.4
 quote-1.0.21
@@ -210,8 +212,8 @@ ring-0.16.20
 rpassword-6.0.1
 rustc-demangle-0.1.21
 rustc_version-0.4.0
-rustix-0.35.11
-rustls-0.20.6
+rustix-0.35.12
+rustls-0.20.7
 rustversion-1.0.9
 ryu-1.0.11
 same-file-1.0.6
@@ -225,9 +227,9 @@ secret-service-2.0.2
 security-framework-2.7.0
 security-framework-sys-2.6.1
 semver-1.0.14
-serde-1.0.145
-serde_derive-1.0.145
-serde_json-1.0.85
+serde-1.0.147
+serde_derive-1.0.147
+serde_json-1.0.87
 serde_repr-0.1.9
 sha2-0.9.9
 sha2-0.10.6
@@ -241,7 +243,7 @@ spin-0.5.2
 static_assertions-1.1.0
 strsim-0.10.0
 subtle-2.4.1
-syn-1.0.102
+syn-1.0.103
 tar-0.4.38
 target-lexicon-0.12.4
 tempfile-3.3.0
@@ -249,6 +251,7 @@ termcolor-1.1.3
 terminal_size-0.1.17
 terminal_size-0.2.1
 textwrap-0.15.1
+textwrap-0.16.0
 thiserror-1.0.37
 thiserror-impl-1.0.37
 thread_local-1.1.4
@@ -268,7 +271,7 @@ twox-hash-1.6.3
 typenum-1.15.0
 unicase-2.6.0
 unicode-bidi-0.3.8
-unicode-ident-1.0.4
+unicode-ident-1.0.5
 unicode-linebreak-0.1.4
 unicode-normalization-0.1.22
 unicode-width-0.1.10
@@ -276,7 +279,7 @@ untrusted-0.7.1
 ureq-2.5.0
 url-2.3.1
 uuid-0.8.2
-uuid-1.2.0
+uuid-1.2.1
 valuable-0.1.0
 vcpkg-0.2.15
 version_check-0.9.4
@@ -317,7 +320,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/78/25/c418cf59a7735a065405d9ab63423603c38bd55712ce0f5e11f2ae248cf9/maturin-0.13.6.tar.gz -> maturin-0.13.6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/4f/19/6f982e341612ab442f90ba1a047a4188d48473ad0d1dbfb3dffdaa20e095/maturin-0.13.7.tar.gz -> maturin-0.13.7.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -343,4 +346,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.13.6"
+S="${WORKDIR}/maturin-0.13.7"
