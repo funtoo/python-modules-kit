@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/mrabarnett/mrab-regex https://pypi.org/project/regex/"
-SRC_URI="https://files.pythonhosted.org/packages/f8/43/b85d103acc0bfb54939f801908bf83354085579e8422eeaa22c017950c02/regex-2022.9.13.tar.gz -> regex-2022.9.13.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/27/b5/92d404279fd5f4f0a17235211bb0f5ae7a0d9afb7f439086ec247441ed28/regex-2022.10.31.tar.gz -> regex-2022.10.31.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/regex-2022.9.13"
+S="${WORKDIR}/regex-2022.10.31"
