@@ -29,9 +29,10 @@ LICENSE="Apache-2.0"
 KEYWORDS="*"
 S="${WORKDIR}/requests-2.28.1"
 
-# FL-7939: relax deps for idna
+# FL-7939, FL-10662: relax deps for idna, charset_normalizer: requests sets "cautionary upper masks" which can break:
 src_prepare() {
-	sed -i -e '/^idna/c idna' requests.egg-info/requires.txt || die
-	sed -i -e "s/'idna.*$/'idna',/" setup.py || die
+	sed -i -e '/^idna/c idna' -e '/^charset_normalizer/c charset_normalizer' requests.egg-info/requires.txt || die
+	sed -i -e 's/idna.*/idna/' -e 's/charset_normalizer.*/charset_normalizer/' setup.cfg || die
+	sed -i -e 's/"idna.*$/"idna",/' -e 's/"charset_normalizer.*$/"charset_normalizer",/' setup.py || die
 	distutils-r1_src_prepare
 }
