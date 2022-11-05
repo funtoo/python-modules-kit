@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/wheel https://pypi.org/project/wheel/"
-SRC_URI="https://files.pythonhosted.org/packages/7a/b0/29c0c8c6f8cebeb0de4c17bc44365cba0b35cb4246e4a27a7e12ecf92d73/wheel-0.38.1.tar.gz -> wheel-0.38.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a4/5b/0718aa11e3360f97feb81ddcb19cbb9306df0a17bef7c360f8939d2629b8/wheel-0.38.2.tar.gz -> wheel-0.38.2.tar.gz
 "
 
 DEPEND=""
@@ -16,7 +16,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/wheel-0.38.1"
+S="${WORKDIR}/wheel-0.38.2"
 
 src_prepare() {
 	sed -e 's:--cov=wheel::g' -i setup.cfg || die
