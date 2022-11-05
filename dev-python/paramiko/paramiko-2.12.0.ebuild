@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://paramiko.org https://pypi.org/project/paramiko/"
-SRC_URI="https://files.pythonhosted.org/packages/1d/08/3b8d8f1b4ec212c17429c2f3ff55b7f2237a1ad0c954972e39c8f0ac394c/paramiko-2.11.0.tar.gz -> paramiko-2.11.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/98/75/e78ddbe671a4a59514b59bc6a321263118e4ac3fe88175dd784d1a47a00f/paramiko-2.12.0.tar.gz -> paramiko-2.12.0.tar.gz
 "
 
 DEPEND=""
@@ -23,7 +23,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/paramiko-2.11.0"
+S="${WORKDIR}/paramiko-2.12.0"
 
 src_prepare() {
 	local PATCHES=( )
