@@ -2,21 +2,21 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 pypy )
+PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/wheel https://pypi.org/project/wheel/"
-SRC_URI="https://files.pythonhosted.org/packages/a4/5b/0718aa11e3360f97feb81ddcb19cbb9306df0a17bef7c360f8939d2629b8/wheel-0.38.2.tar.gz -> wheel-0.38.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c0/6c/9f840c2e55b67b90745af06a540964b73589256cb10cc10057c87ac78fc2/wheel-0.37.1.tar.gz -> wheel-0.37.1.tar.gz
 "
 
 DEPEND=""
-RDEPEND="dev-python/packaging[${PYTHON_USEDEP}]"
+RDEPEND="!<dev-python/wheel-0.38.2-r1 dev-python/packaging[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/wheel-0.38.2"
+S="${WORKDIR}/wheel-0.37.1"
 
 src_prepare() {
 	sed -e 's:--cov=wheel::g' -i setup.cfg || die
@@ -26,4 +26,9 @@ src_prepare() {
 	sed -i -e 's:\.vendored\.::' src/wheel/*.py || die
 
 	distutils-r1_src_prepare
+}
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
 }
