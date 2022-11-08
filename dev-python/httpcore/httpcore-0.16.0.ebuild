@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/encode/httpcore https://pypi.org/project/httpcore/"
-SRC_URI="https://files.pythonhosted.org/packages/42/98/44c3e51a0655eae75adefee028c9bada7427a90f63105e54f5e735946f50/httpcore-0.15.0.tar.gz -> httpcore-0.15.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/2f/3c/b9092a4ba037721d60124f611ea9b0a9020e5e9794bc980db83bc50057cb/httpcore-0.16.0.tar.gz -> httpcore-0.16.0.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/httpcore-0.15.0"
+S="${WORKDIR}/httpcore-0.16.0"
