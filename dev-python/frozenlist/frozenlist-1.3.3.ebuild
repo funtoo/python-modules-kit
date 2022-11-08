@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/aio-libs/frozenlist https://pypi.org/project/frozenlist/"
-SRC_URI="https://files.pythonhosted.org/packages/8a/95/229aacfe85daa28e2792481a98c336bc30d3729533e6a44db537880aca21/frozenlist-1.3.1.tar.gz -> frozenlist-1.3.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e9/10/d629476346112b85c912527b9080944fd2c39a816c2225413dbc0bb6fcc0/frozenlist-1.3.3.tar.gz -> frozenlist-1.3.3.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/frozenlist-1.3.1"
+S="${WORKDIR}/frozenlist-1.3.3"
