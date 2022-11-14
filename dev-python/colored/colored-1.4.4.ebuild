@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://gitlab.com/dslackw/colored https://pypi.org/project/colored/"
-SRC_URI="https://files.pythonhosted.org/packages/f4/57/fe3e4e96efa3c68d3781a0903de0933ea2afa744852d907b290a2cb2294e/colored-1.4.3.tar.gz -> colored-1.4.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f3/d6/00203998f27ab30b2417998006ad0608f236740bb129494dd7c5621861e1/colored-1.4.4.tar.gz -> colored-1.4.4.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/colored-1.4.3"
+S="${WORKDIR}/colored-1.4.4"

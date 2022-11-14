@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/cpburnz/python-pathspec https://pypi.org/project/pathspec/"
-SRC_URI="https://files.pythonhosted.org/packages/24/9f/a9ae1e6efa11992dba2c4727d94602bd2f6ee5f0dedc29ee2d5d572c20f7/pathspec-0.10.1.tar.gz -> pathspec-0.10.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a2/29/959c72e1a6c3c25eaa46b9bfcc7fd401f65af83163d4796af09272c83c8a/pathspec-0.10.2.tar.gz -> pathspec-0.10.2.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pathspec-0.10.1"
+S="${WORKDIR}/pathspec-0.10.2"
