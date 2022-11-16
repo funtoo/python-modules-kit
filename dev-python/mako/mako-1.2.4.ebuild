@@ -7,7 +7,7 @@ inherit distutils-r1 eutils
 
 DESCRIPTION=""
 HOMEPAGE="https://www.makotemplates.org/ https://pypi.org/project/Mako/"
-SRC_URI="https://files.pythonhosted.org/packages/b9/38/c25f0874ea71802fc6f1e9f0f88a7e9666818121b28991bbc1d8eddbcdb1/Mako-1.2.3.tar.gz -> Mako-1.2.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/05/5f/2ba6e026d33a0e6ddc1dddf9958677f76f5f80c236bd65309d280b166d3e/Mako-1.2.4.tar.gz -> Mako-1.2.4.tar.gz
 "
 
 DEPEND=""
@@ -19,7 +19,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Mako-1.2.3"
+S="${WORKDIR}/Mako-1.2.4"
 
 pkg_postinst() {
 	elog "Optional dependencies:"
