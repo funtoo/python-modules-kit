@@ -41,7 +41,7 @@ cargo-options-0.5.2
 cargo-platform-0.1.2
 cargo-xwin-0.12.2
 cargo-zigbuild-0.14.1
-cargo_metadata-0.15.1
+cargo_metadata-0.15.0
 cbindgen-0.24.3
 cc-1.0.76
 cfb-0.7.3
@@ -365,7 +365,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/09/52/74f64fc91bc8d9d560687e81dfd7b7c775f706186541606b9a1d9a1c6166/maturin-0.14.0.tar.gz -> maturin-0.14.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a3/54/6bac789ab775b5ef1f07977e998cf719857e2675c3442f3f24e0399e1483/maturin-0.14.1.tar.gz -> maturin-0.14.1.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -391,4 +391,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.0"
+S="${WORKDIR}/maturin-0.14.1"
