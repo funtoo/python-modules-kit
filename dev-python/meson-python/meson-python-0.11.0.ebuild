@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="https://github.com/FFY00/mesonpy https://pypi.org/project/meson-python/"
-SRC_URI="https://files.pythonhosted.org/packages/ee/96/5143db2524a4400db85f9ab5c11a1cc853b6770c316ecc81798877144c15/meson_python-0.10.0.tar.gz -> meson_python-0.10.0.tar.gz
+HOMEPAGE="https://github.com/mesonbuild/meson-python https://pypi.org/project/meson-python/"
+SRC_URI="https://files.pythonhosted.org/packages/67/cc/ac8b62a4457d6e323116a509269dae3e7948c70b0adcc0d4910cf2f528da/meson_python-0.11.0.tar.gz -> meson_python-0.11.0.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/meson-python-0.10.0"
+S="${WORKDIR}/meson-python-0.11.0"
