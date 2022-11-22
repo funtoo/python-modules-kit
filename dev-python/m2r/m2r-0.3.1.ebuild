@@ -19,9 +19,6 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-PATCHES=(
-	"$FILESDIR"/m2r-docutils.patch
-)
 S="${WORKDIR}/m2r-0.3.1"
 
 python_prepare_all() {
