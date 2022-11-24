@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/collective/icalendar https://pypi.org/project/icalendar/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/e2/17bae067d82e71ba56f09346cb76aa84ca0bbbee2df54eaa102f93f733bf/icalendar-5.0.2.tar.gz -> icalendar-5.0.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a6/3f/65e3e53ec63a75c1a3c6e50d6ba434c127767803984342fe02b27da6da79/icalendar-5.0.3.tar.gz -> icalendar-5.0.3.tar.gz
 "
 
 DEPEND=""
@@ -19,7 +19,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/icalendar-5.0.2"
+S="${WORKDIR}/icalendar-5.0.3"
 
 distutils_enable_sphinx docs
 python_prepare_all() {
