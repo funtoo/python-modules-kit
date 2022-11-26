@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/sbraz/pymediainfo https://pypi.org/project/pymediainfo/"
-SRC_URI="https://files.pythonhosted.org/packages/3f/06/89b92a27fe2e5be1519b268ec5b92eabcaa7421a158c3ad874b439d0f0ef/pymediainfo-5.1.0.tar.gz -> pymediainfo-5.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/72/dc/549fc39fbeb6907dc2ef2fa96cad9eea39bac043f4ce56efe243c926480f/pymediainfo-6.0.1.tar.gz -> pymediainfo-6.0.1.tar.gz
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pymediainfo-5.1.0"
+S="${WORKDIR}/pymediainfo-6.0.1"
