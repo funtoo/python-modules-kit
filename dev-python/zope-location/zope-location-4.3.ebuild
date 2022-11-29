@@ -9,7 +9,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope Hookable"
 HOMEPAGE="https://docs.zope.org/zope.location/"
-SRC_URI="https://files.pythonhosted.org/packages/0c/c3/f9ab5358f8289fbd1996075ae1d7914b25cbfc1a65823ae0258aec03837d/zope.location-4.2.tar.gz -> zope.location-4.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/95/b5/433d8cd402e82320063192c3413c44abb1d64a8162a13abce16f09c91b9e/zope.location-4.3.tar.gz -> zope.location-4.3.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
