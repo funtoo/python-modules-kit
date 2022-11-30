@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://code.launchpad.net/~tseaver/pkginfo/trunk https://pypi.org/project/pkginfo/"
-SRC_URI="https://files.pythonhosted.org/packages/00/91/fe0806e3ebded8c4e52f93ab4d963eef34bb33595c7aa7b5591d32ab5b92/pkginfo-1.8.3.tar.gz -> pkginfo-1.8.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/12/d1/03b865975864a30d4a23f87fd5b9f816db2e4b2e8f4fe696a3238b749cc0/pkginfo-1.9.2.tar.gz -> pkginfo-1.9.2.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pkginfo-1.8.3"
+S="${WORKDIR}/pkginfo-1.9.2"
