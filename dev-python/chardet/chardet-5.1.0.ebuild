@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/chardet/chardet https://pypi.org/project/chardet/"
-SRC_URI="https://files.pythonhosted.org/packages/31/a2/12c090713b3d0e141f367236d3a8bdc3e5fca0d83ff3647af4892c16c205/chardet-5.0.0.tar.gz -> chardet-5.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/41/32/cdc91dcf83849c7385bf8e2a5693d87376536ed000807fa07f5eab33430d/chardet-5.1.0.tar.gz -> chardet-5.1.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/chardet-5.0.0"
+S="${WORKDIR}/chardet-5.1.0"

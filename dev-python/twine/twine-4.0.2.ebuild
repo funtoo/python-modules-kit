@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://twine.readthedocs.io/ https://pypi.org/project/twine/"
-SRC_URI="https://files.pythonhosted.org/packages/08/2a/e03c20f47c750699063bbb349d68dea8990a0694f7bc65d1a97bf3254fa7/twine-4.0.1.tar.gz -> twine-4.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b7/1a/a7884359429d801cd63c2c5512ad0a337a509994b0e42d9696d4778d71f6/twine-4.0.2.tar.gz -> twine-4.0.2.tar.gz
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -28,7 +28,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/twine-4.0.1"
+S="${WORKDIR}/twine-4.0.2"
 
 python_prepare_all() {
 	distutils-r1_python_prepare_all
