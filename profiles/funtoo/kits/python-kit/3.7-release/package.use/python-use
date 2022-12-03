@@ -92,6 +92,7 @@ dev-python/PyECLib python_single_target_python2_7
 dev-python/SchemaObject python_single_target_python2_7
 dev-python/arrow-compat python_single_target_python2_7
 dev-python/asciitree python_single_target_python2_7
+dev-python/automat-compat python_single_target_python2_7
 dev-python/backports-lzma python_single_target_python2_7
 dev-python/backports-shutil_get_terminal_size python_single_target_python2_7
 dev-python/backports-shutil_which python_single_target_python2_7

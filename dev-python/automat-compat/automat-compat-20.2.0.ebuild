@@ -2,25 +2,28 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
+PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/glyph/Automat https://pypi.org/project/Automat/"
-SRC_URI="https://files.pythonhosted.org/packages/7a/7b/9c3d26d8a0416eefbc0428f168241b32657ca260fb7ef507596ff5c2f6c4/Automat-22.10.0.tar.gz -> Automat-22.10.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/80/c5/82c63bad570f4ef745cc5c2f0713c8eddcd07153b4bee7f72a8dc9f9384b/Automat-20.2.0.tar.gz -> Automat-20.2.0.tar.gz
 "
 
 DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/automat-compat )
+	dev-python/six[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	dev-python/m2r[${PYTHON_USEDEP}]
+	' -2
+	)"
+RDEPEND="!<dev-python/automat-22.10.0 
 	${DEPEND}"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/automat-22.10.0"
+S="${WORKDIR}/automat-20.2.0"
 
 src_unpack() {
 	default
@@ -36,4 +39,9 @@ pkg_postinst() {
 	einfo "For additional visualization functionality install these optional dependencies"
 	einfo "    >=dev-python/twisted-16.1.1"
 	einfo "    media-gfx/graphviz[python]"
+}
+
+
+post_src_install() {
+	rm -rf ${D}/usr/bin
 }
