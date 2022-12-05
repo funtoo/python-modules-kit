@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/terminado/"
-SRC_URI="https://files.pythonhosted.org/packages/b6/17/557926e8c2842133454fe406ea79752a951c4602f2065d3cc6587a130289/terminado-0.17.0.tar.gz -> terminado-0.17.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/55/be/748034192602b9fd69ba94544c1675ff18b039ed8f346ad783478e31144f/terminado-0.17.1.tar.gz -> terminado-0.17.1.tar.gz
 "
 
 DEPEND=""
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD-2"
 KEYWORDS="*"
-S="${WORKDIR}/terminado-0.17.0"
+S="${WORKDIR}/terminado-0.17.1"
