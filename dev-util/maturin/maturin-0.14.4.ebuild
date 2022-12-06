@@ -149,7 +149,7 @@ js-sys-0.3.60
 keyring-1.2.0
 lazy_static-1.4.0
 lddtree-0.3.2
-libc-0.2.137
+libc-0.2.138
 linux-raw-sys-0.1.3
 lock_api-0.4.9
 log-0.4.17
@@ -218,7 +218,7 @@ proc-macro2-1.0.47
 pyproject-toml-0.3.1
 python-pkginfo-0.5.5
 quote-1.0.21
-quoted_printable-0.4.5
+quoted_printable-0.4.6
 rand-0.8.5
 rand_chacha-0.3.1
 rand_core-0.6.4
@@ -270,7 +270,7 @@ spin-0.5.2
 static_assertions-1.1.0
 strsim-0.10.0
 subtle-2.4.1
-syn-1.0.104
+syn-1.0.105
 tar-0.4.38
 target-lexicon-0.12.5
 tempfile-3.3.0
@@ -362,7 +362,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/1b/95/062f57c21cb9950ee1a8023b2cf07ae61fd6599528603a692f00d9e183f5/maturin-0.14.3.tar.gz -> maturin-0.14.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/7c/51/36749c1a0881a4292e4f334bd9ddb0865e0991a83070834d1aaa1af7443f/maturin-0.14.4.tar.gz -> maturin-0.14.4.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -388,4 +388,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.3"
+S="${WORKDIR}/maturin-0.14.4"
