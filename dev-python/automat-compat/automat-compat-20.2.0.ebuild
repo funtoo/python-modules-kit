@@ -17,7 +17,7 @@ DEPEND="
 	dev-python/m2r[${PYTHON_USEDEP}]
 	' -2
 	)"
-RDEPEND="!<dev-python/automat-22.10.0 
+RDEPEND="!<=dev-python/automat-22.10.0 
 	${DEPEND}"
 IUSE=""
 SLOT="0"
