@@ -78,7 +78,7 @@ crunchy-0.2.2
 crypto-common-0.1.6
 crypto-mac-0.11.1
 ctor-0.1.26
-data-encoding-2.3.2
+data-encoding-2.3.3
 derivative-2.2.0
 dialoguer-0.10.2
 diff-0.1.13
@@ -104,7 +104,7 @@ errno-dragonfly-0.1.2
 event-listener-2.5.3
 fastrand-1.8.0
 fat-macho-0.4.6
-filetime-0.2.18
+filetime-0.2.19
 flate2-1.0.25
 fnv-1.0.7
 foreign-types-0.3.2
@@ -184,11 +184,11 @@ num_cpus-1.14.0
 number_prefix-0.4.0
 once_cell-1.16.0
 opaque-debug-0.3.0
-openssl-0.10.43
+openssl-0.10.44
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.24.0+1.1.1s
-openssl-sys-0.9.78
+openssl-sys-0.9.79
 os_pipe-1.1.2
 os_str_bytes-6.4.1
 output_vt100-0.1.3
@@ -235,7 +235,7 @@ ring-0.16.20
 rpassword-7.2.0
 rtoolbox-0.0.1
 rustc_version-0.4.0
-rustix-0.36.4
+rustix-0.36.5
 rustls-0.20.7
 rustversion-1.0.9
 ryu-1.0.11
@@ -250,8 +250,8 @@ secret-service-2.0.2
 security-framework-2.7.0
 security-framework-sys-2.6.1
 semver-1.0.14
-serde-1.0.148
-serde_derive-1.0.148
+serde-1.0.149
+serde_derive-1.0.149
 serde_json-1.0.89
 serde_repr-0.1.9
 sha2-0.9.9
@@ -298,7 +298,7 @@ tracing-serde-0.1.3
 tracing-subscriber-0.3.16
 trycmd-0.14.5
 twox-hash-1.6.3
-typenum-1.15.0
+typenum-1.16.0
 unicase-2.6.0
 unicode-bidi-0.3.8
 unicode-ident-1.0.5
@@ -362,7 +362,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/7c/51/36749c1a0881a4292e4f334bd9ddb0865e0991a83070834d1aaa1af7443f/maturin-0.14.4.tar.gz -> maturin-0.14.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/36/83/2bdec738921e253d774ab8b9e99f4540a406ad0d8a1442c84575e5506686/maturin-0.14.5.tar.gz -> maturin-0.14.5.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -388,4 +388,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.4"
+S="${WORKDIR}/maturin-0.14.5"
