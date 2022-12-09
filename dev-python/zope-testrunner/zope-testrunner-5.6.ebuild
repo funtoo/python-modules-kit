@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope testrunner script"
 HOMEPAGE="https://pypi.org/project/zope.testrunner/ https://github.com/zopefoundation/zope.testrunner"
-SRC_URI="https://files.pythonhosted.org/packages/e4/79/d33efa98d6d9edf652c811f18681ca8cd1836fb8ce34e95b4bd58544ced1/zope.testrunner-5.5.1.tar.gz -> zope.testrunner-5.5.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f6/b3/46a3e5b2d79170e9b04944ba26cf520f1d3fd8cb122076dd730d5e173404/zope.testrunner-5.6.tar.gz -> zope.testrunner-5.6.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
