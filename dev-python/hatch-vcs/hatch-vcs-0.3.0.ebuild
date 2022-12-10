@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/hatch-vcs/"
-SRC_URI="https://files.pythonhosted.org/packages/b2/f1/cc27eae1a873b75d82cdda78119c2c02fd2c0a2dda7bc716b160a057721e/hatch_vcs-0.2.1.tar.gz -> hatch_vcs-0.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/04/33/b68d68e532392d938472d16a03e4ce0ccd749ea31b42d18f8baa6547cbfd/hatch_vcs-0.3.0.tar.gz -> hatch_vcs-0.3.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/hatch_vcs-0.2.1"
+S="${WORKDIR}/hatch_vcs-0.3.0"
