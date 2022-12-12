@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/aleaxit/gmpy https://pypi.org/project/gmpy2/"
-SRC_URI="https://files.pythonhosted.org/packages/c1/3f/b140ae8302005494cbafbec34cb1e23b381392eb5081741d2189ed6097a4/gmpy2-2.1.3.tar.gz -> gmpy2-2.1.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/12/8c/2ec8c83138cd56a2b8e7ccb87095f9e6402c64aa26a2ff3dfddb232e8cc6/gmpy2-2.1.4.tar.gz -> gmpy2-2.1.4.tar.gz
 "
 
 DEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/gmpy2-2.1.3"
+S="${WORKDIR}/gmpy2-2.1.4"

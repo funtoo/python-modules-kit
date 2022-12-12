@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/gpep517/"
-SRC_URI="https://files.pythonhosted.org/packages/0a/d3/931089ae4924f040b7861e20ab1a5d4899647147c841cf0ac79342a681e8/gpep517-11.tar.gz -> gpep517-11.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/20/2e/36e46173a288c1c40853ffdb712c67e0e022df0e1ce50b7b1b50066b74d4/gpep517-13.tar.gz -> gpep517-13.tar.gz
 "
 
 DEPEND=""
@@ -20,7 +20,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/gpep517-11"
+S="${WORKDIR}/gpep517-13"
 
 python_install() {
 	python_domodule gpep517
