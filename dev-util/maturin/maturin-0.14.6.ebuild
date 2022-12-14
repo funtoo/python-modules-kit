@@ -161,7 +161,7 @@ memoffset-0.6.5
 memoffset-0.7.1
 mime-0.3.16
 mime_guess-2.0.4
-minijinja-0.26.0
+minijinja-0.27.0
 minimal-lexical-0.2.1
 miniz_oxide-0.6.2
 msi-0.5.0
@@ -171,7 +171,7 @@ nb-connect-1.2.0
 nix-0.22.3
 nom-7.1.1
 normalize-line-endings-0.3.0
-normpath-0.3.2
+normpath-1.0.0
 nu-ansi-term-0.46.0
 num-0.4.0
 num-bigint-0.4.3
@@ -196,7 +196,7 @@ overload-0.1.1
 parking-2.0.0
 parking_lot-0.12.1
 parking_lot_core-0.9.5
-paste-1.0.9
+paste-1.0.10
 path-slash-0.2.1
 pep440-0.2.0
 percent-encoding-2.2.0
@@ -205,8 +205,8 @@ pin-utils-0.1.0
 pkg-config-0.3.26
 plain-0.2.3
 platform-info-1.0.1
-polling-2.5.1
-portable-atomic-0.3.15
+polling-2.5.2
+portable-atomic-0.3.16
 ppv-lite86-0.2.17
 pretty_assertions-1.3.0
 proc-macro-crate-0.1.5
@@ -222,7 +222,7 @@ quoted_printable-0.4.6
 rand-0.8.5
 rand_chacha-0.3.1
 rand_core-0.6.4
-rayon-1.6.0
+rayon-1.6.1
 rayon-core-1.10.1
 redox_syscall-0.2.16
 redox_users-0.4.3
@@ -250,8 +250,8 @@ secret-service-2.0.2
 security-framework-2.7.0
 security-framework-sys-2.6.1
 semver-1.0.14
-serde-1.0.149
-serde_derive-1.0.149
+serde-1.0.150
+serde_derive-1.0.150
 serde_json-1.0.89
 serde_repr-0.1.9
 sha2-0.9.9
@@ -326,7 +326,7 @@ wasm-bindgen-macro-support-0.2.83
 wasm-bindgen-shared-0.2.83
 web-sys-0.3.60
 webpki-0.22.0
-webpki-roots-0.22.5
+webpki-roots-0.22.6
 weedle2-4.0.0
 wepoll-ffi-0.1.2
 which-4.3.0
@@ -362,7 +362,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/36/83/2bdec738921e253d774ab8b9e99f4540a406ad0d8a1442c84575e5506686/maturin-0.14.5.tar.gz -> maturin-0.14.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/55/42/3a28c7ad2597e7c48e73218b81c7e5af46d0878ba99e748056a9985ee6b7/maturin-0.14.6.tar.gz -> maturin-0.14.6.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -388,4 +388,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.5"
+S="${WORKDIR}/maturin-0.14.6"
