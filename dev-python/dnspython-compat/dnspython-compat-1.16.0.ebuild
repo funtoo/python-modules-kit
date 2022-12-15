@@ -17,7 +17,7 @@ DEPEND="
 	dev-python/ecdsa[${PYTHON_USEDEP}]
 	' -2
 	)"
-RDEPEND="
+RDEPEND="!<=dev-python/dnspython-2.2.1 
 	${DEPEND}"
 IUSE=""
 SLOT="0"
