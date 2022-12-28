@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://mock.readthedocs.org/en/latest/ https://pypi.org/project/mock/"
-SRC_URI="https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1bff2df7a610bca93c8ede7475e32d8b73a0/mock-4.0.3.tar.gz -> mock-4.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/49/b0/08a3b7bb3b6c0eaae355edca4201a3d887406c03f2e4f10e5f28936bb8ac/mock-5.0.0.tar.gz -> mock-5.0.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/mock-4.0.3"
+S="${WORKDIR}/mock-5.0.0"

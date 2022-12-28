@@ -9,7 +9,7 @@ inherit distutils-r1 flag-o-matic virtualx toolchain-funcs prefix
 
 DESCRIPTION="Pure python plotting library with matlab like syntax"
 HOMEPAGE="https://matplotlib.org/"
-SRC_URI="https://files.pythonhosted.org/packages/91/1c/a48fd779287df3425c289cc2ff728980a5b355f15f4c3c40e1822770ba44/matplotlib-3.6.2.tar.gz -> matplotlib-3.6.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/02/81/e8276ec6ca005b3b2bfaaad0ea47dbb3a0e389ec8ab87d08e3ccbe4b2742/matplotlib-3.5.3.tar.gz -> matplotlib-3.5.3.tar.gz"
 
 # Main license: matplotlib
 # Some modules: BSD
@@ -112,6 +112,9 @@ python_prepare_all() {
 		-e 's/matplotlib.pyparsing_py[23]/pyparsing/g' \
 		-i lib/matplotlib/{mathtext,fontconfig_pattern}.py \
 		|| die "sed pyparsing failed"
+
+	sed -e 's|setuptools_scm>=4,<7|setuptools_scm>=4|g' -i setup.py || \
+		die "sed setup.py setuptools_scm failed"
 
 	hprefixify setupext.py
 
