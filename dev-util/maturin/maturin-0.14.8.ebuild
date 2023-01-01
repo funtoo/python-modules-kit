@@ -36,7 +36,7 @@ camino-1.1.1
 cargo-options-0.5.3
 cargo-platform-0.1.2
 cargo-xwin-0.13.3
-cargo-zigbuild-0.14.2
+cargo-zigbuild-0.14.3
 cargo_metadata-0.15.2
 cbindgen-0.24.3
 cc-1.0.78
@@ -44,21 +44,20 @@ cfb-0.7.3
 cfg-if-1.0.0
 charset-0.1.3
 chumsky-0.8.0
-chunked_transfer-1.4.0
+chunked_transfer-1.4.1
 cipher-0.3.0
-clap-4.0.29
-clap_complete-4.0.6
+clap-4.0.32
+clap_complete-4.0.7
 clap_complete_command-0.4.0
 clap_complete_fig-4.0.2
 clap_derive-4.0.21
 clap_lex-0.3.0
 cli-table-0.4.7
-combine-4.6.6
 concolor-0.0.11
 concolor-query-0.1.0
 concurrent-queue-2.0.0
 configparser-3.0.2
-console-0.15.2
+console-0.15.3
 const-random-0.1.15
 const-random-macro-0.1.15
 content_inspector-0.2.4
@@ -124,7 +123,6 @@ globset-0.4.9
 goblin-0.6.0
 hashbrown-0.12.3
 heck-0.4.0
-hermit-abi-0.1.19
 hermit-abi-0.2.6
 hkdf-0.11.0
 hmac-0.11.0
@@ -137,14 +135,14 @@ indicatif-0.17.2
 indoc-1.0.8
 instant-0.1.12
 io-lifetimes-1.0.3
-is-terminal-0.4.1
+is-terminal-0.4.2
 itertools-0.10.5
 itoa-1.0.5
 js-sys-0.3.60
 keyring-1.2.0
 lazy_static-1.4.0
 lddtree-0.3.2
-libc-0.2.138
+libc-0.2.139
 linux-raw-sys-0.1.4
 lock_api-0.4.9
 log-0.4.17
@@ -165,6 +163,7 @@ native-tls-0.2.11
 nb-connect-1.2.0
 nix-0.22.3
 nom-7.1.1
+nom8-0.2.0
 normalize-line-endings-0.3.0
 normpath-1.0.1
 nu-ansi-term-0.46.0
@@ -175,15 +174,15 @@ num-integer-0.1.45
 num-iter-0.1.43
 num-rational-0.4.1
 num-traits-0.2.15
-num_cpus-1.14.0
+num_cpus-1.15.0
 number_prefix-0.4.0
-once_cell-1.16.0
+once_cell-1.17.0
 opaque-debug-0.3.0
-openssl-0.10.44
+openssl-0.10.45
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.24.0+1.1.1s
-openssl-sys-0.9.79
+openssl-sys-0.9.80
 os_pipe-1.1.2
 os_str_bytes-6.4.1
 output_vt100-0.1.3
@@ -201,7 +200,7 @@ pkg-config-0.3.26
 plain-0.2.3
 platform-info-1.0.1
 polling-2.5.2
-portable-atomic-0.3.18
+portable-atomic-0.3.19
 ppv-lite86-0.2.17
 pretty_assertions-1.3.0
 proc-macro-crate-0.1.5
@@ -230,7 +229,7 @@ ring-0.16.20
 rpassword-7.2.0
 rtoolbox-0.0.1
 rustc_version-0.4.0
-rustix-0.36.5
+rustix-0.36.6
 rustls-0.20.7
 rustversion-1.0.11
 ryu-1.0.12
@@ -245,8 +244,8 @@ secret-service-2.0.2
 security-framework-2.7.0
 security-framework-sys-2.6.1
 semver-1.0.16
-serde-1.0.151
-serde_derive-1.0.151
+serde-1.0.152
+serde_derive-1.0.152
 serde_json-1.0.91
 serde_repr-0.1.10
 sha2-0.9.9
@@ -271,7 +270,6 @@ tar-0.4.38
 target-lexicon-0.12.5
 tempfile-3.3.0
 termcolor-1.1.3
-terminal_size-0.1.17
 terminal_size-0.2.3
 textwrap-0.16.0
 thiserror-1.0.38
@@ -285,14 +283,14 @@ tinyvec-1.6.0
 tinyvec_macros-0.1.0
 toml-0.5.10
 toml_datetime-0.5.0
-toml_edit-0.15.0
+toml_edit-0.16.2
 tracing-0.1.37
 tracing-attributes-0.1.23
 tracing-core-0.1.30
 tracing-log-0.1.3
 tracing-serde-0.1.3
 tracing-subscriber-0.3.16
-trycmd-0.14.5
+trycmd-0.14.6
 twox-hash-1.6.3
 typenum-1.16.0
 unicase-2.6.0
@@ -360,7 +358,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/38/04/5974e8678c1aea3e576d4e8f22eb4112b8448a522cef7c4765cfbb54025a/maturin-0.14.7.tar.gz -> maturin-0.14.7.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/6a/be/afb9de5441a0f0c18f2b5e7087240d48e1f0f342b4a266fb125c46942f10/maturin-0.14.8.tar.gz -> maturin-0.14.8.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -386,4 +384,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.7"
+S="${WORKDIR}/maturin-0.14.8"
