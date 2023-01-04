@@ -10,7 +10,7 @@ MY_P=${MY_PN}-${PV}
 
 DESCRIPTION="Zope schema Architecture"
 HOMEPAGE="https://github.com/zopefoundation/zope.schema http://docs.zope.org/zope.schema/"
-SRC_URI="https://files.pythonhosted.org/packages/c2/e2/4011d7336223d1dcac3a6f4b9535419a04ee994114fbe0149b18259cbb82/zope.schema-7.0.0.tar.gz -> zope.schema-7.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/82/67/91585500260386df145b78532de588b41470d416bc6fa1cdc1b0f7a34e68/zope.schema-7.0.1.tar.gz -> zope.schema-7.0.1.tar.gz"
 
 LICENSE="ZPL"
 SLOT="0"
