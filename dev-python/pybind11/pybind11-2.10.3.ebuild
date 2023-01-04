@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pybind/pybind11 https://pypi.org/project/pybind11/"
-SRC_URI="https://files.pythonhosted.org/packages/2f/23/aaf147a5bc31c8be286f07d862b3699d7b49e3411fb75087525b5c31ab3e/pybind11-2.10.1.tar.gz -> pybind11-2.10.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/56/d3/ebc2ad811d192b91d97a45d30b4d5bcb148275db668eada4b6f55781fdc7/pybind11-2.10.3.tar.gz -> pybind11-2.10.3.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/pybind11-2.10.1"
+S="${WORKDIR}/pybind11-2.10.3"
 
 python_install() {
 	distutils-r1_python_install
