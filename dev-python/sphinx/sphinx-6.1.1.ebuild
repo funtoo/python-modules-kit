@@ -42,9 +42,6 @@ LICENSE="BSD"
 KEYWORDS="*"
 S="${WORKDIR}/Sphinx-6.1.1"
 
-PATCHES=(
-	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
-)
 python_compile_all() {
 	if use doc; then
 		esetup.py build_sphinx
