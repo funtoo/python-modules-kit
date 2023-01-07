@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sphinx extension googleanalytics"
 HOMEPAGE="https://bitbucket.org/birkenfeld/sphinx-contrib"
-SRC_URI="https://files.pythonhosted.org/packages/45/ac/4da8e705888dd410d0f08c0e463b8178858fe79a1f6b302817be0aabef3b/sphinxcontrib-googleanalytics-0.3.tar.gz -> sphinxcontrib-googleanalytics-0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/31/79/07e26d53ecf4e8ddf2c27e5076cd7540ef1285d215ab88ae6cf7eb75ce88/sphinxcontrib-googleanalytics-0.4.tar.gz -> sphinxcontrib-googleanalytics-0.4.tar.gz"
 
 LICENSE="BSD-2"
 KEYWORDS="*"
