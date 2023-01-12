@@ -2,13 +2,13 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_8+ )
+PYTHON_COMPAT=( python3+ pypy )
 DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/db/0b/a0f60c4abd8a69bd5b0d20edde8a8d8d9d4ca825bbd920d328d248fd0290/Sphinx-6.1.3.tar.gz -> Sphinx-6.1.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/af/b2/02a43597980903483fe5eb081ee8e0ba2bb62ea43a70499484343795f3bf/Sphinx-5.3.0.tar.gz -> Sphinx-5.3.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -40,8 +40,11 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Sphinx-6.1.3"
+S="${WORKDIR}/Sphinx-5.3.0"
 
+PATCHES=(
+	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
+)
 python_compile_all() {
 	if use doc; then
 		esetup.py build_sphinx
