@@ -133,7 +133,7 @@ indexmap-1.9.2
 indicatif-0.17.2
 indoc-1.0.8
 instant-0.1.12
-io-lifetimes-1.0.3
+io-lifetimes-1.0.4
 is-terminal-0.4.2
 itertools-0.10.5
 itoa-1.0.5
@@ -188,7 +188,7 @@ output_vt100-0.1.3
 overload-0.1.1
 parking-2.0.0
 parking_lot-0.12.1
-parking_lot_core-0.9.5
+parking_lot_core-0.9.6
 paste-1.0.11
 path-slash-0.2.1
 pep440-0.2.0
@@ -229,7 +229,7 @@ rpassword-7.2.0
 rtoolbox-0.0.1
 rustc_version-0.4.0
 rustix-0.36.6
-rustls-0.20.7
+rustls-0.20.8
 rustversion-1.0.11
 ryu-1.0.12
 same-file-1.0.6
@@ -330,13 +330,13 @@ winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.5
 winapi-x86_64-pc-windows-gnu-0.4.0
 windows-sys-0.42.0
-windows_aarch64_gnullvm-0.42.0
-windows_aarch64_msvc-0.42.0
-windows_i686_gnu-0.42.0
-windows_i686_msvc-0.42.0
-windows_x86_64_gnu-0.42.0
-windows_x86_64_gnullvm-0.42.0
-windows_x86_64_msvc-0.42.0
+windows_aarch64_gnullvm-0.42.1
+windows_aarch64_msvc-0.42.1
+windows_i686_gnu-0.42.1
+windows_i686_msvc-0.42.1
+windows_x86_64_gnu-0.42.1
+windows_x86_64_gnullvm-0.42.1
+windows_x86_64_msvc-0.42.1
 xattr-0.2.3
 xwin-0.2.10
 yansi-0.5.1
@@ -351,7 +351,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/90/f9/f4242c0e8bc5def9a7135c12574449dbb411ecc595cf72202ca97a79c2ad/maturin-0.14.9.tar.gz -> maturin-0.14.9.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/64/ab/c5bce332427a6fc8e6a8c445439ef0085ade6c6f42bc4626e1b816396ff2/maturin-0.14.10.tar.gz -> maturin-0.14.10.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -377,4 +377,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.9"
+S="${WORKDIR}/maturin-0.14.10"

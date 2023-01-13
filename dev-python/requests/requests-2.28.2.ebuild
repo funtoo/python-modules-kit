@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://requests.readthedocs.io https://pypi.org/project/requests/"
-SRC_URI="https://files.pythonhosted.org/packages/a5/61/a867851fd5ab77277495a8709ddda0861b28163c4613b011bc00228cc724/requests-2.28.1.tar.gz -> requests-2.28.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9d/ee/391076f5937f0a8cdf5e53b701ffc91753e87b07d66bae4a09aa671897bf/requests-2.28.2.tar.gz -> requests-2.28.2.tar.gz
 "
 
 DEPEND=""
@@ -27,7 +27,7 @@ IUSE="socks5 +ssl python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/requests-2.28.1"
+S="${WORKDIR}/requests-2.28.2"
 
 # FL-7939, FL-10662: relax deps for idna, charset_normalizer: requests sets "cautionary upper masks" which can break:
 src_prepare() {
