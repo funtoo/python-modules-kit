@@ -20,7 +20,6 @@ RDEPEND="
 	dev-python/pyzmq[${PYTHON_USEDEP}]
 	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/setuptools-declarative-requirements[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

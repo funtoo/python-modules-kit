@@ -1,0 +1,38 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+PYTHON_COMPAT=( python3+ pypy{,3} )
+inherit distutils-r1
+
+DESCRIPTION=""
+HOMEPAGE="https://requests.readthedocs.io https://pypi.org/project/requests/"
+SRC_URI="https://files.pythonhosted.org/packages/9d/ee/391076f5937f0a8cdf5e53b701ffc91753e87b07d66bae4a09aa671897bf/requests-2.28.2.tar.gz -> requests-2.28.2.tar.gz
+"
+
+DEPEND=""
+RDEPEND="
+	python_targets_python2_7? ( dev-python/requests-compat )
+	>=dev-python/certifi-2017.4.17[${PYTHON_USEDEP}]
+	dev-python/chardet[${PYTHON_USEDEP}]
+	dev-python/idna[${PYTHON_USEDEP}]
+	dev-python/urllib3[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	dev-python/charset_normalizer[${PYTHON_USEDEP}]
+	' -3
+	)
+	socks5? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
+	ssl? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )"
+IUSE="socks5 +ssl python_targets_python2_7"
+SLOT="0"
+LICENSE="Apache-2.0"
+KEYWORDS="*"
+S="${WORKDIR}/requests-2.28.2"
+
+# FL-7939, FL-10662: relax deps for idna, charset_normalizer: requests sets "cautionary upper masks" which can break:
+src_prepare() {
+	sed -i -e '/^idna/c idna' -e '/^charset_normalizer/c charset_normalizer' requests.egg-info/requires.txt || die
+	sed -i -e 's/idna.*/idna/' -e 's/charset_normalizer.*/charset_normalizer/' setup.cfg || die
+	sed -i -e 's/"idna.*$/"idna",/' -e 's/"charset_normalizer.*$/"charset_normalizer",/' setup.py || die
+	distutils-r1_src_prepare
+}
