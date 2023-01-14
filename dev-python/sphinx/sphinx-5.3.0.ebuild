@@ -35,7 +35,6 @@ RDEPEND="
 	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]"
-
 IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
