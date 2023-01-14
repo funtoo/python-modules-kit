@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/23/a2/97899f6bd0e873fed3a7e67ae
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-RDEPEND="!<=dev-python/iniconfig-2.0.0-r1 "
+RDEPEND="!<=dev-python/iniconfig-2.0.0 "
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
