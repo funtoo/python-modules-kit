@@ -3,11 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/packaging/"
-SRC_URI="https://files.pythonhosted.org/packages/47/d5/aca8ff6f49aa5565df1c826e7bf5e85a6df852ee063600c1efa5b932968c/packaging-23.0.tar.gz -> packaging-23.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/df/9e/d1a7217f69310c1db8fdf8ab396229f55a699ce34a203691794c5d1cad0c/packaging-21.3.tar.gz -> packaging-21.3.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-S="${WORKDIR}/packaging-23.0"
+S="${WORKDIR}/packaging-21.3"

@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -11,9 +11,10 @@ SRC_URI="https://files.pythonhosted.org/packages/a1/16/db2d7de3474b6e37cbb9c0089
 "
 
 DEPEND=""
-RDEPEND="dev-python/importlib_metadata[${PYTHON_USEDEP}]"
-
-IUSE=""
+RDEPEND="
+	python_targets_python2_7? ( dev-python/pluggy-compat )
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
+IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
