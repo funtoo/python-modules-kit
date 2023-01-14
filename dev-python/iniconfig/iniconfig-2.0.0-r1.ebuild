@@ -2,7 +2,8 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ pypy3 )
+DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -11,7 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a82206
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-IUSE=""
+RDEPEND="python_targets_python2_7? ( dev-python/iniconfig-compat )"
+IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
