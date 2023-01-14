@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION=""
