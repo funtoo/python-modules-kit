@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://www.dnspython.org https://pypi.org/project/dnspython/"
-SRC_URI="https://files.pythonhosted.org/packages/99/fb/e7cd35bba24295ad41abfdff30f6b4c271fd6ac70d20132fa503c3e768e0/dnspython-2.2.1.tar.gz -> dnspython-2.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/91/8b/522301c50ca1f78b09c2ca116ffb0fd797eadf6a76085d376c01f9dd3429/dnspython-2.3.0.tar.gz -> dnspython-2.3.0.tar.gz
 "
 
 DEPEND="
@@ -23,4 +23,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/dnspython-2.2.1"
+S="${WORKDIR}/dnspython-2.3.0"
