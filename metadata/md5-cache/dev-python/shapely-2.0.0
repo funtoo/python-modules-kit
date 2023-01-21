@@ -2,7 +2,7 @@ BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pytho
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=>=sci-libs/geos-3.5 dev-python/cython[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 EAPI=7
-HOMEPAGE=https://pypi.org/project/shapely/
+HOMEPAGE=https://pypi.org/project/Shapely/
 IUSE=python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
 KEYWORDS=*
 LICENSE=BSD
@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targ
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/61/76/6e635cc4ba33e8c170ef5934dad5c269dc5cb9607e878efb2aba12f78361/shapely-2.0.0.tar.gz -> shapely-2.0.0.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	32393cac272daca4c136cc44e6005b67	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=90a872ccdc755d71011565cf17ed20aa
+_md5_=1487c2ca4c42a646b5e9c862d38f7a36
