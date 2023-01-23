@@ -10,7 +10,7 @@ MY_P=${PN/-/.}-${PV}
 S=${WORKDIR}/${MY_P}
 DESCRIPTION="Sphinx extension which outputs Apple help book"
 HOMEPAGE="http://www.sphinx-doc.org"
-SRC_URI="https://files.pythonhosted.org/packages/00/45/1973a8e0fae5a9b4fafd6c0523164622f8166d4f099c6616e6654bc07979/sphinxcontrib.applehelp-1.0.3.tar.gz -> sphinxcontrib.applehelp-1.0.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/df/45e827f4d7e7fcc84e853bcef1d836effd762d63ccb86f43ede4e98b478c/sphinxcontrib-applehelp-1.0.4.tar.gz -> sphinxcontrib-applehelp-1.0.4.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
