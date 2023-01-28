@@ -9,6 +9,6 @@ LICENSE=MIT
 RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_pypy3? ( >=dev-python/pypy3-7.3.0:0= ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_pypy3(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_pypy3(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/76/46/004e2dd6c312e8bb7cb40a6c01b770956e0ef137857e82d47bd9c829356b/isort-5.11.4.tar.gz -> isort-5.11.4.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/a9/c4/dc00e42c158fc4dda2afebe57d2e948805c06d5169007f1724f0683010a9/isort-5.12.0.tar.gz -> isort-5.12.0.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	32393cac272daca4c136cc44e6005b67	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=ca180539cf19f160b3bce9ce9afb580d
+_md5_=ab6f7dbbfe924b6bd93424d07363f2dd
