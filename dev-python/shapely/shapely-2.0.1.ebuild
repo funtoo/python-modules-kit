@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE=" https://pypi.org/project/Shapely/"
-SRC_URI="https://files.pythonhosted.org/packages/61/76/6e635cc4ba33e8c170ef5934dad5c269dc5cb9607e878efb2aba12f78361/shapely-2.0.0.tar.gz -> shapely-2.0.0.tar.gz
+HOMEPAGE=" https://pypi.org/project/shapely/"
+SRC_URI="https://files.pythonhosted.org/packages/10/a7/de139da3ce303101c357a9ba801328cba85cf6ace157da31a4007bca85e4/shapely-2.0.1.tar.gz -> shapely-2.0.1.tar.gz
 "
 
 DEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Shapely-2.0.0"
+S="${WORKDIR}/Shapely-2.0.1"
