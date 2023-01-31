@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/mikedh/trimesh https://pypi.org/project/trimesh/"
-SRC_URI="https://files.pythonhosted.org/packages/22/12/ce121a38fea0a07e2554a64ab5135510dc495fd84fec07aa780463d58524/trimesh-3.18.1.tar.gz -> trimesh-3.18.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bf/22/30fd6e309d3e986bc4f5ff98270cb313cfc7e1282c8fd453def7e618587a/trimesh-3.18.2.tar.gz -> trimesh-3.18.2.tar.gz
 "
 
 DEPEND=""
@@ -33,4 +33,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/trimesh-3.18.1"
+S="${WORKDIR}/trimesh-3.18.2"
