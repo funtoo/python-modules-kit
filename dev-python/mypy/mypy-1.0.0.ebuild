@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://www.mypy-lang.org/ https://pypi.org/project/mypy/"
-SRC_URI="https://files.pythonhosted.org/packages/0e/5c/fbe112ca73d4c6a9e65336f48099c60800514d8949b4129c093a84a28dc8/mypy-0.991.tar.gz -> mypy-0.991.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/1d/06/9a40050ef10f0e9ddfd667f29e98dd650db31612128e3e8925cda6621944/mypy-1.0.0.tar.gz -> mypy-1.0.0.tar.gz
 "
 
 DEPEND=""
@@ -23,4 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/mypy-0.991"
+S="${WORKDIR}/mypy-1.0.0"

@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://sourceforge.net/p/ruamel-std-pathlib/code/ci/default/tree https://pypi.org/project/ruamel.std.pathlib/"
-SRC_URI="https://files.pythonhosted.org/packages/1e/ba/e40ee2cd6717fd19e8dc482a68946af0235e69ac04b4386d66e335fd8ded/ruamel.std.pathlib-0.11.0.tar.gz -> ruamel.std.pathlib-0.11.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bc/d2/b2d999248a2428b8d74f7e1a8bfeccdc789ff58d9b6b53447ab42af94d80/ruamel.std.pathlib-0.12.0.tar.gz -> ruamel.std.pathlib-0.12.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -16,7 +16,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/ruamel.std.pathlib-0.11.0"
+S="${WORKDIR}/ruamel.std.pathlib-0.12.0"
 
 python_install() {
 	distutils-r1_python_install --single-version-externally-managed
