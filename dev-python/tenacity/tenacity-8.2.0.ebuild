@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/jd/tenacity https://pypi.org/project/tenacity/"
-SRC_URI="https://files.pythonhosted.org/packages/ae/9c/ce67f96abe7c7530173e746b4f16a0bc5b4fa962ea1080d80cc5757dd210/tenacity-8.1.0.tar.gz -> tenacity-8.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f9/c2/99cfbad6405afeb9fc2aa2df4d8a4c96b91b83315b17060c101f3c260736/tenacity-8.2.0.tar.gz -> tenacity-8.2.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/tenacity-8.1.0"
+S="${WORKDIR}/tenacity-8.2.0"
