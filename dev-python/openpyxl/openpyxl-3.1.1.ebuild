@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://openpyxl.readthedocs.io https://pypi.org/project/openpyxl/"
-SRC_URI="https://files.pythonhosted.org/packages/3d/73/bb87810cdde809f69fef11d31e77297894e58710d47626dc5e5b3ff8f92a/openpyxl-3.1.0.tar.gz -> openpyxl-3.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/10/bf/950ea7896f3c42ab04073cd2903f0a190ba77ef28bdf76191f6f86373712/openpyxl-3.1.1.tar.gz -> openpyxl-3.1.1.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/openpyxl-3.1.0"
+S="${WORKDIR}/openpyxl-3.1.1"
