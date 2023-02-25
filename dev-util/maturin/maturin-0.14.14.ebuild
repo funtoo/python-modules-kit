@@ -155,7 +155,7 @@ mime-0.3.16
 mime_guess-2.0.4
 minijinja-0.30.2
 minimal-lexical-0.2.1
-miniz_oxide-0.6.2
+miniz_oxide-0.6.4
 msi-0.5.0
 multipart-0.18.0
 native-tls-0.2.11
@@ -211,7 +211,7 @@ proc-macro2-1.0.51
 pyproject-toml-0.3.1
 python-pkginfo-0.5.5
 quote-1.0.23
-quoted_printable-0.4.6
+quoted_printable-0.4.7
 rand-0.8.5
 rand_chacha-0.3.1
 rand_core-0.6.4
@@ -320,7 +320,7 @@ wasm-bindgen-backend-0.2.84
 wasm-bindgen-macro-0.2.84
 wasm-bindgen-macro-support-0.2.84
 wasm-bindgen-shared-0.2.84
-web-sys-0.3.60
+web-sys-0.3.61
 webpki-0.22.0
 webpki-roots-0.22.6
 weedle2-4.0.0
@@ -343,7 +343,7 @@ xwin-0.2.10
 yansi-0.5.1
 zbus-1.9.3
 zbus_macros-1.9.3
-zip-0.6.3
+zip-0.6.4
 zvariant-2.10.0
 zvariant_derive-2.10.0
 "
@@ -352,7 +352,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/a9/a9/bcff9592d7ad68052432e6369bd310606e2ddeb9bcc0b52d5f69e4140290/maturin-0.14.13.tar.gz -> maturin-0.14.13.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ef/2f/6739ef66040946638f5094063de05126eab94263ab4124da07f716fae94e/maturin-0.14.14.tar.gz -> maturin-0.14.14.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -378,4 +378,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.13"
+S="${WORKDIR}/maturin-0.14.14"
