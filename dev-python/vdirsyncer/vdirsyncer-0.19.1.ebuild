@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pimutils/vdirsyncer https://pypi.org/project/vdirsyncer/"
-SRC_URI="https://files.pythonhosted.org/packages/c9/77/4c6a43d26b75811885aff211b73e078eeeea86d5601c5c12dd188d7e2fd5/vdirsyncer-0.19.0.tar.gz -> vdirsyncer-0.19.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/51/b6/92dcd91a6b9c6581edf14357f24ea11de7f402cde6b27f483d491313c51f/vdirsyncer-0.19.1.tar.gz -> vdirsyncer-0.19.1.tar.gz
 "
 
 DEPEND=""
@@ -23,6 +23,6 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/vdirsyncer-0.19.0"
+S="${WORKDIR}/vdirsyncer-0.19.1"
 
 DOCS=( AUTHORS.rst CHANGELOG.rst CONTRIBUTING.rst README.rst config.example )
