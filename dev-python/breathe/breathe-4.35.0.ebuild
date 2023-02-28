@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/michaeljones/breathe https://pypi.org/project/breathe/"
-SRC_URI="https://files.pythonhosted.org/packages/ff/24/12938b8549a84d500a0717f50302bd9b87893d8ed4e0b6c12a8952ff0c41/breathe-4.34.0.tar.gz -> breathe-4.34.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a2/9f/0c6f4ae0608d5edbb1df357c2487edfcbda13e75f4e48a898972592e2e48/breathe-4.35.0.tar.gz -> breathe-4.35.0.tar.gz
 "
 
 DEPEND=""
@@ -24,4 +24,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/breathe-4.34.0"
+S="${WORKDIR}/breathe-4.35.0"
