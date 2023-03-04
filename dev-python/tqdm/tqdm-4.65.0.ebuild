@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://tqdm.github.io https://pypi.org/project/tqdm/"
-SRC_URI="https://files.pythonhosted.org/packages/c1/c2/d8a40e5363fb01806870e444fc1d066282743292ff32a9da54af51ce36a2/tqdm-4.64.1.tar.gz -> tqdm-4.64.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/3d/78/81191f56abb7d3d56963337dbdff6aa4f55805c8afd8bad64b0a34199e9b/tqdm-4.65.0.tar.gz -> tqdm-4.65.0.tar.gz
 "
 
 DEPEND="
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/tqdm-4.64.1"
+S="${WORKDIR}/tqdm-4.65.0"
