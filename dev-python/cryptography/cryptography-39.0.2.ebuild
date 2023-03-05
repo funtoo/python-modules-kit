@@ -77,7 +77,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/6a/f5/a729774d087e50fffd1438b3877a91e9281294f985bda0fd15bf99016c78/cryptography-39.0.1.tar.gz -> cryptography-39.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fa/f3/f4b8c175ea9a1de650b0085858059050b7953a93d66c97ed89b93b232996/cryptography-39.0.2.tar.gz -> cryptography-39.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -106,7 +106,7 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-39.0.1"
+S="${WORKDIR}/cryptography-39.0.2"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
