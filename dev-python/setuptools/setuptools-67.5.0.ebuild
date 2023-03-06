@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/setuptools https://pypi.org/project/setuptools/"
-SRC_URI="https://files.pythonhosted.org/packages/fe/31/2c88d37d4f8036c6648745e74ec51f73a6ba945a06e069601900f81fe00a/setuptools-67.4.0.tar.gz -> setuptools-67.4.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/1c/d2/03de0cd0d9b8c45a014da08a74419350c127b7c87b794c08d4af1549988c/setuptools-67.5.0.tar.gz -> setuptools-67.5.0.tar.gz
 "
 
 DEPEND="
@@ -20,7 +20,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/setuptools-67.4.0"
+S="${WORKDIR}/setuptools-67.5.0"
 
 SETUPTOOLS_USE_DISTUTILS=stdlib
 python_install() {
