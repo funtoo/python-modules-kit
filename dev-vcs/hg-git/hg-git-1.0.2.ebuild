@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://foss.heptapod.net/mercurial/hg-git https://pypi.org/project/hg-git/"
-SRC_URI="https://files.pythonhosted.org/packages/e8/41/9a57a60d3585e7dce252b04c78a4e8d56560928a9caa341d3c3e7378c034/hg-git-1.0.1.tar.gz -> hg-git-1.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/6f/ac/78a739bb37cf0f70db9cf115263b4e30daf5e35551d48a2a881d6b8894a4/hg-git-1.0.2.tar.gz -> hg-git-1.0.2.tar.gz
 "
 
 DEPEND="${RDEPEND}"
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-S="${WORKDIR}/hg-git-1.0.1"
+S="${WORKDIR}/hg-git-1.0.2"
