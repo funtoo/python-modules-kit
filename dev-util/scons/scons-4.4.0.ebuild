@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://www.scons.org/ https://pypi.org/project/SCons/"
-SRC_URI="https://files.pythonhosted.org/packages/44/08/ac630938e24fa0747109c098edfd45a3200dc27444b2fb70594fc70fc742/SCons-4.5.0.tar.gz -> SCons-4.5.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c6/63/3a87df61a5d8e1b2ba116f4889f3dbc2717ebe2e34c77b2d34e4e6b9deef/SCons-4.4.0.tar.gz -> SCons-4.4.0.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/SCons-4.5.0"
+S="${WORKDIR}/SCons-4.4.0"
 
 if [ "$PN"  == 'scons-compat' ]; then
 	S="${WORKDIR}/scons-${PV}"
