@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/testing-cabal/testtools https://pypi.org/project/testtools/"
-SRC_URI="https://files.pythonhosted.org/packages/29/0f/99dbb1801e341d74cd74e493906a16d8ddffffa86879d90ac3dc1f367b13/testtools-2.5.0.tar.gz -> testtools-2.5.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/cb/67/78e37d73f63d12cb2510e29aa0be14323719c6fdd33243118064b46f57d3/testtools-2.6.0.tar.gz -> testtools-2.6.0.tar.gz
 "
 
 DEPEND="
@@ -20,4 +20,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/testtools-2.5.0"
+S="${WORKDIR}/testtools-2.6.0"
