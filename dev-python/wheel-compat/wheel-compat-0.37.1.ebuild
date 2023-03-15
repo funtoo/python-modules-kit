@@ -19,11 +19,10 @@ KEYWORDS="*"
 S="${WORKDIR}/wheel-0.37.1"
 
 src_prepare() {
-	sed -e 's:--cov=wheel::g' -i setup.cfg || die
-
 	# unbundle packaging
 	rm -r src/wheel/vendored || die
 	sed -i -e 's:\.vendored\.::' src/wheel/*.py || die
+	sed -i -e 's:wheel\.vendored\.::' tests/*.py || die
 
 	distutils-r1_src_prepare
 }
