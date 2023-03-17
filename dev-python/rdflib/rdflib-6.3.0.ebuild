@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python library for working with RDF, a simple powerful language to represent information"
 HOMEPAGE="https://pypi.org/project/rdflib/"
-SRC_URI="https://github.com/RDFLib/rdflib/tarball/7395c57a56d0e06830c54d55ce5083a5be779a6b -> rdflib-6.2.0-7395c57.tar.gz
+SRC_URI="https://github.com/RDFLib/rdflib/tarball/309848bda0098e8d5dc3dcec179d9ca0e2196455 -> rdflib-6.3.0-309848b.tar.gz
 "
 
 DEPEND=""
