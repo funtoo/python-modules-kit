@@ -3,18 +3,20 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="standalone"
 inherit distutils-r1
 
 DESCRIPTION="Python library for working with RDF, a simple powerful language to represent information"
 HOMEPAGE="https://pypi.org/project/rdflib/"
-SRC_URI="https://github.com/RDFLib/rdflib/tarball/309848bda0098e8d5dc3dcec179d9ca0e2196455 -> rdflib-6.3.0-309848b.tar.gz
+SRC_URI="https://github.com/RDFLib/rdflib/tarball/f3d31b002dda6d20247619b9606eff07039099df -> rdflib-6.3.1-f3d31b0.tar.gz
 "
 
 DEPEND=""
 RDEPEND="
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+	dev-python/pyparsing[${PYTHON_USEDEP}]
+	dev-python/poetry-core[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
