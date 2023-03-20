@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://www.crummy.com/software/BeautifulSoup/bs4/ https://pypi.org/project/beautifulsoup4/"
-SRC_URI="https://files.pythonhosted.org/packages/75/f8/de84282681c5a8307f3fff67b64641627b2652752d49d9222b77400d02b8/beautifulsoup4-4.11.2.tar.gz -> beautifulsoup4-4.11.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c5/4c/b5b7d6e1d4406973fb7f4e5df81c6f07890fa82548ac3b945deed1df9d48/beautifulsoup4-4.12.0.tar.gz -> beautifulsoup4-4.12.0.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/beautifulsoup4-4.11.2"
+S="${WORKDIR}/beautifulsoup4-4.12.0"
