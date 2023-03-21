@@ -1,19 +1,18 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 GNOME2_LA_PUNT="yes"
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3+ )
 
-inherit gnome2 python-single-r1
+inherit gnome3 flag-o-matic python-single-r1
 
 DESCRIPTION="Python bindings for the Nautilus file manager"
 HOMEPAGE="https://projects.gnome.org/nautilus-python/"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~alpha amd64 ~arm64 x86"
+KEYWORDS="*"
 IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
@@ -30,8 +29,13 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
 
+src_prepare() {
+	default
+	append-cflags -fcommon
+}
+
 src_install() {
-	gnome2_src_install
+	gnome3_src_install
 	# Directory for systemwide extensions
 	keepdir /usr/share/nautilus-python/extensions
 }
