@@ -83,13 +83,6 @@ dirs-sys-0.3.7
 dunce-1.0.3
 either-1.8.1
 encode_unicode-0.3.6
-encoding-0.2.33
-encoding-index-japanese-1.20141219.5
-encoding-index-korean-1.20141219.5
-encoding-index-simpchinese-1.20141219.5
-encoding-index-singlebyte-1.20141219.5
-encoding-index-tradchinese-1.20141219.5
-encoding_index_tests-0.1.4
 encoding_rs-0.8.32
 enumflags2-0.6.4
 enumflags2_derive-0.6.4
@@ -156,7 +149,7 @@ mime_guess-2.0.4
 minijinja-0.30.5
 minimal-lexical-0.2.1
 miniz_oxide-0.6.2
-msi-0.5.0
+msi-0.5.1
 multipart-0.18.0
 native-tls-0.2.11
 nb-connect-1.2.0
@@ -351,7 +344,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/e4/e9/64108f9911c23f5b1ccb99fd3d02b217a7fb7f81b85f72ae4810d0160684/maturin-0.14.15.tar.gz -> maturin-0.14.15.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/2f/e1/c3050c71b27f90529a2a78a447afa5915da6169c10c212ff974e2c6c780b/maturin-0.14.16.tar.gz -> maturin-0.14.16.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -377,4 +370,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.14.15"
+S="${WORKDIR}/maturin-0.14.16"
