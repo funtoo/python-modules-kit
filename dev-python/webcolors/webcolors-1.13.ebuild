@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 pypy )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="https://github.com/ubernostrum/webcolors https://pypi.org/project/webcolors/"
-SRC_URI="https://files.pythonhosted.org/packages/5f/f5/004dabd8f86abe0e770df4bcde8baf658709d3ebdd4d8fa835f6680012bb/webcolors-1.12.tar.gz -> webcolors-1.12.tar.gz
+HOMEPAGE=" https://pypi.org/project/webcolors/"
+SRC_URI="https://files.pythonhosted.org/packages/a1/fb/f95560c6a5d4469d9c49e24cf1b5d4d21ffab5608251c6020a965fb7791c/webcolors-1.13.tar.gz -> webcolors-1.13.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/webcolors-1.12"
+S="${WORKDIR}/webcolors-1.13"
