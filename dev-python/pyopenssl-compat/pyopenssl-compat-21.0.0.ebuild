@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/54/9a/2a43c5dbf4507f86f7c43cba4
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/pyopenssl-22.0.0 "
+RDEPEND="!<=dev-python/pyopenssl-23.1.1 "
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
