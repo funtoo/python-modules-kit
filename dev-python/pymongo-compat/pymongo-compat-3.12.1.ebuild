@@ -11,9 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/5f/95/de771196bfc9449097e2d03ae
 "
 
 DEPEND=""
-RDEPEND="!<dev-python/pymongo-4.0 
-	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )
-	dev-python/dnspython[${PYTHON_USEDEP}]"
+RDEPEND="!<dev-python/pymongo-4.0 kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
 IUSE="kerberos"
 SLOT="0"
 LICENSE="Apache-2.0"

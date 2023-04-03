@@ -15,7 +15,8 @@ DEPEND="
 	dev-python/pathspec[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
-	dev-python/installer[${PYTHON_USEDEP}]"
+	dev-python/installer[${PYTHON_USEDEP}]
+	dev-python/trove-classifiers[${PYTHON_USEDEP}]"
 RDEPEND="
 	${DEPEND}
 	dev-python/editables[${PYTHON_USEDEP}]
