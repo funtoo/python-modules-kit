@@ -17,7 +17,7 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_resources-compat )
 	$(python_gen_cond_dep '
 	dev-python/zipp[${PYTHON_USEDEP}]
-	' pypy3 -3
+	' -3 pypy3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
