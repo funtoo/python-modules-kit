@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/mongodb/motor/ https://pypi.org/project/motor/"
-SRC_URI="https://files.pythonhosted.org/packages/30/e4/1402c74569bdfb866460cd93d56e6a2966f20d87253ae3ac24782ea704af/motor-3.1.1.tar.gz -> motor-3.1.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/82/96/ae017cd62761d2fd2cc1eabfc902c3b4e3768fe994fc6a2f474694a56910/motor-3.1.2.tar.gz -> motor-3.1.2.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/motor-3.1.1"
+S="${WORKDIR}/motor-3.1.2"
