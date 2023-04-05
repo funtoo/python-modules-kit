@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/kislyuk/yq https://pypi.org/project/yq/"
-SRC_URI="https://files.pythonhosted.org/packages/70/97/afd9a4999bf7d278803e7a5861a870a5fa7635f68d6f32d86367c542a99e/yq-3.2.0.tar.gz -> yq-3.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/82/09/110ed5ef1e1afb4e87e256b322f88bbfaa9fe59eb5f30d1764e0741c0735/yq-3.2.1.tar.gz -> yq-3.2.1.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/yq-3.2.0"
+S="${WORKDIR}/yq-3.2.1"
