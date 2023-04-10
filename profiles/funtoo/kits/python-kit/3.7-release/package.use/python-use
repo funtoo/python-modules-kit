@@ -9,6 +9,7 @@
 =dev-python/django-auth-ldap-1.2.7 python_single_target_python2_7
 =dev-python/doit-0.23.0-r1 python_single_target_python2_7
 =dev-python/empy-3.3-r1 python_single_target_python2_7
+=dev-python/eyeD3-0.7.5 python_single_target_python2_7
 =dev-python/falcon-0.1.6 python_single_target_python2_7
 =dev-python/falcon-0.1.7 python_single_target_python2_7
 =dev-python/falcon-0.1.8 python_single_target_python2_7
@@ -117,7 +118,6 @@ dev-python/elementtree python_single_target_python2_7
 dev-python/elib-intl python_single_target_python2_7
 dev-python/enum34 python_single_target_python2_7
 dev-python/epydoc python_single_target_python2_7
-dev-python/eyeD3 python_single_target_python2_7
 dev-python/faulthandler python_single_target_python2_7
 dev-python/fdsend python_single_target_python2_7
 dev-python/fixtures-compat python_single_target_python2_7
