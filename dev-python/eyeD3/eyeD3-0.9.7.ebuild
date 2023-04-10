@@ -11,7 +11,9 @@ SRC_URI="https://files.pythonhosted.org/packages/75/a5/263664ef1f1be58f72c8bc66e
 "
 
 DEPEND=""
-RDEPEND="dev-python/deprecation[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/deprecation[${PYTHON_USEDEP}]
+	dev-python/filetype[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
