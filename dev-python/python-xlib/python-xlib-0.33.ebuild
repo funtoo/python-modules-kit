@@ -1,27 +1,33 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy )
-
+PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1 virtualx
 
 DESCRIPTION="A fully functional X client library for Python, written in Python"
 HOMEPAGE="https://github.com/python-xlib/python-xlib"
-SRC_URI="https://github.com/${PN}/${PN}/releases/download/${PV}/${P}.tar.bz2"
+SRC_URI="https://github.com/python-xlib/python-xlib/tarball/4e8bbf8fc4941e5da301a8b3db8d27e98de68666 -> python-xlib-0.33-4e8bbf8.tar.gz
+"
 
-LICENSE="LGPL-2+"
-SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-IUSE="doc"
-
-RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
-DEPEND="${RDEPEND}
+DEPEND="
+	doc? ( sys-apps/texinfo )
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	doc? ( sys-apps/texinfo )"
+	dev-python/packaging[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/six[${PYTHON_USEDEP}]
+	test? ( dev-python/mock[${PYTHON_USEDEP}] )"
 
-# DISTUTILS_IN_SOURCE_BUILD=1
+IUSE="doc test"
+SLOT="0"
+LICENSE="LGPL-2+"
+KEYWORDS="*"
+
+post_src_unpack() {
+	if [ ! -d "${S}" ]; then
+		mv "${WORKDIR}"/python-xlib-python-xlib* "$S" || die
+	fi
+}
 
 python_compile_all() {
 	use doc && emake -C doc/info
