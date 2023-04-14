@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://github.com/tych0/xcffib https://pypi.org/project/xcffib/"
-SRC_URI="https://files.pythonhosted.org/packages/0f/7e/b83f38ad12910c22b3e56e9edf2352178924c30b2256a3f11468eec312c4/xcffib-1.2.0.tar.gz -> xcffib-1.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e9/3e/d513b437d2e24d7c27bb435e11470ea343aae8666ab8e41510adb132d9b9/xcffib-1.3.0.tar.gz -> xcffib-1.3.0.tar.gz
 "
 
 DEPEND="
@@ -24,4 +24,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/xcffib-1.2.0"
+S="${WORKDIR}/xcffib-1.3.0"
