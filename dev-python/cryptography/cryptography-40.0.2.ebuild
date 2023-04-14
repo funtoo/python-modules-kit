@@ -38,9 +38,9 @@ log-0.4.17
 num-integer-0.1.45
 num-traits-0.2.15
 once_cell-1.14.0
-openssl-0.10.48
+openssl-0.10.50
 openssl-macros-0.1.0
-openssl-sys-0.9.83
+openssl-sys-0.9.85
 ouroboros-0.15.6
 ouroboros_macro-0.15.6
 parking_lot-0.11.2
@@ -93,7 +93,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/15/d9/c679e9eda76bfc0d60c9d7a4084ca52d0631d9f24ef04f818012f6d1282e/cryptography-40.0.1.tar.gz -> cryptography-40.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz -> cryptography-40.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -122,7 +122,7 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-40.0.1"
+S="${WORKDIR}/cryptography-40.0.2"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
