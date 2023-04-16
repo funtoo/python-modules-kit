@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/cairocffi/"
-SRC_URI="https://files.pythonhosted.org/packages/28/d6/59ed0aa7f642142db493744c909a59a45e7350277d8987ccfc56cc5244d9/cairocffi-1.5.0.tar.gz -> cairocffi-1.5.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9f/d1/b26207d3a93dbdbee3b1492d59668f88953e9f28b74853e376a7a4f04e83/cairocffi-1.5.1.tar.gz -> cairocffi-1.5.1.tar.gz
 "
 
 DEPEND=""
@@ -25,7 +25,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/cairocffi-1.5.0"
+S="${WORKDIR}/cairocffi-1.5.1"
 
 src_prepare() {
 	sed -i -e '/pytest-/d' -e '/addopts/d' setup.cfg || die
