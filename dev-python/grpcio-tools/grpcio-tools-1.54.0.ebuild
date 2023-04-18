@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://grpc.io https://pypi.org/project/grpcio-tools/"
-SRC_URI="https://files.pythonhosted.org/packages/81/dc/71fb99bc79deb2cbf2007337b946e463d8a1996d15177db245164f389bc9/grpcio-tools-1.53.0.tar.gz -> grpcio-tools-1.53.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e2/a9/4f4bdb13e414474de9ae770700e5450f8beb981282af171255c9d4cbed25/grpcio-tools-1.54.0.tar.gz -> grpcio-tools-1.54.0.tar.gz
 "
 
 DEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/grpcio-tools-1.53.0"
+S="${WORKDIR}/grpcio-tools-1.54.0"
