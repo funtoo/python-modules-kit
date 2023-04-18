@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="http://pyxattr.k1024.org/ https://pypi.org/project/pyxattr/"
-SRC_URI="https://files.pythonhosted.org/packages/8f/27/f9072922b73e35bdea86ec684fa754271181dc8e95507c8becd4fbcbd191/pyxattr-0.8.0.tar.gz -> pyxattr-0.8.0.tar.gz
+HOMEPAGE="https://pyxattr.k1024.org/ https://pypi.org/project/pyxattr/"
+SRC_URI="https://files.pythonhosted.org/packages/97/d1/7b85f2712168dfa26df6471082403013f3f815f3239aee3def17b6fd69ee/pyxattr-0.8.1.tar.gz -> pyxattr-0.8.1.tar.gz
 "
 
 DEPEND="sys-apps/attr:="
@@ -18,7 +18,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/pyxattr-0.8.0"
+S="${WORKDIR}/pyxattr-0.8.1"
 
 distutils_enable_tests pytest
 distutils_enable_sphinx doc dev-python/recommonmark

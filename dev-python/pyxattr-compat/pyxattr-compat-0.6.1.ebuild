@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="http://pyxattr.k1024.org/ https://pypi.org/project/pyxattr/"
+HOMEPAGE="https://pyxattr.k1024.org/ https://pypi.org/project/pyxattr/"
 SRC_URI="https://files.pythonhosted.org/packages/36/1d/1a5f3165f330e1a0427636f2bd995dbcc02d0f7660e89458d64806a2ed1e/pyxattr-0.6.1.tar.gz -> pyxattr-0.6.1.tar.gz
 "
 
