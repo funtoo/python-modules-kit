@@ -11,7 +11,7 @@ DESCRIPTION="A microframework based on Werkzeug, Jinja2 and good intentions"
 HOMEPAGE="https://github.com/pallets/flask/"
 MY_PN="Flask"
 MY_P="${MY_PN}-${PV}"
-SRC_URI="https://files.pythonhosted.org/packages/e8/5c/ff9047989bd995b1098d14b03013f160225db2282925b517bb4a967752ee/Flask-2.2.3.tar.gz -> Flask-2.2.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/04/f4/22384e109d9b7e295b20580bc6af5f45b78730d03f41f826639a5c006d1a/Flask-2.3.0.tar.gz -> Flask-2.3.0.tar.gz"
 KEYWORDS="*"
 S="${WORKDIR}/${MY_P}"
 
