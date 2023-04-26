@@ -8,7 +8,7 @@ inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://pip.pypa.io/ https://pypi.org/project/pip/"
-SRC_URI="https://files.pythonhosted.org/packages/43/7d/1f52f99a7f2eae870483b2c2a3064511487de87911bce146df8a154fbe81/pip-23.1.1.tar.gz -> pip-23.1.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fa/ee/74ff76da0ab649eec7581233daeb43d8aa35383d8f75317b2ab3b80c922f/pip-23.1.2.tar.gz -> pip-23.1.2.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pip-23.1.1"
+S="${WORKDIR}/pip-23.1.2"
 
 python_prepare_all() {
 	if ! use vanilla; then
