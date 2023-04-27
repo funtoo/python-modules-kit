@@ -102,6 +102,7 @@ DEPEND="
 	!libressl? ( dev-libs/openssl:0= )
 	$(python_gen_cond_dep '
 	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	' -3
 	)"
 RDEPEND="

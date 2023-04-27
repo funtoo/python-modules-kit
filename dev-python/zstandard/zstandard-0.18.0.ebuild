@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/indygreg/python-zstandard https://pypi.org/project/zstandard/"
-SRC_URI="https://files.pythonhosted.org/packages/55/29/a4dc59d4df31a5797b07d83a0e53137f6dcd1be0c9ac1e4dbcaac8522a11/zstandard-0.17.0.tar.gz -> zstandard-0.17.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a7/b7/0fe8fb6390309f29a3a76c439dd08a73c05473bbaafa7117596ded319f84/zstandard-0.18.0.tar.gz -> zstandard-0.18.0.tar.gz
 "
 
 DEPEND="test? ( dev-python/hypothesis[${PYTHON_USEDEP}] )"
@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/zstandard-0.17.0"
+S="${WORKDIR}/zstandard-0.18.0"
 
 python_compile() {
 	local MAKEOPTS=-j1
