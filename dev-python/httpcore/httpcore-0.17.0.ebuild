@@ -14,9 +14,7 @@ DEPEND=""
 RDEPEND="
 	dev-python/h11[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]"
+	dev-python/anyio[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
