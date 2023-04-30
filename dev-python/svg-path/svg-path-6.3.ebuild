@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/regebro/svg.path https://pypi.org/project/svg.path/"
-SRC_URI="https://files.pythonhosted.org/packages/01/56/32f5483faf385e8c3b382159af10ee08414c7f1be1b6da96a1821e7cc431/svg.path-6.2.tar.gz -> svg.path-6.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/33/a0/4983cdedf62c3a1dd42b698813312fc51dd159983333fce9ec4189cd83a9/svg.path-6.3.tar.gz -> svg.path-6.3.tar.gz
 "
 
 DEPEND=""
@@ -15,4 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/svg.path-6.2"
+S="${WORKDIR}/svg.path-6.3"

@@ -11,9 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/21/79/6372d8c0d0641b4072889f3ff
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="!~dev-python/PySocks-1.5.7
-!=dev-python/urllib3-1.26.15
- 
+RDEPEND="!<dev-python/urllib3-1.26.15-r1 
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}]"

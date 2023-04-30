@@ -3,7 +3,6 @@
 EAPI=7
 
 PYTHON_COMPAT=( python2+ pypy{,3} )
-DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -15,7 +14,6 @@ DEPEND=""
 RDEPEND=""
 
 IUSE=""
-RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
