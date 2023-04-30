@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE=" https://pypi.org/project/urllib3/"
-SRC_URI="https://files.pythonhosted.org/packages/aa/52/078c46565a4b4983e15d862cb7461e5c63a2e7b3c8436e8622a601120ea0/urllib3-2.0.0.tar.gz -> urllib3-2.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/7e/19/2a88626e71557cd989afee0985df3808a546d54d00b0b5853f3b6c334dbd/urllib3-2.0.1.tar.gz -> urllib3-2.0.1.tar.gz
 "
 
 DEPEND="
@@ -31,4 +31,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/urllib3-2.0.0"
+S="${WORKDIR}/urllib3-2.0.1"
