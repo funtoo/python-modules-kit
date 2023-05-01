@@ -2,8 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
-DISTUTILS_USE_PEP517="setuptools"
+PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION=""
@@ -13,12 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/21/79/6372d8c0d0641b4072889f3ff
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
-	python_targets_python2_7? ( dev-python/urllib3-compat )
-	virtual/python-ipaddress[${PYTHON_USEDEP}]
-	>=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}]
-	>=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
-RESTRICT="test"
+	!>=dev-python/urllib3-2
+	!dev-python/urllib3-compat"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
