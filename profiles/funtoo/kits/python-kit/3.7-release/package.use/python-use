@@ -254,7 +254,6 @@ dev-python/twisted-web python_single_target_python2_7
 dev-python/twisted-words python_single_target_python2_7
 dev-python/typing python_single_target_python2_7
 dev-python/urlgrabber python_single_target_python2_7
-dev-python/urllib3-compat python_single_target_python2_7
 dev-python/weakrefmethod python_single_target_python2_7
 dev-python/wheel-compat python_single_target_python2_7
 dev-python/zbase32 python_single_target_python2_7
