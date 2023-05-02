@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/pypa/trove-classifiers https://pypi.org/project/trove-classifiers/"
-SRC_URI="https://files.pythonhosted.org/packages/c8/9b/8e1a88794d21abb90349c7d0decbee3efe31b4b74987c51d815fc5784c81/trove-classifiers-2023.4.29.tar.gz -> trove-classifiers-2023.4.29.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/33/75/4e87c5021949ece4171eddebb11ef30d7e787a99c4d24c7dc383dd306a6c/trove-classifiers-2023.5.2.tar.gz -> trove-classifiers-2023.5.2.tar.gz
 "
 
 DEPEND="dev-python/calver[${PYTHON_USEDEP}]"
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/trove-classifiers-2023.4.29"
+S="${WORKDIR}/trove-classifiers-2023.5.2"
