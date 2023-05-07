@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree https://pypi.org/project/ruamel.yaml/"
-SRC_URI="https://files.pythonhosted.org/packages/eb/a4/e056a6f778bfc01d653dd777e5ff57c1f1b48fcaa889d75bac0ef9650768/ruamel.yaml-0.17.22.tar.gz -> ruamel.yaml-0.17.22.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/60/0f/0c315497e321f54af5fe22f957f989001d231d4c1517c32fb26050dac0e2/ruamel.yaml-0.17.24.tar.gz -> ruamel.yaml-0.17.24.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -16,7 +16,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/ruamel.yaml-0.17.22"
+S="${WORKDIR}/ruamel.yaml-0.17.24"
 
 python_install() {
 	distutils-r1_python_install --single-version-externally-managed
