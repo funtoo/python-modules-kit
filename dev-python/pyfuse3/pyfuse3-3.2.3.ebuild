@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/libfuse/pyfuse3 https://pypi.org/project/pyfuse3/"
-SRC_URI="https://files.pythonhosted.org/packages/b0/1b/a5758094d440389730304027c7229a92cd6ab2616ef928a8fe695f31dad3/pyfuse3-3.2.2.tar.gz -> pyfuse3-3.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8f/49/e56c292f83941c525d4fee2f74dffeb20340004bb62faf54c906bda0893f/pyfuse3-3.2.3.tar.gz -> pyfuse3-3.2.3.tar.gz
 "
 
 DEPEND=""
@@ -19,6 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pyfuse3-3.2.2"
+S="${WORKDIR}/pyfuse3-3.2.3"
 
 distutils_enable_tests pytest

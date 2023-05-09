@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/python-llfuse/python-llfuse/ https://pypi.org/project/llfuse/"
-SRC_URI="https://files.pythonhosted.org/packages/23/98/896217af308e3deafae4f6370748d25fa500165f23d4586c3c993ff4e4ed/llfuse-1.4.2.tar.gz -> llfuse-1.4.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/16/33/fa07c4ddfc30fb7e629897d5f79cd8086e5636c599248fe39a6fafd0acbe/llfuse-1.4.3.tar.gz -> llfuse-1.4.3.tar.gz
 "
 
 DEPEND="
@@ -21,7 +21,7 @@ IUSE="doc examples test"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/llfuse-1.4.2"
+S="${WORKDIR}/llfuse-1.4.3"
 
 python_test() {
 	py.test -v || die "Tests failed under ${EPYTHON}"
