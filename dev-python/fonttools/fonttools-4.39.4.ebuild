@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="http://github.com/fonttools/fonttools https://pypi.org/project/fonttools/"
-SRC_URI="https://files.pythonhosted.org/packages/39/d7/ab05ae34dd57dd657e492d95ce7ec6bfebfb3bfcdc7316660ac5a13fcfee/fonttools-4.39.3.zip -> fonttools-4.39.3.zip
+SRC_URI="https://files.pythonhosted.org/packages/2f/7c/20b9289a88e35c2015541ab869c999178d5e4ad2c9dec49544ed0e34ae01/fonttools-4.39.4.zip -> fonttools-4.39.4.zip
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -17,7 +17,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/fonttools-4.39.3"
+S="${WORKDIR}/fonttools-4.39.4"
 
 src_configure() {
 	DISTUTILS_ARGS=( --with-cython )
