@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION=""
-HOMEPAGE="http://www.mypy-lang.org/ https://pypi.org/project/mypy/"
-SRC_URI="https://files.pythonhosted.org/packages/9a/d0/d96d26e7a6f5a2ed4add8c649f30bce26fc413f25a6ecc5d93ab22c270e1/mypy-1.2.0.tar.gz -> mypy-1.2.0.tar.gz
+HOMEPAGE="https://www.mypy-lang.org/ https://pypi.org/project/mypy/"
+SRC_URI="https://files.pythonhosted.org/packages/f9/88/3bfe07521fb9e74b449cbc4367434067ec70bfd8a24c652fa3e0f9597389/mypy-1.3.0.tar.gz -> mypy-1.3.0.tar.gz
 "
 
 DEPEND=""
@@ -23,4 +23,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/mypy-1.2.0"
+S="${WORKDIR}/mypy-1.3.0"
