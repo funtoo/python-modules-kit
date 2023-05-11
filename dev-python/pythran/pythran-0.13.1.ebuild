@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Ahead of Time compiler for numeric kernels"
 HOMEPAGE="https://github.com/serge-sans-paille/pythran https://pypi.org/project/pythran/"
 SRC_URI="https://files.pythonhosted.org/packages/8d/d8/b27e8dc3f3a03dcd317d40d9df0ae07ebbd85444585973ceba07716934d0/pythran-0.13.1.tar.gz -> pythran-0.13.1.tar.gz
 "

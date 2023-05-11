@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( pypy3 python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Read resources from Python packages"
 HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
 SRC_URI="https://files.pythonhosted.org/packages/4e/a2/3cab1de83f95dd15297c15bdc04d50902391d707247cada1f021bbfe2149/importlib_resources-5.12.0.tar.gz -> importlib_resources-5.12.0.tar.gz
 "
@@ -17,7 +17,7 @@ RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_resources-compat )
 	$(python_gen_cond_dep '
 	dev-python/zipp[${PYTHON_USEDEP}]
-	' -3 pypy3
+	' pypy3 -3
 	)"
 IUSE="python_targets_python2_7"
 SLOT="0"

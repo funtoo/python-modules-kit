@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://gitlab.gnome.org/GNOME/gi-docgen https://pypi.org/project/gi-docgen/"
+DESCRIPTION="A documentation generator for GObject-based libraries"
+HOMEPAGE="https://gitlab.gnome.org/GNOME/gi-docgen"
 SRC_URI="https://files.pythonhosted.org/packages/29/72/a319bce143e5d10677bc89b66e750c1511ec005c7a8bb098b415cc68ac68/gi-docgen-2023.1.tar.gz -> gi-docgen-2023.1.tar.gz
 "
 

@@ -1,8 +1,9 @@
 BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=libyaml? ( dev-libs/libyaml )
+DESCRIPTION=YAML parser and emitter for Python
 EAPI=7
-HOMEPAGE=https://pyyaml.org/ https://pypi.org/project/PyYAML/
+HOMEPAGE=https://pyyaml.org/wiki/PyYAML https://pypi.org/project/PyYAML/ https://github.com/yaml/pyyaml
 IUSE=examples +libyaml python_targets_python2_7
 KEYWORDS=*
 LICENSE=MIT
@@ -11,4 +12,4 @@ REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz -> PyYAML-5.4.1.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=063d7c5acbcdf29ef3b06ee6ec06ca29
+_md5_=3413d19beae5949b7e2a2dd6c9cca6bc

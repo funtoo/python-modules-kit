@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/MrPotatoBobx/FetchCord https://pypi.org/project/FetchCord/"
+DESCRIPTION="FetchCord grabs your OS info and displays it as Discord Rich Presence"
+HOMEPAGE="https://github.com/MrPotatoBobx/FetchCord"
 SRC_URI="https://files.pythonhosted.org/packages/23/d3/92634dea7df2ae02d13d87f35fe3655dffcfc7dda416e4c2aadb33a2363b/FetchCord-2.7.7.tar.gz -> FetchCord-2.7.7.tar.gz
 "
 

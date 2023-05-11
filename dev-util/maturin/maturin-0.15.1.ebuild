@@ -282,7 +282,7 @@ zip-0.6.4
 
 inherit cargo distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
 SRC_URI="https://files.pythonhosted.org/packages/5a/c4/f28b774ddd7367699a134d6bf7fd4287794042802e85323cf26373e7215d/maturin-0.15.1.tar.gz -> maturin-0.15.1.tar.gz
 $(cargo_crate_uris ${CRATES})

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/kislyuk/yq https://pypi.org/project/yq/"
+DESCRIPTION="Command-line YAML/XML processor - jq wrapper for YAML/XML documents"
+HOMEPAGE="https://yq.readthedocs.io/ https://github.com/kislyuk/yq/ https://pypi.org/project/yq/"
 SRC_URI="https://files.pythonhosted.org/packages/90/a0/ddb66d2e527626288a9b526af5c21bc0e590622faa1d0425808ad75f6bc5/yq-3.2.2.tar.gz -> yq-3.2.2.tar.gz
 "
 

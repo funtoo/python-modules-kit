@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=" https://pypi.org/project/PyHamcrest/"
+DESCRIPTION="Hamcrest framework for matcher objects"
+HOMEPAGE="https://github.com/hamcrest/PyHamcrest"
 SRC_URI="https://files.pythonhosted.org/packages/b1/9a/588f086b64ace8d2e9843d8551e9068b2570c3c51b06cb49a107303f8700/pyhamcrest-2.0.4.tar.gz -> pyhamcrest-2.0.4.tar.gz
 "
 

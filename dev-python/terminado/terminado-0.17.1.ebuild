@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
 HOMEPAGE=" https://pypi.org/project/terminado/"
 SRC_URI="https://files.pythonhosted.org/packages/55/be/748034192602b9fd69ba94544c1675ff18b039ed8f346ad783478e31144f/terminado-0.17.1.tar.gz -> terminado-0.17.1.tar.gz
 "

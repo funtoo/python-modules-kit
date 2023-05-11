@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/typemytype/booleanOperations https://pypi.org/project/booleanOperations/"
+DESCRIPTION="Boolean operations on paths"
+HOMEPAGE="https://github.com/typemytype/booleanOperations"
 SRC_URI="https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip -> booleanOperations-0.9.0.zip
 "
 

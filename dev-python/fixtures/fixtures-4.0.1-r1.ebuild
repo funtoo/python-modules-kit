@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Fixtures, reusable state for writing clean tests and more."
 HOMEPAGE="https://github.com/testing-cabal/fixtures https://pypi.org/project/fixtures/"
 SRC_URI="https://files.pythonhosted.org/packages/3c/3d/f106b3278ba50067e9cd397f836d33d141aa790853152dbb3512aaee19f3/fixtures-4.0.1.tar.gz -> fixtures-4.0.1.tar.gz
 "

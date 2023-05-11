@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/ionrock/cachecontrol https://pypi.org/project/CacheControl/"
+DESCRIPTION="The httplib2 caching algorithms packaged up for use with requests."
+HOMEPAGE="https://github.com/ionrock/cachecontrol/ https://pypi.org/project/CacheControl/"
 SRC_URI="https://files.pythonhosted.org/packages/46/9b/34215200b0c2b2229d7be45c1436ca0e8cad3b10de42cfea96983bd70248/CacheControl-0.12.11.tar.gz -> CacheControl-0.12.11.tar.gz
 "
 

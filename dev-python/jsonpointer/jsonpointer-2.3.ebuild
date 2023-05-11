@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ pypy3 pypy )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Identify specific nodes in a JSON document (RFC 6901)"
 HOMEPAGE="https://github.com/stefankoegl/python-json-pointer https://pypi.org/project/jsonpointer/"
 SRC_URI="https://files.pythonhosted.org/packages/a0/6c/c52556b957a0f904e7c45585444feef206fe5cb1ff656303a1d6d922a53b/jsonpointer-2.3.tar.gz -> jsonpointer-2.3.tar.gz
 "

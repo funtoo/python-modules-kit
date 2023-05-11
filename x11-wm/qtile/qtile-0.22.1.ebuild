@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://qtile.org https://pypi.org/project/qtile/"
+DESCRIPTION="A full-featured, hackable tiling window manager written in Python"
+HOMEPAGE="http://www.qtile.org/"
 SRC_URI="https://files.pythonhosted.org/packages/c5/6d/662b20c4f19e4c68e44564e4c5b51e41d477722cfacfaa178acb548c40f2/qtile-0.22.1.tar.gz -> qtile-0.22.1.tar.gz
 "
 

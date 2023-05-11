@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://palletsprojects.com/p/markupsafe/ https://pypi.org/project/MarkupSafe/"
+DESCRIPTION="Implements a XML/HTML/XHTML Markup safe string for Python"
+HOMEPAGE="https://pypi.org/project/MarkupSafe"
 SRC_URI="https://files.pythonhosted.org/packages/95/7e/68018b70268fb4a2a605e2be44ab7b4dd7ce7808adae6c5ef32e34f4b55a/MarkupSafe-2.1.2.tar.gz -> MarkupSafe-2.1.2.tar.gz
 "
 

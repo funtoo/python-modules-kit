@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=" https://pypi.org/project/colorama/"
+DESCRIPTION="ANSI escape character sequences for colored terminal text & cursor positioning"
+HOMEPAGE="https://github.com/tartley/colorama https://pypi.org/project/colorama/"
 SRC_URI="https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz -> colorama-0.4.6.tar.gz
 "
 

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=" https://pypi.org/project/cairocffi/"
+DESCRIPTION="CFFI based drop in replacement for Pycairo"
+HOMEPAGE="https://github.com/Kozea/cairocffi"
 SRC_URI="https://files.pythonhosted.org/packages/9f/d1/b26207d3a93dbdbee3b1492d59668f88953e9f28b74853e376a7a4f04e83/cairocffi-1.5.1.tar.gz -> cairocffi-1.5.1.tar.gz
 "
 

@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Python bindings for the low level FUSE API"
 HOMEPAGE="https://github.com/python-llfuse/python-llfuse/ https://pypi.org/project/llfuse/"
 SRC_URI="https://files.pythonhosted.org/packages/16/33/fa07c4ddfc30fb7e629897d5f79cd8086e5636c599248fe39a6fafd0acbe/llfuse-1.4.3.tar.gz -> llfuse-1.4.3.tar.gz
 "

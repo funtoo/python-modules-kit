@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE=" https://pypi.org/project/beautifulsoup4/"
+DESCRIPTION="Pythonic idioms for iterating, searching, and modifying an HTML/XML parse tree"
+HOMEPAGE="https://www.crummy.com/software/BeautifulSoup/bs4/"
 SRC_URI="https://files.pythonhosted.org/packages/af/0b/44c39cf3b18a9280950ad63a579ce395dda4c32193ee9da7ff0aed547094/beautifulsoup4-4.12.2.tar.gz -> beautifulsoup4-4.12.2.tar.gz
 "
 

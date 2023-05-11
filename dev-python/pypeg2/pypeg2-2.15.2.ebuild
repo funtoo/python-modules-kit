@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="http://fdik.org/pyPEG2 https://pypi.org/project/pyPEG2/"
+DESCRIPTION="An intrinsic PEG Parser-Interpreter for Python"
+HOMEPAGE="https://pypi.org/project/pyPEG2/ https://fdik.org/pyPEG/"
 SRC_URI="https://files.pythonhosted.org/packages/f9/bd/10398e2c2d2070cc8a9c7153abfbd4ddb2895a2c52a32722ab8689e0cc7d/pyPEG2-2.15.2.tar.gz -> pyPEG2-2.15.2.tar.gz
 "
 

@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy )
 DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Python documentation generator"
 HOMEPAGE=" https://pypi.org/project/Sphinx/"
 SRC_URI="https://files.pythonhosted.org/packages/af/b2/02a43597980903483fe5eb081ee8e0ba2bb62ea43a70499484343795f3bf/Sphinx-5.3.0.tar.gz -> Sphinx-5.3.0.tar.gz
 "

@@ -91,7 +91,7 @@ windows_x86_64_msvc-0.42.2
 
 inherit cargo distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE="https://github.com/pyca/cryptography https://pypi.org/project/cryptography/"
 SRC_URI="https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz -> cryptography-40.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})

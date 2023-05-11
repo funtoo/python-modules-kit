@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="improvements over the standard pathlib module"
 HOMEPAGE="https://sourceforge.net/p/ruamel-std-pathlib/code/ci/default/tree https://pypi.org/project/ruamel.std.pathlib/"
 SRC_URI="https://files.pythonhosted.org/packages/bc/d2/b2d999248a2428b8d74f7e1a8bfeccdc789ff58d9b6b53447ab42af94d80/ruamel.std.pathlib-0.12.0.tar.gz -> ruamel.std.pathlib-0.12.0.tar.gz
 "

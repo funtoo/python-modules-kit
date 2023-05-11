@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="http://mock.readthedocs.org/en/latest/ https://pypi.org/project/mock/"
+DESCRIPTION="Stand-alone version of unittest.mock included in py3.3+"
+HOMEPAGE="https://github.com/testing-cabal/mock"
 SRC_URI="https://files.pythonhosted.org/packages/71/c8/84310fa618bebe51a533d8fd3a71e8ab406a10d8a388061a9e8e628da65a/mock-5.0.2.tar.gz -> mock-5.0.2.tar.gz
 "
 

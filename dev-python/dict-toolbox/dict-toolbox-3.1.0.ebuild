@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Dict tools for Python projects"
 HOMEPAGE="https://gitlab.com/saltstack/open/dict-toolbox https://pypi.org/project/dict-toolbox/"
 SRC_URI="https://files.pythonhosted.org/packages/14/33/1a86228eceb6563ebbdcce3dc0868b7b25989e6db509ef136d1b6c60e264/dict-toolbox-3.1.0.tar.gz -> dict-toolbox-3.1.0.tar.gz
 "

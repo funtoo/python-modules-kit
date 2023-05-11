@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="A Python wrapper for the mediainfo library."
 HOMEPAGE="https://github.com/sbraz/pymediainfo https://pypi.org/project/pymediainfo/"
 SRC_URI="https://files.pythonhosted.org/packages/72/dc/549fc39fbeb6907dc2ef2fa96cad9eea39bac043f4ce56efe243c926480f/pymediainfo-6.0.1.tar.gz -> pymediainfo-6.0.1.tar.gz
 "

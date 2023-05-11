@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="A configurable sidebar-enabled Sphinx theme"
 HOMEPAGE="https://alabaster.readthedocs.io https://pypi.org/project/alabaster/"
 SRC_URI="https://files.pythonhosted.org/packages/94/71/a8ee96d1fd95ca04a0d2e2d9c4081dac4c2d2b12f7ddb899c8cb9bfd1532/alabaster-0.7.13.tar.gz -> alabaster-0.7.13.tar.gz
 "
