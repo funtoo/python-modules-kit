@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Python client for Sentry (https://sentry.io)"
 HOMEPAGE="https://github.com/getsentry/sentry-python https://pypi.org/project/sentry-sdk/"
 SRC_URI="https://files.pythonhosted.org/packages/55/27/4331d27f2d0db3ec8bb12ae26a3cea5955bf684b5c52a9f62f0477f0d44d/sentry-sdk-1.22.2.tar.gz -> sentry-sdk-1.22.2.tar.gz
 "

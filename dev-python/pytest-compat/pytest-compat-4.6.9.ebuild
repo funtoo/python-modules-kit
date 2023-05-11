@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="pytest: simple powerful testing with Python"
 HOMEPAGE="https://docs.pytest.org/en/latest/ https://pypi.org/project/pytest/"
 SRC_URI="https://files.pythonhosted.org/packages/ec/2e/1602fca477ab3ccb1952f07db0536b60b6afafec16eced8063b553001509/pytest-4.6.9.tar.gz -> pytest-4.6.9.tar.gz
 "
@@ -29,7 +29,7 @@ RDEPEND="!<dev-python/pytest-6.1.1
 	)
 	$(python_gen_cond_dep '
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' python3_6 pypy3 -2 python3_7
+	' -2 python3_6 pypy3 python3_7
 	)"
 IUSE=""
 SLOT="0"

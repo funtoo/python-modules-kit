@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="SSH2 protocol library"
 HOMEPAGE="https://paramiko.org https://pypi.org/project/paramiko/"
 SRC_URI="https://files.pythonhosted.org/packages/e8/53/e614a5b7bcc658d20e6eff6ae068863becb06bf362c2f135f5c290d8e6a2/paramiko-3.1.0.tar.gz -> paramiko-3.1.0.tar.gz
 "

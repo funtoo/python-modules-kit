@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Abstract Syntax Tree for logilab packages"
 HOMEPAGE=" https://pypi.org/project/astroid/"
 SRC_URI="https://files.pythonhosted.org/packages/36/50/c2bde258f4b8021ee9075932ace925245a1ad9a816a0cab269f04f480c3b/astroid-2.15.4.tar.gz -> astroid-2.15.4.tar.gz
 "

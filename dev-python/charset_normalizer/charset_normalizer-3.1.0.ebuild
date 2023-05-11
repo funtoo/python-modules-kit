@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/Ousret/charset_normalizer https://pypi.org/project/charset-normalizer/"
+DESCRIPTION="The Real First Universal Charset Detector"
+HOMEPAGE="https://github.com/ousret/charset_normalizer"
 SRC_URI="https://files.pythonhosted.org/packages/ff/d7/8d757f8bd45be079d76309248845a04f09619a7b17d6dfc8c9ff6433cac2/charset-normalizer-3.1.0.tar.gz -> charset-normalizer-3.1.0.tar.gz
 "
 

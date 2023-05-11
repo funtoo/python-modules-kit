@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python2+ pypy )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/berkerpeksag/astor https://pypi.org/project/astor/"
+DESCRIPTION="Read/rewrite/write Python ASTs"
+HOMEPAGE="https://pypi.org/project/astor/"
 SRC_URI="https://files.pythonhosted.org/packages/5a/21/75b771132fee241dfe601d39ade629548a9626d1d39f333fde31bc46febe/astor-0.8.1.tar.gz -> astor-0.8.1.tar.gz
 "
 

@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Async client for aws services using botocore and aiohttp"
 HOMEPAGE="https://github.com/aio-libs/aiobotocore https://pypi.org/project/aiobotocore/"
 SRC_URI="https://files.pythonhosted.org/packages/e4/d4/28b8c4c9443ffdd1a97b4b0bb970877697deee43e5956bc86028a2723c17/aiobotocore-2.5.0.tar.gz -> aiobotocore-2.5.0.tar.gz
 "

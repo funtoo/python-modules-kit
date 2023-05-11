@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="A list-like structure which implements collections.abc.MutableSequence"
 HOMEPAGE="https://github.com/aio-libs/frozenlist https://pypi.org/project/frozenlist/"
 SRC_URI="https://files.pythonhosted.org/packages/e9/10/d629476346112b85c912527b9080944fd2c39a816c2225413dbc0bb6fcc0/frozenlist-1.3.3.tar.gz -> frozenlist-1.3.3.tar.gz
 "

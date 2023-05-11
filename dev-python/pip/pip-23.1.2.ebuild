@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit bash-completion-r1 distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="The PyPA recommended tool for installing Python packages."
 HOMEPAGE="https://pip.pypa.io/ https://pypi.org/project/pip/"
 SRC_URI="https://files.pythonhosted.org/packages/fa/ee/74ff76da0ab649eec7581233daeb43d8aa35383d8f75317b2ab3b80c922f/pip-23.1.2.tar.gz -> pip-23.1.2.tar.gz
 "

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy{,3} )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://requests.readthedocs.io https://pypi.org/project/requests/"
+DESCRIPTION="HTTP library for human beings"
+HOMEPAGE="https://requests.readthedocs.io/en/master/"
 SRC_URI="https://files.pythonhosted.org/packages/e0/69/122171604bcef06825fa1c05bd9e9b1d43bc9feb8c6c0717c42c92cc6f3c/requests-2.30.0.tar.gz -> requests-2.30.0.tar.gz
 "
 

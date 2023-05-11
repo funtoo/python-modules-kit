@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy3 pypy )
 DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="reference implementation of the Python wheel packaging standard, as defined in PEP 427"
 HOMEPAGE=" https://pypi.org/project/wheel/"
 SRC_URI="https://files.pythonhosted.org/packages/fc/ef/0335f7217dd1e8096a9e8383e1d472aa14717878ffe07c4772e68b6e8735/wheel-0.40.0.tar.gz -> wheel-0.40.0.tar.gz
 "

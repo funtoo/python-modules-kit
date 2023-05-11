@@ -5,8 +5,9 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy{,3} )
 inherit distutils-r1 flag-o-matic toolchain-funcs
 
-DESCRIPTION=""
-HOMEPAGE="https://pyzmq.readthedocs.org https://pypi.org/project/pyzmq/"
+DESCRIPTION="Lightweight and super-fast messaging library built on top of the ZeroMQ library"
+HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/
+"
 SRC_URI="https://files.pythonhosted.org/packages/bf/7f/24a55c3393d54570f26fa8845e8e42e813bf1b7fb668ed5d3de76b71dbe9/pyzmq-25.0.2.tar.gz -> pyzmq-25.0.2.tar.gz
 "
 

@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/collective/icalendar https://pypi.org/project/icalendar/"
+DESCRIPTION="Package used for parsing and generating iCalendar files (RFC 2445)"
+HOMEPAGE="https://github.com/collective/icalendar"
 SRC_URI="https://files.pythonhosted.org/packages/42/cb/7b7d090a7e3e962f3ec0a2a75f65e04f74013cfab434b4bcefab882beee7/icalendar-5.0.5.tar.gz -> icalendar-5.0.5.tar.gz
 "
 

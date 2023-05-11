@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="no"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Collection of utilities for publishing packages on PyPI"
 HOMEPAGE="https://twine.readthedocs.io/ https://pypi.org/project/twine/"
 SRC_URI="https://files.pythonhosted.org/packages/b7/1a/a7884359429d801cd63c2c5512ad0a337a509994b0e42d9696d4778d71f6/twine-4.0.2.tar.gz -> twine-4.0.2.tar.gz
 "

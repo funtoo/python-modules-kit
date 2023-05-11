@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="http://github.com/tych0/xcffib https://pypi.org/project/xcffib/"
+DESCRIPTION="A drop in replacement for xpyb, an XCB python binding"
+HOMEPAGE="https://github.com/tych0/xcffib"
 SRC_URI="https://files.pythonhosted.org/packages/e9/3e/d513b437d2e24d7c27bb435e11470ea343aae8666ab8e41510adb132d9b9/xcffib-1.3.0.tar.gz -> xcffib-1.3.0.tar.gz
 "
 

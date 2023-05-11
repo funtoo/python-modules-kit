@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Docutils -- Python Documentation Utilities"
 HOMEPAGE="https://docutils.sourceforge.io/ https://pypi.org/project/docutils/"
 SRC_URI="https://files.pythonhosted.org/packages/e6/a9/8ddfaa7a9414e42520e0041d1354ebda699e4eb1b47e2f1b6d8bda66aba6/docutils-0.20.tar.gz -> docutils-0.20.tar.gz
 "

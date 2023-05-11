@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/jaraco/zipp https://pypi.org/project/zipp/"
+DESCRIPTION="Backport of pathlib-compatible object wrapper for zip files"
+HOMEPAGE="https://github.com/jaraco/zipp"
 SRC_URI="https://files.pythonhosted.org/packages/00/27/f0ac6b846684cecce1ee93d32450c45ab607f65c2e0255f0092032d91f07/zipp-3.15.0.tar.gz -> zipp-3.15.0.tar.gz
 "
 

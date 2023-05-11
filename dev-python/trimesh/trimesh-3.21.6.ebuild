@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Import, export, process, analyze and view triangular meshes."
 HOMEPAGE="https://github.com/mikedh/trimesh https://pypi.org/project/trimesh/"
 SRC_URI="https://files.pythonhosted.org/packages/bb/c8/a9a430146609b2f3671b0e60a7004c2623265d338d2a02a212a43e197ab2/trimesh-3.21.6.tar.gz -> trimesh-3.21.6.tar.gz
 "

@@ -5,8 +5,9 @@ EAPI=7
 PYTHON_COMPAT=( python2+ pypy3 )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/phn/jdcal https://pypi.org/project/jdcal/"
+DESCRIPTION="Julian dates from proleptic Gregorian and Julian calendars."
+HOMEPAGE="https://github.com/phn/jdcal
+"
 SRC_URI="https://files.pythonhosted.org/packages/7b/b0/fa20fce23e9c3b55b640e629cb5edf32a85e6af3cf7af599940eb0c753fe/jdcal-1.4.1.tar.gz -> jdcal-1.4.1.tar.gz
 "
 

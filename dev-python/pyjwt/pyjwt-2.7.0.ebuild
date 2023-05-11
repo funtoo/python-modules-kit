@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1 eutils
 
-DESCRIPTION=""
+DESCRIPTION="JSON Web Token implementation in Python"
 HOMEPAGE="https://github.com/jpadilla/pyjwt https://pypi.org/project/PyJWT/"
 SRC_URI="https://files.pythonhosted.org/packages/e0/f0/9804c72e9a314360c135f42c434eb42eaabb5e7ebad760cbd8fc7023be38/PyJWT-2.7.0.tar.gz -> PyJWT-2.7.0.tar.gz
 "

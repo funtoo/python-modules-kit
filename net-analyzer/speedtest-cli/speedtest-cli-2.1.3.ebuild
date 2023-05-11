@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/sivel/speedtest-cli https://pypi.org/project/speedtest-cli/"
+DESCRIPTION="Command line interface for testing internet bandwidth using speedtest.net"
+HOMEPAGE="https://github.com/sivel/speedtest-cli"
 SRC_URI="https://files.pythonhosted.org/packages/85/d2/32c8a30768b788d319f94cde3a77e0ccc1812dca464ad8062d3c4d703e06/speedtest-cli-2.1.3.tar.gz -> speedtest-cli-2.1.3.tar.gz
 "
 

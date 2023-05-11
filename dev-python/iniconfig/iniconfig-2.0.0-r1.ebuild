@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ pypy3 )
 DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="brain-dead simple config-ini parsing"
 HOMEPAGE=" https://pypi.org/project/iniconfig/"
 SRC_URI="https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz -> iniconfig-2.0.0.tar.gz
 "

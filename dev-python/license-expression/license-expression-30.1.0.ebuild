@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="license-expression is a comprehensive utility library to parse, compare, simplify and normalize license expressions (such as SPDX license expressions) using boolean logic."
 HOMEPAGE="https://github.com/nexB/license-expression https://pypi.org/project/license-expression/"
 SRC_URI="https://files.pythonhosted.org/packages/a0/3a/c8bb0343297e8486cb1acd2030b97fec6119567eeaef7455a88b706fc23e/license-expression-30.1.0.tar.gz -> license-expression-30.1.0.tar.gz
 "

@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://toolkit.translatehouse.org/ https://pypi.org/project/translate-toolkit/"
+DESCRIPTION="Toolkit to convert between many translation formats"
+HOMEPAGE="https://github.com/translate/translate"
 SRC_URI="https://files.pythonhosted.org/packages/85/82/3a438db453da5daf3c1401d1f678f075f6810b5fc54340700ce5fb9b8fdf/translate-toolkit-3.8.6.tar.gz -> translate-toolkit-3.8.6.tar.gz
 "
 

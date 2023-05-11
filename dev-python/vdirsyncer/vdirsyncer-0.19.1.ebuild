@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/pimutils/vdirsyncer https://pypi.org/project/vdirsyncer/"
+DESCRIPTION="Synchronize calendars and contacts"
+HOMEPAGE="https://github.com/pimutils/vdirsyncer"
 SRC_URI="https://files.pythonhosted.org/packages/51/b6/92dcd91a6b9c6581edf14357f24ea11de7f402cde6b27f483d491313c51f/vdirsyncer-0.19.1.tar.gz -> vdirsyncer-0.19.1.tar.gz
 "
 

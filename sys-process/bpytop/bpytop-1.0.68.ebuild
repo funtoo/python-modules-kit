@@ -5,8 +5,8 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://github.com/aristocratos/bpytop https://pypi.org/project/bpytop/"
+DESCRIPTION="Linux/OSX/FreeBSD resource monitor"
+HOMEPAGE="https://github.com/aristocratos/bpytop"
 SRC_URI="https://files.pythonhosted.org/packages/97/bb/a9c8a28f6c33e6b121ebd6ef92100274418f0774f873f91965a72815a889/bpytop-1.0.68.tar.gz -> bpytop-1.0.68.tar.gz
 "
 

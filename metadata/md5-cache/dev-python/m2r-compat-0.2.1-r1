@@ -1,6 +1,7 @@
 BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/setuptools-42.0.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+DESCRIPTION=Markdown and reStructuredText in a single file.
 EAPI=7
 HOMEPAGE=https://github.com/miyakogi/m2r https://pypi.org/project/m2r/
 IUSE=python_targets_python2_7
@@ -11,4 +12,4 @@ REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=https://files.pythonhosted.org/packages/39/e7/9fae11a45f5e1a3a21d8a98d02948e597c4afd7848a0dbe1a1ebd235f13e/m2r-0.2.1.tar.gz -> m2r-0.2.1.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=37d87df10ab70362d2039018c50dfcba
+_md5_=60344b6d023030ff7aad9c24cea185fb

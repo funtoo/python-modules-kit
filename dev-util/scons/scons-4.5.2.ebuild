@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
-HOMEPAGE="https://www.scons.org/ https://pypi.org/project/SCons/"
+DESCRIPTION="Extensible Python-based build utility"
+HOMEPAGE="https://www.scons.org/"
 SRC_URI="https://files.pythonhosted.org/packages/e6/a4/c7a1fb8e60067fe4eb5f4bfd13ce9f51bec963dd9a5c50321d8a20b7a3f2/SCons-4.5.2.tar.gz -> SCons-4.5.2.tar.gz
 "
 

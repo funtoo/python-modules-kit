@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Core utilities for Python packages"
 HOMEPAGE=" https://pypi.org/project/packaging/"
 SRC_URI="https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf695009221a52f90438d877a2f1499453c6938f5728/packaging-20.9.tar.gz -> packaging-20.9.tar.gz
 "

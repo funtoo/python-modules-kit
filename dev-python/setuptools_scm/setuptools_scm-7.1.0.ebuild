@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="the blessed package to manage your versions by scm tags"
 HOMEPAGE="https://github.com/pypa/setuptools_scm/ https://pypi.org/project/setuptools-scm/"
 SRC_URI="https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc512391473340d0661b1a8c96a59fb7c65b02eec1321/setuptools_scm-7.1.0.tar.gz -> setuptools_scm-7.1.0.tar.gz
 "

@@ -5,7 +5,7 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Python interface to the PROJ library"
 HOMEPAGE="https://github.com/pyproj4/pyproj https://pypi.org/project/pyproj/"
 SRC_URI="https://files.pythonhosted.org/packages/9c/f5/cd9371194d3c939dffddff9e118a018bb7c2f560549bea4c6bc21b24eadd/pyproj-3.5.0.tar.gz -> pyproj-3.5.0.tar.gz
 "
