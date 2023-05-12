@@ -11,14 +11,14 @@ SRC_URI="https://files.pythonhosted.org/packages/4e/a2/3cab1de83f95dd15297c15bdc
 "
 
 DEPEND="
-	>=dev-python/setuptools_scm-3.4.1[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+	dev-python/toml[${PYTHON_USEDEP}]
+	>=dev-python/setuptools_scm-3.4.1[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_resources-compat )
 	$(python_gen_cond_dep '
-	' -3 pypy3
-	)
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	dev-python/zipp[${PYTHON_USEDEP}]
+	' pypy3 -3
+	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"

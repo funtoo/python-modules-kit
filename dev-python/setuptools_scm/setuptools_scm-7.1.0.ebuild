@@ -12,17 +12,17 @@ SRC_URI="https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc51239147
 "
 
 DEPEND="
+	>dev-python/packaging-20[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
-	' -3
-	)
 	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
-	>dev-python/packaging-20[${PYTHON_USEDEP}]"
+	' -3
+	)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/setuptools_scm-compat )
 	$(python_gen_cond_dep '
+	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]
 	' -3
-	)
-	>=dev-python/tomli-1.0[${PYTHON_USEDEP}]"
+	)"
 PDEPEND="
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"

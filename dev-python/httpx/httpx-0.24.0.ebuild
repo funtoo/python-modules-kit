@@ -14,10 +14,10 @@ SRC_URI="https://files.pythonhosted.org/packages/ae/23/f7beaf11a8b95fc173b8979c4
 DEPEND="dev-python/hatch-fancy-pypi-readme[${PYTHON_USEDEP}]"
 RDEPEND="
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
 	dev-python/httpcore[${PYTHON_USEDEP}]
+	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]"
+	dev-python/h2[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

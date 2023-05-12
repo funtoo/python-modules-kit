@@ -12,11 +12,11 @@ SRC_URI="https://files.pythonhosted.org/packages/56/c9/09f4a531720b1bf54f316fdff
 "
 
 DEPEND="
-	$(python_gen_cond_dep '
-	' -2
-	)
 	>dev-python/packaging-20[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep '
+	dev-python/toml[${PYTHON_USEDEP}]
+	' -2
+	)"
 RDEPEND="!<=dev-python/setuptools_scm-7.0.2 "
 PDEPEND="
 	dev-python/importlib_metadata[${PYTHON_USEDEP}]"

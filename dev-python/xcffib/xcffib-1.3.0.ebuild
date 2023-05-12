@@ -14,9 +14,9 @@ DEPEND="
 	x11-libs/libxcb"
 RDEPEND="
 	$(python_gen_cond_dep '
+	>=dev-python/cffi-1.1:=[${PYTHON_USEDEP}]
 	' 'python*'
 	)
-	>=dev-python/cffi-1.1:=[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 
 IUSE=""

@@ -15,8 +15,8 @@ DEPEND=""
 RDEPEND="
 	dev-python/html5lib[${PYTHON_USEDEP}]
 	dev-python/isodate[${PYTHON_USEDEP}]
-	dev-python/poetry-core[${PYTHON_USEDEP}]
-	dev-python/pyparsing[${PYTHON_USEDEP}]"
+	dev-python/pyparsing[${PYTHON_USEDEP}]
+	dev-python/poetry-core[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

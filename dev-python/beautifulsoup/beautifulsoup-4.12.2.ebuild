@@ -14,9 +14,9 @@ SRC_URI="https://files.pythonhosted.org/packages/af/0b/44c39cf3b18a9280950ad63a5
 DEPEND=""
 RDEPEND="
 	!dev-python/beautifulsoup:4
+	dev-python/soupsieve[${PYTHON_USEDEP}]
 	dev-python/html5lib[${PYTHON_USEDEP}]
-	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/soupsieve[${PYTHON_USEDEP}]"
+	dev-python/lxml[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

@@ -13,13 +13,13 @@ SRC_URI="https://files.pythonhosted.org/packages/0b/1f/9de392c2b939384e08812ef93
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/importlib_metadata-compat )
-	$(python_gen_cond_dep '
-	' -3
-	)
-	>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
+	dev-python/zipp[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep '
+	>=dev-python/typing-extensions-3.6.4[${PYTHON_USEDEP}]
+	' -3
+	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"

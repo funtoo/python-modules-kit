@@ -12,9 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/c1/7e/91cb2540947f0e8bcdee83e61
 
 DEPEND=""
 RDEPEND="
-	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/numpy[${PYTHON_USEDEP}]"
+	dev-python/numpy[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.2[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE=""

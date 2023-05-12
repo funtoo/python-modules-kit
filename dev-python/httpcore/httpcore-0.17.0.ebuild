@@ -12,11 +12,11 @@ SRC_URI="https://files.pythonhosted.org/packages/41/16/c809655d32fd93e688b9e2a1a
 
 DEPEND=""
 RDEPEND="
+	dev-python/h11[${PYTHON_USEDEP}]
+	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/h11[${PYTHON_USEDEP}]
-	dev-python/h2[${PYTHON_USEDEP}]
-	dev-python/sniffio[${PYTHON_USEDEP}]"
+	dev-python/h2[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

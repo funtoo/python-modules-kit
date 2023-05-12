@@ -12,8 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/55/27/4331d27f2d0db3ec8bb12ae26
 
 DEPEND=""
 RDEPEND="
-	dev-python/certifi[${PYTHON_USEDEP}]
-	dev-python/urllib3[${PYTHON_USEDEP}]"
+	dev-python/urllib3[${PYTHON_USEDEP}]
+	dev-python/certifi[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

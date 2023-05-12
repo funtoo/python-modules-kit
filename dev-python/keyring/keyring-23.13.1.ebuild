@@ -14,10 +14,10 @@ DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
 RDEPEND="
+	dev-python/secretstorage[${PYTHON_USEDEP}]
 	dev-python/entrypoints[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/jeepney[${PYTHON_USEDEP}]
-	dev-python/secretstorage[${PYTHON_USEDEP}]"
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

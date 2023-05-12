@@ -13,8 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/8d/d8/b27e8dc3f3a03dcd317d40d9d
 DEPEND=""
 RDEPEND="
 	dev-python/beniget[${PYTHON_USEDEP}]
-	dev-python/gast[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
+	dev-python/gast[${PYTHON_USEDEP}]
 	dev-python/ply[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"

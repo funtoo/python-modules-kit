@@ -18,8 +18,8 @@ RDEPEND="
 	dev-texlive/texlive-fontutils
 	dev-texlive/texlive-latex
 	dev-texlive/texlive-latexextra
-	>=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	dev-python/docutils[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-3.0.0[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

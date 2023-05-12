@@ -13,11 +13,11 @@ SRC_URI="https://files.pythonhosted.org/packages/4e/ab/9b48589d6e3a2f72cc1e8f522
 
 DEPEND=""
 RDEPEND="
-	$(python_gen_cond_dep '
-	' python3_7
-	)
 	dev-python/tomli[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
+	$(python_gen_cond_dep '
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	' python3_7
+	)"
 
 IUSE=""
 SLOT="0"

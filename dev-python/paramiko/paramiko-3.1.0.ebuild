@@ -14,8 +14,8 @@ DEPEND=""
 RDEPEND="
 	>=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
-	>=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.1.7[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 
 IUSE="examples server"

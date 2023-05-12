@@ -12,10 +12,10 @@ SRC_URI="https://files.pythonhosted.org/packages/d4/de/983fb0275c7361345b0b4916f
 "
 
 DEPEND="
-	dev-python/installer[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pathspec[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/pluggy[${PYTHON_USEDEP}]
+	dev-python/installer[${PYTHON_USEDEP}]
 	dev-python/trove-classifiers[${PYTHON_USEDEP}]"
 RDEPEND="
 	${DEPEND}

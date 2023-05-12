@@ -13,17 +13,17 @@ SRC_URI="https://files.pythonhosted.org/packages/ec/d9/36b65598f3d19d0a14d13dc87
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pytest-compat )
-	$(python_gen_cond_dep '
-	' -2 pypy3 python3_6 python3_7
-	)
-	<dev-python/pluggy-2[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
-	>=dev-python/pluggy-0.12[${PYTHON_USEDEP}]
-	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
 	dev-python/iniconfig[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]"
+	>=dev-python/pluggy-0.12[${PYTHON_USEDEP}]
+	<dev-python/pluggy-2[${PYTHON_USEDEP}]
+	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
+	dev-python/toml[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]
+	' pypy3 python3_7 python3_6 -2
+	)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"

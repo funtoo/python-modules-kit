@@ -12,9 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/29/72/a319bce143e5d10677bc89b66
 
 DEPEND=""
 RDEPEND="
-	dev-python/jinja[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/typogrify[${PYTHON_USEDEP}]"
+	dev-python/typogrify[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"
