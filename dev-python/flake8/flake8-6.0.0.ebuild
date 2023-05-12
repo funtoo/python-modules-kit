@@ -14,8 +14,8 @@ SRC_URI="https://files.pythonhosted.org/packages/66/53/3ad4a3b74d609b3b9008a1007
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/flake8-compat )
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]"
+	dev-python/pycodestyle[${PYTHON_USEDEP}]
+	dev-python/pyflakes[${PYTHON_USEDEP}]"
 PDEPEND="dev-python/mccabe[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"

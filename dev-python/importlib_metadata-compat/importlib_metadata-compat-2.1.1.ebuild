@@ -12,15 +12,15 @@ SRC_URI="https://files.pythonhosted.org/packages/40/a2/0d11187bdde4237a2f5413f3d
 
 DEPEND=""
 RDEPEND="!<=dev-python/importlib_metadata-3.4.0-r1 
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	dev-python/zipp[${PYTHON_USEDEP}]
-	dev-python/toml[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
+	' -2
+	)
 	>=dev-python/configparser-3.5[${PYTHON_USEDEP}]
 	dev-python/contextlib2[${PYTHON_USEDEP}]
 	dev-python/pathlib2[${PYTHON_USEDEP}]
-	' -2
-	)"
+	dev-python/setuptools_scm[${PYTHON_USEDEP}]
+	dev-python/toml[${PYTHON_USEDEP}]
+	dev-python/zipp[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

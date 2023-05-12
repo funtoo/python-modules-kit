@@ -13,8 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/94/65/fd40fbdc608298e760affb958
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/m2r-compat )
-	dev-python/mistune[${PYTHON_USEDEP}]
-	dev-python/docutils[${PYTHON_USEDEP}]"
+	dev-python/docutils[${PYTHON_USEDEP}]
+	dev-python/mistune[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"

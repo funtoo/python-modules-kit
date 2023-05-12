@@ -11,8 +11,8 @@ SRC_URI="https://files.pythonhosted.org/packages/be/18/0b7283f0ebf6ad4bb6b993753
 "
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	>=dev-python/testtools-2.5.0-r1[${PYTHON_USEDEP}]"
+	>=dev-python/testtools-2.5.0-r1[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND=""
 
 IUSE=""

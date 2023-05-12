@@ -14,12 +14,12 @@ SRC_URI="https://files.pythonhosted.org/packages/05/77/7483975d84fe1fd24cc67881b
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="!<=dev-python/pyzmq-19.0.2 
 	>=net-libs/zeromq-4.2.2-r2:=[drafts]
-	dev-python/py[${PYTHON_USEDEP}]
-	dev-python/cffi[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
-	dev-python/gevent[${PYTHON_USEDEP}]
 	' -2
-	)"
+	)
+	dev-python/cffi[${PYTHON_USEDEP}]
+	dev-python/gevent[${PYTHON_USEDEP}]
+	dev-python/py[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="LGPL-3"

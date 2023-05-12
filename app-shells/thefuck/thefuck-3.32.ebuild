@@ -12,11 +12,11 @@ SRC_URI="https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16a
 
 DEPEND=""
 RDEPEND="
-	dev-python/psutil[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/decorator[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
-	dev-python/pyte[${PYTHON_USEDEP}]"
+	dev-python/decorator[${PYTHON_USEDEP}]
+	dev-python/psutil[${PYTHON_USEDEP}]
+	dev-python/pyte[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

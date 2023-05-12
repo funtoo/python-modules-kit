@@ -16,18 +16,18 @@ RDEPEND="
 	!dev-python/pydiff
 	app-text/iso-codes
 	sys-devel/gettext
-	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
 	>=dev-python/chardet-3.0.4[${PYTHON_USEDEP}]
-	dev-python/cheroot[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.3.1[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-19.8.18[${PYTHON_USEDEP}]
 	>=dev-python/python-levenshtein-0.12.0[${PYTHON_USEDEP}]
+	>=dev-python/six-1.11.0[${PYTHON_USEDEP}]
+	dev-python/cheroot[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
 	html? ( dev-python/utidylib[${PYTHON_USEDEP}] )
 	ical? ( dev-python/vobject[${PYTHON_USEDEP}] )
 	ini? ( >=dev-python/iniparse-0.5[${PYTHON_USEDEP}] )
-	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
-	subtitles? ( media-video/gaupol[${PYTHON_USEDEP}] )"
+	subtitles? ( media-video/gaupol[${PYTHON_USEDEP}] )
+	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
 
 IUSE="+html +ical +ini +subtitles +yaml"
 RESTRICT="test"

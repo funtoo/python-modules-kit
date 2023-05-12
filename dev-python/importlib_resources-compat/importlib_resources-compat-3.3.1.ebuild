@@ -11,8 +11,8 @@ SRC_URI="https://files.pythonhosted.org/packages/e1/bf/b40e6ecb611fa3be5b0ecae7b
 "
 
 DEPEND="
-	dev-python/toml[${PYTHON_USEDEP}]
-	>=dev-python/setuptools_scm-3.4.1[${PYTHON_USEDEP}]"
+	>=dev-python/setuptools_scm-3.4.1[${PYTHON_USEDEP}]
+	dev-python/toml[${PYTHON_USEDEP}]"
 RDEPEND="!<dev-python/importlib_resources-4 "
 IUSE=""
 SLOT="0"

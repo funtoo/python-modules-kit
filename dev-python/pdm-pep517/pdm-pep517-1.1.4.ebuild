@@ -13,12 +13,12 @@ SRC_URI="https://files.pythonhosted.org/packages/43/42/5c8818b70fc4b25c99e56aeeb
 
 DEPEND=""
 RDEPEND="
-	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/cerberus[${PYTHON_USEDEP}]
 	dev-python/license-expression[${PYTHON_USEDEP}]
-	dev-python/tomli[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
-	dev-python/setuptools[${PYTHON_USEDEP}]"
+	dev-python/tomli[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

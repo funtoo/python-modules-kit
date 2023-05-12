@@ -11,8 +11,8 @@ SRC_URI="https://files.pythonhosted.org/packages/46/9b/34215200b0c2b2229d7be45c1
 "
 
 DEPEND="
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]"
+	dev-python/msgpack[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]"
 RDEPEND="test? ( dev-python/cherrypy[${PYTHON_USEDEP}] dev-python/lockfile[${PYTHON_USEDEP}] dev-python/mock[${PYTHON_USEDEP}] )"
 IUSE="test"
 SLOT="0"

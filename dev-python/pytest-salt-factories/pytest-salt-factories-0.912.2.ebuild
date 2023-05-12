@@ -13,12 +13,12 @@ SRC_URI="https://files.pythonhosted.org/packages/67/98/87d7a4f2a14681ee10e7032c8
 
 DEPEND=""
 RDEPEND="
-	>dev-python/pytest-6.1.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pytest-tempdir-2019.9.6[${PYTHON_USEDEP}]
+	>dev-python/pytest-6.1.1[${PYTHON_USEDEP}]
+	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pyzmq[${PYTHON_USEDEP}]
-	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/setuptools-declarative-requirements[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"

@@ -11,8 +11,8 @@ SRC_URI="https://files.pythonhosted.org/packages/cb/67/78e37d73f63d12cb2510e29aa
 "
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/pbr[${PYTHON_USEDEP}]"
+	dev-python/pbr[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/testtools-compat )
 	dev-python/pbr[${PYTHON_USEDEP}]"

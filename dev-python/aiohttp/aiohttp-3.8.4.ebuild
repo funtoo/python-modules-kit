@@ -11,19 +11,19 @@ SRC_URI="https://files.pythonhosted.org/packages/c2/fd/1ff4da09ca29d8933fda3f351
 "
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/cython[${PYTHON_USEDEP}]"
+	dev-python/cython[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="
 	>dev-python/async_timeout-3[${PYTHON_USEDEP}]
 	>dev-python/attrs-17.3.0[${PYTHON_USEDEP}]
 	>dev-python/multidict-4.5.0[${PYTHON_USEDEP}]
 	>dev-python/yarl-1[${PYTHON_USEDEP}]
-	dev-python/idna-ssl[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
-	dev-python/aiosignal[${PYTHON_USEDEP}]
 	dev-python/aiodns[${PYTHON_USEDEP}]
+	dev-python/aiosignal[${PYTHON_USEDEP}]
 	dev-python/charset_normalizer[${PYTHON_USEDEP}]
-	dev-python/frozenlist[${PYTHON_USEDEP}]"
+	dev-python/frozenlist[${PYTHON_USEDEP}]
+	dev-python/idna-ssl[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

@@ -12,8 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/28/ea/a9387748e2d111c3c2b275ba9
 
 DEPEND=""
 RDEPEND="
-	dev-python/strict-rfc3339[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+	dev-python/six[${PYTHON_USEDEP}]
+	dev-python/strict-rfc3339[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

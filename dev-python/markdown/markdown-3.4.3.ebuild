@@ -17,9 +17,9 @@ DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/markdown-compat )
 	$(python_gen_cond_dep '
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' pypy3 -3
-	)"
+	' -3 pypy3
+	)
+	dev-python/importlib_metadata[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"

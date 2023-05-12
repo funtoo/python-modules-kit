@@ -12,8 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/6f/ac/78a739bb37cf0f70db9cf1152
 
 DEPEND="${RDEPEND}"
 RDEPEND="
-	>=dev-vcs/mercurial-4.3[${PYTHON_USEDEP}]
-	>=dev-python/dulwich-0.19.0[${PYTHON_USEDEP}]"
+	>=dev-python/dulwich-0.19.0[${PYTHON_USEDEP}]
+	>=dev-vcs/mercurial-4.3[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

@@ -12,12 +12,12 @@ SRC_URI="https://files.pythonhosted.org/packages/51/b6/92dcd91a6b9c6581edf14357f
 
 DEPEND=""
 RDEPEND="
-	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/atomicwrites[${PYTHON_USEDEP}]
 	dev-python/click-log[${PYTHON_USEDEP}]
 	dev-python/click-threading[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/click[${PYTHON_USEDEP}]
 	dev-python/requests-toolbelt[${PYTHON_USEDEP}]
-	dev-python/atomicwrites[${PYTHON_USEDEP}]"
+	dev-python/requests[${PYTHON_USEDEP}]"
 
 IUSE=""
 SLOT="0"

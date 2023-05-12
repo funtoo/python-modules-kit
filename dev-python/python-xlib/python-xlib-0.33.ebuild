@@ -12,8 +12,8 @@ SRC_URI="https://github.com/python-xlib/python-xlib/tarball/4e8bbf8fc4941e5da301
 
 DEPEND="
 	doc? ( sys-apps/texinfo )
-	dev-python/setuptools_scm[${PYTHON_USEDEP}]
-	dev-python/packaging[${PYTHON_USEDEP}]"
+	dev-python/packaging[${PYTHON_USEDEP}]
+	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
 	dev-python/six[${PYTHON_USEDEP}]
 	test? ( dev-python/mock[${PYTHON_USEDEP}] )"

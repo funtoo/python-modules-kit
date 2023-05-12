@@ -289,21 +289,21 @@ $(cargo_crate_uris ${CRATES})
 "
 
 DEPEND="
-	dev-python/s[${PYTHON_USEDEP}]
-	dev-python/e[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]
-	dev-python/u[${PYTHON_USEDEP}]
-	dev-python/p[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]
-	dev-python/o[${PYTHON_USEDEP}]
-	dev-python/o[${PYTHON_USEDEP}]
-	dev-python/l[${PYTHON_USEDEP}]
-	dev-python/s[${PYTHON_USEDEP}]
 	dev-python/-[${PYTHON_USEDEP}]
+	dev-python/e[${PYTHON_USEDEP}]
+	dev-python/l[${PYTHON_USEDEP}]
+	dev-python/o[${PYTHON_USEDEP}]
+	dev-python/o[${PYTHON_USEDEP}]
+	dev-python/p[${PYTHON_USEDEP}]
 	dev-python/r[${PYTHON_USEDEP}]
-	dev-python/u[${PYTHON_USEDEP}]
 	dev-python/s[${PYTHON_USEDEP}]
-	dev-python/t[${PYTHON_USEDEP}]"
+	dev-python/s[${PYTHON_USEDEP}]
+	dev-python/s[${PYTHON_USEDEP}]
+	dev-python/t[${PYTHON_USEDEP}]
+	dev-python/t[${PYTHON_USEDEP}]
+	dev-python/t[${PYTHON_USEDEP}]
+	dev-python/u[${PYTHON_USEDEP}]
+	dev-python/u[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/tomli[${PYTHON_USEDEP}]"
 
 IUSE=""

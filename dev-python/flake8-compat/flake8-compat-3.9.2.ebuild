@@ -13,8 +13,8 @@ SRC_URI="https://files.pythonhosted.org/packages/9e/47/15b267dfe7e03dca4c4c06e7e
 
 DEPEND=""
 RDEPEND="!<dev-python/flake8-4 
-	dev-python/pyflakes[${PYTHON_USEDEP}]
-	dev-python/pycodestyle[${PYTHON_USEDEP}]"
+	dev-python/pycodestyle[${PYTHON_USEDEP}]
+	dev-python/pyflakes[${PYTHON_USEDEP}]"
 PDEPEND="dev-python/mccabe[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
