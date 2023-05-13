@@ -13,11 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/02/44/13330b2e617cf0da9036dba69
 DEPEND=""
 RDEPEND="!<dev-python/arrow-1.1.1-r1 
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}]
-	dev-python/pathlib[${PYTHON_USEDEP}]
-	' -2
-	)"
+	$(python_gen_cond_dep 'dev-python/backports-functools-lru-cache[${PYTHON_USEDEP}] dev-python/pathlib[${PYTHON_USEDEP}]' -2)"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

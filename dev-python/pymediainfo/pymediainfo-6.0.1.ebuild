@@ -13,10 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/72/dc/549fc39fbeb6907dc2ef2fa96
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
 	media-libs/libmediainfo
-	$(python_gen_cond_dep '
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' -3
-	)"
+	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' -3)"
 
 IUSE=""
 SLOT="0"

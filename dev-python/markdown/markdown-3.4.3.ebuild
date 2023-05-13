@@ -16,10 +16,7 @@ SRC_URI="https://files.pythonhosted.org/packages/9d/80/cc67bfb7deb973d5ae662ee64
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/markdown-compat )
-	$(python_gen_cond_dep '
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' -3 pypy3
-	)"
+	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' -3 pypy3)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"

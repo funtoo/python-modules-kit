@@ -20,10 +20,7 @@ RDEPEND="
 	<dev-python/pluggy-2[${PYTHON_USEDEP}]
 	>=dev-python/py-1.8.2[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/importlib_metadata[${PYTHON_USEDEP}]
-	' python3_6 python3_7 -2 pypy3
-	)"
+	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' -2 pypy3 python3_6 python3_7)"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"

@@ -15,12 +15,7 @@ RDEPEND="!<=dev-python/importlib_metadata-3.4.0-r1
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/zipp[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	>=dev-python/configparser-3.5[${PYTHON_USEDEP}]
-	dev-python/contextlib2[${PYTHON_USEDEP}]
-	dev-python/pathlib2[${PYTHON_USEDEP}]
-	' -2
-	)"
+	$(python_gen_cond_dep '>=dev-python/configparser-3.5[${PYTHON_USEDEP}] dev-python/contextlib2[${PYTHON_USEDEP}] dev-python/pathlib2[${PYTHON_USEDEP}]' -2)"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
