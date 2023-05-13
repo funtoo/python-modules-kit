@@ -13,10 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/e9/3e/d513b437d2e24d7c27bb435e1
 DEPEND="
 	x11-libs/libxcb"
 RDEPEND="
-	$(python_gen_cond_dep '
-	>=dev-python/cffi-1.1:=[${PYTHON_USEDEP}]
-	' 'python*'
-	)
+	$(python_gen_cond_dep '>=dev-python/cffi-1.1:=[${PYTHON_USEDEP}]' 'python*')
 	dev-python/six[${PYTHON_USEDEP}]"
 
 IUSE=""

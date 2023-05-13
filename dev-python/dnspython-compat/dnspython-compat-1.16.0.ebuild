@@ -12,11 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ec/c5/14bcd63cb6d06092a00479339
 
 DEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/ecdsa[${PYTHON_USEDEP}]
-	' -2
-	)"
+	$(python_gen_cond_dep 'dev-python/ecdsa[${PYTHON_USEDEP}] dev-python/pycryptodome[${PYTHON_USEDEP}]' -2)"
 RDEPEND="!<=dev-python/dnspython-2.2.1 
 	${DEPEND}"
 IUSE=""

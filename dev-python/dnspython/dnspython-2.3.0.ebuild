@@ -12,10 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/91/8b/522301c50ca1f78b09c2ca116
 
 DEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	' -3
-	)"
+	$(python_gen_cond_dep 'dev-python/cryptography[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/dnspython-compat )
 	${DEPEND}"

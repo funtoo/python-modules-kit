@@ -13,10 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/80/c5/82c63bad570f4ef745cc5c2f0
 DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep '
-	dev-python/m2r[${PYTHON_USEDEP}]
-	' -2
-	)"
+	$(python_gen_cond_dep 'dev-python/m2r[${PYTHON_USEDEP}]' -2)"
 RDEPEND="!<=dev-python/automat-22.10.0 
 	${DEPEND}"
 IUSE=""

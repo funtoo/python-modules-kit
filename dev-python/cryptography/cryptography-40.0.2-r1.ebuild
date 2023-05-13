@@ -100,11 +100,7 @@ $(cargo_crate_uris ${CRATES})
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
 	!libressl? ( dev-libs/openssl:0= )
-	$(python_gen_cond_dep '
-	>=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]
-	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
-	' -3
-	)"
+	$(python_gen_cond_dep '>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}] >=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/cryptography-compat )
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]

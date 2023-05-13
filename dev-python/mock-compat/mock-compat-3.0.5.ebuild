@@ -12,10 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/2e/ab/4fe657d78b270aa6a32f02784
 
 DEPEND=""
 RDEPEND="!<dev-python/mock-3.0.5 
-	$(python_gen_cond_dep '
-	dev-python/funcsigs[${PYTHON_USEDEP}]
-	' -2
-	)
+	$(python_gen_cond_dep 'dev-python/funcsigs[${PYTHON_USEDEP}]' -2)
 	>=dev-python/six-1.9[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
