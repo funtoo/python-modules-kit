@@ -26,7 +26,7 @@ cargo-config2-0.1.7
 cargo-options-0.6.0
 cargo-platform-0.1.2
 cargo-xwin-0.14.2
-cargo-zigbuild-0.16.7
+cargo-zigbuild-0.16.8
 cargo_metadata-0.15.4
 cbindgen-0.24.3
 cc-1.0.79
@@ -50,7 +50,7 @@ console-0.15.5
 content_inspector-0.2.4
 core-foundation-0.9.3
 core-foundation-sys-0.8.4
-cpufeatures-0.2.6
+cpufeatures-0.2.7
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
 crossbeam-deque-0.8.3
@@ -104,7 +104,7 @@ js-sys-0.3.61
 keyring-2.0.2
 lazy_static-1.4.0
 lddtree-0.3.2
-libc-0.2.142
+libc-0.2.144
 linux-keyutils-0.2.3
 linux-raw-sys-0.1.4
 lock_api-0.4.9
@@ -116,7 +116,7 @@ memchr-2.5.0
 memoffset-0.8.0
 mime-0.3.17
 mime_guess-2.0.4
-minijinja-0.31.1
+minijinja-0.32.1
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 msi-0.5.1
@@ -129,11 +129,11 @@ nu-ansi-term-0.46.0
 num_cpus-1.15.0
 number_prefix-0.4.0
 once_cell-1.17.1
-openssl-0.10.50
+openssl-0.10.52
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.25.2+1.1.1t
-openssl-sys-0.9.85
+openssl-sys-0.9.87
 os_pipe-1.1.2
 os_str_bytes-6.5.0
 output_vt100-0.1.3
@@ -145,7 +145,7 @@ pep440_rs-0.3.6
 pep508_rs-0.1.5
 percent-encoding-2.2.0
 pin-project-lite-0.2.9
-pkg-config-0.3.26
+pkg-config-0.3.27
 plain-0.2.3
 platform-info-1.0.2
 portable-atomic-0.3.19
@@ -153,7 +153,7 @@ ppv-lite86-0.2.17
 pretty_assertions-1.3.0
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.56
+proc-macro2-1.0.57
 psm-0.1.21
 pyproject-toml-0.6.0
 python-pkginfo-0.5.5
@@ -183,8 +183,8 @@ scopeguard-1.1.0
 scroll-0.11.0
 scroll_derive-0.11.0
 sct-0.7.0
-security-framework-2.8.2
-security-framework-sys-2.8.0
+security-framework-2.9.0
+security-framework-sys-2.9.0
 semver-1.0.17
 serde-1.0.155
 serde_derive-1.0.155
@@ -226,7 +226,7 @@ toml_datetime-0.6.1
 toml_edit-0.19.8
 tracing-0.1.37
 tracing-attributes-0.1.23
-tracing-core-0.1.30
+tracing-core-0.1.31
 tracing-log-0.1.3
 tracing-serde-0.1.3
 tracing-subscriber-0.3.17
@@ -242,7 +242,7 @@ unicode-width-0.1.10
 untrusted-0.7.1
 ureq-2.6.2
 url-2.3.1
-uuid-1.3.1
+uuid-1.3.3
 valuable-0.1.0
 vcpkg-0.2.15
 version_check-0.9.4
@@ -277,14 +277,14 @@ xattr-0.2.3
 xwin-0.2.12
 yansi-0.5.1
 zeroize-1.6.0
-zip-0.6.4
+zip-0.6.6
 "
 
 inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/5a/c4/f28b774ddd7367699a134d6bf7fd4287794042802e85323cf26373e7215d/maturin-0.15.1.tar.gz -> maturin-0.15.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ea/d3/ba13b321a25e52198eba2cbb616cf60f5989bd61138c267828e79209d493/maturin-0.15.2.tar.gz -> maturin-0.15.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -310,4 +310,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.15.1"
+S="${WORKDIR}/maturin-0.15.2"
