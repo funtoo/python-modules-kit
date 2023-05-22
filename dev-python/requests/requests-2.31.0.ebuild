@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
 HOMEPAGE="https://requests.readthedocs.io/en/master/"
-SRC_URI="https://files.pythonhosted.org/packages/e0/69/122171604bcef06825fa1c05bd9e9b1d43bc9feb8c6c0717c42c92cc6f3c/requests-2.30.0.tar.gz -> requests-2.30.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz -> requests-2.31.0.tar.gz
 "
 
 DEPEND=""
@@ -24,7 +24,7 @@ IUSE="socks5 +ssl python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/requests-2.30.0"
+S="${WORKDIR}/requests-2.31.0"
 
 # FL-7939, FL-10662: relax deps for idna, charset_normalizer: requests sets "cautionary upper masks" which can break:
 src_prepare() {

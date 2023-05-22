@@ -14,7 +14,7 @@ base64-0.21.0
 bitflags-1.3.2
 block-buffer-0.10.4
 bstr-1.4.0
-bumpalo-3.12.1
+bumpalo-3.12.2
 byteorder-1.4.3
 bytes-1.4.0
 bytesize-1.2.0
@@ -26,7 +26,7 @@ cargo-config2-0.1.7
 cargo-options-0.6.0
 cargo-platform-0.1.2
 cargo-xwin-0.14.2
-cargo-zigbuild-0.16.8
+cargo-zigbuild-0.16.9
 cargo_metadata-0.15.4
 cbindgen-0.24.3
 cc-1.0.79
@@ -35,13 +35,14 @@ cfg-expr-0.15.1
 cfg-if-1.0.0
 charset-0.1.3
 chumsky-0.9.2
-clap-4.1.10
-clap_complete-4.1.6
+clap-4.1.14
+clap_builder-4.1.14
+clap_complete-4.2.3
 clap_complete_command-0.5.1
-clap_complete_fig-4.1.2
+clap_complete_fig-4.2.0
 clap_complete_nushell-0.1.10
-clap_derive-4.1.9
-clap_lex-0.3.3
+clap_derive-4.1.14
+clap_lex-0.4.1
 cli-table-0.4.7
 concolor-0.0.11
 concolor-query-0.1.0
@@ -100,7 +101,7 @@ io-lifetimes-1.0.4
 is-terminal-0.4.2
 itertools-0.10.5
 itoa-1.0.6
-js-sys-0.3.61
+js-sys-0.3.63
 keyring-2.0.2
 lazy_static-1.4.0
 lddtree-0.3.2
@@ -130,12 +131,11 @@ num_cpus-1.15.0
 number_prefix-0.4.0
 once_cell-1.17.1
 openssl-0.10.52
-openssl-macros-0.1.0
+openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-111.25.2+1.1.1t
 openssl-sys-0.9.87
 os_pipe-1.1.2
-os_str_bytes-6.5.0
 output_vt100-0.1.3
 overload-0.1.1
 parking_lot-0.12.1
@@ -151,13 +151,11 @@ platform-info-1.0.2
 portable-atomic-0.3.19
 ppv-lite86-0.2.17
 pretty_assertions-1.3.0
-proc-macro-error-1.0.4
-proc-macro-error-attr-1.0.4
-proc-macro2-1.0.57
+proc-macro2-1.0.58
 psm-0.1.21
 pyproject-toml-0.6.0
 python-pkginfo-0.5.5
-quote-1.0.26
+quote-1.0.27
 quoted_printable-0.4.8
 rand-0.8.5
 rand_chacha-0.3.1
@@ -186,9 +184,9 @@ sct-0.7.0
 security-framework-2.9.0
 security-framework-sys-2.9.0
 semver-1.0.17
-serde-1.0.155
-serde_derive-1.0.155
-serde_json-1.0.95
+serde-1.0.163
+serde_derive-1.0.163
+serde_json-1.0.96
 serde_spanned-0.6.1
 sha2-0.10.6
 sharded-slab-0.1.4
@@ -206,14 +204,15 @@ stacker-0.1.15
 static_assertions-1.1.0
 strsim-0.10.0
 syn-1.0.109
+syn-2.0.16
 tar-0.4.38
 target-lexicon-0.12.7
 tempfile-3.4.0
 termcolor-1.2.0
 terminal_size-0.2.3
 textwrap-0.16.0
-thiserror-1.0.39
-thiserror-impl-1.0.39
+thiserror-1.0.40
+thiserror-impl-1.0.40
 thread_local-1.1.7
 time-0.3.20
 time-core-0.1.0
@@ -225,7 +224,7 @@ toml-0.7.3
 toml_datetime-0.6.1
 toml_edit-0.19.8
 tracing-0.1.37
-tracing-attributes-0.1.23
+tracing-attributes-0.1.24
 tracing-core-0.1.31
 tracing-log-0.1.3
 tracing-serde-0.1.3
@@ -250,12 +249,12 @@ versions-4.1.0
 wait-timeout-0.2.0
 walkdir-2.3.3
 wasi-0.11.0+wasi-snapshot-preview1
-wasm-bindgen-0.2.84
-wasm-bindgen-backend-0.2.84
-wasm-bindgen-macro-0.2.84
-wasm-bindgen-macro-support-0.2.84
-wasm-bindgen-shared-0.2.84
-web-sys-0.3.61
+wasm-bindgen-0.2.86
+wasm-bindgen-backend-0.2.86
+wasm-bindgen-macro-0.2.86
+wasm-bindgen-macro-support-0.2.86
+wasm-bindgen-shared-0.2.86
+web-sys-0.3.63
 webpki-0.22.0
 webpki-roots-0.22.6
 which-4.4.0
@@ -284,7 +283,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/ea/d3/ba13b321a25e52198eba2cbb616cf60f5989bd61138c267828e79209d493/maturin-0.15.2.tar.gz -> maturin-0.15.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/75/14/af7d0dbad5619dee1c3aa53a58e8b90ab423bde9f74143824ab6722d91c1/maturin-0.15.3.tar.gz -> maturin-0.15.3.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -310,4 +309,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.15.2"
+S="${WORKDIR}/maturin-0.15.3"
