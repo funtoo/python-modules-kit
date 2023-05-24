@@ -11,6 +11,6 @@ RDEPEND=>=dev-python/six-1.11.0[python_targets_python3_10(-)?,python_targets_pyp
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_pypy3 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 python_targets_python2_7 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/8c/e7/8e6387d59a352c5799e917a23e7b76771a8bb97322c1ce7e42934d0066c3/cheroot-9.0.0.tar.gz -> cheroot-9.0.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/08/7c/95c154177b16077de0fec1b821b0d8b3df2b59c5c7b3575a9c1bf52a437e/cheroot-10.0.0.tar.gz -> cheroot-10.0.0.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=1dc075e310c4b668dc1c9db0f869e847
+_md5_=c4ed16490e49d98b99f67cdf4b9903f7

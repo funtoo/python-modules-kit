@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Cheroot is the high-performance, pure-Python HTTP server used by CherryPy."
 HOMEPAGE="https://cherrypy.org/ https://pypi.org/project/Cheroot/ https://github.com/cherrypy/cheroot"
-SRC_URI="https://files.pythonhosted.org/packages/8c/e7/8e6387d59a352c5799e917a23e7b76771a8bb97322c1ce7e42934d0066c3/cheroot-9.0.0.tar.gz -> cheroot-9.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/08/7c/95c154177b16077de0fec1b821b0d8b3df2b59c5c7b3575a9c1bf52a437e/cheroot-10.0.0.tar.gz -> cheroot-10.0.0.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
