@@ -283,7 +283,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/75/14/af7d0dbad5619dee1c3aa53a58e8b90ab423bde9f74143824ab6722d91c1/maturin-0.15.3.tar.gz -> maturin-0.15.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/1c/de/5f56b77179595ba52786eedb081fc6b0f1d0a4496bc77660e8feabd607ec/maturin-1.0.0.tar.gz -> maturin-1.0.0.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -309,4 +309,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-0.15.3"
+S="${WORKDIR}/maturin-1.0.0"
