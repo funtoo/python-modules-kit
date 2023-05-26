@@ -8,7 +8,7 @@ inherit distutils-r1 flag-o-matic toolchain-funcs
 DESCRIPTION="Lightweight and super-fast messaging library built on top of the ZeroMQ library"
 HOMEPAGE="http://www.zeromq.org/bindings:python https://pypi.org/project/pyzmq/
 "
-SRC_URI="https://files.pythonhosted.org/packages/bf/7f/24a55c3393d54570f26fa8845e8e42e813bf1b7fb668ed5d3de76b71dbe9/pyzmq-25.0.2.tar.gz -> pyzmq-25.0.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/64/9c/2b2614b0b86ff703b3a33ea5e044923bd7d100adc8c829d579a9b71ea9e7/pyzmq-25.1.0.tar.gz -> pyzmq-25.1.0.tar.gz
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -21,7 +21,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="LGPL-3"
 KEYWORDS="*"
-S="${WORKDIR}/pyzmq-25.0.2"
+S="${WORKDIR}/pyzmq-25.1.0"
 
 python_configure_all() {
 	tc-export CC
