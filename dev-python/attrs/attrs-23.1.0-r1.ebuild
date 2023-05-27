@@ -14,8 +14,6 @@ SRC_URI="https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b
 DEPEND="
 	dev-python/hatch-vcs[${PYTHON_USEDEP}]
 	dev-python/hatch-fancy-pypi-readme[${PYTHON_USEDEP}]"
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

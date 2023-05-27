@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	dev-python/deprecation[${PYTHON_USEDEP}]
 	dev-python/filetype[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="GPL-3"

@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/d3/d8/6acbb65e350213ad6bd961805
 DEPEND=""
 RDEPEND="
 	>=app-arch/brotli-1.0.9"
-
 IUSE=""
 RESTRICT="test"
 SLOT="0"

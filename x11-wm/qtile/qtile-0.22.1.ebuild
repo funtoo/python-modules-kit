@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/xcffib-0.8.1[${PYTHON_USEDEP}]
 	dev-python/dbus-next[${PYTHON_USEDEP}]"
-
 IUSE=""
 RESTRICT="test"
 SLOT="0"

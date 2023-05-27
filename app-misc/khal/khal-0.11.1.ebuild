@@ -27,7 +27,6 @@ RDEPEND="
 	dev-python/tzlocal[${PYTHON_USEDEP}]
 	dev-python/urwid[${PYTHON_USEDEP}]
 	dev-python/vdirsyncer[${PYTHON_USEDEP}]"
-
 IUSE="zsh-completion"
 SLOT="0"
 LICENSE="MIT"

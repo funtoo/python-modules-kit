@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/7c/31/54dd2c63f4b8253d776d03e3a
 
 DEPEND="dev-python/fonttools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

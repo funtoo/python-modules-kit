@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	net-vpn/tor
 	net-libs/stem[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="GPL-3"

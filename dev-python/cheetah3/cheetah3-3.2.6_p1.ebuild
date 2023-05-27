@@ -15,7 +15,6 @@ DEPEND=""
 RDEPEND="
 	!dev-python/cheetah
 	dev-python/markdown[${PYTHON_USEDEP}]"
-
 IUSE=""
 RESTRICT="test"
 SLOT="0"

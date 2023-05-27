@@ -12,8 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/58/df/be2dbd7ed2262791536278295
 "
 
 DEPEND=""
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

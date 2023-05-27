@@ -17,7 +17,6 @@ RDEPEND="
 	dev-python/typed-ast[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
 	test? ( dev-python/nose[${PYTHON_USEDEP}] dev-python/numpy[${PYTHON_USEDEP}] dev-python/pytest[${PYTHON_USEDEP}] dev-python/python-dateutil[${PYTHON_USEDEP}] )"
-
 IUSE="test"
 SLOT="0"
 LICENSE="LGPL-2.1"

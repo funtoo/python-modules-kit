@@ -17,7 +17,6 @@ RDEPEND="
 	virtual/python-typing[$PYTHON_USEDEP]"
 BDEPEND="
 	>=dev-lang/swig-2.0.9"
-
 IUSE="libressl"
 SLOT="0"
 LICENSE="MIT"
