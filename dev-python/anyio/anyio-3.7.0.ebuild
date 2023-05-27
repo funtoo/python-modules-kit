@@ -23,9 +23,3 @@ SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/anyio-3.7.0"
-
-src_prepare() {
-	default
-	# See FL-9522
-	( cat ${FILESDIR}/anyio-3.6.1-get_asynclib-thread-fix.patch | patch -p1 ) || die
-}
