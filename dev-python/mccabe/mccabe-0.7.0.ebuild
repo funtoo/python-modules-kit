@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/e7/ff/0ffefdcac38932a54d2b5eed4
 
 DEPEND=""
 RDEPEND="dev-python/flake8[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

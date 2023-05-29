@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/cb/87/17d4c6d634c044ab08b11c0cd
 
 DEPEND=""
 RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

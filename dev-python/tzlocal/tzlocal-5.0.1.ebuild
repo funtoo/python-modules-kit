@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/ee/f5/3e644f08771b242f7460438cd
 
 DEPEND=""
 RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

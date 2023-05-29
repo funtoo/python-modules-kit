@@ -16,7 +16,6 @@ DEPEND="
 RDEPEND="
 	sys-libs/timezone-data
 	dev-python/setuptools[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

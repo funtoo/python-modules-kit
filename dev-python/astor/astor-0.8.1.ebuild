@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/5a/21/75b771132fee241dfe601d39a
 
 DEPEND=""
 RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

@@ -18,7 +18,6 @@ RDEPEND="
 	dev-python/fonttools[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/pyclipper[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 OFL-1.1"

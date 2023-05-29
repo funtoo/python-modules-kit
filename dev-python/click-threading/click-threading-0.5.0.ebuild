@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/df/ea/0b20b8e09a6ba1df6defc2947
 
 DEPEND=""
 RDEPEND="dev-python/click[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

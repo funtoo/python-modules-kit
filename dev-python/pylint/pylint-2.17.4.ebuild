@@ -17,7 +17,6 @@ RDEPEND="
 	dev-python/mccabe[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
-
 IUSE="doc test"
 SLOT="0"
 LICENSE="GPL-2"

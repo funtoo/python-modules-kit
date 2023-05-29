@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/8a/bf/64959d6187d42472acb846bcf
 
 DEPEND=""
 RDEPEND="dev-python/smartypants[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

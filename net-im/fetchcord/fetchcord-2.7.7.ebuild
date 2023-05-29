@@ -17,7 +17,6 @@ DEPEND="
 RDEPEND="
 	dev-python/psutil[${PYTHON_USEDEP}]
 	dev-python/pypresence[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

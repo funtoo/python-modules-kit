@@ -18,7 +18,6 @@ RDEPEND="
 	dev-python/lxml[${PYTHON_USEDEP}]"
 BDEPEND="
 	app-arch/unzip"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

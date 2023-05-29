@@ -11,8 +11,6 @@ SRC_URI="https://files.pythonhosted.org/packages/c1/b2/ad3cd464101435fdf642d20e0
 "
 
 DEPEND=""
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

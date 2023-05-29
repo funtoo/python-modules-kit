@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/97/bb/a9c8a28f6c33e6b121ebd6ef9
 
 DEPEND=""
 RDEPEND="dev-python/psutil[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

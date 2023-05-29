@@ -28,7 +28,6 @@ RDEPEND="
 	ini? ( >=dev-python/iniparse-0.5[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )
 	subtitles? ( media-video/gaupol[${PYTHON_USEDEP}] )"
-
 IUSE="+html +ical +ini +subtitles +yaml"
 RESTRICT="test"
 SLOT="0"

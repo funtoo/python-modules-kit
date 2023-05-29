@@ -11,8 +11,6 @@ SRC_URI="https://files.pythonhosted.org/packages/94/3f/e3010f4a11c08a5690540f7eb
 "
 
 DEPEND=""
-RDEPEND=""
-
 IUSE="examples"
 SLOT="0"
 LICENSE="LGPL-2.1"

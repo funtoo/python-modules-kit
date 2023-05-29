@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/2f/7c/20b9289a88e35c2015541ab86
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/fs[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

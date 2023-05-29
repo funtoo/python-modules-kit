@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/20/c0/8bab72a73607d186edad50d01
 
 DEPEND=""
 RDEPEND="test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
-
 IUSE="test"
 SLOT="0"
 LICENSE="BSD"
