@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Poetry PEP 517 Build Backend"
 HOMEPAGE="https://github.com/python-poetry/poetry-core https://pypi.org/project/poetry-core/"
-SRC_URI="https://files.pythonhosted.org/packages/b8/7d/8654777b23919a77ff34f0ef5ba048102fb0d87e23515ccd715e53ac726d/poetry_core-1.6.0.tar.gz -> poetry_core-1.6.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/20/e8/e0a80cc355bc207fb1760160344e978f39d683c35e1230f71b8916bf3a50/poetry_core-1.6.1.tar.gz -> poetry_core-1.6.1.tar.gz
 "
 
 DEPEND=""
@@ -26,7 +26,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/poetry-core-1.6.0"
+S="${WORKDIR}/poetry-core-1.6.1"
 
 post_src_unpack() {
 	mv poetry_core*  "${S}" || die
