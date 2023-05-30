@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/toml[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="SIP"

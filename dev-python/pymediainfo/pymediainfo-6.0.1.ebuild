@@ -14,7 +14,6 @@ DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
 	media-libs/libmediainfo
 	$(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' -3)"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

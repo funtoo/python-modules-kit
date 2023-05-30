@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-python/rfc3986-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/tqdm-4.14[${PYTHON_USEDEP}]
 	>=dev-python/packaging-20[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

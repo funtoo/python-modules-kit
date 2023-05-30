@@ -21,7 +21,6 @@ RDEPEND="
 	${DEPEND}
 	dev-python/editables[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

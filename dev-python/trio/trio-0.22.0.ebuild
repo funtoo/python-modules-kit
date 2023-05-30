@@ -18,7 +18,6 @@ RDEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]
 	dev-python/outcome[${PYTHON_USEDEP}]
 	dev-python/sniffio[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"

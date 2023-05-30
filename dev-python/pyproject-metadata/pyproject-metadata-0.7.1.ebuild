@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/38/af/b0e6a9eba989870fd26e10889
 
 DEPEND=""
 RDEPEND="dev-python/packaging[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

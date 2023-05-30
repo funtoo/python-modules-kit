@@ -17,7 +17,6 @@ RDEPEND="
 	dev-python/meson[${PYTHON_USEDEP}]
 	dev-python/pyproject-metadata[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE=""

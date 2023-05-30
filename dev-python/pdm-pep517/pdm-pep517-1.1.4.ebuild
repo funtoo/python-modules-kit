@@ -19,7 +19,6 @@ RDEPEND="
 	dev-python/tomli[${PYTHON_USEDEP}]
 	dev-python/tomli-w[${PYTHON_USEDEP}]
 	dev-python/setuptools[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE=""
