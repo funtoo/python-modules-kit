@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/04/33/b68d68e532392d938472d16a0
 
 DEPEND=""
 RDEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE=""

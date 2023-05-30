@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/4d/19/e11fcc88288f68ae48e3aa9cf
 
 DEPEND="dev-python/flit_core[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

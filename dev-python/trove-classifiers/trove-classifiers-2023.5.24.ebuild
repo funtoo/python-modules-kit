@@ -11,8 +11,6 @@ SRC_URI="https://files.pythonhosted.org/packages/4a/ed/789b86a020378341936d0edc5
 "
 
 DEPEND="dev-python/calver[${PYTHON_USEDEP}]"
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

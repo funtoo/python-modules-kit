@@ -18,7 +18,6 @@ RDEPEND="
 	dev-python/sniffio[${PYTHON_USEDEP}]
 	dev-python/idna[${PYTHON_USEDEP}]
 	dev-python/h2[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

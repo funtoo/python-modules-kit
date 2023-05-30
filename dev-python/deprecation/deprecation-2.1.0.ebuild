@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/5a/d3/8ae2869247df154b64c1884d7
 
 DEPEND=""
 RDEPEND="dev-python/packaging[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

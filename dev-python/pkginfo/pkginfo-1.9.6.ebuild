@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/b4/1c/89b38e431c20d6b2389ed8b39
 
 DEPEND=""
 RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

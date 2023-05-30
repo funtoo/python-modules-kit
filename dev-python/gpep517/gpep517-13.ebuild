@@ -15,7 +15,6 @@ DEPEND=""
 RDEPEND="
 	dev-python/installer[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

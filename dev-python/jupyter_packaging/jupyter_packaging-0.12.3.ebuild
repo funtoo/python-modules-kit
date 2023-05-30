@@ -18,7 +18,6 @@ RDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]
 	dev-python/wheel[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6
 
 DEPEND=""
 RDEPEND="dev-python/frozenlist[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

@@ -12,8 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/31/06/1ef763af20d0572c032fa2288
 "
 
 DEPEND=""
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

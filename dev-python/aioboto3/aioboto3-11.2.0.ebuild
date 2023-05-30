@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	dev-python/aiobotocore[${PYTHON_USEDEP}]
 	dev-python/pytest-runner[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

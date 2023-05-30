@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/4a/e6/888e1d726f0846c84e14a0f2f
 
 DEPEND=""
 RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

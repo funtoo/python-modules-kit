@@ -21,7 +21,6 @@ RDEPEND="
 	dev-python/pyrsistent[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/tomlkit[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

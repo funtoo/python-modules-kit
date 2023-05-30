@@ -12,8 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/b1/a9/db4538e727eb0d627a345ab99
 
 DEPEND="
 	=dev-libs/protobuf-3*"
-RDEPEND=""
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

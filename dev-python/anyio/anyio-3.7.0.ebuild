@@ -17,7 +17,6 @@ RDEPEND="
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	>=dev-python/curio-1.4[${PYTHON_USEDEP}]
 	>=dev-python/trio-0.16[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

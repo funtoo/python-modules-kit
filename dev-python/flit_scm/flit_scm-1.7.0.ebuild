@@ -16,7 +16,6 @@ RDEPEND="
 	dev-python/flit_core[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]
 	dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

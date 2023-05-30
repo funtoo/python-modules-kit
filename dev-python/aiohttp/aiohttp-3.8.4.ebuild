@@ -24,7 +24,6 @@ RDEPEND="
 	dev-python/aiodns[${PYTHON_USEDEP}]
 	dev-python/charset_normalizer[${PYTHON_USEDEP}]
 	dev-python/frozenlist[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

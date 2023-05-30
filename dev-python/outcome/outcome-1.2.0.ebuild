@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/dd/91/741e1626e89fdc3664169e163
 
 DEPEND=""
 RDEPEND=">=dev-python/attrs-19.2.0[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"

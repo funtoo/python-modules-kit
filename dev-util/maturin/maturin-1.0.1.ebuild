@@ -319,7 +319,6 @@ DEPEND="
 	dev-python/s[${PYTHON_USEDEP}]
 	dev-python/t[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/tomli[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE=""

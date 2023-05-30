@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	sys-fs/fuse:3
 	dev-python/trio[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE=""

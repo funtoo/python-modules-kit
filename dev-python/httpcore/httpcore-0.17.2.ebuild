@@ -17,7 +17,6 @@ RDEPEND="
 	dev-python/anyio[${PYTHON_USEDEP}]
 	dev-python/certifi[${PYTHON_USEDEP}]
 	dev-python/h2[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="BSD"

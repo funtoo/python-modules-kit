@@ -14,7 +14,6 @@ DEPEND=""
 RDEPEND="
 	dev-python/hpack[${PYTHON_USEDEP}]
 	dev-python/hyperframe[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

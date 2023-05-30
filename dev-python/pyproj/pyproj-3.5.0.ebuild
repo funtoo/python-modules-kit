@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/9c/f5/cd9371194d3c939dffddff9e1
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
 RDEPEND="
 	>=sci-libs/proj-6.2.0:="
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

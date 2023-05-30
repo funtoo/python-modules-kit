@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/0a/ed/3f2a51de7a9d1bfa37308e938
 DEPEND=""
 RDEPEND="
 	media-libs/libgphoto2"
-
 IUSE=""
 SLOT="0"
 LICENSE=""

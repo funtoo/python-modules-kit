@@ -12,7 +12,6 @@ SRC_URI="https://files.pythonhosted.org/packages/16/4f/48975536bd488d3a272549eb7
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/backports[${PYTHON_USEDEP}]"
-
 IUSE=""
 SLOT="0"
 LICENSE="MIT"

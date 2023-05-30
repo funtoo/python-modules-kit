@@ -13,7 +13,6 @@ SRC_URI="https://files.pythonhosted.org/packages/03/1b/800fce0236be0b8a99b3ccbb7
 DEPEND=""
 RDEPEND="
 	dev-libs/icu:="
-
 IUSE=""
 SLOT="0"
 LICENSE=""
