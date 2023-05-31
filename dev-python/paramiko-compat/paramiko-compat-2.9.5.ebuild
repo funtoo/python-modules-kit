@@ -11,7 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/00/bd/1a2c7ed920af44d4c07a58d6c
 "
 
 DEPEND=""
-RDEPEND="!<=dev-python/maramiko-3.2.0 
+RDEPEND="!<=dev-python/paramiko-3.2.0 
 	>=dev-python/bcrypt-3.1.3[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-2.5[${PYTHON_USEDEP}]
 	>=dev-python/pynacl-1.0.1[${PYTHON_USEDEP}]
