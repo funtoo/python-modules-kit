@@ -13,8 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/59/4b/2c992ec4feb904471125702ed
 DEPEND=""
 RDEPEND="!<www-servers/tornado-6.1 
 	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pycares[${PYTHON_USEDEP}]"
+	dev-python/twisted[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"

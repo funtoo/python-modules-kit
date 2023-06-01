@@ -14,8 +14,7 @@ DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( www-servers/tornado-compat )
 	dev-python/pycurl[${PYTHON_USEDEP}]
-	dev-python/twisted[${PYTHON_USEDEP}]
-	dev-python/pycares[${PYTHON_USEDEP}]"
+	dev-python/twisted[${PYTHON_USEDEP}]"
 IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
