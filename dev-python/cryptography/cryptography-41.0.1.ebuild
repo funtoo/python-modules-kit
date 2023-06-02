@@ -71,6 +71,12 @@ $(cargo_crate_uris ${CRATES})
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
 	!libressl? ( dev-libs/openssl:0= )
+	!x86? ( >=virtual/rust-1.37.0 )
+	x86? (
+		cpu_flags_x86_sse2? (
+			>=virtual/rust-1.37.0
+		)
+	)
 	$(python_gen_cond_dep '>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}] >=dev-python/setuptools-rust-0.12.1[${PYTHON_USEDEP}]' -3)"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/cryptography-compat )
@@ -79,13 +85,6 @@ RDEPEND="
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
-BDEPEND="
-	!x86? ( >=virtual/rust-1.37.0 )
-	x86? (
-		cpu_flags_x86_sse2? (
-			>=virtual/rust-1.37.0
-		)
-	)"
 IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"

@@ -13,20 +13,19 @@ SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
-	!libressl? ( dev-libs/openssl:0= )"
-RDEPEND="!<dev-python/cryptography-3.4.2 
-	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
-	virtual/python-enum34[${PYTHON_USEDEP}]
-	virtual/python-ipaddress[${PYTHON_USEDEP}]
-	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
-	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
-BDEPEND="
+	!libressl? ( dev-libs/openssl:0= )
 	!x86? ( >=virtual/rust-1.37.0 )
 	x86? (
 		cpu_flags_x86_sse2? (
 			>=virtual/rust-1.37.0
 		)
 	)"
+RDEPEND="!<dev-python/cryptography-3.4.2 
+	>=dev-python/six-1.4.1[${PYTHON_USEDEP}]
+	virtual/python-enum34[${PYTHON_USEDEP}]
+	virtual/python-ipaddress[${PYTHON_USEDEP}]
+	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
+	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
 IUSE="cpu_flags_x86_sse2 libressl idna"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
