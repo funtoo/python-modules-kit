@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Implements a XML/HTML/XHTML Markup safe string for Python"
 HOMEPAGE="https://pypi.org/project/MarkupSafe"
-SRC_URI="https://files.pythonhosted.org/packages/95/7e/68018b70268fb4a2a605e2be44ab7b4dd7ce7808adae6c5ef32e34f4b55a/MarkupSafe-2.1.2.tar.gz -> MarkupSafe-2.1.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/6d/7c/59a3248f411813f8ccba92a55feaac4bf360d29e2ff05ee7d8e1ef2d7dbf/MarkupSafe-2.1.3.tar.gz -> MarkupSafe-2.1.3.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/MarkupSafe-2.1.2"
+S="${WORKDIR}/MarkupSafe-2.1.3"
