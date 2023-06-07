@@ -11,7 +11,7 @@ MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="Collection of various utilities for WSGI applications"
 HOMEPAGE="http://werkzeug.pocoo.org/ https://pypi.org/project/Werkzeug/ https://github.com/pallets/werkzeug"
-SRC_URI="https://files.pythonhosted.org/packages/2d/bf/5a00bb4a70028f7c6000bc9394492154fa9ae3f5226187e3ddcd0aa5eca1/Werkzeug-2.3.4.tar.gz -> Werkzeug-2.3.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/42/bc/eab59b4c4ad1a3d70424fb8b3970be753577a3b5f8e3142d0c744885091d/Werkzeug-2.3.5.tar.gz -> Werkzeug-2.3.5.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
