@@ -28,10 +28,10 @@ cargo-platform-0.1.2
 cargo-xwin-0.14.3
 cargo-zigbuild-0.16.10
 cargo_metadata-0.15.4
-cbindgen-0.24.3
+cbindgen-0.24.5
 cc-1.0.79
 cfb-0.7.3
-cfg-expr-0.15.1
+cfg-expr-0.15.2
 cfg-if-1.0.0
 charset-0.1.3
 chumsky-0.9.2
@@ -69,7 +69,6 @@ dunce-1.0.4
 either-1.8.1
 encode_unicode-0.3.6
 encoding_rs-0.8.32
-errno-0.2.8
 errno-0.3.1
 errno-dragonfly-0.1.2
 fastrand-1.9.0
@@ -79,10 +78,10 @@ flate2-1.0.26
 fnv-1.0.7
 foreign-types-0.3.2
 foreign-types-shared-0.1.1
-form_urlencoded-1.1.0
+form_urlencoded-1.2.0
 fs-err-2.9.0
 generic-array-0.14.7
-getrandom-0.2.9
+getrandom-0.2.10
 glob-0.3.1
 globset-0.4.10
 goblin-0.6.1
@@ -93,10 +92,10 @@ hermit-abi-0.3.1
 home-0.5.4
 humantime-2.1.0
 humantime-serde-1.1.1
-idna-0.3.0
+idna-0.4.0
 ignore-0.4.20
 indexmap-1.9.3
-indicatif-0.17.3
+indicatif-0.17.5
 indoc-2.0.1
 instant-0.1.12
 io-lifetimes-1.0.11
@@ -107,12 +106,11 @@ js-sys-0.3.63
 keyring-2.0.3
 lazy_static-1.4.0
 lddtree-0.3.2
-libc-0.2.144
+libc-0.2.146
 linux-keyutils-0.2.3
-linux-raw-sys-0.1.4
 linux-raw-sys-0.3.8
 lock_api-0.4.9
-log-0.4.17
+log-0.4.18
 lzxd-0.1.4
 mailparse-0.13.8
 matchers-0.1.0
@@ -120,7 +118,7 @@ memchr-2.5.0
 memoffset-0.8.0
 mime-0.3.17
 mime_guess-2.0.4
-minijinja-0.33.0
+minijinja-0.34.0
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 msi-0.5.1
@@ -132,12 +130,12 @@ normpath-1.1.1
 nu-ansi-term-0.46.0
 num_cpus-1.15.0
 number_prefix-0.4.0
-once_cell-1.17.1
-openssl-0.10.52
+once_cell-1.18.0
+openssl-0.10.54
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-111.25.3+1.1.1t
-openssl-sys-0.9.87
+openssl-src-111.26.0+1.1.1u
+openssl-sys-0.9.88
 option-ext-0.2.0
 os_pipe-1.1.4
 output_vt100-0.1.3
@@ -146,19 +144,18 @@ parking_lot-0.12.1
 parking_lot_core-0.9.6
 path-slash-0.2.1
 pep440_rs-0.3.6
-pep508_rs-0.1.5
-percent-encoding-2.2.0
+pep508_rs-0.2.1
+percent-encoding-2.3.0
 pin-project-lite-0.2.9
 pkg-config-0.3.27
 plain-0.2.3
 platform-info-2.0.1
-portable-atomic-0.3.20
-portable-atomic-1.3.2
+portable-atomic-1.3.3
 ppv-lite86-0.2.17
 pretty_assertions-1.3.0
-proc-macro2-1.0.59
+proc-macro2-1.0.60
 psm-0.1.21
-pyproject-toml-0.6.0
+pyproject-toml-0.6.1
 python-pkginfo-0.5.5
 quote-1.0.28
 quoted_printable-0.4.8
@@ -168,6 +165,7 @@ rand_core-0.6.4
 rayon-1.7.0
 rayon-core-1.11.0
 redox_syscall-0.2.16
+redox_syscall-0.3.5
 redox_users-0.4.3
 regex-1.7.3
 regex-automata-0.1.10
@@ -175,7 +173,6 @@ regex-syntax-0.6.29
 rfc2047-decoder-0.2.2
 ring-0.16.20
 rustc_version-0.4.0
-rustix-0.36.7
 rustix-0.37.19
 rustls-0.20.8
 rustls-pemfile-1.0.2
@@ -190,8 +187,8 @@ sct-0.7.0
 security-framework-2.9.1
 security-framework-sys-2.9.0
 semver-1.0.17
-serde-1.0.163
-serde_derive-1.0.163
+serde-1.0.164
+serde_derive-1.0.164
 serde_json-1.0.96
 serde_spanned-0.6.2
 sha2-0.10.6
@@ -203,7 +200,7 @@ similar-2.2.1
 smallvec-1.10.0
 smawk-0.3.1
 snapbox-0.4.4
-snapbox-macros-0.3.1
+snapbox-macros-0.3.4
 socks-0.3.4
 spin-0.5.2
 stacker-0.1.15
@@ -213,7 +210,7 @@ syn-1.0.109
 syn-2.0.18
 tar-0.4.38
 target-lexicon-0.12.7
-tempfile-3.4.0
+tempfile-3.6.0
 termcolor-1.2.0
 terminal_size-0.2.6
 textwrap-0.16.0
@@ -246,7 +243,7 @@ unicode-normalization-0.1.22
 unicode-width-0.1.10
 untrusted-0.7.1
 ureq-2.6.2
-url-2.3.1
+url-2.4.0
 uuid-1.3.3
 valuable-0.1.0
 vcpkg-0.2.15
@@ -298,7 +295,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/81/c2/89a3073efc50c2cb950877f44d7564d31a22d812db791bb6f8d3f0c891b7/maturin-1.0.1.tar.gz -> maturin-1.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/7b/78/2814bc0e46a96861aab337fd0404e7937acdb4ce187da239224ab4560d35/maturin-1.1.0.tar.gz -> maturin-1.1.0.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -323,4 +320,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.0.1"
+S="${WORKDIR}/maturin-1.1.0"
