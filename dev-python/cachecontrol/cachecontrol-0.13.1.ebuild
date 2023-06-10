@@ -21,6 +21,5 @@ KEYWORDS="*"
 S="${WORKDIR}/cachecontrol-0.13.1"
 
 post_src_unpack() {
-	mv "${WORKDIR}"/CacheControl-* "${S}" || die
-	rm -f "${S}"/tests/__init__.py
+	rm "${S}"/tests/__init__.py || die
 }
