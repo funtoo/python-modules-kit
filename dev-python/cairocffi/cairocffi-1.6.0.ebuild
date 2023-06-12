@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="CFFI based drop in replacement for Pycairo"
 HOMEPAGE="https://github.com/Kozea/cairocffi"
-SRC_URI="https://files.pythonhosted.org/packages/9f/d1/b26207d3a93dbdbee3b1492d59668f88953e9f28b74853e376a7a4f04e83/cairocffi-1.5.1.tar.gz -> cairocffi-1.5.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/02/8d/75ebb7a2f6a835e2bc125ce4c667dccc8e40b92507923dfaf8f079c892a5/cairocffi-1.6.0.tar.gz -> cairocffi-1.6.0.tar.gz
 "
 
 DEPEND=""
@@ -20,7 +20,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/cairocffi-1.5.1"
+S="${WORKDIR}/cairocffi-1.6.0"
 
 src_prepare() {
 	sed -i -e '/pytest-/d' -e '/addopts/d' setup.cfg || die
