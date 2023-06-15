@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
 DESCRIPTION="Service identity verification for pyOpenSSL & cryptography."
-HOMEPAGE="https://service-identity.readthedocs.io/ https://pypi.org/project/service-identity/"
-SRC_URI="https://files.pythonhosted.org/packages/09/2e/26ade69944773df4748c19d3053e025b282f48de02aad84906d34a29d28b/service-identity-21.1.0.tar.gz -> service-identity-21.1.0.tar.gz
+HOMEPAGE=" https://pypi.org/project/service-identity/"
+SRC_URI="https://files.pythonhosted.org/packages/3b/98/2a46c7414ffc1d06ba67d2c2dd62a207a70cb351028a8cd8c85b3dbd1cf7/service_identity-23.1.0.tar.gz -> service_identity-23.1.0.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/service-identity-21.1.0"
+S="${WORKDIR}/service-identity-23.1.0"
