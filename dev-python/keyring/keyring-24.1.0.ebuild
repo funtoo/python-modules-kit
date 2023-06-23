@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Store and access your passwords safely."
 HOMEPAGE="https://github.com/jaraco/keyring https://pypi.org/project/keyring/"
-SRC_URI="https://files.pythonhosted.org/packages/31/42/f29907a72907df16326fa425cfd3a144f00d9a613063467f8b58d2ac58a5/keyring-24.0.0.tar.gz -> keyring-24.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e0/a8/31b814a0c99118ee4db6df013925a3236fa18a914bf69202277896bf4038/keyring-24.1.0.tar.gz -> keyring-24.1.0.tar.gz
 "
 
 DEPEND="
@@ -22,4 +22,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/keyring-24.0.0"
+S="${WORKDIR}/keyring-24.1.0"
