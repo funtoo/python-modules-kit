@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="pytest: simple powerful testing with Python"
 HOMEPAGE="https://docs.pytest.org/en/latest/ https://pypi.org/project/pytest/"
-SRC_URI="https://files.pythonhosted.org/packages/58/2a/07c65fdc40846ecb8a9dcda2c38fcb5a06a3e39d08d4a4960916431951cb/pytest-7.3.2.tar.gz -> pytest-7.3.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a7/f3/dadfbdbf6b6c8b5bd02adb1e08bc9fbb45ba51c68b0893fa536378cdf485/pytest-7.4.0.tar.gz -> pytest-7.4.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -25,7 +25,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pytest-7.3.2"
+S="${WORKDIR}/pytest-7.4.0"
 
 post_src_install() {
 	if [ "$PV" == "4.6.9" ]; then
