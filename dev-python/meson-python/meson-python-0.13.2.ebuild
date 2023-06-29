@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Meson Python build backend (PEP 517)"
 HOMEPAGE="https://github.com/mesonbuild/meson-python https://pypi.org/project/meson-python/"
-SRC_URI="https://files.pythonhosted.org/packages/fb/54/9551a0810f3f95f761c31d902d3706b7bfe67253e81b33c0994b2c0f9b3b/meson_python-0.13.1.tar.gz -> meson_python-0.13.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ed/77/786ac8dcc8bc39a927527ba68a016bf9bd8f7ffe5c3622597ad16cd218af/meson_python-0.13.2.tar.gz -> meson_python-0.13.2.tar.gz
 "
 
 DEPEND=""
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/meson-python-0.13.1"
+S="${WORKDIR}/meson-python-0.13.2"
