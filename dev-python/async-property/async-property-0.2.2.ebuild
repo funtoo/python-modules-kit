@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python decorator for async properties."
 HOMEPAGE="https://github.com/ryananguiano/async_property https://pypi.org/project/async-property/"
-SRC_URI="https://files.pythonhosted.org/packages/94/00/ade26bd5fdb637e2e83b537113a5b03d5288da673384ff415b629be9e0d6/async_property-0.2.1.tar.gz -> async_property-0.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/a7/12/900eb34b3af75c11b69d6b78b74ec0fd1ba489376eceb3785f787d1a0a1d/async_property-0.2.2.tar.gz -> async_property-0.2.2.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/async_property-0.2.1"
+S="${WORKDIR}/async_property-0.2.2"

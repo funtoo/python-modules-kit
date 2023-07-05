@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Extension to the parse module"
 HOMEPAGE="https://pypi.org/project/parse-type/"
-SRC_URI="https://github.com/jenisys/parse_type/tarball/5ac997d364fc8e3a0d2efc7c94ae3ba753d01f40 -> parse_type-0.6.1-5ac997d.tar.gz
+SRC_URI="https://github.com/jenisys/parse_type/tarball/9733e473f6d4f764317ae2bc234b61d0b10daad4 -> parse_type-0.6.2-9733e47.tar.gz
 "
 
 DEPEND=""

@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Terminal session recorder"
 HOMEPAGE="https://asciinema.org/ https://pypi.org/project/asciinema/"
-SRC_URI="https://files.pythonhosted.org/packages/26/40/20891ed2770311c22543499a011906858bb12450bf46bd6d763f39da0002/asciinema-2.2.0.tar.gz -> asciinema-2.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/2b/78/b57985f4efe85e1b49a7ec48fd0f876f75937ae541740c5589754d6164a9/asciinema-2.3.0.tar.gz -> asciinema-2.3.0.tar.gz
 "
 
 DEPEND=""
@@ -15,7 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE="GPL-3+"
 KEYWORDS="*"
-S="${WORKDIR}/asciinema-2.2.0"
+S="${WORKDIR}/asciinema-2.3.0"
 
 python_prepare_all() {
 	distutils-r1_python_prepare_all
