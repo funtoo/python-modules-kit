@@ -1,13 +1,14 @@
 BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Python interface to libgphoto2
+DESCRIPTION=A database interface library designed specifically for PostgresSQL and Python/asyncio.
 EAPI=7
-HOMEPAGE=https://github.com/jim-easterbrook/python-gphoto2 https://pypi.org/project/gphoto2/
+HOMEPAGE=https://github.com/MagicStack/asyncpg
 IUSE=python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
 KEYWORDS=*
-RDEPEND=media-libs/libgphoto2 python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+LICENSE=Apache-2.0
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/0a/ed/3f2a51de7a9d1bfa37308e938f5c68c076cbc31a57197da4d8ecca2dd4e7/gphoto2-2.3.4.tar.gz -> gphoto2-2.3.4.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/a9/81/d86b6d6b6d643d9d3ea3926078965ae321b3aa1734a45ce8dca726a455f3/asyncpg-0.28.0.tar.gz -> asyncpg-0.28.0.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=3d62205beafbe1ff914e8763bb058767
+_md5_=ef4b0488f1e15df4f62c25b14472b8a5
