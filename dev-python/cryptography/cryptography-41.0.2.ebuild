@@ -32,7 +32,7 @@ pem-1.1.1
 pkg-config-0.3.27
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.59
+proc-macro2-1.0.64
 pyo3-0.18.3
 pyo3-build-config-0.18.3
 pyo3-ffi-0.18.3
@@ -64,7 +64,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE=" https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/19/8c/47f061de65d1571210dc46436c14a0a4c260fd0f3eaf61ce9b9d445ce12f/cryptography-41.0.1.tar.gz -> cryptography-41.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/93/b7/b6b3420a2f027c1067f712eb3aea8653f8ca7490f183f9917879c447139b/cryptography-41.0.2.tar.gz -> cryptography-41.0.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -89,7 +89,7 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-41.0.1"
+S="${WORKDIR}/cryptography-41.0.2"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
