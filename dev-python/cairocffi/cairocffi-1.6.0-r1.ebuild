@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="CFFI based drop in replacement for Pycairo"
@@ -21,8 +22,3 @@ SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
 S="${WORKDIR}/cairocffi-1.6.0"
-
-src_prepare() {
-	sed -i -e '/pytest-/d' -e '/addopts/d' setup.cfg || die
-	distutils-r1_src_prepare
-}
