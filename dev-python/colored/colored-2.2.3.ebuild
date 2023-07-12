@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Simple python library for color and formatting to terminal"
 HOMEPAGE="None https://pypi.org/project/colored/"
-SRC_URI="https://files.pythonhosted.org/packages/11/87/e696653820d8845a791b0d72dd5a7cae6f9fd3466df64208ed08a3d70fed/colored-2.2.2.tar.gz -> colored-2.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d2/ce/cca52eb08fdb44fd99e0dd16de52228cb4ef108d7aff7c3bc359bc9b103c/colored-2.2.3.tar.gz -> colored-2.2.3.tar.gz
 "
 
 DEPEND=""
@@ -15,4 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/colored-2.2.2"
+S="${WORKDIR}/colored-2.2.3"
