@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="A Python package for creating beautiful command line interfaces"
-SRC_URI="https://files.pythonhosted.org/packages/77/88/b0cc5fe95c31c301e9823ea9b028f669c0dcfa205ff71111037a5ed4892c/click-8.1.4.tar.gz -> click-8.1.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7e/ad/7a6a96fab480fb2fbf52f782b2deb3abe1d2c81eca3ef68a575b5a6a4f2e/click-8.1.5.tar.gz -> click-8.1.5.tar.gz"
 HOMEPAGE="https://palletsprojects.com/p/click/ https://pypi.org/project/click/"
 
 LICENSE="BSD"
