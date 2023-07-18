@@ -14,7 +14,8 @@ SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c
 "
 
 DEPEND="
-	libyaml? ( dev-libs/libyaml )"
+	libyaml? ( dev-libs/libyaml )
+	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 RDEPEND="!<dev-python/pyyaml-6.0 
 	libyaml? ( dev-libs/libyaml )
 	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
