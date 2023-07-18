@@ -10,11 +10,12 @@ HOMEPAGE="https://pyyaml.org/wiki/PyYAML
 https://pypi.org/project/PyYAML/
 https://github.com/yaml/pyyaml
 "
-SRC_URI="https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz -> PyYAML-6.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95ee16797de7cd71f29ea7c68ae5ce7be1eda0/PyYAML-6.0.1.tar.gz -> PyYAML-6.0.1.tar.gz
 "
 
 DEPEND="
-	libyaml? ( dev-libs/libyaml )"
+	libyaml? ( dev-libs/libyaml )
+	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyyaml-compat )
 	libyaml? ( dev-libs/libyaml )
@@ -23,7 +24,7 @@ IUSE="examples +libyaml python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/PyYAML-6.0"
+S="${WORKDIR}/PyYAML-6.0.1"
 
 python_configure_all() {
 	mydistutilsargs=( $(use_with libyaml) )
