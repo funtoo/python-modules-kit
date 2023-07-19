@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Import, export, process, analyze and view triangular meshes."
 HOMEPAGE="https://github.com/mikedh/trimesh https://pypi.org/project/trimesh/"
-SRC_URI="https://files.pythonhosted.org/packages/02/d1/aadca4f03f09e0f65d2302173712b14699aab78fdbdee5de90b31f28b73c/trimesh-3.22.4.tar.gz -> trimesh-3.22.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/c8/83/e3717e50c8838bc0a0640ffa2ab5badca3d7f255b9909c89bed5272d201e/trimesh-3.22.5.tar.gz -> trimesh-3.22.5.tar.gz
 "
 
 DEPEND=""
@@ -33,4 +33,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/trimesh-3.22.4"
+S="${WORKDIR}/trimesh-3.22.5"
