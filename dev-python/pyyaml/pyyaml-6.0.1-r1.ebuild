@@ -15,11 +15,11 @@ SRC_URI="https://files.pythonhosted.org/packages/cd/e5/af35f7ea75cf72f2cd079c95e
 
 DEPEND="
 	libyaml? ( dev-libs/libyaml )
-	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
+	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pyyaml-compat )
 	libyaml? ( dev-libs/libyaml )
-	libyaml? ( dev-python/cython[${PYTHON_USEDEP}] )"
+	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
 IUSE="examples +libyaml python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
