@@ -8,7 +8,7 @@ inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="The PyPA recommended tool for installing Python packages."
 HOMEPAGE="https://pip.pypa.io/ https://pypi.org/project/pip/"
-SRC_URI="https://files.pythonhosted.org/packages/3d/ab/21fa8d1ecf5648559f056fda732b0f9fca0585eb2688252e67f70e74deaf/pip-23.2.tar.gz -> pip-23.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/ba/19/e63fb4e0d20e48bd2167bb7e857abc0e21679e24805ba921a224df8977c0/pip-23.2.1.tar.gz -> pip-23.2.1.tar.gz
 "
 
 DEPEND=""
@@ -18,7 +18,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pip-23.2"
+S="${WORKDIR}/pip-23.2.1"
 
 python_prepare_all() {
 	if ! use vanilla; then
