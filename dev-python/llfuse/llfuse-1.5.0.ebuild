@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python bindings for the low level FUSE API"
 HOMEPAGE="https://github.com/python-llfuse/python-llfuse/ https://pypi.org/project/llfuse/"
-SRC_URI="https://files.pythonhosted.org/packages/3e/c3/d74bb2dbfc2eddae86b209f134f8ef655db34c7f5104c1fccd4df5a05da3/llfuse-1.4.4.tar.gz -> llfuse-1.4.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d2/2c/64f01042d1ed08725342c85ddb48a29d2a4f8712d27f22f66f28a67a079c/llfuse-1.5.0.tar.gz -> llfuse-1.5.0.tar.gz
 "
 
 DEPEND="
@@ -21,7 +21,7 @@ IUSE="doc examples test"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/llfuse-1.4.4"
+S="${WORKDIR}/llfuse-1.5.0"
 
 python_test() {
 	py.test -v || die "Tests failed under ${EPYTHON}"
