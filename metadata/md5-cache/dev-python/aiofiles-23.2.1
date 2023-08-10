@@ -1,14 +1,14 @@
 BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Read the Docs theme for Sphinx
+DESCRIPTION=File support for asyncio
 EAPI=7
-HOMEPAGE=https://github.com/readthedocs/sphinx_rtd_theme https://pypi.org/project/sphinx-rtd-theme/
+HOMEPAGE=https://github.com/Tinche/aiofiles
 IUSE=python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
-KEYWORDS=*
-LICENSE=MIT
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
 RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/66/86/7b2c3d15f44cb3ea2e1c54481494121d755081aa57a8076de3fa2be4d587/sphinx_rtd_theme-1.2.2.tar.gz -> sphinx_rtd_theme-1.2.2.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/af/41/cfed10bc64d774f497a86e5ede9248e1d062db675504b41c320954d99641/aiofiles-23.2.1.tar.gz -> aiofiles-23.2.1.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=b6ab112439c3e1143d58f9d705c98196
+_md5_=6123d9427f69134d9d20e58d7fcf5206
