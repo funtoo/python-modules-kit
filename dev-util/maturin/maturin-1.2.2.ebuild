@@ -12,7 +12,7 @@ anstyle-1.0.1
 anstyle-parse-0.2.1
 anstyle-query-1.0.0
 anstyle-wincon-1.0.2
-anyhow-1.0.72
+anyhow-1.0.73
 autocfg-1.1.0
 base64-0.13.1
 base64-0.21.2
@@ -77,7 +77,7 @@ errno-dragonfly-0.1.2
 fastrand-1.9.0
 fat-macho-0.4.7
 filetime-0.2.22
-flate2-1.0.26
+flate2-1.0.27
 fnv-1.0.7
 foreign-types-0.3.2
 foreign-types-shared-0.1.1
@@ -133,11 +133,11 @@ nu-ansi-term-0.46.0
 num_cpus-1.16.0
 number_prefix-0.4.0
 once_cell-1.18.0
-openssl-0.10.55
+openssl-0.10.56
 openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-111.27.0+1.1.1v
-openssl-sys-0.9.90
+openssl-sys-0.9.91
 option-ext-0.2.0
 os_pipe-1.1.4
 overload-0.1.1
@@ -217,8 +217,8 @@ tempfile-3.6.0
 termcolor-1.2.0
 terminal_size-0.2.6
 textwrap-0.16.0
-thiserror-1.0.44
-thiserror-impl-1.0.44
+thiserror-1.0.45
+thiserror-impl-1.0.45
 thread_local-1.1.7
 time-0.3.20
 time-core-0.1.0
@@ -272,21 +272,21 @@ winapi-x86_64-pc-windows-gnu-0.4.0
 windows-sys-0.45.0
 windows-sys-0.48.0
 windows-targets-0.42.2
-windows-targets-0.48.1
+windows-targets-0.48.2
 windows_aarch64_gnullvm-0.42.2
-windows_aarch64_gnullvm-0.48.0
+windows_aarch64_gnullvm-0.48.2
 windows_aarch64_msvc-0.42.2
-windows_aarch64_msvc-0.48.0
+windows_aarch64_msvc-0.48.2
 windows_i686_gnu-0.42.2
-windows_i686_gnu-0.48.0
+windows_i686_gnu-0.48.2
 windows_i686_msvc-0.42.2
-windows_i686_msvc-0.48.0
+windows_i686_msvc-0.48.2
 windows_x86_64_gnu-0.42.2
-windows_x86_64_gnu-0.48.0
+windows_x86_64_gnu-0.48.2
 windows_x86_64_gnullvm-0.42.2
-windows_x86_64_gnullvm-0.48.0
+windows_x86_64_gnullvm-0.48.2
 windows_x86_64_msvc-0.42.2
-windows_x86_64_msvc-0.48.0
+windows_x86_64_msvc-0.48.2
 winnow-0.4.7
 xattr-1.0.1
 xwin-0.2.14
@@ -299,7 +299,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/d4/14/8a16d1c698622dc3cb45b883bc5394ae33a8596ab6eabd06cc8df473b424/maturin-1.2.1.tar.gz -> maturin-1.2.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8e/da/ca4f547757f059af9cbb8928e51292abe78a1d1cad7657fe42c07aecd5f2/maturin-1.2.2.tar.gz -> maturin-1.2.2.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -324,4 +324,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.2.1"
+S="${WORKDIR}/maturin-1.2.2"
