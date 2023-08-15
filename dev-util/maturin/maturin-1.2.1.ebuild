@@ -11,7 +11,7 @@ anstream-0.3.2
 anstyle-1.0.1
 anstyle-parse-0.2.1
 anstyle-query-1.0.0
-anstyle-wincon-1.0.1
+anstyle-wincon-1.0.2
 anyhow-1.0.72
 autocfg-1.1.0
 base64-0.13.1
@@ -34,7 +34,7 @@ cargo-xwin-0.14.6
 cargo-zigbuild-0.17.0
 cargo_metadata-0.17.0
 cbindgen-0.24.5
-cc-1.0.81
+cc-1.0.82
 cfb-0.7.3
 cfg-expr-0.15.4
 cfg-if-1.0.0
@@ -72,11 +72,11 @@ dunce-1.0.4
 either-1.9.0
 encode_unicode-0.3.6
 encoding_rs-0.8.32
-errno-0.3.1
+errno-0.3.2
 errno-dragonfly-0.1.2
 fastrand-1.9.0
 fat-macho-0.4.7
-filetime-0.2.21
+filetime-0.2.22
 flate2-1.0.26
 fnv-1.0.7
 foreign-types-0.3.2
@@ -90,7 +90,7 @@ globset-0.4.10
 goblin-0.7.1
 hashbrown-0.12.3
 heck-0.4.1
-hermit-abi-0.3.1
+hermit-abi-0.3.2
 home-0.5.5
 humantime-2.1.0
 humantime-serde-1.1.1
@@ -102,7 +102,7 @@ indoc-2.0.3
 instant-0.1.12
 io-lifetimes-1.0.11
 is-terminal-0.4.7
-itertools-0.10.5
+itertools-0.11.0
 itoa-1.0.9
 js-sys-0.3.64
 keyring-2.0.5
@@ -112,7 +112,7 @@ libc-0.2.147
 linux-keyutils-0.2.3
 linux-raw-sys-0.3.8
 lock_api-0.4.10
-log-0.4.19
+log-0.4.20
 lzxd-0.1.4
 mailparse-0.14.0
 matchers-0.1.0
@@ -120,7 +120,7 @@ memchr-2.5.0
 memoffset-0.9.0
 mime-0.3.17
 mime_guess-2.0.4
-minijinja-1.0.5
+minijinja-1.0.6
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 msi-0.5.1
@@ -148,7 +148,7 @@ path-slash-0.2.1
 pep440_rs-0.3.6
 pep508_rs-0.2.1
 percent-encoding-2.3.0
-pin-project-lite-0.2.10
+pin-project-lite-0.2.12
 pkg-config-0.3.27
 plain-0.2.3
 platform-info-2.0.2
@@ -158,7 +158,7 @@ pretty_assertions-1.4.0
 proc-macro2-1.0.66
 psm-0.1.21
 pyproject-toml-0.6.1
-python-pkginfo-0.5.6
+python-pkginfo-0.6.0
 quote-1.0.32
 quoted_printable-0.4.8
 rand-0.8.5
@@ -190,8 +190,8 @@ sct-0.7.0
 security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.18
-serde-1.0.182
-serde_derive-1.0.182
+serde-1.0.183
+serde_derive-1.0.183
 serde_json-1.0.104
 serde_spanned-0.6.3
 sha2-0.10.7
@@ -211,7 +211,7 @@ static_assertions-1.1.0
 strsim-0.10.0
 syn-1.0.109
 syn-2.0.28
-tar-0.4.39
+tar-0.4.40
 target-lexicon-0.12.11
 tempfile-3.6.0
 termcolor-1.2.0
@@ -252,7 +252,7 @@ uuid-1.4.1
 valuable-0.1.0
 vcpkg-0.2.15
 version_check-0.9.4
-versions-5.0.0
+versions-5.0.1
 wait-timeout-0.2.0
 walkdir-2.3.3
 wasi-0.11.0+wasi-snapshot-preview1
@@ -288,7 +288,7 @@ windows_x86_64_gnullvm-0.48.0
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.0
 winnow-0.4.7
-xattr-0.2.3
+xattr-1.0.1
 xwin-0.2.14
 yansi-0.5.1
 zeroize-1.6.0
@@ -299,7 +299,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/c7/59/032f4e35f582ca238ad010d3a7663b067ed89b18bf9c5008be36aa0a4e86/maturin-1.2.0.tar.gz -> maturin-1.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d4/14/8a16d1c698622dc3cb45b883bc5394ae33a8596ab6eabd06cc8df473b424/maturin-1.2.1.tar.gz -> maturin-1.2.1.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -324,4 +324,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.2.0"
+S="${WORKDIR}/maturin-1.2.1"

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files"
 HOMEPAGE=" https://pypi.org/project/sphinxcontrib-htmlhelp/"
-SRC_URI="https://files.pythonhosted.org/packages/e6/24/0dcb5a8aec31046cf37691ac64d21b9a4dfc977f5ba3237f1104940d8d0c/sphinxcontrib_htmlhelp-2.0.3.tar.gz -> sphinxcontrib_htmlhelp-2.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fd/2d/abf5cd4cc1d5cd9842748b15a28295e4c4a927facfa8a0e173bd3f151bc5/sphinxcontrib_htmlhelp-2.0.4.tar.gz -> sphinxcontrib_htmlhelp-2.0.4.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_htmlhelp-2.0.3"
+S="${WORKDIR}/sphinxcontrib_htmlhelp-2.0.4"

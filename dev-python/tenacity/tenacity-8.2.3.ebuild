@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Retry code until it succeeds"
 HOMEPAGE="https://github.com/jd/tenacity https://pypi.org/project/tenacity/"
-SRC_URI="https://files.pythonhosted.org/packages/d3/f0/6ccd8854f4421ce1f227caf3421d9be2979aa046939268c9300030c0d250/tenacity-8.2.2.tar.gz -> tenacity-8.2.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/89/3c/253e1627262373784bf9355db9d6f20d2d8831d79f91e9cca48050cddcc2/tenacity-8.2.3.tar.gz -> tenacity-8.2.3.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/tenacity-8.2.2"
+S="${WORKDIR}/tenacity-8.2.3"
