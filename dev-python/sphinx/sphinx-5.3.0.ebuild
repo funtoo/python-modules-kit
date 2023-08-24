@@ -26,13 +26,6 @@ RDEPEND="
 	dev-python/pygments[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/snowballstemmer[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-htmlhelp-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/sphinxcontrib-serializinghtml-1.1.5[${PYTHON_USEDEP}]
-	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
-	dev-python/sphinx_rtd_theme[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
 	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]"
 IUSE="latex doc"
