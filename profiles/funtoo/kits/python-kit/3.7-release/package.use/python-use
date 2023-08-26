@@ -101,7 +101,6 @@ dev-python/backports-ssl-match-hostname python_single_target_python2_7
 dev-python/basemap python_single_target_python2_7
 dev-python/bz2file python_single_target_python2_7
 dev-python/cddb-py python_single_target_python2_7
-dev-python/cement python_single_target_python2_7
 dev-python/chardet-compat python_single_target_python2_7
 dev-python/cheetah python_single_target_python2_7
 dev-python/colorama-compat python_single_target_python2_7
