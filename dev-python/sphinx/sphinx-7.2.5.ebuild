@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python documentation generator"
 HOMEPAGE=" https://pypi.org/project/Sphinx/"
-SRC_URI="https://files.pythonhosted.org/packages/af/b2/02a43597980903483fe5eb081ee8e0ba2bb62ea43a70499484343795f3bf/Sphinx-5.3.0.tar.gz -> Sphinx-5.3.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/70/aa/7f284cb72eafff634eab41ddf18a9bcf2f335d830fa3879072b877c1d72b/sphinx-7.2.5.tar.gz -> sphinx-7.2.5.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -27,16 +27,19 @@ RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/snowballstemmer[${PYTHON_USEDEP}]
 	dev-python/packaging[${PYTHON_USEDEP}]
-	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]"
+	>=dev-python/importlib_metadata-4.4[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-applehelp[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-devhelp[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-htmlhelp[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-jsmath[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-qthelp[${PYTHON_USEDEP}]
+	dev-python/sphinxcontrib-serializinghtml[${PYTHON_USEDEP}]"
 IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Sphinx-5.3.0"
+S="${WORKDIR}/sphinx-7.2.5"
 
-PATCHES=(
-	"$FILESDIR"/sphinx-4.2.0-highlight-toggle.patch
-)
 python_compile_all() {
 	if use doc; then
 		esetup.py build_sphinx

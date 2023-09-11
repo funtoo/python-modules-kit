@@ -12,9 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/5c/41/df4cd017e8234ded544228f60
 "
 
 DEPEND=""
-RDEPEND="
-	dev-python/sphinx[${PYTHON_USEDEP}]
-	dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
