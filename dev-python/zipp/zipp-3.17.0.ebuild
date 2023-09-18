@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Backport of pathlib-compatible object wrapper for zip files"
 HOMEPAGE="https://github.com/jaraco/zipp"
-SRC_URI="https://files.pythonhosted.org/packages/e2/45/f3b987ad5bf9e08095c1ebe6352238be36f25dd106fde424a160061dce6d/zipp-3.16.2.tar.gz -> zipp-3.16.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/58/03/dd5ccf4e06dec9537ecba8fcc67bbd4ea48a2791773e469e73f94c3ba9a6/zipp-3.17.0.tar.gz -> zipp-3.17.0.tar.gz
 "
 
 DEPEND=""
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/zipp-3.16.2"
+S="${WORKDIR}/zipp-3.17.0"

@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Database Abstraction Library"
 HOMEPAGE="https://www.sqlalchemy.org https://pypi.org/project/SQLAlchemy/"
-SRC_URI="https://files.pythonhosted.org/packages/88/85/b7fbadd64b30e9d4b882dd323341fc263687bc95b22edec262b12cac8fd7/SQLAlchemy-2.0.20.tar.gz -> SQLAlchemy-2.0.20.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/fa/fd/f835dcfb49eabf12e8ea7c7779d364f7730a47912ae64ff38cd4a316ab77/SQLAlchemy-2.0.21.tar.gz -> SQLAlchemy-2.0.21.tar.gz
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/SQLAlchemy-2.0.20"
+S="${WORKDIR}/SQLAlchemy-2.0.21"
