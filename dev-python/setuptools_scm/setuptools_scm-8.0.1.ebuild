@@ -7,8 +7,8 @@ DISTUTILS_USE_SETUPTOOLS="rdepend"
 inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"
-HOMEPAGE="https://github.com/pypa/setuptools_scm/ https://pypi.org/project/setuptools-scm/"
-SRC_URI="https://files.pythonhosted.org/packages/98/12/2c1e579bb968759fc512391473340d0661b1a8c96a59fb7c65b02eec1321/setuptools_scm-7.1.0.tar.gz -> setuptools_scm-7.1.0.tar.gz
+HOMEPAGE=" https://pypi.org/project/setuptools-scm/"
+SRC_URI="https://files.pythonhosted.org/packages/a7/16/8aef42ae27036ceb201f1774940357da18ae7daac45bdd721da554892012/setuptools-scm-8.0.1.tar.gz -> setuptools-scm-8.0.1.tar.gz
 "
 
 DEPEND="
@@ -26,4 +26,4 @@ KEYWORDS="*"
 PATCHES=(
 	"$FILESDIR"/setuptools_scm-7.0.2-importlib-metadata.patch
 )
-S="${WORKDIR}/setuptools_scm-7.1.0"
+S="${WORKDIR}/setuptools_scm-8.0.1"
