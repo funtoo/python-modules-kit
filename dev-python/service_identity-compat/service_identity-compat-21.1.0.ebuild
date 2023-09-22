@@ -22,7 +22,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/service_identity-21.1.0"
+S="${WORKDIR}/service-identity-21.1.0"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin

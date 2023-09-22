@@ -38,7 +38,7 @@ IUSE="latex doc"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinx-7.2.6"
+S="${WORKDIR}/Sphinx-7.2.6"
 
 python_compile_all() {
 	if use doc; then
