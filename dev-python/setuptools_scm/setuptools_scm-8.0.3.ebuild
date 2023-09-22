@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="the blessed package to manage your versions by scm tags"
 HOMEPAGE=" https://pypi.org/project/setuptools-scm/"
-SRC_URI="https://files.pythonhosted.org/packages/a7/16/8aef42ae27036ceb201f1774940357da18ae7daac45bdd721da554892012/setuptools-scm-8.0.1.tar.gz -> setuptools-scm-8.0.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/af/54/0a75c590c1aa1908c1036de783c0b7136d8fe4beb8ce4c52e4d92b9e9ca7/setuptools-scm-8.0.3.tar.gz -> setuptools-scm-8.0.3.tar.gz
 "
 
 DEPEND="
@@ -26,4 +26,4 @@ KEYWORDS="*"
 PATCHES=(
 	"$FILESDIR"/setuptools_scm-7.0.2-importlib-metadata.patch
 )
-S="${WORKDIR}/setuptools_scm-8.0.1"
+S="${WORKDIR}/setuptools_scm-8.0.3"
