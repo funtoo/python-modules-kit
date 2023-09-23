@@ -3,12 +3,11 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
-DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-applehelp is a Sphinx extension which outputs Apple help books"
 HOMEPAGE=" https://pypi.org/project/sphinxcontrib-applehelp/"
-SRC_URI="https://files.pythonhosted.org/packages/1c/5a/fce19be5d4db26edc853a0c34832b39db7b769b7689da027529767b0aa98/sphinxcontrib_applehelp-1.0.7.tar.gz -> sphinxcontrib_applehelp-1.0.7.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9f/01/ad9d4ebbceddbed9979ab4a89ddb78c9760e74e6757b1880f1b2760e8295/sphinxcontrib-applehelp-1.0.2.tar.gz -> sphinxcontrib-applehelp-1.0.2.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_applehelp-1.0.7"
+S="${WORKDIR}/sphinxcontrib-applehelp-1.0.2"

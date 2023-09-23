@@ -3,12 +3,11 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ pypy )
-DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp documents"
 HOMEPAGE=" https://pypi.org/project/sphinxcontrib-devhelp/"
-SRC_URI="https://files.pythonhosted.org/packages/2e/f2/6425b6db37e7c2254ad661c90a871061a078beaddaf9f15a00ba9c3a1529/sphinxcontrib_devhelp-1.0.5.tar.gz -> sphinxcontrib_devhelp-1.0.5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/98/33/dc28393f16385f722c893cb55539c641c9aaec8d1bc1c15b69ce0ac2dbb3/sphinxcontrib-devhelp-1.0.2.tar.gz -> sphinxcontrib-devhelp-1.0.2.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_devhelp-1.0.5"
+S="${WORKDIR}/sphinxcontrib-devhelp-1.0.2"
