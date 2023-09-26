@@ -179,6 +179,7 @@ dev-python/py2play python_single_target_python2_7
 dev-python/pyPdf python_single_target_python2_7
 dev-python/pycdio python_single_target_python2_7
 dev-python/pychm python_single_target_python2_7
+dev-python/pycodestyle-compat python_single_target_python2_7
 dev-python/pycountry-compat python_single_target_python2_7
 dev-python/pycryptopp python_single_target_python2_7
 dev-python/pyemf python_single_target_python2_7
