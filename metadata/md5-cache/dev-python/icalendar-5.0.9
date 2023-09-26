@@ -1,14 +1,14 @@
 BDEPEND=doc? ( || ( ( dev-lang/python:3.8 >=dev-python/sphinx-4.5.0-r1[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.9 >=dev-python/sphinx-4.5.0-r1[python_targets_python3_9(-),python_single_target_python3_9(+)] ) ( dev-lang/python:3.7 >=dev-python/sphinx-4.5.0-r1[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.10 >=dev-python/sphinx-4.5.0-r1[python_targets_python3_10(-),python_single_target_python3_10(+)] ) ) ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Curses-based user interface library for Python
+DESCRIPTION=Package used for parsing and generating iCalendar files (RFC 2445)
 EAPI=7
-HOMEPAGE=http://urwid.org/ https://pypi.org/project/urwid/ https://github.com/urwid/urwid/
-IUSE=examples doc python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
+HOMEPAGE=https://github.com/collective/icalendar
+IUSE=doc python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8
 KEYWORDS=*
-LICENSE=LGPL-2.1
-RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
+LICENSE=BSD
+RDEPEND=dev-python/python-dateutil[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] dev-python/pytz[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/88/2b/88ed2915a1219c5543a97e761dd1fa46402025f64e57c571795f8ee1afab/urwid-2.2.1.tar.gz -> urwid-2.2.1.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/64/53/d0b5c0f3fc5c66eac72b04c3ba5b238e06408be34f693db9178676e1ed84/icalendar-5.0.9.tar.gz -> icalendar-5.0.9.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=567a56d2e62e3e40a0d6c28d9cb4c18b
+_md5_=ac16012e7a8c391cd4d63c34d4b588c1
