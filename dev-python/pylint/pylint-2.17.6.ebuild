@@ -15,6 +15,7 @@ RDEPEND="
 	dev-python/astroid[${PYTHON_USEDEP}]
 	dev-python/isort[${PYTHON_USEDEP}]
 	dev-python/mccabe[${PYTHON_USEDEP}]
+	dev-python/tomlkit[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 IUSE="doc test"
