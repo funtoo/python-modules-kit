@@ -17,10 +17,6 @@ LICENSE="MIT"
 KEYWORDS="*"
 S="${WORKDIR}/charset-normalizer-3.2.0"
 
-src_unpack() {
-	default
-	mv ${WORKDIR}/charset-normalizer-* ${S} || die
-}
 src_prepare() {
 	sed -i -e '/addopts/d' setup.cfg || die
 	distutils-r1_src_prepare
