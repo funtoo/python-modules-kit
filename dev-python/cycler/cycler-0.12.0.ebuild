@@ -13,7 +13,7 @@ HOMEPAGE="
 	https://matplotlib.org/cycler/
 	https://pypi.org/project/Cycler/
 	https://github.com/matplotlib/cycler"
-SRC_URI="https://files.pythonhosted.org/packages/34/45/a7caaacbfc2fa60bee42effc4bcc7d7c6dbe9c349500e04f65a861c15eb9/cycler-0.11.0.tar.gz -> cycler-0.11.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/3f/22/13979b9dcef3296cae2e8d2b074be4d904ad36ec766d6fc0bb7cb4cbb258/cycler-0.12.0.tar.gz -> cycler-0.12.0.tar.gz"
 
 SLOT="0"
 LICENSE="BSD"
