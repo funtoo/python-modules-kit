@@ -11,6 +11,10 @@ SRC_URI="https://files.pythonhosted.org/packages/db/3e/477c5b3ed78b6818d673f6351
 "
 
 DEPEND=""
+RDEPEND="
+	dev-python/sphinxcontrib-jquery[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]
+	dev-python/docutils[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
