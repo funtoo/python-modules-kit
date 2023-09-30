@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Protobuf code generator for gRPC"
 HOMEPAGE="https://grpc.io https://pypi.org/project/grpcio-tools/"
-SRC_URI="https://files.pythonhosted.org/packages/23/08/837256b56651f37f00d12d6af9ba07d3bcc80b421a8ef5ece42b911441d4/grpcio-tools-1.58.0.tar.gz -> grpcio-tools-1.58.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b8/62/bac5143fd2629d611c03832737040d1bb168ad52d59cab41131df0e06ead/grpcio-tools-1.59.0.tar.gz -> grpcio-tools-1.59.0.tar.gz
 "
 
 DEPEND="
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/grpcio-tools-1.58.0"
+S="${WORKDIR}/grpcio-tools-1.59.0"
