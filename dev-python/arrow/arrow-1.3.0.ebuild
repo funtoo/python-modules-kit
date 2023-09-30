@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Better dates and times for Python"
-HOMEPAGE="https://arrow.readthedocs.io https://pypi.org/project/arrow/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/c0/c601ea7811f422700ef809f167683899cdfddec5aa3f83597edf97349962/arrow-1.2.3.tar.gz -> arrow-1.2.3.tar.gz
+HOMEPAGE="None https://pypi.org/project/arrow/"
+SRC_URI="https://files.pythonhosted.org/packages/2e/00/0f6e8fcdb23ea632c866620cc872729ff43ed91d284c866b515c6342b173/arrow-1.3.0.tar.gz -> arrow-1.3.0.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/arrow-1.2.3"
+S="${WORKDIR}/arrow-1.3.0"
