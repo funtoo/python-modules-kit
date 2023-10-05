@@ -12,7 +12,7 @@ anstyle-1.0.1
 anstyle-parse-0.2.1
 anstyle-query-1.0.0
 anstyle-wincon-1.0.2
-anyhow-1.0.73
+anyhow-1.0.75
 autocfg-1.1.0
 base64-0.13.1
 base64-0.21.2
@@ -27,13 +27,13 @@ bzip2-0.4.4
 bzip2-sys-0.1.11+1.0.8
 cab-0.4.1
 camino-1.1.6
-cargo-config2-0.1.8
+cargo-config2-0.1.9
 cargo-options-0.6.0
 cargo-platform-0.1.3
-cargo-xwin-0.14.6
-cargo-zigbuild-0.17.0
-cargo_metadata-0.17.0
-cbindgen-0.24.5
+cargo-xwin-0.14.7
+cargo-zigbuild-0.17.3
+cargo_metadata-0.18.0
+cbindgen-0.25.0
 cc-1.0.82
 cfb-0.7.3
 cfg-expr-0.15.4
@@ -68,12 +68,14 @@ diff-0.1.13
 digest-0.10.7
 dirs-5.0.1
 dirs-sys-0.4.1
+dissimilar-1.0.7
 dunce-1.0.4
 either-1.9.0
 encode_unicode-0.3.6
 encoding_rs-0.8.32
 errno-0.3.2
 errno-dragonfly-0.1.2
+expect-test-1.4.1
 fastrand-1.9.0
 fat-macho-0.4.7
 filetime-0.2.22
@@ -123,7 +125,7 @@ mime_guess-2.0.4
 minijinja-1.0.6
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
-msi-0.5.1
+msi-0.6.0
 multipart-0.18.0
 native-tls-0.2.11
 nom-7.1.3
@@ -159,7 +161,7 @@ proc-macro2-1.0.66
 psm-0.1.21
 pyproject-toml-0.6.1
 python-pkginfo-0.6.0
-quote-1.0.32
+quote-1.0.33
 quoted_printable-0.4.8
 rand-0.8.5
 rand_chacha-0.3.1
@@ -178,7 +180,7 @@ rustc_version-0.4.0
 rustix-0.37.23
 rustls-0.21.2
 rustls-pemfile-1.0.3
-rustls-webpki-0.100.1
+rustls-webpki-0.100.2
 rustversion-1.0.14
 ryu-1.0.15
 same-file-1.0.6
@@ -192,7 +194,7 @@ security-framework-sys-2.9.1
 semver-1.0.18
 serde-1.0.183
 serde_derive-1.0.183
-serde_json-1.0.104
+serde_json-1.0.105
 serde_spanned-0.6.3
 sha2-0.10.7
 sharded-slab-0.1.4
@@ -210,15 +212,15 @@ stacker-0.1.15
 static_assertions-1.1.0
 strsim-0.10.0
 syn-1.0.109
-syn-2.0.28
+syn-2.0.29
 tar-0.4.40
 target-lexicon-0.12.11
 tempfile-3.6.0
 termcolor-1.2.0
 terminal_size-0.2.6
 textwrap-0.16.0
-thiserror-1.0.45
-thiserror-impl-1.0.45
+thiserror-1.0.47
+thiserror-impl-1.0.47
 thread_local-1.1.7
 time-0.3.20
 time-core-0.1.0
@@ -289,7 +291,7 @@ windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.2
 winnow-0.4.7
 xattr-1.0.1
-xwin-0.2.14
+xwin-0.3.1
 yansi-0.5.1
 zeroize-1.6.0
 zip-0.6.6
@@ -299,7 +301,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/f0/80/ca5bbd5fb9dc8833a97ec3b1ee94a2d712fd7835bf6d7d82495af3f8c549/maturin-1.2.3.tar.gz -> maturin-1.2.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/9e/7c/cea5ebc16253f7d030f99b5b7ad804242c0f4982cee65b596c1da3c4eb5f/maturin-1.3.0.tar.gz -> maturin-1.3.0.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -324,4 +326,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.2.3"
+S="${WORKDIR}/maturin-1.3.0"
