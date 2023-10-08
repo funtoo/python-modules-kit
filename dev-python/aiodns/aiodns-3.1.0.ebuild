@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Simple DNS resolver for asyncio"
 HOMEPAGE="https://github.com/saghul/aiodns https://pypi.org/project/aiodns/"
-SRC_URI="https://files.pythonhosted.org/packages/27/79/df72e25df0fdd9bf5a5ab068539731d27c5f2ae5654621ae0c92ceca94cf/aiodns-3.0.0.tar.gz -> aiodns-3.0.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e5/70/f9aa5346bb56b9de897ee0ad03e4d94e76731886df59e73218e024c257d6/aiodns-3.1.0.tar.gz -> aiodns-3.1.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/aiodns-3.0.0"
+S="${WORKDIR}/aiodns-3.1.0"
