@@ -9,7 +9,7 @@ inherit distutils-r1 flag-o-matic
 
 DESCRIPTION="Python bindings for Enlightenment Foundation Libraries"
 HOMEPAGE="https://phab.enlightenment.org/w/projects/python_bindings_for_efl/"
-SRC_URI="https://download.enlightenment.org/rel/bindings/python/python-efl-1.26.0.tar.xz -> python-efl-1.26.0.tar.xz"
+SRC_URI="https://download.enlightenment.org/rel/bindings/python/python-efl-1.26.1.tar.xz -> python-efl-1.26.1.tar.xz"
 
 LICENSE="|| ( GPL-3 LGPL-3 )"
 SLOT="0"
