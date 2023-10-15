@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python style guide checker"
 HOMEPAGE="https://pycodestyle.pycqa.org/ https://pypi.org/project/pycodestyle/"
-SRC_URI="https://files.pythonhosted.org/packages/c1/2d/022c78a6b3f591205e52b4d25c93b7329280f752b36ba2fc1377cbf016cd/pycodestyle-2.11.0.tar.gz -> pycodestyle-2.11.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/34/8f/fa09ae2acc737b9507b5734a9aec9a2b35fa73409982f57db1b42f8c3c65/pycodestyle-2.11.1.tar.gz -> pycodestyle-2.11.1.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pycodestyle-2.11.0"
+S="${WORKDIR}/pycodestyle-2.11.1"
