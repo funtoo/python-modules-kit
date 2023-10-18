@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Capture the outcome of Python function calls."
 HOMEPAGE="https://github.com/python-trio/outcome https://pypi.org/project/outcome/"
-SRC_URI="https://files.pythonhosted.org/packages/dd/91/741e1626e89fdc3664169e16300c59eefa4b23540cc6d6c70450f885098f/outcome-1.2.0.tar.gz -> outcome-1.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/64/1a/07e59b55f180506c72843d767a229c48084f5440005c646353742a4301bb/outcome-1.3.0.tar.gz -> outcome-1.3.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 MIT )"
 KEYWORDS="*"
-S="${WORKDIR}/outcome-1.2.0"
+S="${WORKDIR}/outcome-1.3.0"
