@@ -16,7 +16,7 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/configargparse-1.5.5"
+S="${WORKDIR}/ConfigArgParse-1.5.5"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
