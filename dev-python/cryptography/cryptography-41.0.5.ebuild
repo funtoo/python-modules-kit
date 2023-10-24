@@ -64,7 +64,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE=" https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/ef/33/87512644b788b00a250203382e40ee7040ae6fa6b4c4a31dcfeeaa26043b/cryptography-41.0.4.tar.gz -> cryptography-41.0.4.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/16/a7/38fdcdd634515f589c8c723608c0f0b38d66c6c2320b3095967486f3045a/cryptography-41.0.5.tar.gz -> cryptography-41.0.5.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -89,7 +89,7 @@ IUSE="cpu_flags_x86_sse2 libressl idna python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-41.0.4"
+S="${WORKDIR}/cryptography-41.0.5"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1

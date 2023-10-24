@@ -30,7 +30,7 @@ camino-1.1.6
 cargo-config2-0.1.9
 cargo-options-0.6.0
 cargo-platform-0.1.3
-cargo-xwin-0.14.7
+cargo-xwin-0.14.8
 cargo-zigbuild-0.17.3
 cargo_metadata-0.18.0
 cbindgen-0.25.0
@@ -122,7 +122,7 @@ memchr-2.5.0
 memoffset-0.9.0
 mime-0.3.17
 mime_guess-2.0.4
-minijinja-1.0.6
+minijinja-1.0.8
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 msi-0.6.0
@@ -177,7 +177,7 @@ regex-syntax-0.6.29
 rfc2047-decoder-0.2.2
 ring-0.16.20
 rustc_version-0.4.0
-rustix-0.37.23
+rustix-0.37.25
 rustls-0.21.2
 rustls-pemfile-1.0.3
 rustls-webpki-0.100.2
@@ -301,7 +301,7 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
-SRC_URI="https://files.pythonhosted.org/packages/9e/7c/cea5ebc16253f7d030f99b5b7ad804242c0f4982cee65b596c1da3c4eb5f/maturin-1.3.0.tar.gz -> maturin-1.3.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d6/a3/42ff26b2b3011ada67c73db32a9ccf9fa18d459cbef8ed6eefc3b283ee60/maturin-1.3.1.tar.gz -> maturin-1.3.1.tar.gz
 $(cargo_crate_uris ${CRATES})
 "
 
@@ -326,4 +326,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.3.0"
+S="${WORKDIR}/maturin-1.3.1"
