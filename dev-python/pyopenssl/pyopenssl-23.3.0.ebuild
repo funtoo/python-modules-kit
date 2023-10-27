@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python wrapper module around the OpenSSL library"
 HOMEPAGE="https://github.com/pyca/pyopenssl"
-SRC_URI="https://files.pythonhosted.org/packages/be/df/75a6525d8988a89aed2393347e9db27a56cb38a3e864314fac223e905aef/pyOpenSSL-23.2.0.tar.gz -> pyOpenSSL-23.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/bf/a0/e667c3c43b65a188cc3041fa00c50655315b93be45182b2c94d185a2610e/pyOpenSSL-23.3.0.tar.gz -> pyOpenSSL-23.3.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pyOpenSSL-23.2.0"
+S="${WORKDIR}/pyOpenSSL-23.3.0"
