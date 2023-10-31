@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Pytest support for asyncio"
 HOMEPAGE="https://github.com/pytest-dev/pytest-asyncio https://pypi.org/project/pytest-asyncio/"
-SRC_URI="https://files.pythonhosted.org/packages/5a/85/d39ef5f69d5597a206f213ce387bcdfa47922423875829f7a98a87d33281/pytest-asyncio-0.21.1.tar.gz -> pytest-asyncio-0.21.1.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/24/05/6e2e679644466425126aeca57165723cdd56dfd1971c0aec4bc063ec0009/pytest-asyncio-0.22.0.tar.gz -> pytest-asyncio-0.22.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pytest-asyncio-0.21.1"
+S="${WORKDIR}/pytest-asyncio-0.22.0"
