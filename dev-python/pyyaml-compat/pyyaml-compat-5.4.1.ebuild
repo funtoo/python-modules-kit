@@ -10,8 +10,7 @@ HOMEPAGE="https://pyyaml.org/wiki/PyYAML
 https://pypi.org/project/PyYAML/
 https://github.com/yaml/pyyaml
 "
-SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz -> PyYAML-5.4.1.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz -> PyYAML-5.4.1.tar.gz"
 
 DEPEND="
 	libyaml? ( dev-libs/libyaml )
@@ -19,7 +18,7 @@ DEPEND="
 RDEPEND="!<dev-python/pyyaml-6.0 
 	libyaml? ( dev-libs/libyaml )
 	libyaml? ( <dev-python/cython-3[${PYTHON_USEDEP}] )"
-IUSE="examples +libyaml"
+IUSE="+libyaml examples"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"

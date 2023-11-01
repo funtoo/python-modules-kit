@@ -8,8 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Hamcrest framework for matcher objects"
 HOMEPAGE="https://github.com/hamcrest/PyHamcrest"
-SRC_URI="https://files.pythonhosted.org/packages/16/3f/f286caba4e64391a8dc9200e6de6ce0d07471e3f718248c3276843b7793b/pyhamcrest-2.1.0.tar.gz -> pyhamcrest-2.1.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/16/3f/f286caba4e64391a8dc9200e6de6ce0d07471e3f718248c3276843b7793b/pyhamcrest-2.1.0.tar.gz -> pyhamcrest-2.1.0.tar.gz"
 
 DEPEND="$(python_gen_cond_dep 'dev-python/hatch-vcs[${PYTHON_USEDEP}]' -3)"
 RDEPEND="python_targets_python2_7? ( dev-python/pyhamcrest-compat )"

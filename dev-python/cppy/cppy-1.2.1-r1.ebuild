@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/nucleic/cppy https://pypi.org/project/cppy/"
-SRC_URI="https://files.pythonhosted.org/packages/c5/7e/6cc5acd93752ee52d2f0423046072a2ce3ae16dfcd44373b9fe2a0222204/cppy-1.2.1.tar.gz -> cppy-1.2.1.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/c5/7e/6cc5acd93752ee52d2f0423046072a2ce3ae16dfcd44373b9fe2a0222204/cppy-1.2.1.tar.gz -> cppy-1.2.1.tar.gz"
 
 DEPEND=""
 IUSE=""

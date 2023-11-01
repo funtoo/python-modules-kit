@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Async boto3 wrapper"
 HOMEPAGE="https://github.com/terrycain/aioboto3 https://pypi.org/project/aioboto3/"
-SRC_URI="https://files.pythonhosted.org/packages/02/05/e39e1b544a1ed9dfaffdee053430412f6c120feb9e96efc6bffe72d009d2/aioboto3-12.0.0.tar.gz -> aioboto3-12.0.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/02/05/e39e1b544a1ed9dfaffdee053430412f6c120feb9e96efc6bffe72d009d2/aioboto3-12.0.0.tar.gz -> aioboto3-12.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="

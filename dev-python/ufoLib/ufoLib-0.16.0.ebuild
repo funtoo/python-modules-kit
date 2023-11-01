@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A UFO font library"
 HOMEPAGE="https://github.com/fonttools/ufoLib2"
-SRC_URI="https://files.pythonhosted.org/packages/bb/40/f1c7478dc30014ac9c3d5eb14dbc693fd23dfd81ed64ea15920839425058/ufoLib2-0.16.0.tar.gz -> ufoLib2-0.16.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/bb/40/f1c7478dc30014ac9c3d5eb14dbc693fd23dfd81ed64ea15920839425058/ufoLib2-0.16.0.tar.gz -> ufoLib2-0.16.0.tar.gz"
 
 DEPEND=""
 RDEPEND="

@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Sniff out which async library your code is running under"
 HOMEPAGE="https://github.com/python-trio/sniffio https://pypi.org/project/sniffio/"
-SRC_URI="https://files.pythonhosted.org/packages/cd/50/d49c388cae4ec10e8109b1b833fd265511840706808576df3ada99ecb0ac/sniffio-1.3.0.tar.gz -> sniffio-1.3.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/cd/50/d49c388cae4ec10e8109b1b833fd265511840706808576df3ada99ecb0ac/sniffio-1.3.0.tar.gz -> sniffio-1.3.0.tar.gz"
 
 DEPEND=""
 IUSE=""

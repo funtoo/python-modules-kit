@@ -7,8 +7,7 @@ inherit distutils-r1 eutils
 
 DESCRIPTION="JSON Web Token implementation in Python"
 HOMEPAGE="https://github.com/jpadilla/pyjwt https://pypi.org/project/PyJWT/"
-SRC_URI="https://files.pythonhosted.org/packages/30/72/8259b2bccfe4673330cea843ab23f86858a419d8f1493f66d413a76c7e3b/PyJWT-2.8.0.tar.gz -> PyJWT-2.8.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/30/72/8259b2bccfe4673330cea843ab23f86858a419d8f1493f66d413a76c7e3b/PyJWT-2.8.0.tar.gz -> PyJWT-2.8.0.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="python_targets_python2_7? ( dev-python/pyjwt-compat )"

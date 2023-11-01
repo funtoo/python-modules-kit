@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Markdown and reStructuredText in a single file."
 HOMEPAGE="https://github.com/miyakogi/m2r https://pypi.org/project/m2r/"
-SRC_URI="https://files.pythonhosted.org/packages/94/65/fd40fbdc608298e760affb95869c3baed237dfe5649d62da1eaa1deca8f3/m2r-0.3.1.tar.gz -> m2r-0.3.1.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/94/65/fd40fbdc608298e760affb95869c3baed237dfe5649d62da1eaa1deca8f3/m2r-0.3.1.tar.gz -> m2r-0.3.1.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="

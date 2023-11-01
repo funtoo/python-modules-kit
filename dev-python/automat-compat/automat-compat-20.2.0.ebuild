@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Self-service finite-state machines for the programmer on the go"
 HOMEPAGE="https://github.com/glyph/Automat https://pypi.org/project/Automat/"
-SRC_URI="https://files.pythonhosted.org/packages/80/c5/82c63bad570f4ef745cc5c2f0713c8eddcd07153b4bee7f72a8dc9f9384b/Automat-20.2.0.tar.gz -> Automat-20.2.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/80/c5/82c63bad570f4ef745cc5c2f0713c8eddcd07153b4bee7f72a8dc9f9384b/Automat-20.2.0.tar.gz -> Automat-20.2.0.tar.gz"
 
 DEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]

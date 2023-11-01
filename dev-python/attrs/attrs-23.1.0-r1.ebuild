@@ -8,8 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Classes Without Boilerplate"
 HOMEPAGE=" https://pypi.org/project/attrs/"
-SRC_URI="https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz -> attrs-23.1.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/97/90/81f95d5f705be17872843536b1868f351805acf6971251ff07c1b8334dbb/attrs-23.1.0.tar.gz -> attrs-23.1.0.tar.gz"
 
 DEPEND="
 	dev-python/hatch-vcs[${PYTHON_USEDEP}]

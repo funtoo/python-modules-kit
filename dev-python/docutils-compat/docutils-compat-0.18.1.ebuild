@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Docutils -- Python Documentation Utilities"
 HOMEPAGE="https://docutils.sourceforge.io/ https://pypi.org/project/docutils/"
-SRC_URI="https://files.pythonhosted.org/packages/57/b1/b880503681ea1b64df05106fc7e3c4e3801736cf63deffc6fa7fc5404cf5/docutils-0.18.1.tar.gz -> docutils-0.18.1.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/57/b1/b880503681ea1b64df05106fc7e3c4e3801736cf63deffc6fa7fc5404cf5/docutils-0.18.1.tar.gz -> docutils-0.18.1.tar.gz"
 
 DEPEND=""
 RDEPEND="!<dev-python/docutils-0.19-r1 dev-python/setuptools[${PYTHON_USEDEP}]"

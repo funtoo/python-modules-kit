@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Useful extra bits for Python - things that shold be in the standard library"
 HOMEPAGE="https://github.com/testing-cabal/extras https://pypi.org/project/extras/"
-SRC_URI="https://files.pythonhosted.org/packages/be/18/0b7283f0ebf6ad4bb6b9937538495eadf05ef097b102946b9445c4242636/extras-1.0.0.tar.gz -> extras-1.0.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/be/18/0b7283f0ebf6ad4bb6b9937538495eadf05ef097b102946b9445c4242636/extras-1.0.0.tar.gz -> extras-1.0.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]

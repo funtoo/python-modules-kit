@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Setuptools extension for CalVer package versions"
 HOMEPAGE="https://github.com/di/calver https://pypi.org/project/calver/"
-SRC_URI="https://files.pythonhosted.org/packages/b5/00/96cbed7c019c49ee04b8a08357a981983db7698ae6de402e57097cefc9ad/calver-2022.6.26.tar.gz -> calver-2022.6.26.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/b5/00/96cbed7c019c49ee04b8a08357a981983db7698ae6de402e57097cefc9ad/calver-2022.6.26.tar.gz -> calver-2022.6.26.tar.gz"
 
 DEPEND=""
 IUSE=""

@@ -2,23 +2,18 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ )
+
 inherit python-r1
-
-DESCRIPTION="Namespace package declaration for zope"
-HOMEPAGE="https://wiki.gentoo.org/wiki/Project:Python/Namespace_packages"
-SRC_URI=""
-
-LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="*"
-IUSE=""
 
 RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	${PYTHON_DEPS}"
+    ${PYTHON_DEPS}"
 DEPEND="${PYTHON_DEPS}"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
+
 
 src_unpack() {
 	mkdir -p "${S}"/zope || die

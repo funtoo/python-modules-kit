@@ -9,8 +9,7 @@ DESCRIPTION="Passive checker for Python programs"
 HOMEPAGE="https://github.com/PyCQA/pyflakes
 https://pypi.org/project/pyflakes/
 "
-SRC_URI="https://files.pythonhosted.org/packages/8b/fb/7251eaec19a055ec6aafb3d1395db7622348130d1b9b763f78567b2aab32/pyflakes-3.1.0.tar.gz -> pyflakes-3.1.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/8b/fb/7251eaec19a055ec6aafb3d1395db7622348130d1b9b763f78567b2aab32/pyflakes-3.1.0.tar.gz -> pyflakes-3.1.0.tar.gz"
 
 DEPEND=""
 IUSE=""

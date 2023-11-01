@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A sphinx extension which renders display math in HTML via JavaScript"
 HOMEPAGE="http://sphinx-doc.org/ https://pypi.org/project/sphinxcontrib-jsmath/"
-SRC_URI="https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c026a07a5097edcf44b692850ef215b161b8ad875729/sphinxcontrib-jsmath-1.0.1.tar.gz -> sphinxcontrib-jsmath-1.0.1.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c026a07a5097edcf44b692850ef215b161b8ad875729/sphinxcontrib-jsmath-1.0.1.tar.gz -> sphinxcontrib-jsmath-1.0.1.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"

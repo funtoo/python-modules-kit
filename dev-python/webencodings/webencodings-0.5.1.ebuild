@@ -1,36 +1,17 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-PYTHON_COMPAT=( python2_7 python3_{5,6,7} pypy pypy3 )
-
+PYTHON_COMPAT=( python2+ pypy3 pypy )
 inherit distutils-r1
 
 DESCRIPTION="Character encoding aliases for legacy web content"
 HOMEPAGE="https://github.com/SimonSapin/python-webencodings https://pypi.org/project/webencodings/"
-SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/02/ae6ceac1baeda530866a85075641cec12989bd8d31af6d5ab4a3e8c92f47/webencodings-0.5.1.tar.gz -> webencodings-0.5.1.tar.gz"
 
-LICENSE="BSD"
+DEPEND=""
+IUSE=""
 SLOT="0"
-KEYWORDS="alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-fbsd ~amd64-linux ~x86-linux ~x64-macos"
-IUSE="test"
-
-RDEPEND=""
-DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_prepare_all(){
-	cat >> setup.cfg <<- EOF
-	[pytest]
-	python_files=test*.py
-	EOF
-	distutils-r1_python_prepare_all
-}
-
-python_test() {
-	py.test -v -v || die
-}
+LICENSE="BSD"
+KEYWORDS="*"
+S="${WORKDIR}/webencodings-0.5.1"

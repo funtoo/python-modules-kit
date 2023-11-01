@@ -8,8 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE=" https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz -> cryptography-3.3.2.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/d4/85/38715448253404186029c575d559879912eb8a1c5d16ad9f25d35f7c4f4c/cryptography-3.3.2.tar.gz -> cryptography-3.3.2.tar.gz"
 
 DEPEND="
 	libressl? ( dev-libs/libressl:0= )
@@ -26,7 +25,7 @@ RDEPEND="!<dev-python/cryptography-3.4.2
 	virtual/python-ipaddress[${PYTHON_USEDEP}]
 	>=dev-python/cffi-1.11.3[${PYTHON_USEDEP}]
 	idna? ( >=dev-python/idna-2.1[${PYTHON_USEDEP}] )"
-IUSE="cpu_flags_x86_sse2 libressl idna"
+IUSE="cpu_flags_x86_sse2 idna libressl"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"

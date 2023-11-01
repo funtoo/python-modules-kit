@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
 HOMEPAGE="https://requests.readthedocs.io/en/master/"
-SRC_URI="https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz -> requests-2.31.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz -> requests-2.31.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,7 +19,7 @@ RDEPEND="
 	$(python_gen_cond_dep 'dev-python/charset_normalizer[${PYTHON_USEDEP}]' -3)
 	socks5? ( >=dev-python/PySocks-1.5.6[${PYTHON_USEDEP}] )
 	ssl? ( >=dev-python/cryptography-1.3.4[${PYTHON_USEDEP}] >=dev-python/pyopenssl-0.14[${PYTHON_USEDEP}] )"
-IUSE="socks5 +ssl python_targets_python2_7"
+IUSE="+ssl python_targets_python2_7 socks5"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

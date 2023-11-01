@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A drop in replacement for xpyb, an XCB python binding"
 HOMEPAGE="https://github.com/tych0/xcffib"
-SRC_URI="https://files.pythonhosted.org/packages/80/79/69a7239a42ebe3054c32857124caa26e84024fce2fd56616091a047fe7fa/xcffib-1.5.0.tar.gz -> xcffib-1.5.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/80/79/69a7239a42ebe3054c32857124caa26e84024fce2fd56616091a047fe7fa/xcffib-1.5.0.tar.gz -> xcffib-1.5.0.tar.gz"
 
 DEPEND="
 	x11-libs/libxcb"

@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="converts and manipulates various color representation (HSL, RVB, web, X11, ...)"
 HOMEPAGE="http://github.com/vaab/colour https://pypi.org/project/colour/"
-SRC_URI="https://files.pythonhosted.org/packages/a0/d4/5911a7618acddc3f594ddf144ecd8a03c29074a540f4494670ad8f153efe/colour-0.1.5.tar.gz -> colour-0.1.5.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/a0/d4/5911a7618acddc3f594ddf144ecd8a03c29074a540f4494670ad8f153efe/colour-0.1.5.tar.gz -> colour-0.1.5.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/d2to1[${PYTHON_USEDEP}]"

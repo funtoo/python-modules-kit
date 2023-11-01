@@ -7,8 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A list-like structure which implements collections.abc.MutableSequence"
 HOMEPAGE="https://github.com/aio-libs/frozenlist https://pypi.org/project/frozenlist/"
-SRC_URI="https://files.pythonhosted.org/packages/8c/1f/49c96ccc87127682ba900b092863ef7c20302a2144b3185412a08480ca22/frozenlist-1.4.0.tar.gz -> frozenlist-1.4.0.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/8c/1f/49c96ccc87127682ba900b092863ef7c20302a2144b3185412a08480ca22/frozenlist-1.4.0.tar.gz -> frozenlist-1.4.0.tar.gz"
 
 DEPEND=""
 IUSE=""

@@ -8,8 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A PEP 517 backend for PDM that supports PEP 621 metadata"
 HOMEPAGE=" https://pypi.org/project/pdm-pep517/"
-SRC_URI="https://files.pythonhosted.org/packages/43/42/5c8818b70fc4b25c99e56aeeb3484ede076114c8a0772675b44a3b7891cc/pdm-pep517-1.1.4.tar.gz -> pdm-pep517-1.1.4.tar.gz
-"
+SRC_URI="https://files.pythonhosted.org/packages/43/42/5c8818b70fc4b25c99e56aeeb3484ede076114c8a0772675b44a3b7891cc/pdm-pep517-1.1.4.tar.gz -> pdm-pep517-1.1.4.tar.gz"
 
 DEPEND=""
 RDEPEND="
