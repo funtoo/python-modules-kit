@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Extensions to the Python standard library unit testing framework"
-HOMEPAGE="https://github.com/testing-cabal/testtools https://pypi.org/project/testtools/"
-SRC_URI="https://files.pythonhosted.org/packages/cb/67/78e37d73f63d12cb2510e29aa0be14323719c6fdd33243118064b46f57d3/testtools-2.6.0.tar.gz -> testtools-2.6.0.tar.gz"
+HOMEPAGE=" https://pypi.org/project/testtools/"
+SRC_URI="https://files.pythonhosted.org/packages/07/a7/3f3daee7a525d5288b84581448d21a39d0b9ae9f4a235d99850682944857/testtools-2.7.1.tar.gz -> testtools-2.7.1.tar.gz"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/testtools-2.6.0"
+S="${WORKDIR}/testtools-2.7.1"
