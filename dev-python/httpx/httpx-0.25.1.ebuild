@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="The next generation HTTP client."
 HOMEPAGE=" https://pypi.org/project/httpx/"
-SRC_URI="https://files.pythonhosted.org/packages/a5/24/dbc981590a8b72ddd5f954fbddb1da010ae844a1cde904bca3c9380ccb1d/httpx-0.25.0.tar.gz -> httpx-0.25.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/fe/c0523094193929a68b288e0ae3eb865725f1ee9faca0f21693a86e96c943/httpx-0.25.1.tar.gz -> httpx-0.25.1.tar.gz"
 
 DEPEND="dev-python/hatch-fancy-pypi-readme[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -21,4 +21,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/httpx-0.25.0"
+S="${WORKDIR}/httpx-0.25.1"

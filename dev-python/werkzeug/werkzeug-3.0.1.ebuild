@@ -2,43 +2,17 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ pypy3 )
-
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-MY_PN="Werkzeug"
-MY_P="${MY_PN}-${PV}"
-
-DESCRIPTION="Collection of various utilities for WSGI applications"
-HOMEPAGE="http://werkzeug.pocoo.org/ https://pypi.org/project/Werkzeug/ https://github.com/pallets/werkzeug"
+DESCRIPTION="The comprehensive WSGI web application library."
+HOMEPAGE=" https://pypi.org/project/Werkzeug/"
 SRC_URI="https://files.pythonhosted.org/packages/0d/cc/ff1904eb5eb4b455e442834dabf9427331ac0fa02853bf83db817a7dd53d/werkzeug-3.0.1.tar.gz -> werkzeug-3.0.1.tar.gz"
 
-LICENSE="BSD"
+DEPEND=""
+RDEPEND="dev-python/markupsafe[${PYTHON_USEDEP}]"
+IUSE=""
 SLOT="0"
+LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/${MY_P}"
-
-RDEPEND="dev-python/simplejson[${PYTHON_USEDEP}]"
-DEPEND="
-	test? (
-		dev-python/click[${PYTHON_USEDEP}]
-		dev-python/cryptography[${PYTHON_USEDEP}]
-		dev-python/requests[${PYTHON_USEDEP}]
-		dev-python/pytest-timeout[${PYTHON_USEDEP}]
-		dev-python/pytest-xprocess[${PYTHON_USEDEP}]
-	)"
-
-distutils_enable_tests pytest
-
-src_prepare() {
-	# this test is very unreliable; it may fail randomly depending
-	# on installed packages
-	sed -i -e 's:test_no_memory_leak_from_Rule_builder:_&:' \
-		tests/test_routing.py || die
-
-	distutils-r1_src_prepare
-}
-
-python_test() {
-	pytest -vv -x -p no:httpbin tests/test_routing.py || die "Tests fail with ${EPYTHON}"
-}
+S="${WORKDIR}/werkzeug-3.0.1"

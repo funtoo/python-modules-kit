@@ -5,9 +5,9 @@ EAPI=7
 PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
-DESCRIPTION="Interact with GitLab API"
-HOMEPAGE="https://github.com/python-gitlab/python-gitlab https://pypi.org/project/python-gitlab/"
-SRC_URI="https://files.pythonhosted.org/packages/22/53/248b87282df591d74ba3d38c3c3ced2b5087248c0ccfb6b3a947bb1034c3/python-gitlab-3.15.0.tar.gz -> python-gitlab-3.15.0.tar.gz"
+DESCRIPTION="A python wrapper for the GitLab API"
+HOMEPAGE=" https://pypi.org/project/python-gitlab/"
+SRC_URI="https://files.pythonhosted.org/packages/e7/e2/5a533c1944e9ccdfaf9b061c92b082484eb1ae809364a455c993bd5c0b65/python-gitlab-4.1.1.tar.gz -> python-gitlab-4.1.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/python-gitlab-3.15.0"
+S="${WORKDIR}/python-gitlab-4.1.1"
