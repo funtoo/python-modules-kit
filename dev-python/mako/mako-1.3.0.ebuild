@@ -7,7 +7,7 @@ inherit distutils-r1 eutils
 
 DESCRIPTION="A super-fast templating language that borrows the best ideas from the existing templating languages."
 HOMEPAGE="https://www.makotemplates.org/ https://pypi.org/project/Mako/"
-SRC_URI="https://files.pythonhosted.org/packages/05/5f/2ba6e026d33a0e6ddc1dddf9958677f76f5f80c236bd65309d280b166d3e/Mako-1.2.4.tar.gz -> Mako-1.2.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/6e/6b41e654bbdcef90c6b9e7f280bf7cbd756dc2560ce76214f5cdbc4ddab5/Mako-1.3.0.tar.gz -> Mako-1.3.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,7 +18,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Mako-1.2.4"
+S="${WORKDIR}/Mako-1.3.0"
 
 pkg_postinst() {
 	elog "Optional dependencies:"
