@@ -22,6 +22,6 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/testing-cabal-subunit* "$S" || die
+		mv "${WORKDIR}"/testing-cabal-* "$S" || die
 	fi
 }

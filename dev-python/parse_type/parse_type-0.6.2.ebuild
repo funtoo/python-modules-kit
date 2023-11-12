@@ -22,7 +22,7 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/jenisys-parse_type* "$S" || die
+		mv "${WORKDIR}"/jenisys-* "$S" || die
 	fi
 }
 

@@ -20,6 +20,6 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/pexpect-pexpect* "$S" || die
+		mv "${WORKDIR}"/pexpect-* "$S" || die
 	fi
 }

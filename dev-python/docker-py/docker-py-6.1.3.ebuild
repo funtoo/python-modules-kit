@@ -23,7 +23,7 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/docker-docker-py* "$S" || die
+		mv "${WORKDIR}"/docker-* "$S" || die
 	fi
 }
 

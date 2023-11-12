@@ -25,6 +25,6 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/RDFLib-rdflib* "$S" || die
+		mv "${WORKDIR}"/RDFLib-* "$S" || die
 	fi
 }

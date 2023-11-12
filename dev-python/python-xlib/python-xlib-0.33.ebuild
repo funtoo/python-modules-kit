@@ -25,7 +25,7 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/python-xlib-python-xlib* "$S" || die
+		mv "${WORKDIR}"/python-xlib-* "$S" || die
 	fi
 }
 

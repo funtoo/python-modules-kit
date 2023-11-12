@@ -20,6 +20,6 @@ KEYWORDS="*"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/lark-parser-lark* "$S" || die
+		mv "${WORKDIR}"/lark-parser-* "$S" || die
 	fi
 }
