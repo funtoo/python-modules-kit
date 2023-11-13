@@ -10,6 +10,6 @@ LICENSE=Apache-2.0
 RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/02/dd/0faf690527478aa45131e0e0f7fb178cbd095c7856e946420f4e0fd8a9be/trove-classifiers-2023.11.9.tar.gz -> trove-classifiers-2023.11.9.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/5b/01/bbb66e3899bd0078559735f7046db0e906a29e9b12118ce39b79a194ad5f/trove-classifiers-2023.11.13.tar.gz -> trove-classifiers-2023.11.13.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=7a16ae7e34d4bb78af5f304d16255e6b
+_md5_=0538e94e620599d3174112288126bf39
