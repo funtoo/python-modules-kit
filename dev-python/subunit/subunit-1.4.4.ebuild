@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/testing-cabal/subunit"
-SRC_URI="https://github.com/testing-cabal/subunit/tarball/f9fccc635fe9b41f20cfe188241f7b2b66c0c0c8 -> subunit-1.4.3-f9fccc6.tar.gz
+SRC_URI="https://github.com/testing-cabal/subunit/tarball/4abed8352e0f562a03ab826cd728ef053b1fd6e9 -> subunit-1.4.4-4abed83.tar.gz
 "
 
 DEPEND=""
