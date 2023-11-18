@@ -3,6 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 CARGO_OPTIONAL="yes"
 CRATES="
 Inflector-0.11.4
