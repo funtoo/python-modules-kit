@@ -7,7 +7,7 @@ inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="Fast C based HTML 5 parsing for python"
 HOMEPAGE="https://github.com/kovidgoyal/html5-parser/"
-SRC_URI="https://files.pythonhosted.org/packages/20/2d/f2f3d91d73b715e24943896a338be9591537e293522344b0acfd1ee75d92/html5-parser-0.4.11.tar.gz -> html5-parser-0.4.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/a9/f6/7b330c4bfd46a7d002c627646b157521d103a39ebab942a654a90119e176/html5-parser-0.4.12.tar.gz -> html5-parser-0.4.12.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

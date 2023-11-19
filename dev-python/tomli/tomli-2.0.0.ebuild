@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_PEP517="flit"
+DISTUTILS_USE_SETUPTOOLS="autostub"
 inherit distutils-r1
 
 DESCRIPTION="A lil' TOML parser"
