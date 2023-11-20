@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_SETUPTOOLS="rdepend"
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Extensible Python-based build utility"
@@ -30,7 +30,6 @@ python_install() {
 	if [ "$PN"  == 'scons-compat' ]; then
 		rm -rf "${D}"/usr/bin
 		find "${D}" -type d -name "man" -exec rm -rf \{\} \;
-
 	fi
 
 }
