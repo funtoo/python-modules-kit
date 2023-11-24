@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="A documentation generator for GObject-based libraries"
 HOMEPAGE="https://gitlab.gnome.org/GNOME/gi-docgen"
-SRC_URI="https://files.pythonhosted.org/packages/29/72/a319bce143e5d10677bc89b66e750c1511ec005c7a8bb098b415cc68ac68/gi-docgen-2023.1.tar.gz -> gi-docgen-2023.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e5/6e/9f05646d0dbfa537c9328204212e7d22942e656b9279d1d36d8efedf5dec/gi-docgen-2023.2.tar.gz -> gi-docgen-2023.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="|| ( Apache-2.0 GPL-3+ ) CC0-1.0 OFL-1.1 MIT GPL-3+ LGPL-2 MIT MPL-1.1 CC-By-SA-3"
 KEYWORDS="*"
-S="${WORKDIR}/gi-docgen-2023.1"
+S="${WORKDIR}/gi-docgen-2023.2"
