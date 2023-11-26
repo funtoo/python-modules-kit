@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="reference implementation of the Python wheel packaging standard, as defined in PEP 427"
 HOMEPAGE=" https://pypi.org/project/wheel/"
-SRC_URI="https://files.pythonhosted.org/packages/fb/d0/0b4c18a0b85c20233b0c3bc33f792aefd7f12a5832b4da77419949ff6fd9/wheel-0.41.3.tar.gz -> wheel-0.41.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b0/b4/bc2baae3970c282fae6c2cb8e0f179923dceb7eaffb0e76170628f9af97b/wheel-0.42.0.tar.gz -> wheel-0.42.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,7 +18,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/wheel-0.41.3"
+S="${WORKDIR}/wheel-0.42.0"
 
 src_prepare() {
 	# unbundle packaging
