@@ -13,6 +13,7 @@ asn1_derive-0.15.2
 autocfg-1.1.0
 base64-0.13.1
 bitflags-1.3.2
+bitflags-2.4.1
 cc-1.0.79
 cfg-if-1.0.0
 foreign-types-0.3.2
@@ -22,9 +23,9 @@ libc-0.2.144
 lock_api-0.4.9
 memoffset-0.8.0
 once_cell-1.17.2
-openssl-0.10.54
+openssl-0.10.60
 openssl-macros-0.1.1
-openssl-sys-0.9.88
+openssl-sys-0.9.96
 ouroboros-0.15.6
 ouroboros_macro-0.15.6
 parking_lot-0.12.1
@@ -72,6 +73,7 @@ https://crates.io/api/v1/crates/asn1_derive/0.15.2/download -> asn1_derive-0.15.
 https://crates.io/api/v1/crates/autocfg/1.1.0/download -> autocfg-1.1.0.crate
 https://crates.io/api/v1/crates/base64/0.13.1/download -> base64-0.13.1.crate
 https://crates.io/api/v1/crates/bitflags/1.3.2/download -> bitflags-1.3.2.crate
+https://crates.io/api/v1/crates/bitflags/2.4.1/download -> bitflags-2.4.1.crate
 https://crates.io/api/v1/crates/cc/1.0.79/download -> cc-1.0.79.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.3.2.crate
@@ -81,9 +83,9 @@ https://crates.io/api/v1/crates/libc/0.2.144/download -> libc-0.2.144.crate
 https://crates.io/api/v1/crates/lock_api/0.4.9/download -> lock_api-0.4.9.crate
 https://crates.io/api/v1/crates/memoffset/0.8.0/download -> memoffset-0.8.0.crate
 https://crates.io/api/v1/crates/once_cell/1.17.2/download -> once_cell-1.17.2.crate
-https://crates.io/api/v1/crates/openssl/0.10.54/download -> openssl-0.10.54.crate
+https://crates.io/api/v1/crates/openssl/0.10.60/download -> openssl-0.10.60.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.88/download -> openssl-sys-0.9.88.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.96/download -> openssl-sys-0.9.96.crate
 https://crates.io/api/v1/crates/ouroboros/0.15.6/download -> ouroboros-0.15.6.crate
 https://crates.io/api/v1/crates/ouroboros_macro/0.15.6/download -> ouroboros_macro-0.15.6.crate
 https://crates.io/api/v1/crates/parking_lot/0.12.1/download -> parking_lot-0.12.1.crate
@@ -118,7 +120,7 @@ https://crates.io/api/v1/crates/windows_i686_msvc/0.42.2/download -> windows_i68
 https://crates.io/api/v1/crates/windows_x86_64_gnu/0.42.2/download -> windows_x86_64_gnu-0.42.2.crate
 https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.42.2/download -> windows_x86_64_gnullvm-0.42.2.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.42.2/download -> windows_x86_64_msvc-0.42.2.crate
-https://files.pythonhosted.org/packages/16/a7/38fdcdd634515f589c8c723608c0f0b38d66c6c2320b3095967486f3045a/cryptography-41.0.5.tar.gz -> cryptography-41.0.5.tar.gz
+https://files.pythonhosted.org/packages/ce/b3/13a12ea7edb068de0f62bac88a8ffd92cc2901881b391839851846b84a81/cryptography-41.0.7.tar.gz -> cryptography-41.0.7.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -142,7 +144,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-41.0.5"
+S="${WORKDIR}/cryptography-41.0.7"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
