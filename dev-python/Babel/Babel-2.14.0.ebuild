@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Internationalization utilities"
 HOMEPAGE="https://babel.pocoo.org/ https://pypi.org/project/Babel/"
-SRC_URI="https://files.pythonhosted.org/packages/aa/6c/737d2345d86741eeb594381394016b9c74c1253b4cbe274bb1e7b5e2138e/Babel-2.13.1.tar.gz -> Babel-2.13.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/e2/80/cfbe44a9085d112e983282ee7ca4c00429bc4d1ce86ee5f4e60259ddff7f/Babel-2.14.0.tar.gz -> Babel-2.14.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Babel-2.13.1"
+S="${WORKDIR}/Babel-2.14.0"

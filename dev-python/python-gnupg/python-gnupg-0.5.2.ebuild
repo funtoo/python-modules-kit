@@ -11,7 +11,7 @@ HOMEPAGE="
 	https://bitbucket.org/vinay.sajip/python-gnupg
 	https://pypi.org/project/python-gnupg/
 "
-SRC_URI="https://files.pythonhosted.org/packages/98/62/7737485f44bd4d7d904f4094372f4119195865b29f119fa51a98e121a13a/python-gnupg-0.5.1.tar.gz -> python-gnupg-0.5.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/5d/4425390ad81d22b330a1b0df204c4d39fb3cb7c39e081d51e9f7426ce716/python-gnupg-0.5.2.tar.gz -> python-gnupg-0.5.2.tar.gz"
 
 KEYWORDS="*"
 LICENSE="BSD"
