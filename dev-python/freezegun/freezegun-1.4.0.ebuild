@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Let your Python tests travel through time"
 HOMEPAGE="https://github.com/spulec/freezegun"
-SRC_URI="https://files.pythonhosted.org/packages/76/49/1b9dd9480d29dc8d226772fe4dce6991ac013739d0c1949bcd46fb6cd7d4/freezegun-1.3.1.tar.gz -> freezegun-1.3.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/1c/73/5decad3abddbe7e1bf4bf98ead1a8345b1cc6fc6ec7e4fa27da81f4e1eee/freezegun-1.4.0.tar.gz -> freezegun-1.4.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
