@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python wrapper for the Cloudflare v4 API"
 HOMEPAGE="https://pypi.org/project/cloudflare/"
-SRC_URI="https://files.pythonhosted.org/packages/48/ba/1ae8a3beef8bad4164272b829a82cd8daefeb02d09e8f1c8278d6fd5f37b/cloudflare-2.14.3.tar.gz -> cloudflare-2.14.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/7f/8a/8be7bf240769735d1d407cec5cce935624239db68ee3d70990603ffea569/cloudflare-2.15.1.tar.gz -> cloudflare-2.15.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

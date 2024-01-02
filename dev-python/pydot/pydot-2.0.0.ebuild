@@ -3,11 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Python interface to Graphviz's Dot"
-HOMEPAGE="https://github.com/pydot/pydot https://pypi.org/project/pydot/"
-SRC_URI="https://files.pythonhosted.org/packages/13/6e/916cdf94f9b38ae0777b254c75c3bdddee49a54cc4014aac1460a7a172b3/pydot-1.4.2.tar.gz -> pydot-1.4.2.tar.gz"
+HOMEPAGE=" https://pypi.org/project/pydot/"
+SRC_URI="https://files.pythonhosted.org/packages/d7/2f/482fcbc389e180e7f8d7e7cb06bc5a7c37be6c57939dfb950951d97f2722/pydot-2.0.0.tar.gz -> pydot-2.0.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pydot-1.4.2"
+S="${WORKDIR}/pydot-2.0.0"
