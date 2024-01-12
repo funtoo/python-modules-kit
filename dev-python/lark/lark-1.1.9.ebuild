@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Parsing toolkit for Python, built with a focus on ergonomics, performance and modularity."
 HOMEPAGE="https://pypi.org/project/lark"
-SRC_URI="https://github.com/lark-parser/lark/tarball/a43373c8c16bea0e2e006eb614b21c1970e4f989 -> lark-1.1.8-a43373c.tar.gz
+SRC_URI="https://github.com/lark-parser/lark/tarball/262ab71d497a8814f0ca42ca468b923fdb47a3c7 -> lark-1.1.9-262ab71.tar.gz
 "
 
 DEPEND=""

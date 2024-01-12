@@ -10,7 +10,7 @@ HOMEPAGE="https://python-markdown.github.io/
 https://pypi.org/project/Markdown/
 https://github.com/Python-Markdown/markdown
 "
-SRC_URI="https://files.pythonhosted.org/packages/35/14/1ec9742e151f3b06a723a20d9af7201a389ebd3aae8b7d93b521819489dc/Markdown-3.5.1.tar.gz -> Markdown-3.5.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/11/28/c5441a6642681d92de56063fa7984df56f783d3f1eba518dc3e7a253b606/Markdown-3.5.2.tar.gz -> Markdown-3.5.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Markdown-3.5.1"
+S="${WORKDIR}/Markdown-3.5.2"

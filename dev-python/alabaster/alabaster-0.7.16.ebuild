@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="A light, configurable Sphinx theme"
 HOMEPAGE=" https://pypi.org/project/alabaster/"
-SRC_URI="https://files.pythonhosted.org/packages/62/03/9365dc7e96ac2e3f9b5019c55eb5283aac96adffc0ca445ab6c80952fae6/alabaster-0.7.15.tar.gz -> alabaster-0.7.15.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c9/3e/13dd8e5ed9094e734ac430b5d0eb4f2bb001708a8b7856cbf8e084e001ba/alabaster-0.7.16.tar.gz -> alabaster-0.7.16.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/alabaster-compat )"
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/alabaster-0.7.15"
+S="${WORKDIR}/alabaster-0.7.16"
