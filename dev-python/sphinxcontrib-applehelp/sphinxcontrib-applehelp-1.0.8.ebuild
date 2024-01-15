@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-applehelp is a Sphinx extension which outputs Apple help books"
 HOMEPAGE=" https://pypi.org/project/sphinxcontrib-applehelp/"
-SRC_URI="https://files.pythonhosted.org/packages/1c/5a/fce19be5d4db26edc853a0c34832b39db7b769b7689da027529767b0aa98/sphinxcontrib_applehelp-1.0.7.tar.gz -> sphinxcontrib_applehelp-1.0.7.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/26/6b/68f470fc337ed24043fec987b101f25b35010970bd958970c2ae5990859f/sphinxcontrib_applehelp-1.0.8.tar.gz -> sphinxcontrib_applehelp-1.0.8.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_applehelp-1.0.7"
+S="${WORKDIR}/sphinxcontrib_applehelp-1.0.8"
