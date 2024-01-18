@@ -7,14 +7,14 @@ inherit distutils-r1
 
 DESCRIPTION="Curses-based user interface library for Python"
 HOMEPAGE="http://urwid.org/ https://pypi.org/project/urwid/ https://github.com/urwid/urwid/"
-SRC_URI="https://files.pythonhosted.org/packages/da/81/fb36613477f486f9c9d93cdf248f7df9874c791b37d4942203f200cc5ac7/urwid-2.4.2.tar.gz -> urwid-2.4.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/97/c2/1452ea7ae47ef9f4d746ef912a1e5a66db558b1f6bc600f75f598a575435/urwid-2.4.4.tar.gz -> urwid-2.4.4.tar.gz"
 
 DEPEND=""
 IUSE="examples"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/urwid-2.4.2"
+S="${WORKDIR}/urwid-2.4.4"
 
 distutils_enable_sphinx docs
 python_install_all() {
