@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Toolkit to convert between many translation formats"
 HOMEPAGE="https://github.com/translate/translate"
-SRC_URI="https://files.pythonhosted.org/packages/78/03/246848a23799a5a7b1b4e5a242ee923b45cec4da64ef34677d8799fcae55/translate-toolkit-3.12.1.tar.gz -> translate-toolkit-3.12.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/32/40/2776a3356a0902cd3962031f0d4d6eae04c6f17ca1ded575435182094ceb/translate-toolkit-3.12.2.tar.gz -> translate-toolkit-3.12.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -32,7 +32,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-S="${WORKDIR}/translate-toolkit-3.12.1"
+S="${WORKDIR}/translate-toolkit-3.12.2"
 
 distutils_enable_sphinx docs dev-python/sphinx-bootstrap-theme
 src_prepare() {
