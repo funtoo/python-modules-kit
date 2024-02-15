@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 )
+PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="A Python crypto and SSL toolkit"
@@ -41,7 +41,7 @@ python_compile() {
 	# https://bugs.gentoo.org/674112
 	swig_define __ARM_PCS_VFP
 
-	distutils-r1_python_compile --openssl="${ESYSROOT}"/usr
+	distutils-r1_python_compile
 }
 python_test() {
 	esetup.py test
