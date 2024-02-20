@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python client for Sentry (https://sentry.io)"
 HOMEPAGE="https://github.com/getsentry/sentry-python https://pypi.org/project/sentry-sdk/"
-SRC_URI="https://files.pythonhosted.org/packages/c2/8d/379e1a2ebcfb117f2feb0cdc1bfc89a0ac6d4a00710c81a3c7107480b197/sentry-sdk-1.40.4.tar.gz -> sentry-sdk-1.40.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/70/c6/d2e609b02fb6f36e7ec1d2c59df057cccb7d3b99efb908bb8832ded12838/sentry-sdk-1.40.5.tar.gz -> sentry-sdk-1.40.5.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sentry-sdk-1.40.4"
+S="${WORKDIR}/sentry-sdk-1.40.5"
