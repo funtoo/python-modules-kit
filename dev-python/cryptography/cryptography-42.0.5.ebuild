@@ -29,12 +29,13 @@ parking_lot-0.12.1
 parking_lot_core-0.9.9
 pem-3.0.3
 pkg-config-0.3.29
+portable-atomic-1.6.0
 proc-macro2-1.0.78
-pyo3-0.20.2
-pyo3-build-config-0.20.2
-pyo3-ffi-0.20.2
-pyo3-macros-0.20.2
-pyo3-macros-backend-0.20.2
+pyo3-0.20.3
+pyo3-build-config-0.20.3
+pyo3-ffi-0.20.3
+pyo3-macros-0.20.3
+pyo3-macros-backend-0.20.3
 quote-1.0.35
 redox_syscall-0.4.1
 scopeguard-1.2.0
@@ -82,12 +83,13 @@ https://crates.io/api/v1/crates/parking_lot/0.12.1/download -> parking_lot-0.12.
 https://crates.io/api/v1/crates/parking_lot_core/0.9.9/download -> parking_lot_core-0.9.9.crate
 https://crates.io/api/v1/crates/pem/3.0.3/download -> pem-3.0.3.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.29/download -> pkg-config-0.3.29.crate
+https://crates.io/api/v1/crates/portable-atomic/1.6.0/download -> portable-atomic-1.6.0.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.78/download -> proc-macro2-1.0.78.crate
-https://crates.io/api/v1/crates/pyo3/0.20.2/download -> pyo3-0.20.2.crate
-https://crates.io/api/v1/crates/pyo3-build-config/0.20.2/download -> pyo3-build-config-0.20.2.crate
-https://crates.io/api/v1/crates/pyo3-ffi/0.20.2/download -> pyo3-ffi-0.20.2.crate
-https://crates.io/api/v1/crates/pyo3-macros/0.20.2/download -> pyo3-macros-0.20.2.crate
-https://crates.io/api/v1/crates/pyo3-macros-backend/0.20.2/download -> pyo3-macros-backend-0.20.2.crate
+https://crates.io/api/v1/crates/pyo3/0.20.3/download -> pyo3-0.20.3.crate
+https://crates.io/api/v1/crates/pyo3-build-config/0.20.3/download -> pyo3-build-config-0.20.3.crate
+https://crates.io/api/v1/crates/pyo3-ffi/0.20.3/download -> pyo3-ffi-0.20.3.crate
+https://crates.io/api/v1/crates/pyo3-macros/0.20.3/download -> pyo3-macros-0.20.3.crate
+https://crates.io/api/v1/crates/pyo3-macros-backend/0.20.3/download -> pyo3-macros-backend-0.20.3.crate
 https://crates.io/api/v1/crates/quote/1.0.35/download -> quote-1.0.35.crate
 https://crates.io/api/v1/crates/redox_syscall/0.4.1/download -> redox_syscall-0.4.1.crate
 https://crates.io/api/v1/crates/scopeguard/1.2.0/download -> scopeguard-1.2.0.crate
@@ -106,7 +108,7 @@ https://crates.io/api/v1/crates/windows_i686_msvc/0.48.5/download -> windows_i68
 https://crates.io/api/v1/crates/windows_x86_64_gnu/0.48.5/download -> windows_x86_64_gnu-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.48.5/download -> windows_x86_64_gnullvm-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download -> windows_x86_64_msvc-0.48.5.crate
-https://files.pythonhosted.org/packages/81/d8/214d25515bf6034dce99aba22eeb47443b14c82160114e3d3f33067c6d3b/cryptography-42.0.4.tar.gz -> cryptography-42.0.4.tar.gz
+https://files.pythonhosted.org/packages/13/9e/a55763a32d340d7b06d045753c186b690e7d88780cafce5f88cb931536be/cryptography-42.0.5.tar.gz -> cryptography-42.0.5.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -130,7 +132,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-42.0.4"
+S="${WORKDIR}/cryptography-42.0.5"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
