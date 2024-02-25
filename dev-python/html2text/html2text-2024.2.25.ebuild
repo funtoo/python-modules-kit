@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Turn HTML into equivalent Markdown-structured text"
 HOMEPAGE="https://github.com/Alir3z4/html2text https://pypi.org/project/html2text/"
-SRC_URI="https://files.pythonhosted.org/packages/6c/f9/033a17d8ea8181aee41f20c74c3b20f1ccbefbbc3f7cd24e3692de99fb25/html2text-2020.1.16.tar.gz -> html2text-2020.1.16.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/78/5d/0ecf5c85c56d59fb14a123b3211957acd3e833f9c376a0a87ce3b0c8f433/html2text-2024.2.25.tar.gz -> html2text-2024.2.25.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
