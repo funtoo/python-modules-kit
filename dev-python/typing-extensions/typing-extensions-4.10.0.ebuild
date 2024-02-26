@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Backported and Experimental Type Hints for Python 3.8+"
 HOMEPAGE=" https://pypi.org/project/typing-extensions/"
-SRC_URI="https://files.pythonhosted.org/packages/0c/1d/eb26f5e75100d531d7399ae800814b069bc2ed2a7410834d57374d010d96/typing_extensions-4.9.0.tar.gz -> typing_extensions-4.9.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz -> typing_extensions-4.10.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/typing_extensions-4.9.0"
+S="${WORKDIR}/typing_extensions-4.10.0"
