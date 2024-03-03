@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="improvements over the standard pathlib module"
-HOMEPAGE="https://sourceforge.net/p/ruamel-std-pathlib/code/ci/default/tree https://pypi.org/project/ruamel.std.pathlib/"
-SRC_URI="https://files.pythonhosted.org/packages/bc/d2/b2d999248a2428b8d74f7e1a8bfeccdc789ff58d9b6b53447ab42af94d80/ruamel.std.pathlib-0.12.0.tar.gz -> ruamel.std.pathlib-0.12.0.tar.gz"
+HOMEPAGE=" https://pypi.org/project/ruamel.std.pathlib/"
+SRC_URI="https://files.pythonhosted.org/packages/1a/1d/f7a7fdf3765f5b05b595c9ac6e4ee1fffc990512b475f6a71abd1da341b4/ruamel.std.pathlib-0.13.0.tar.gz -> ruamel.std.pathlib-0.13.0.tar.gz"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="test? ( dev-python/flake8[${PYTHON_USEDEP}] dev-python/pytest[${PYTHON_USEDEP}] )"
@@ -15,7 +15,7 @@ IUSE="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/ruamel.std.pathlib-0.12.0"
+S="${WORKDIR}/ruamel.std.pathlib-0.13.0"
 
 python_install() {
 	distutils-r1_python_install --single-version-externally-managed
