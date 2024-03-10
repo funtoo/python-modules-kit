@@ -17,6 +17,11 @@ RDEPEND="
 	${DEPEND}"
 IUSE="python_targets_python2_7"
 SLOT="0"
-LICENSE=""
+LICENSE="ISC"
 KEYWORDS="*"
 S="${WORKDIR}/dnspython-2.6.1"
+
+src_prepare() {
+	sed -i -e 's|^license =.*|license = {text = "ISC"}|g' pyproject.toml
+	distutils-r1_src_prepare
+}
