@@ -44,7 +44,6 @@ clap-4.4.18
 clap_builder-4.4.18
 clap_complete-4.4.9
 clap_complete_command-0.5.1
-clap_complete_fig-4.4.2
 clap_complete_nushell-0.1.11
 clap_derive-4.4.7
 clap_lex-0.6.0
@@ -111,7 +110,7 @@ itoa-1.0.10
 keyring-2.3.2
 lazy_static-1.4.0
 lddtree-0.3.4
-libc-0.2.152
+libc-0.2.153
 libredox-0.0.1
 linux-keyutils-0.2.4
 linux-raw-sys-0.4.13
@@ -180,7 +179,7 @@ regex-syntax-0.8.2
 rfc2047-decoder-0.2.2
 ring-0.17.7
 rustc_version-0.4.0
-rustix-0.38.30
+rustix-0.38.32
 rustls-0.22.2
 rustls-pemfile-2.1.0
 rustls-pki-types-1.3.1
@@ -344,7 +343,6 @@ https://crates.io/api/v1/crates/clap/4.4.18/download -> clap-4.4.18.crate
 https://crates.io/api/v1/crates/clap_builder/4.4.18/download -> clap_builder-4.4.18.crate
 https://crates.io/api/v1/crates/clap_complete/4.4.9/download -> clap_complete-4.4.9.crate
 https://crates.io/api/v1/crates/clap_complete_command/0.5.1/download -> clap_complete_command-0.5.1.crate
-https://crates.io/api/v1/crates/clap_complete_fig/4.4.2/download -> clap_complete_fig-4.4.2.crate
 https://crates.io/api/v1/crates/clap_complete_nushell/0.1.11/download -> clap_complete_nushell-0.1.11.crate
 https://crates.io/api/v1/crates/clap_derive/4.4.7/download -> clap_derive-4.4.7.crate
 https://crates.io/api/v1/crates/clap_lex/0.6.0/download -> clap_lex-0.6.0.crate
@@ -411,7 +409,7 @@ https://crates.io/api/v1/crates/itoa/1.0.10/download -> itoa-1.0.10.crate
 https://crates.io/api/v1/crates/keyring/2.3.2/download -> keyring-2.3.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.4.0/download -> lazy_static-1.4.0.crate
 https://crates.io/api/v1/crates/lddtree/0.3.4/download -> lddtree-0.3.4.crate
-https://crates.io/api/v1/crates/libc/0.2.152/download -> libc-0.2.152.crate
+https://crates.io/api/v1/crates/libc/0.2.153/download -> libc-0.2.153.crate
 https://crates.io/api/v1/crates/libredox/0.0.1/download -> libredox-0.0.1.crate
 https://crates.io/api/v1/crates/linux-keyutils/0.2.4/download -> linux-keyutils-0.2.4.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.4.13/download -> linux-raw-sys-0.4.13.crate
@@ -480,7 +478,7 @@ https://crates.io/api/v1/crates/regex-syntax/0.8.2/download -> regex-syntax-0.8.
 https://crates.io/api/v1/crates/rfc2047-decoder/0.2.2/download -> rfc2047-decoder-0.2.2.crate
 https://crates.io/api/v1/crates/ring/0.17.7/download -> ring-0.17.7.crate
 https://crates.io/api/v1/crates/rustc_version/0.4.0/download -> rustc_version-0.4.0.crate
-https://crates.io/api/v1/crates/rustix/0.38.30/download -> rustix-0.38.30.crate
+https://crates.io/api/v1/crates/rustix/0.38.32/download -> rustix-0.38.32.crate
 https://crates.io/api/v1/crates/rustls/0.22.2/download -> rustls-0.22.2.crate
 https://crates.io/api/v1/crates/rustls-pemfile/2.1.0/download -> rustls-pemfile-2.1.0.crate
 https://crates.io/api/v1/crates/rustls-pki-types/1.3.1/download -> rustls-pki-types-1.3.1.crate
@@ -598,7 +596,7 @@ https://crates.io/api/v1/crates/zerocopy/0.7.32/download -> zerocopy-0.7.32.crat
 https://crates.io/api/v1/crates/zerocopy-derive/0.7.32/download -> zerocopy-derive-0.7.32.crate
 https://crates.io/api/v1/crates/zeroize/1.7.0/download -> zeroize-1.7.0.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
-https://files.pythonhosted.org/packages/cc/e5/6de242b8a6180dc81a75fb0791f983ba8d81f53786c829ed77765b25ca46/maturin-1.5.0.tar.gz -> maturin-1.5.0.tar.gz
+https://files.pythonhosted.org/packages/e6/4c/77135117237c4ef579da90d51a38defb50a332f57e5c94663bad9c793744/maturin-1.5.1.tar.gz -> maturin-1.5.1.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -622,4 +620,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.5.0"
+S="${WORKDIR}/maturin-1.5.1"
