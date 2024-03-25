@@ -11,6 +11,8 @@ HOMEPAGE="https://github.com/pyca/pynacl/ https://pypi.org/project/PyNaCl/"
 SRC_URI="https://files.pythonhosted.org/packages/a7/22/27582568be639dfe22ddb3902225f91f2f17ceff88ce80e4db396c8986da/PyNaCl-1.5.0.tar.gz -> PyNaCl-1.5.0.tar.gz"
 
 DEPEND=""
+RDEPEND="
+	dev-libs/libsodium"
 IUSE=""
 SLOT="0"
 LICENSE=""
