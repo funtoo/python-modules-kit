@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Import, export, process, analyze and view triangular meshes."
-HOMEPAGE=" https://pypi.org/project/trimesh/"
-SRC_URI="https://files.pythonhosted.org/packages/00/a4/434e2e6da88c5e3388ac6c76816ff5a4cc4446fc517005eed4171ab1e650/trimesh-4.2.0.tar.gz -> trimesh-4.2.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/trimesh/"
+SRC_URI="https://files.pythonhosted.org/packages/c9/f9/0b09465f4a9d60fc0266a61e31e8ff2c7a18c330afb1c3bfb67358572b0d/trimesh-4.2.2.tar.gz -> trimesh-4.2.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -33,4 +33,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/trimesh-4.2.0"
+S="${WORKDIR}/trimesh-4.2.2"
