@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Non-blocking MongoDB driver for Tornado or asyncio"
-HOMEPAGE=" https://pypi.org/project/motor/"
-SRC_URI="https://files.pythonhosted.org/packages/e3/e3/f5244c84d7bdc149d99f9baa4313f197f7d14cfa1bfe1a6ac181e10cb3e2/motor-3.3.2.tar.gz -> motor-3.3.2.tar.gz"
+HOMEPAGE="None https://pypi.org/project/motor/"
+SRC_URI="https://files.pythonhosted.org/packages/7c/21/53f0bff417d234d025602ec01f0bd437a53ba43daefc62f8d8bc9d51812a/motor-3.4.0.tar.gz -> motor-3.4.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/motor-3.3.2"
+S="${WORKDIR}/motor-3.4.0"
