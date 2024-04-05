@@ -10,6 +10,6 @@ LICENSE=BSD
 RDEPEND=dev-python/fs[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)]
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 )
 SLOT=0
-SRC_URI=https://files.pythonhosted.org/packages/67/ac/d7bf44ce57ff5770c267e63cff003cfd5ee43dc49abf677f8b7067fbd3fb/fonttools-4.50.0.tar.gz -> fonttools-4.50.0.tar.gz
+SRC_URI=https://files.pythonhosted.org/packages/73/e4/5f31f97c859e2223d59ce3da03c67908eb8f8f90d96f2537b73b68aa2a5a/fonttools-4.51.0.tar.gz -> fonttools-4.51.0.tar.gz
 _eclasses_=distutils-r1	bbe679c4da8bee76a1dc996c0ae6dffa	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=d6f6a0d781bfc5b204e337c7a3bd3f37
+_md5_=48abe364caede149d664201e497708a3
