@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="A platform independent file lock."
 HOMEPAGE="None https://pypi.org/project/filelock/"
-SRC_URI="https://files.pythonhosted.org/packages/db/97/3f028f216da17ab0500550a6bb0f26bf39b07848348f63cce44b89829af9/filelock-3.13.3.tar.gz -> filelock-3.13.3.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/38/ff/877f1dbe369a2b9920e2ada3c9ab81cf6fe8fa2dce45f40cad510ef2df62/filelock-3.13.4.tar.gz -> filelock-3.13.4.tar.gz"
 
 DEPEND="dev-python/hatch-vcs[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/filelock-3.13.3"
+S="${WORKDIR}/filelock-3.13.4"
