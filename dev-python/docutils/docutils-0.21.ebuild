@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Docutils -- Python Documentation Utilities"
 HOMEPAGE="None https://pypi.org/project/docutils/"
-SRC_URI="https://files.pythonhosted.org/packages/0b/06/fc42ca93a1eea8f881e904fd6d9137bd31ce7407afae603aa478f9c0c235/docutils-0.21.tar.gz -> docutils-0.21.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/67/9a/ff2ff8e922f3b97c4b4864ca6c78d76ca5969bd730560001167b7054ac48/docutils-0.21.post1.tar.gz -> docutils-0.21.post1.tar.gz"
 
 DEPEND=""
 RDEPEND="
