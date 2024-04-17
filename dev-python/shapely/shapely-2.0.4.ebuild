@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Manipulation and analysis of geometric objects"
-HOMEPAGE=" https://pypi.org/project/shapely/"
-SRC_URI="https://files.pythonhosted.org/packages/36/8f/03929218f8d7003c3eafa5ffad1fb3f185459d336fa9cc31d3e67f442f97/shapely-2.0.3.tar.gz -> shapely-2.0.3.tar.gz"
+HOMEPAGE="None https://pypi.org/project/shapely/"
+SRC_URI="https://files.pythonhosted.org/packages/49/7e/816fd1c135b062c80b72e17b7330d9a719cd413158afa580f4aaccf59aa9/shapely-2.0.4.tar.gz -> shapely-2.0.4.tar.gz"
 
 DEPEND="
 	>=sci-libs/geos-3.5
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/shapely-2.0.3"
+S="${WORKDIR}/shapely-2.0.4"

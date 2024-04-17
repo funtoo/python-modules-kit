@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Python bindings for libcups"
-HOMEPAGE="https://github.com/zdohnal/pycups https://pypi.org/project/pycups/"
-SRC_URI="https://files.pythonhosted.org/packages/0c/bb/82546806a86dc16f5eeb76f62ffdc42cce3d43aacd4e25a8b5300eec0263/pycups-2.0.1.tar.gz -> pycups-2.0.1.tar.gz"
+HOMEPAGE="https://github.com/OpenPrinting/pycups https://pypi.org/project/pycups/"
+SRC_URI="https://files.pythonhosted.org/packages/12/26/e28ff62af728743f696269f1092fe1be9b2bdb9c9c33f8051f8eccede92f/pycups-2.0.3.tar.gz -> pycups-2.0.3.tar.gz"
 
 DEPEND=""
 RDEPEND="net-print/cups"
@@ -16,7 +16,7 @@ IUSE="examples"
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pycups-2.0.1"
+S="${WORKDIR}/pycups-2.0.3"
 
 python_install_all() {
 	distutils-r1_python_install_all

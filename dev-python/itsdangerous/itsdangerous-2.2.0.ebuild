@@ -3,11 +3,12 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="Various helpers to pass trusted data to untrusted environments and back"
-HOMEPAGE="https://palletsprojects.com/p/itsdangerous/ https://pypi.org/project/itsdangerous/"
-SRC_URI="https://files.pythonhosted.org/packages/7f/a1/d3fb83e7a61fa0c0d3d08ad0a94ddbeff3731c05212617dff3a94e097f08/itsdangerous-2.1.2.tar.gz -> itsdangerous-2.1.2.tar.gz"
+HOMEPAGE="None https://pypi.org/project/itsdangerous/"
+SRC_URI="https://files.pythonhosted.org/packages/9c/cb/8ac0172223afbccb63986cc25049b154ecfb5e85932587206f42317be31d/itsdangerous-2.2.0.tar.gz -> itsdangerous-2.2.0.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/itsdangerous-compat )"
@@ -15,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/itsdangerous-2.1.2"
+S="${WORKDIR}/itsdangerous-2.2.0"
