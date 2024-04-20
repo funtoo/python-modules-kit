@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="plugin and hook calling mechanisms for python"
 HOMEPAGE="https://github.com/pytest-dev/pluggy https://pypi.org/project/pluggy/"
-SRC_URI="https://files.pythonhosted.org/packages/54/c6/43f9d44d92aed815e781ca25ba8c174257e27253a94630d21be8725a2b59/pluggy-1.4.0.tar.gz -> pluggy-1.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/96/2d/02d4312c973c6050a18b314a5ad0b3210edb65a906f868e31c111dede4a6/pluggy-1.5.0.tar.gz -> pluggy-1.5.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -19,4 +19,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="next"
-S="${WORKDIR}/pluggy-1.4.0"
+S="${WORKDIR}/pluggy-1.5.0"
