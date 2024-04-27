@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="pytest: simple powerful testing with Python"
-HOMEPAGE=" https://pypi.org/project/pytest/"
-SRC_URI="https://files.pythonhosted.org/packages/30/b7/7d44bbc04c531dcc753056920e0988032e5871ac674b5a84cb979de6e7af/pytest-8.1.1.tar.gz -> pytest-8.1.1.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pytest/"
+SRC_URI="https://files.pythonhosted.org/packages/f8/1f/dd3960a2369182720e8cbd580523a4f75292c0c75197dd0254c95f4a0add/pytest-8.1.2.tar.gz -> pytest-8.1.2.tar.gz"
 
 DEPEND="dev-python/setuptools_scm[${PYTHON_USEDEP}]"
 RDEPEND="
@@ -24,7 +24,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pytest-8.1.1"
+S="${WORKDIR}/pytest-8.1.2"
 
 post_src_install() {
 	if [ "$PV" == "4.6.9" ]; then
