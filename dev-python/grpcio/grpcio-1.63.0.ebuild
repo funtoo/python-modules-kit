@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP/2-based RPC framework"
 HOMEPAGE="https://grpc.io https://pypi.org/project/grpcio/"
-SRC_URI="https://files.pythonhosted.org/packages/04/7a/cb869ec6d7f634c0153b4a38ae25bb33699b9307ea17f8cb22b609a46605/grpcio-1.62.2.tar.gz -> grpcio-1.62.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0c/2a/23943e19b4bbbdad60a9d881e44cd53bb48b31c7419ebb7b983edfbbb708/grpcio-1.63.0.tar.gz -> grpcio-1.63.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -17,4 +17,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/grpcio-1.62.2"
+S="${WORKDIR}/grpcio-1.63.0"
