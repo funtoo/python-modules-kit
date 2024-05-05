@@ -22,9 +22,9 @@ libc-0.2.152
 lock_api-0.4.11
 memoffset-0.9.0
 once_cell-1.19.0
-openssl-0.10.63
+openssl-0.10.64
 openssl-macros-0.1.1
-openssl-sys-0.9.99
+openssl-sys-0.9.102
 parking_lot-0.12.1
 parking_lot_core-0.9.9
 pem-3.0.3
@@ -59,7 +59,7 @@ windows_x86_64_msvc-0.48.5
 inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
-HOMEPAGE=" https://pypi.org/project/cryptography/"
+HOMEPAGE="None https://pypi.org/project/cryptography/"
 SRC_URI="https://crates.io/api/v1/crates/asn1/0.15.5/download -> asn1-0.15.5.crate
 https://crates.io/api/v1/crates/asn1_derive/0.15.5/download -> asn1_derive-0.15.5.crate
 https://crates.io/api/v1/crates/autocfg/1.1.0/download -> autocfg-1.1.0.crate
@@ -76,9 +76,9 @@ https://crates.io/api/v1/crates/libc/0.2.152/download -> libc-0.2.152.crate
 https://crates.io/api/v1/crates/lock_api/0.4.11/download -> lock_api-0.4.11.crate
 https://crates.io/api/v1/crates/memoffset/0.9.0/download -> memoffset-0.9.0.crate
 https://crates.io/api/v1/crates/once_cell/1.19.0/download -> once_cell-1.19.0.crate
-https://crates.io/api/v1/crates/openssl/0.10.63/download -> openssl-0.10.63.crate
+https://crates.io/api/v1/crates/openssl/0.10.64/download -> openssl-0.10.64.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.99/download -> openssl-sys-0.9.99.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.102/download -> openssl-sys-0.9.102.crate
 https://crates.io/api/v1/crates/parking_lot/0.12.1/download -> parking_lot-0.12.1.crate
 https://crates.io/api/v1/crates/parking_lot_core/0.9.9/download -> parking_lot_core-0.9.9.crate
 https://crates.io/api/v1/crates/pem/3.0.3/download -> pem-3.0.3.crate
@@ -108,7 +108,7 @@ https://crates.io/api/v1/crates/windows_i686_msvc/0.48.5/download -> windows_i68
 https://crates.io/api/v1/crates/windows_x86_64_gnu/0.48.5/download -> windows_x86_64_gnu-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.48.5/download -> windows_x86_64_gnullvm-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download -> windows_x86_64_msvc-0.48.5.crate
-https://files.pythonhosted.org/packages/13/9e/a55763a32d340d7b06d045753c186b690e7d88780cafce5f88cb931536be/cryptography-42.0.5.tar.gz -> cryptography-42.0.5.tar.gz
+https://files.pythonhosted.org/packages/34/c0/d55779ee5c35d77088ca75a721c991dcdd9879e68cde5a3b5b3ac91f0a86/cryptography-42.0.6.tar.gz -> cryptography-42.0.6.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -132,7 +132,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl python_targets_python2_7"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-42.0.5"
+S="${WORKDIR}/cryptography-42.0.6"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1
