@@ -15,7 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/Babel-2.9.1"
+S="${WORKDIR}/babel-2.9.1"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
