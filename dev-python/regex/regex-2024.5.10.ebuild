@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Alternative regular expression module, to replace re."
 HOMEPAGE="https://github.com/mrabarnett/mrab-regex https://pypi.org/project/regex/"
-SRC_URI="https://files.pythonhosted.org/packages/c0/d6/87709afa2a195ea902810dfaa796d21dd45d91b496dc98828073acbfe5af/regex-2024.4.28.tar.gz -> regex-2024.4.28.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/24/ca/2477acbf4d4abe7b2efaa775d5e96dfa236982671bd01a4172e81278d411/regex-2024.5.10.tar.gz -> regex-2024.5.10.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/regex-compat )"
@@ -16,4 +16,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/regex-2024.4.28"
+S="${WORKDIR}/regex-2024.5.10"
