@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Python code static checker"
-HOMEPAGE=" https://pypi.org/project/pylint/"
-SRC_URI="https://files.pythonhosted.org/packages/35/1c/4a8135f77a4ec8c0a6dc1d4543dd6fee55b36bb8bf629e2bcce8a94763a9/pylint-3.1.0.tar.gz -> pylint-3.1.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pylint/"
+SRC_URI="https://files.pythonhosted.org/packages/23/ef/99c1531ad5454a560a9ff17789320e68d8d7aaceaa8222b293e3fa7488e8/pylint-3.1.1.tar.gz -> pylint-3.1.1.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -21,4 +21,4 @@ IUSE="doc test"
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-S="${WORKDIR}/pylint-3.1.0"
+S="${WORKDIR}/pylint-3.1.1"

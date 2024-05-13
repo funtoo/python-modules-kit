@@ -8,7 +8,7 @@ inherit distutils-r1 eutils toolchain-funcs
 
 DESCRIPTION="A Pythonic binding for the libxml2 and libxslt libraries"
 HOMEPAGE="https://lxml.de/ https://pypi.org/project/lxml/ https://github.com/lxml/lxml"
-SRC_URI="https://files.pythonhosted.org/packages/ea/e2/3834472e7f18801e67a3cd6f3c203a5456d6f7f903cfb9a990e62098a2f3/lxml-5.2.1.tar.gz -> lxml-5.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/63/f7/ffbb6d2eb67b80a45b8a0834baa5557a14a5ffce0979439e7cd7f0c4055b/lxml-5.2.2.tar.gz -> lxml-5.2.2.tar.gz"
 
 LICENSE="BSD ElementTree GPL-2 PSF-2"
 SLOT="0"
