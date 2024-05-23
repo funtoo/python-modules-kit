@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="HTTP library for human beings"
 HOMEPAGE="https://requests.readthedocs.io/en/master/"
-SRC_URI="https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz -> requests-2.31.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/ec/535bf6f9bd280de6a4637526602a146a68fde757100ecf8c9333173392db/requests-2.32.2.tar.gz -> requests-2.32.2.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -23,11 +23,10 @@ IUSE="+ssl python_targets_python2_7 socks5"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/requests-2.31.0"
+S="${WORKDIR}/requests-2.32.2"
 
 # FL-7939, FL-10662: relax deps for idna, charset_normalizer: requests sets "cautionary upper masks" which can break:
 src_prepare() {
-	sed -i -e '/^idna/c idna' -e '/^charset_normalizer/c charset_normalizer' requests.egg-info/requires.txt || die
 	sed -i -e 's/idna.*/idna/' -e 's/charset_normalizer.*/charset_normalizer/' setup.cfg || die
 	sed -i -e 's/"idna.*$/"idna",/' -e 's/"charset_normalizer.*$/"charset_normalizer",/' setup.py || die
 	distutils-r1_src_prepare

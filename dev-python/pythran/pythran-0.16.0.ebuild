@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Ahead of Time compiler for numeric kernels"
-HOMEPAGE=" https://pypi.org/project/pythran/"
-SRC_URI="https://files.pythonhosted.org/packages/82/31/cc6fd7a2b91efc6cdb03e7c42df895b4a65a8f049b074579d45d1def746f/pythran-0.15.0.tar.gz -> pythran-0.15.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/pythran/"
+SRC_URI="https://files.pythonhosted.org/packages/b7/a8/a968d794934811bf0ef4ffb7f95efebdaea4b139b44d07c018ae88399592/pythran-0.16.0.tar.gz -> pythran-0.16.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,4 +20,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/pythran-0.15.0"
+S="${WORKDIR}/pythran-0.16.0"
