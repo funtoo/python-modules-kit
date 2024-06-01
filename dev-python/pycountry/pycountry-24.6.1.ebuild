@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="ISO country, subdivision, language, currency and script definitions and their translations"
 HOMEPAGE="https://github.com/flyingcircusio/pycountry"
-SRC_URI="https://files.pythonhosted.org/packages/08/4a/137f422423b9c85148183691da65c5c843a209b7fc0c33a5144489366f53/pycountry-23.12.11.tar.gz -> pycountry-23.12.11.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/76/57/c389fa68c50590881a75b7883eeb3dc15e9e73a0fdc001cdd45c13290c92/pycountry-24.6.1.tar.gz -> pycountry-24.6.1.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/pycountry-compat )"
@@ -16,4 +16,4 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="LGPL-2.1"
 KEYWORDS="*"
-S="${WORKDIR}/pycountry-23.12.11"
+S="${WORKDIR}/pycountry-24.6.1"
