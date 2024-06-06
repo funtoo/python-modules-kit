@@ -28,11 +28,11 @@ bzip2-0.4.4
 bzip2-sys-0.1.11+1.0.8
 cab-0.4.1
 camino-1.1.6
-cargo-config2-0.1.19
-cargo-options-0.7.2
+cargo-config2-0.1.24
+cargo-options-0.7.4
 cargo-platform-0.1.6
 cargo-xwin-0.16.4
-cargo-zigbuild-0.18.3
+cargo-zigbuild-0.18.4
 cargo_metadata-0.18.1
 cbindgen-0.26.0
 cc-1.0.88
@@ -71,6 +71,7 @@ dirs-5.0.1
 dirs-sys-0.4.1
 dissimilar-1.0.7
 dunce-1.0.4
+dyn-clone-1.0.17
 either-1.9.0
 encode_unicode-0.3.6
 encoding_rs-0.8.33
@@ -86,6 +87,16 @@ foreign-types-0.3.2
 foreign-types-shared-0.1.1
 form_urlencoded-1.2.1
 fs-err-2.11.0
+futures-0.3.30
+futures-channel-0.3.30
+futures-core-0.3.30
+futures-executor-0.3.30
+futures-io-0.3.30
+futures-macro-0.3.30
+futures-sink-0.3.30
+futures-task-0.3.30
+futures-timer-3.0.3
+futures-util-0.3.30
 generic-array-0.14.7
 getrandom-0.2.12
 glob-0.3.1
@@ -150,6 +161,7 @@ pep440_rs-0.5.0
 pep508_rs-0.4.2
 percent-encoding-2.3.1
 pin-project-lite-0.2.13
+pin-utils-0.1.0
 pkg-config-0.3.29
 plain-0.2.3
 platform-info-2.0.2
@@ -176,11 +188,14 @@ regex-automata-0.1.10
 regex-automata-0.4.5
 regex-syntax-0.6.29
 regex-syntax-0.8.2
+relative-path-1.9.2
 rfc2047-decoder-0.2.2
 ring-0.17.7
+rstest-0.18.2
+rstest_macros-0.18.2
 rustc_version-0.4.0
 rustix-0.38.32
-rustls-0.22.2
+rustls-0.22.4
 rustls-pemfile-2.1.0
 rustls-pki-types-1.3.1
 rustls-webpki-0.102.1
@@ -188,6 +203,8 @@ rustversion-1.0.14
 ryu-1.0.16
 same-file-1.0.6
 schannel-0.1.23
+schemars-0.8.16
+schemars_derive-0.8.16
 scopeguard-1.2.0
 scroll-0.12.0
 scroll_derive-0.12.0
@@ -196,6 +213,7 @@ security-framework-sys-2.9.1
 semver-1.0.22
 serde-1.0.197
 serde_derive-1.0.197
+serde_derive_internals-0.26.0
 serde_json-1.0.114
 serde_spanned-0.6.5
 sha2-0.10.8
@@ -203,6 +221,7 @@ sharded-slab-0.1.7
 shell-words-1.1.0
 shlex-1.3.0
 similar-2.4.0
+slab-0.4.9
 smallvec-1.13.1
 smawk-0.3.2
 snapbox-0.5.7
@@ -301,7 +320,7 @@ zip-0.6.6
 
 inherit cargo distutils-r1
 
-DESCRIPTION="Build and publish crates with pyo3, rust-cpython and cffi bindings as well as rust binaries as python packages"
+DESCRIPTION="Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages"
 HOMEPAGE="https://github.com/pyo3/maturin https://pypi.org/project/maturin/"
 SRC_URI="https://crates.io/api/v1/crates/adler/1.0.2/download -> adler-1.0.2.crate
 https://crates.io/api/v1/crates/ahash/0.8.7/download -> ahash-0.8.7.crate
@@ -327,11 +346,11 @@ https://crates.io/api/v1/crates/bzip2/0.4.4/download -> bzip2-0.4.4.crate
 https://crates.io/api/v1/crates/bzip2-sys/0.1.11+1.0.8/download -> bzip2-sys-0.1.11+1.0.8.crate
 https://crates.io/api/v1/crates/cab/0.4.1/download -> cab-0.4.1.crate
 https://crates.io/api/v1/crates/camino/1.1.6/download -> camino-1.1.6.crate
-https://crates.io/api/v1/crates/cargo-config2/0.1.19/download -> cargo-config2-0.1.19.crate
-https://crates.io/api/v1/crates/cargo-options/0.7.2/download -> cargo-options-0.7.2.crate
+https://crates.io/api/v1/crates/cargo-config2/0.1.24/download -> cargo-config2-0.1.24.crate
+https://crates.io/api/v1/crates/cargo-options/0.7.4/download -> cargo-options-0.7.4.crate
 https://crates.io/api/v1/crates/cargo-platform/0.1.6/download -> cargo-platform-0.1.6.crate
 https://crates.io/api/v1/crates/cargo-xwin/0.16.4/download -> cargo-xwin-0.16.4.crate
-https://crates.io/api/v1/crates/cargo-zigbuild/0.18.3/download -> cargo-zigbuild-0.18.3.crate
+https://crates.io/api/v1/crates/cargo-zigbuild/0.18.4/download -> cargo-zigbuild-0.18.4.crate
 https://crates.io/api/v1/crates/cargo_metadata/0.18.1/download -> cargo_metadata-0.18.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.26.0/download -> cbindgen-0.26.0.crate
 https://crates.io/api/v1/crates/cc/1.0.88/download -> cc-1.0.88.crate
@@ -370,6 +389,7 @@ https://crates.io/api/v1/crates/dirs/5.0.1/download -> dirs-5.0.1.crate
 https://crates.io/api/v1/crates/dirs-sys/0.4.1/download -> dirs-sys-0.4.1.crate
 https://crates.io/api/v1/crates/dissimilar/1.0.7/download -> dissimilar-1.0.7.crate
 https://crates.io/api/v1/crates/dunce/1.0.4/download -> dunce-1.0.4.crate
+https://crates.io/api/v1/crates/dyn-clone/1.0.17/download -> dyn-clone-1.0.17.crate
 https://crates.io/api/v1/crates/either/1.9.0/download -> either-1.9.0.crate
 https://crates.io/api/v1/crates/encode_unicode/0.3.6/download -> encode_unicode-0.3.6.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.33/download -> encoding_rs-0.8.33.crate
@@ -385,6 +405,16 @@ https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.
 https://crates.io/api/v1/crates/foreign-types-shared/0.1.1/download -> foreign-types-shared-0.1.1.crate
 https://crates.io/api/v1/crates/form_urlencoded/1.2.1/download -> form_urlencoded-1.2.1.crate
 https://crates.io/api/v1/crates/fs-err/2.11.0/download -> fs-err-2.11.0.crate
+https://crates.io/api/v1/crates/futures/0.3.30/download -> futures-0.3.30.crate
+https://crates.io/api/v1/crates/futures-channel/0.3.30/download -> futures-channel-0.3.30.crate
+https://crates.io/api/v1/crates/futures-core/0.3.30/download -> futures-core-0.3.30.crate
+https://crates.io/api/v1/crates/futures-executor/0.3.30/download -> futures-executor-0.3.30.crate
+https://crates.io/api/v1/crates/futures-io/0.3.30/download -> futures-io-0.3.30.crate
+https://crates.io/api/v1/crates/futures-macro/0.3.30/download -> futures-macro-0.3.30.crate
+https://crates.io/api/v1/crates/futures-sink/0.3.30/download -> futures-sink-0.3.30.crate
+https://crates.io/api/v1/crates/futures-task/0.3.30/download -> futures-task-0.3.30.crate
+https://crates.io/api/v1/crates/futures-timer/3.0.3/download -> futures-timer-3.0.3.crate
+https://crates.io/api/v1/crates/futures-util/0.3.30/download -> futures-util-0.3.30.crate
 https://crates.io/api/v1/crates/generic-array/0.14.7/download -> generic-array-0.14.7.crate
 https://crates.io/api/v1/crates/getrandom/0.2.12/download -> getrandom-0.2.12.crate
 https://crates.io/api/v1/crates/glob/0.3.1/download -> glob-0.3.1.crate
@@ -449,6 +479,7 @@ https://crates.io/api/v1/crates/pep440_rs/0.5.0/download -> pep440_rs-0.5.0.crat
 https://crates.io/api/v1/crates/pep508_rs/0.4.2/download -> pep508_rs-0.4.2.crate
 https://crates.io/api/v1/crates/percent-encoding/2.3.1/download -> percent-encoding-2.3.1.crate
 https://crates.io/api/v1/crates/pin-project-lite/0.2.13/download -> pin-project-lite-0.2.13.crate
+https://crates.io/api/v1/crates/pin-utils/0.1.0/download -> pin-utils-0.1.0.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.29/download -> pkg-config-0.3.29.crate
 https://crates.io/api/v1/crates/plain/0.2.3/download -> plain-0.2.3.crate
 https://crates.io/api/v1/crates/platform-info/2.0.2/download -> platform-info-2.0.2.crate
@@ -475,11 +506,14 @@ https://crates.io/api/v1/crates/regex-automata/0.1.10/download -> regex-automata
 https://crates.io/api/v1/crates/regex-automata/0.4.5/download -> regex-automata-0.4.5.crate
 https://crates.io/api/v1/crates/regex-syntax/0.6.29/download -> regex-syntax-0.6.29.crate
 https://crates.io/api/v1/crates/regex-syntax/0.8.2/download -> regex-syntax-0.8.2.crate
+https://crates.io/api/v1/crates/relative-path/1.9.2/download -> relative-path-1.9.2.crate
 https://crates.io/api/v1/crates/rfc2047-decoder/0.2.2/download -> rfc2047-decoder-0.2.2.crate
 https://crates.io/api/v1/crates/ring/0.17.7/download -> ring-0.17.7.crate
+https://crates.io/api/v1/crates/rstest/0.18.2/download -> rstest-0.18.2.crate
+https://crates.io/api/v1/crates/rstest_macros/0.18.2/download -> rstest_macros-0.18.2.crate
 https://crates.io/api/v1/crates/rustc_version/0.4.0/download -> rustc_version-0.4.0.crate
 https://crates.io/api/v1/crates/rustix/0.38.32/download -> rustix-0.38.32.crate
-https://crates.io/api/v1/crates/rustls/0.22.2/download -> rustls-0.22.2.crate
+https://crates.io/api/v1/crates/rustls/0.22.4/download -> rustls-0.22.4.crate
 https://crates.io/api/v1/crates/rustls-pemfile/2.1.0/download -> rustls-pemfile-2.1.0.crate
 https://crates.io/api/v1/crates/rustls-pki-types/1.3.1/download -> rustls-pki-types-1.3.1.crate
 https://crates.io/api/v1/crates/rustls-webpki/0.102.1/download -> rustls-webpki-0.102.1.crate
@@ -487,6 +521,8 @@ https://crates.io/api/v1/crates/rustversion/1.0.14/download -> rustversion-1.0.1
 https://crates.io/api/v1/crates/ryu/1.0.16/download -> ryu-1.0.16.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
 https://crates.io/api/v1/crates/schannel/0.1.23/download -> schannel-0.1.23.crate
+https://crates.io/api/v1/crates/schemars/0.8.16/download -> schemars-0.8.16.crate
+https://crates.io/api/v1/crates/schemars_derive/0.8.16/download -> schemars_derive-0.8.16.crate
 https://crates.io/api/v1/crates/scopeguard/1.2.0/download -> scopeguard-1.2.0.crate
 https://crates.io/api/v1/crates/scroll/0.12.0/download -> scroll-0.12.0.crate
 https://crates.io/api/v1/crates/scroll_derive/0.12.0/download -> scroll_derive-0.12.0.crate
@@ -495,6 +531,7 @@ https://crates.io/api/v1/crates/security-framework-sys/2.9.1/download -> securit
 https://crates.io/api/v1/crates/semver/1.0.22/download -> semver-1.0.22.crate
 https://crates.io/api/v1/crates/serde/1.0.197/download -> serde-1.0.197.crate
 https://crates.io/api/v1/crates/serde_derive/1.0.197/download -> serde_derive-1.0.197.crate
+https://crates.io/api/v1/crates/serde_derive_internals/0.26.0/download -> serde_derive_internals-0.26.0.crate
 https://crates.io/api/v1/crates/serde_json/1.0.114/download -> serde_json-1.0.114.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.5/download -> serde_spanned-0.6.5.crate
 https://crates.io/api/v1/crates/sha2/0.10.8/download -> sha2-0.10.8.crate
@@ -502,6 +539,7 @@ https://crates.io/api/v1/crates/sharded-slab/0.1.7/download -> sharded-slab-0.1.
 https://crates.io/api/v1/crates/shell-words/1.1.0/download -> shell-words-1.1.0.crate
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
 https://crates.io/api/v1/crates/similar/2.4.0/download -> similar-2.4.0.crate
+https://crates.io/api/v1/crates/slab/0.4.9/download -> slab-0.4.9.crate
 https://crates.io/api/v1/crates/smallvec/1.13.1/download -> smallvec-1.13.1.crate
 https://crates.io/api/v1/crates/smawk/0.3.2/download -> smawk-0.3.2.crate
 https://crates.io/api/v1/crates/snapbox/0.5.7/download -> snapbox-0.5.7.crate
@@ -596,7 +634,7 @@ https://crates.io/api/v1/crates/zerocopy/0.7.32/download -> zerocopy-0.7.32.crat
 https://crates.io/api/v1/crates/zerocopy-derive/0.7.32/download -> zerocopy-derive-0.7.32.crate
 https://crates.io/api/v1/crates/zeroize/1.7.0/download -> zeroize-1.7.0.crate
 https://crates.io/api/v1/crates/zip/0.6.6/download -> zip-0.6.6.crate
-https://files.pythonhosted.org/packages/e6/4c/77135117237c4ef579da90d51a38defb50a332f57e5c94663bad9c793744/maturin-1.5.1.tar.gz -> maturin-1.5.1.tar.gz
+https://files.pythonhosted.org/packages/5d/d5/c20153a0719d169a2211651b0a3d9aa126805175a84407392a6367f73b3c/maturin-1.6.0.tar.gz -> maturin-1.6.0.tar.gz
 $(cargo_crate_uris ${CRATES})"
 
 DEPEND="
@@ -620,4 +658,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/maturin-1.5.1"
+S="${WORKDIR}/maturin-1.6.0"
