@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Bash tab completion for argparse"
 HOMEPAGE="https://github.com/kislyuk/argcomplete https://pypi.org/project/argcomplete/"
-SRC_URI="https://files.pythonhosted.org/packages/79/51/fd6e293a64ab6f8ce1243cf3273ded7c51cbc33ef552dce3582b6a15d587/argcomplete-3.3.0.tar.gz -> argcomplete-3.3.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/db/ca/45176b8362eb06b68f946c2bf1184b92fc98d739a3f8c790999a257db91f/argcomplete-3.4.0.tar.gz -> argcomplete-3.4.0.tar.gz"
 
 DEPEND="
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/argcomplete-3.3.0"
+S="${WORKDIR}/argcomplete-3.4.0"

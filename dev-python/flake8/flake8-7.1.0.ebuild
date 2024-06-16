@@ -8,7 +8,7 @@ inherit distutils-r1
 DESCRIPTION="A wrapper around PyFlakes, pep8 & mccabe"
 HOMEPAGE="https://gitlab.com/pycqa/flake8 https://pypi.org/project/flake8/
 "
-SRC_URI="https://files.pythonhosted.org/packages/40/3c/3464b567aa367b221fa610bbbcce8015bf953977d21e52f2d711b526fb48/flake8-7.0.0.tar.gz -> flake8-7.0.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/4e/34/64f8a43736d9862ced7dd0ea5c3ed99815b8ff4b826a4f3bfd3a1b0639b1/flake8-7.1.0.tar.gz -> flake8-7.1.0.tar.gz"
 
 DEPEND=""
 RDEPEND="
@@ -20,7 +20,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/flake8-7.0.0"
+S="${WORKDIR}/flake8-7.1.0"
 
 src_prepare() {
 	# remove version-limited dep
