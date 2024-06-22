@@ -14,7 +14,7 @@ RDEPEND="!<=dev-python/pluggy-1.0.0 "
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="next"
+KEYWORDS="*"
 S="${WORKDIR}/pluggy-0.9.0"
 
 post_src_install() {
