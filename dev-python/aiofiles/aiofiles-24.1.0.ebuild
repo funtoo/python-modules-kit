@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="File support for asyncio"
 HOMEPAGE="https://github.com/Tinche/aiofiles"
-SRC_URI="https://files.pythonhosted.org/packages/af/41/cfed10bc64d774f497a86e5ede9248e1d062db675504b41c320954d99641/aiofiles-23.2.1.tar.gz -> aiofiles-23.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz -> aiofiles-24.1.0.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
