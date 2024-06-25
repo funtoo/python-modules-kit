@@ -7,11 +7,11 @@ inherit distutils-r1
 
 DESCRIPTION="Python AST that abstracts the underlying Python version"
 HOMEPAGE="https://github.com/serge-sans-paille/gast/ https://pypi.org/project/gast/"
-SRC_URI="https://files.pythonhosted.org/packages/e4/41/f26f62ebef1a80148e20951a6e9ef4d0ebbe2090124bc143da26e12a934c/gast-0.5.4.tar.gz -> gast-0.5.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/85/d65445079010a6bf35041455b7b97e1bfca49f80b8aed41f89f7831cb02d/gast-0.5.5.tar.gz -> gast-0.5.5.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/gast-0.5.4"
+S="${WORKDIR}/gast-0.5.5"
