@@ -8,7 +8,7 @@ inherit bash-completion-r1 distutils-r1
 
 DESCRIPTION="The PyPA recommended tool for installing Python packages."
 HOMEPAGE="None https://pypi.org/project/pip/"
-SRC_URI="https://files.pythonhosted.org/packages/df/60/7538a9cd4d76829c2f585b73d6e400c833a1769408451c813354c58de6cc/pip-24.1.tar.gz -> pip-24.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c0/d0/9641dc7b05877874c6418f8034ddefc809495e65caa14d38c7551cd114bb/pip-24.1.1.tar.gz -> pip-24.1.1.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/pip-compat )"
@@ -17,7 +17,7 @@ RESTRICT="test"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pip-24.1"
+S="${WORKDIR}/pip-24.1.1"
 
 python_prepare_all() {
 	if ! use vanilla; then
