@@ -3,7 +3,7 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_USE_PEP517="setuptools"
+DISTUTILS_USE_PEP517="hatchling"
 inherit distutils-r1
 
 DESCRIPTION="Python driver for MongoDB <http://www.mongodb.org>"
@@ -13,6 +13,7 @@ SRC_URI="https://files.pythonhosted.org/packages/05/2c/ad0896cb94668c3cad1eb702a
 DEPEND=""
 RDEPEND="
 	python_targets_python2_7? ( dev-python/pymongo-compat )
+	dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]
 	kerberos? ( dev-python/pykerberos[${PYTHON_USEDEP}] )"
 IUSE="kerberos python_targets_python2_7"
 SLOT="0"
