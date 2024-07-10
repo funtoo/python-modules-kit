@@ -7,12 +7,12 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="R-Tree spatial index for Python GIS"
-HOMEPAGE=" https://pypi.org/project/Rtree/"
-SRC_URI="https://files.pythonhosted.org/packages/fe/40/55b099ab3b729d6a86103e2619ba904ab1138d0729a7c585ae5e0a722f97/Rtree-1.2.0.tar.gz -> Rtree-1.2.0.tar.gz"
+HOMEPAGE="None https://pypi.org/project/Rtree/"
+SRC_URI="https://files.pythonhosted.org/packages/6e/79/44fdc619e87bd7b5388f76418719bd8b99de5565475f74a2e0d82b401062/rtree-1.3.0.tar.gz -> rtree-1.3.0.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Rtree-1.2.0"
+S="${WORKDIR}/Rtree-1.3.0"
