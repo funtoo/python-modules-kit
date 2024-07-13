@@ -8,11 +8,11 @@ inherit distutils-r1
 
 DESCRIPTION="Backport of PEP 654 (exception groups)"
 HOMEPAGE="None https://pypi.org/project/exceptiongroup/"
-SRC_URI="https://files.pythonhosted.org/packages/a0/65/d66b7fbaef021b3c954b3bbb196d21d8a4b97918ea524f82cfae474215af/exceptiongroup-1.2.1.tar.gz -> exceptiongroup-1.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz -> exceptiongroup-1.2.2.tar.gz"
 
 DEPEND=""
 IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/exceptiongroup-1.2.1"
+S="${WORKDIR}/exceptiongroup-1.2.2"
