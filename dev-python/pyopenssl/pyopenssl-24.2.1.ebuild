@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python wrapper module around the OpenSSL library"
 HOMEPAGE="https://github.com/pyca/pyopenssl"
-SRC_URI="https://files.pythonhosted.org/packages/91/a8/cbeec652549e30103b9e6147ad433405fdd18807ac2d54e6dbb73184d8a1/pyOpenSSL-24.1.0.tar.gz -> pyOpenSSL-24.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/5d/70/ff56a63248562e77c0c8ee4aefc3224258f1856977e0c1472672b62dadb8/pyopenssl-24.2.1.tar.gz -> pyopenssl-24.2.1.tar.gz"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/pyopenssl-compat )"
@@ -15,4 +15,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pyOpenSSL-24.1.0"
+S="${WORKDIR}/pyopenssl-24.2.1"

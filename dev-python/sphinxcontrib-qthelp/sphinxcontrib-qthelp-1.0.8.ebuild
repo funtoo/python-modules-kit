@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp documents"
-HOMEPAGE=" https://pypi.org/project/sphinxcontrib-qthelp/"
-SRC_URI="https://files.pythonhosted.org/packages/ac/29/705cd4e93e98a8473d62b5c32288e6de3f0c9660d3c97d4e80d3dbbad82b/sphinxcontrib_qthelp-1.0.7.tar.gz -> sphinxcontrib_qthelp-1.0.7.tar.gz"
+HOMEPAGE="None https://pypi.org/project/sphinxcontrib-qthelp/"
+SRC_URI="https://files.pythonhosted.org/packages/a6/67/f5c7df6457315877202f370450acb28626d033822eec1e8163600612b4ef/sphinxcontrib_qthelp-1.0.8.tar.gz -> sphinxcontrib_qthelp-1.0.8.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_qthelp-1.0.7"
+S="${WORKDIR}/sphinxcontrib_qthelp-1.0.8"

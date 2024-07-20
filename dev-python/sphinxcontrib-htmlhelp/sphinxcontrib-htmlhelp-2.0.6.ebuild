@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="flit"
 inherit distutils-r1
 
 DESCRIPTION="sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files"
-HOMEPAGE=" https://pypi.org/project/sphinxcontrib-htmlhelp/"
-SRC_URI="https://files.pythonhosted.org/packages/8a/03/2f9d699fbfdf03ecb3b6d0e2a268a8998d009f2a9f699c2dcc936899257d/sphinxcontrib_htmlhelp-2.0.5.tar.gz -> sphinxcontrib_htmlhelp-2.0.5.tar.gz"
+HOMEPAGE="None https://pypi.org/project/sphinxcontrib-htmlhelp/"
+SRC_URI="https://files.pythonhosted.org/packages/92/d9/a1c50c8a7b5e12f34bf4d63300a1e2629c29b71603115d900c0fa7c79219/sphinxcontrib_htmlhelp-2.0.6.tar.gz -> sphinxcontrib_htmlhelp-2.0.6.tar.gz"
 
 DEPEND=""
 RDEPEND="dev-python/namespace-sphinxcontrib[${PYTHON_USEDEP}]"
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/sphinxcontrib_htmlhelp-2.0.5"
+S="${WORKDIR}/sphinxcontrib_htmlhelp-2.0.6"

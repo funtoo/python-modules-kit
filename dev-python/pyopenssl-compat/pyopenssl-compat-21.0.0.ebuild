@@ -15,7 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pyOpenSSL-21.0.0"
+S="${WORKDIR}/pyopenssl-21.0.0"
 
 post_src_install() {
 	rm -rf ${D}/usr/bin
