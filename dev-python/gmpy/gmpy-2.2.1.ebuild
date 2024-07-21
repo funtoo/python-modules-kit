@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="gmpy2 interface to GMP, MPFR, and MPC for Python 3.7+"
 HOMEPAGE="None https://pypi.org/project/gmpy2/"
-SRC_URI="https://files.pythonhosted.org/packages/ef/b5/b9be2d42e5c5a09ba38057101410454ce958bd5574d37798200b95c7005b/gmpy2-2.2.0.tar.gz -> gmpy2-2.2.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/07/bd/c6c154ce734a3e6187871b323297d8e5f3bdf9feaafc5212381538bc19e4/gmpy2-2.2.1.tar.gz -> gmpy2-2.2.1.tar.gz"
 
 DEPEND="
 	dev-libs/mpc:=
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/gmpy2-2.2.0"
+S="${WORKDIR}/gmpy2-2.2.1"
