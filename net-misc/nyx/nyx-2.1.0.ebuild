@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Utility to monitor real time Tor status information"
 HOMEPAGE="https://nyx.torproject.org"
-SRC_URI="https://files.pythonhosted.org/packages/f4/da/68419425cb0f64f996e2150045c7043c2bb61f77b5928c2156c26a21db88/nyx-2.1.0.tar.gz -> nyx-2.1.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f4/da/68419425cb0f64f996e2150045c7043c2bb61f77b5928c2156c26a21db88/nyx-2.1.0.tar.gz -> nyx-2.1.0.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

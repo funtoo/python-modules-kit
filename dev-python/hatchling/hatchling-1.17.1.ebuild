@@ -8,7 +8,8 @@ inherit distutils-r1
 
 DESCRIPTION="Modern, extensible Python build backend"
 HOMEPAGE="None https://pypi.org/project/hatchling/"
-SRC_URI="https://files.pythonhosted.org/packages/8b/3a/81707297cb23b1d1f3117ee7545cfb9cbd87bc7707808e91799b8badabe1/hatchling-1.17.1.tar.gz -> hatchling-1.17.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/8b/3a/81707297cb23b1d1f3117ee7545cfb9cbd87bc7707808e91799b8badabe1/hatchling-1.17.1.tar.gz -> hatchling-1.17.1.tar.gz
+"
 
 DEPEND="
 	$(python_gen_cond_dep '<=dev-python/pluggy-1.2.0[${PYTHON_USEDEP}]' python3_7)

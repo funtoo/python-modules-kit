@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="SSH2 protocol library"
 HOMEPAGE="https://paramiko.org https://pypi.org/project/paramiko/"
-SRC_URI="https://files.pythonhosted.org/packages/00/bd/1a2c7ed920af44d4c07a58d6cc3da322138f3a18713b6ee7fb953f78d8dc/paramiko-2.9.5.tar.gz -> paramiko-2.9.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/00/bd/1a2c7ed920af44d4c07a58d6cc3da322138f3a18713b6ee7fb953f78d8dc/paramiko-2.9.5.tar.gz -> paramiko-2.9.5.tar.gz
+"
 
 DEPEND=""
 RDEPEND="!<=dev-python/paramiko-3.2.0 

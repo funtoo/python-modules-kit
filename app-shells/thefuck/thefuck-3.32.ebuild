@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Magnificent app which corrects your previous console command"
 HOMEPAGE="https://github.com/nvbn/thefuck"
-SRC_URI="https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16aa0685018f21c60a6769a496558da7d9d8f1/thefuck-3.32.tar.gz -> thefuck-3.32.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16aa0685018f21c60a6769a496558da7d9d8f1/thefuck-3.32.tar.gz -> thefuck-3.32.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

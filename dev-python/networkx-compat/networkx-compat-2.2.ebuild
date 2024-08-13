@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Python package for creating and manipulating graphs and networks"
 HOMEPAGE="None https://pypi.org/project/networkx/"
-SRC_URI="https://files.pythonhosted.org/packages/f3/f4/7e20ef40b118478191cec0b58c3192f822cace858c19505c7670961b76b2/networkx-2.2.zip -> networkx-2.2.zip"
+SRC_URI="https://files.pythonhosted.org/packages/f3/f4/7e20ef40b118478191cec0b58c3192f822cace858c19505c7670961b76b2/networkx-2.2.zip -> networkx-2.2.zip
+"
 
 DEPEND=""
 RDEPEND="!<=dev-python/networkx-2.2 "

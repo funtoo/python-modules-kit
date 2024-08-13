@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Extensions to the Python standard library unit testing framework"
 HOMEPAGE="None https://pypi.org/project/testtools/"
-SRC_URI="https://files.pythonhosted.org/packages/6a/05/a543317ac62cf72e98dc40de5ab117ef14508f36352ed715cb3cd3fe1bbb/testtools-2.7.2.tar.gz -> testtools-2.7.2.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/6a/05/a543317ac62cf72e98dc40de5ab117ef14508f36352ed715cb3cd3fe1bbb/testtools-2.7.2.tar.gz -> testtools-2.7.2.tar.gz
+"
 
 DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]

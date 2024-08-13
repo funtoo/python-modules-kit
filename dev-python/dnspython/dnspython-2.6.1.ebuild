@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="DNS toolkit"
 HOMEPAGE=" https://pypi.org/project/dnspython/"
-SRC_URI="https://files.pythonhosted.org/packages/37/7d/c871f55054e403fdfd6b8f65fd6d1c4e147ed100d3e9f9ba1fe695403939/dnspython-2.6.1.tar.gz -> dnspython-2.6.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/37/7d/c871f55054e403fdfd6b8f65fd6d1c4e147ed100d3e9f9ba1fe695403939/dnspython-2.6.1.tar.gz -> dnspython-2.6.1.tar.gz
+"
 
 DEPEND="
 	dev-python/idna[${PYTHON_USEDEP}]

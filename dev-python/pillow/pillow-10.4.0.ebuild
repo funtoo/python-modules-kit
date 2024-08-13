@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Python Imaging Library (fork)"
 HOMEPAGE="https://python-pillow.org/"
-SRC_URI="https://files.pythonhosted.org/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz -> pillow-10.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz -> pillow-10.4.0.tar.gz
+"
 
 DEPEND="
 	imagequant? ( media-gfx/libimagequant )

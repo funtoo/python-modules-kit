@@ -8,7 +8,8 @@ inherit distutils-r1
 
 DESCRIPTION="Pure-Python RSA implementation"
 HOMEPAGE="https://stuvel.eu/rsa https://pypi.org/project/rsa/"
-SRC_URI="https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e452547ddfa243e93131e7cfa766da627b52/rsa-4.9.tar.gz -> rsa-4.9.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e452547ddfa243e93131e7cfa766da627b52/rsa-4.9.tar.gz -> rsa-4.9.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Core utilities for Python packages"
 HOMEPAGE="None https://pypi.org/project/packaging/"
-SRC_URI="https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf695009221a52f90438d877a2f1499453c6938f5728/packaging-20.9.tar.gz -> packaging-20.9.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/86/3c/bcd09ec5df7123abcf695009221a52f90438d877a2f1499453c6938f5728/packaging-20.9.tar.gz -> packaging-20.9.tar.gz
+"
 
 DEPEND=""
 RDEPEND="!<=dev-python/packaging-18.0 <dev-python/pyparsing-3[${PYTHON_USEDEP}]"

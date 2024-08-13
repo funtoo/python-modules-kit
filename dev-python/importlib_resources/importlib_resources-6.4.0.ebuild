@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
 HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
-SRC_URI="https://files.pythonhosted.org/packages/c8/9d/6ee73859d6be81c6ea7ebac89655e92740296419bd37e5c8abdb5b62fd55/importlib_resources-6.4.0.tar.gz -> importlib_resources-6.4.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/c8/9d/6ee73859d6be81c6ea7ebac89655e92740296419bd37e5c8abdb5b62fd55/importlib_resources-6.4.0.tar.gz -> importlib_resources-6.4.0.tar.gz
+"
 
 DEPEND="
 	dev-python/toml[${PYTHON_USEDEP}]

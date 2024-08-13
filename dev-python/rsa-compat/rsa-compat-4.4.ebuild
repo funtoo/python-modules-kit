@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Pure-Python RSA implementation"
 HOMEPAGE="https://stuvel.eu/rsa https://pypi.org/project/rsa/"
-SRC_URI="https://files.pythonhosted.org/packages/b1/ae/3e3103cedd233415984e1882e10490ada9e138f106f98e60b5c51aedc0f3/rsa-4.4.tar.gz -> rsa-4.4.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/b1/ae/3e3103cedd233415984e1882e10490ada9e138f106f98e60b5c51aedc0f3/rsa-4.4.tar.gz -> rsa-4.4.tar.gz
+"
 
 DEPEND=""
 RDEPEND="!<dev-python/rsa-4.9 dev-python/pyasn1[${PYTHON_USEDEP}]"

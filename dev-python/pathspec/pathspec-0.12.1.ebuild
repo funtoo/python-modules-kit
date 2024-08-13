@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="Utility library for gitignore style pattern matching of file paths."
 HOMEPAGE=" https://pypi.org/project/pathspec/"
-SRC_URI="https://files.pythonhosted.org/packages/ca/bc/f35b8446f4531a7cb215605d100cd88b7ac6f44ab3fc94870c120ab3adbf/pathspec-0.12.1.tar.gz -> pathspec-0.12.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ca/bc/f35b8446f4531a7cb215605d100cd88b7ac6f44ab3fc94870c120ab3adbf/pathspec-0.12.1.tar.gz -> pathspec-0.12.1.tar.gz
+"
 
 DEPEND=""
 IUSE=""

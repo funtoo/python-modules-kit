@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
 HOMEPAGE="https://github.com/python-hyper/h11 https://pypi.org/project/h11/"
-SRC_URI="https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz -> h11-0.14.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz -> h11-0.14.0.tar.gz
+"
 
 DEPEND=""
 IUSE=""

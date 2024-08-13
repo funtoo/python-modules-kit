@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="A simple, correct Python build frontend"
 HOMEPAGE="None https://pypi.org/project/build/"
-SRC_URI="https://files.pythonhosted.org/packages/ce/9e/2d725d2f7729c6e79ca62aeb926492abbc06e25910dd30139d60a68bcb19/build-1.2.1.tar.gz -> build-1.2.1.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/ce/9e/2d725d2f7729c6e79ca62aeb926492abbc06e25910dd30139d60a68bcb19/build-1.2.1.tar.gz -> build-1.2.1.tar.gz
+"
 
 DEPEND=""
 RDEPEND="

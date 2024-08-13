@@ -7,7 +7,8 @@ inherit distutils-r1
 
 DESCRIPTION="MessagePack serializer"
 HOMEPAGE=" https://pypi.org/project/msgpack/"
-SRC_URI="https://files.pythonhosted.org/packages/dc/a1/eba11a0d4b764bc62966a565b470f8c6f38242723ba3057e9b5098678c30/msgpack-1.0.5.tar.gz -> msgpack-1.0.5.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/dc/a1/eba11a0d4b764bc62966a565b470f8c6f38242723ba3057e9b5098678c30/msgpack-1.0.5.tar.gz -> msgpack-1.0.5.tar.gz
+"
 
 DEPEND=""
 RDEPEND="python_targets_python2_7? ( dev-python/msgpack-compat )"
