@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="Fast implementation of asyncio event loop on top of libuv"
-HOMEPAGE=" https://pypi.org/project/uvloop/"
-SRC_URI="https://files.pythonhosted.org/packages/9c/16/728cc5dde368e6eddb299c5aec4d10eaf25335a5af04e8c0abd68e2e9d32/uvloop-0.19.0.tar.gz -> uvloop-0.19.0.tar.gz
+HOMEPAGE="None https://pypi.org/project/uvloop/"
+SRC_URI="https://files.pythonhosted.org/packages/bc/f1/dc9577455e011ad43d9379e836ee73f40b4f99c02946849a44f7ae64835e/uvloop-0.20.0.tar.gz -> uvloop-0.20.0.tar.gz
 "
 
 DEPEND=""
@@ -15,4 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0 MIT"
 KEYWORDS="*"
-S="${WORKDIR}/uvloop-0.19.0"
+S="${WORKDIR}/uvloop-0.20.0"

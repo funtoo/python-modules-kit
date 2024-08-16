@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
 DESCRIPTION="Read resources from Python packages"
-HOMEPAGE="https://github.com/python/importlib_resources https://pypi.org/project/importlib-resources/"
+HOMEPAGE="None https://pypi.org/project/importlib-resources/"
 SRC_URI="https://files.pythonhosted.org/packages/e1/bf/b40e6ecb611fa3be5b0ecae7b37ae1fa0d8df3146477ec0a554e8f62c976/importlib_resources-3.3.1.tar.gz -> importlib_resources-3.3.1.tar.gz
 "
 

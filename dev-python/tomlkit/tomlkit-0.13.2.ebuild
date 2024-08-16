@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Style preserving TOML library"
 HOMEPAGE="https://github.com/sdispater/tomlkit https://pypi.org/project/tomlkit/"
-SRC_URI="https://files.pythonhosted.org/packages/4b/34/f5f4fbc6b329c948a90468dd423aaa3c3bfc1e07d5a76deec269110f2f6e/tomlkit-0.13.0.tar.gz -> tomlkit-0.13.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/b1/09/a439bec5888f00a54b8b9f05fa94d7f901d6735ef4e55dcec9bc37b5d8fa/tomlkit-0.13.2.tar.gz -> tomlkit-0.13.2.tar.gz
 "
 
 DEPEND=""
@@ -15,4 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/tomlkit-0.13.0"
+S="${WORKDIR}/tomlkit-0.13.2"
