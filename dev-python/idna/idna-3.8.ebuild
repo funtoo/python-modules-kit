@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Internationalized Domain Names in Applications (IDNA)"
 HOMEPAGE="None https://pypi.org/project/idna/"
-SRC_URI="https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz -> idna-3.7.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e8/ac/e349c5e6d4543326c6883ee9491e3921e0d07b55fdf3cce184b40d63e72a/idna-3.8.tar.gz -> idna-3.8.tar.gz
 "
 
 DEPEND=""
@@ -17,4 +17,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/idna-3.7"
+S="${WORKDIR}/idna-3.8"

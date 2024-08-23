@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="The comprehensive WSGI web application library."
 HOMEPAGE="None https://pypi.org/project/Werkzeug/"
-SRC_URI="https://files.pythonhosted.org/packages/02/51/2e0fc149e7a810d300422ab543f87f2bcf64d985eb6f1228c4efd6e4f8d4/werkzeug-3.0.3.tar.gz -> werkzeug-3.0.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/0f/e2/6dbcaab07560909ff8f654d3a2e5a60552d937c909455211b1b36d7101dc/werkzeug-3.0.4.tar.gz -> werkzeug-3.0.4.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/werkzeug-3.0.3"
+S="${WORKDIR}/werkzeug-3.0.4"

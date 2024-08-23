@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=( python2+ )
 DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
@@ -12,24 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e0
 "
 
 DEPEND="
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/setuptools_scm[${PYTHON_USEDEP}]"
-RDEPEND="
-	sys-libs/timezone-data
-	dev-python/six[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="BSD"
+LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-PATCHES=(
-	"$FILESDIR"/0001-zoneinfo-Get-timezone-data-from-system-tzdata.patch
-)
 S="${WORKDIR}/python-dateutil-2.9.0.post0"
-
-python_prepare_all() {
-	# don't install zoneinfo tarball
-	sed -i '/package_data=/d' setup.py || die
-
-	distutils-r1_python_prepare_all
-}
