@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python2+ )
 inherit distutils-r1
 
 DESCRIPTION="pyparsing module - Classes and methods to define and execute parsing grammars"
-HOMEPAGE=" https://pypi.org/project/pyparsing/"
+HOMEPAGE="None https://pypi.org/project/pyparsing/"
 SRC_URI="https://files.pythonhosted.org/packages/c1/47/dfc9c342c9842bbe0036c7f763d2d6686bcf5eb1808ba3e170afdb282210/pyparsing-2.4.7.tar.gz -> pyparsing-2.4.7.tar.gz
 "
 

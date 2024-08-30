@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python 3 bindings for libfuse 3 with async I/O support"
 HOMEPAGE="https://github.com/libfuse/pyfuse3 https://pypi.org/project/pyfuse3/"
-SRC_URI="https://files.pythonhosted.org/packages/7c/67/c045eca0938c75c609ba9200f474e3b8b13a5c813e119bf3ab2d1fa37ac4/pyfuse3-3.3.0.tar.gz -> pyfuse3-3.3.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/67/1e/0f8f285a65e2e64f2f0c4accce4ee67d9ac66ee9684492a4327e48d68d87/pyfuse3-3.4.0.tar.gz -> pyfuse3-3.4.0.tar.gz
 "
 
 DEPEND=""
@@ -18,6 +18,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/pyfuse3-3.3.0"
+S="${WORKDIR}/pyfuse3-3.4.0"
 
 distutils_enable_tests pytest
