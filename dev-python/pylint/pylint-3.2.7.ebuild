@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Python code static checker"
 HOMEPAGE="None https://pypi.org/project/pylint/"
-SRC_URI="https://files.pythonhosted.org/packages/30/10/abee071c1d52b2bca48be40fe9f64ca878a77e0beef6504597e8c9c1ed84/pylint-3.2.6.tar.gz -> pylint-3.2.6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/cf/e8/d59ce8e54884c9475ed6510685ef4311a10001674c28703b23da30f3b24d/pylint-3.2.7.tar.gz -> pylint-3.2.7.tar.gz
 "
 
 DEPEND=""
@@ -22,4 +22,4 @@ IUSE="doc test"
 SLOT="0"
 LICENSE="GPL-2"
 KEYWORDS="*"
-S="${WORKDIR}/pylint-3.2.6"
+S="${WORKDIR}/pylint-3.2.7"

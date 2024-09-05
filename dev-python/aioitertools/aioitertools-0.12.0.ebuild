@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="itertools and builtins for AsyncIO and mixed iterables"
-HOMEPAGE="https://aioitertools.omnilib.dev https://pypi.org/project/aioitertools/"
-SRC_URI="https://files.pythonhosted.org/packages/4a/e6/888e1d726f0846c84e14a0f2f57873819eff9278b394d632aed979c98fbd/aioitertools-0.11.0.tar.gz -> aioitertools-0.11.0.tar.gz
+HOMEPAGE="None https://pypi.org/project/aioitertools/"
+SRC_URI="https://files.pythonhosted.org/packages/06/de/38491a84ab323b47c7f86e94d2830e748780525f7a10c8600b67ead7e9ea/aioitertools-0.12.0.tar.gz -> aioitertools-0.12.0.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/aioitertools-0.11.0"
+S="${WORKDIR}/aioitertools-0.12.0"

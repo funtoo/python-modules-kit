@@ -11,8 +11,8 @@ inherit cargo distutils-r1
 
 DESCRIPTION="Library providing cryptographic recipes and primitives"
 HOMEPAGE="None https://pypi.org/project/cryptography/"
-SRC_URI="https://files.pythonhosted.org/packages/69/ec/9fb9dcf4f91f0e5e76de597256c43eedefd8423aa59be95c70c4c3db426a/cryptography-43.0.0.tar.gz -> cryptography-43.0.0.tar.gz
-https://direct.funtoo.org/05/73/c2/0573c260789910837eca474291f9602ac36ca6b34a8a2d824ee53ebc7ad2cfc43d9626d95c7da71c0634256359d10ea0d719cec30319f2ddc75634eb6f64c510 -> cryptography-43.0.0-funtoo-crates-bundle-056e11cce12961a3430b76c9a9a6449edecfdb82b80883e6d6d6574e8041d7454b66faeb38c67fd4e3a8653569aa4ea28a801ff0ceb527415312eb5a748dc1c5.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/de/ba/0664727028b37e249e73879348cc46d45c5c1a2a2e81e8166462953c5755/cryptography-43.0.1.tar.gz -> cryptography-43.0.1.tar.gz
+https://direct.funtoo.org/f4/17/b1/f417b1126098789a12439eac10f3fc0cc1c6e11c3e85a904fd98e922952920b7558b278453763a0490179ae70d9b6268dcc87ff751e20f9fc30af56ed853ceca -> cryptography-43.0.1-funtoo-crates-bundle-5e20d676cb5156256e13a37de8c621b0f0474751a999cc1a214a26fa6619987ead4e292be71215dcedffe73448f8356d162dd89800298460607341d6b7a3cd0f.tar.gz
 
 $(cargo_crate_uris ${CRATES})"
 
@@ -36,7 +36,7 @@ IUSE="cpu_flags_x86_sse2 idna libressl"
 SLOT="0"
 LICENSE="|| ( Apache-2.0 BSD )"
 KEYWORDS="*"
-S="${WORKDIR}/cryptography-43.0.0"
+S="${WORKDIR}/cryptography-43.0.1"
 
 pkg_setup() {
 	use x86 && ! use cpu_flags_x86_sse2 && export CRYPTOGRAPHY_DONT_BUILD_RUST=1

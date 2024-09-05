@@ -11,7 +11,7 @@ inherit distutils-r1 toolchain-funcs
 
 DESCRIPTION="Foreign Function Interface for Python calling C code"
 HOMEPAGE="https://cffi.readthedocs.io/ https://pypi.org/project/cffi/"
-SRC_URI="https://files.pythonhosted.org/packages/1e/bf/82c351342972702867359cfeba5693927efe0a8dd568165490144f554b18/cffi-1.17.0.tar.gz -> cffi-1.17.0.tar.gz"
+SRC_URI="https://files.pythonhosted.org/packages/fc/97/c783634659c2920c3fc70419e3af40972dbaf758daa229a7d6ea6135c90d/cffi-1.17.1.tar.gz -> cffi-1.17.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0/${PV}"
