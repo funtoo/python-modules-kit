@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Fast, simple object-to-object and broadcast signaling"
 HOMEPAGE="None https://pypi.org/project/blinker/"
-SRC_URI="https://files.pythonhosted.org/packages/1e/57/a6a1721eff09598fb01f3c7cda070c1b6a0f12d63c83236edf79a440abcc/blinker-1.8.2.tar.gz -> blinker-1.8.2.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/21/28/9b3f50ce0e048515135495f198351908d99540d69bfdc8c1d15b73dc55ce/blinker-1.9.0.tar.gz -> blinker-1.9.0.tar.gz
 "
 
 DEPEND=""
@@ -15,4 +15,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/blinker-1.8.2"
+S="${WORKDIR}/blinker-1.9.0"

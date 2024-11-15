@@ -2,7 +2,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python2+ pypy3 pypy )
+PYTHON_COMPAT=( python3+ )
 inherit distutils-r1
 
 DESCRIPTION="An easy safelist-based HTML-sanitizing tool."

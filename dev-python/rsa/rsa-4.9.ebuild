@@ -12,10 +12,8 @@ SRC_URI="https://files.pythonhosted.org/packages/aa/65/7d973b89c4d2351d7fb232c2e
 "
 
 DEPEND=""
-RDEPEND="
-	python_targets_python2_7? ( dev-python/rsa-compat )
-	dev-python/pyasn1[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+RDEPEND="dev-python/pyasn1[${PYTHON_USEDEP}]"
+IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"

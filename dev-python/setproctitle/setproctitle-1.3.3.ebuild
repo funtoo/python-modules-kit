@@ -11,8 +11,7 @@ SRC_URI="https://files.pythonhosted.org/packages/ff/e1/b16b16a1aa12174349d15b73f
 "
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/setproctitle-compat )"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"

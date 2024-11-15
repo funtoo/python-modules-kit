@@ -12,8 +12,7 @@ SRC_URI="https://files.pythonhosted.org/packages/8e/5f/bd69653fbfb76cf8604468d3b
 "
 
 DEPEND=""
-RDEPEND="python_targets_python2_7? ( dev-python/regex-compat )"
-IUSE="python_targets_python2_7"
+IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
