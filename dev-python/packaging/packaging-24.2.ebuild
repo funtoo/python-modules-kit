@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Core utilities for Python packages"
 HOMEPAGE="None https://pypi.org/project/packaging/"
-SRC_URI="https://files.pythonhosted.org/packages/df/9e/d1a7217f69310c1db8fdf8ab396229f55a699ce34a203691794c5d1cad0c/packaging-21.3.tar.gz -> packaging-21.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz -> packaging-24.2.tar.gz
 "
 
 DEPEND=""
@@ -18,4 +18,4 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="Apache-2.0 BSD"
 KEYWORDS="*"
-S="${WORKDIR}/packaging-21.3"
+S="${WORKDIR}/packaging-24.2"
