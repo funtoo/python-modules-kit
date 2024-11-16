@@ -19,7 +19,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/Mako-1.3.6"
+S="${WORKDIR}/mako-1.3.6"
 
 pkg_postinst() {
 	elog "Optional dependencies:"
