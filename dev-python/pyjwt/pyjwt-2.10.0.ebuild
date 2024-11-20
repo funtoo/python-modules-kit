@@ -6,8 +6,8 @@ PYTHON_COMPAT=( python3+ )
 inherit distutils-r1 eutils
 
 DESCRIPTION="JSON Web Token implementation in Python"
-HOMEPAGE="https://github.com/jpadilla/pyjwt https://pypi.org/project/PyJWT/"
-SRC_URI="https://files.pythonhosted.org/packages/fb/68/ce067f09fca4abeca8771fe667d89cc347d1e99da3e093112ac329c6020e/pyjwt-2.9.0.tar.gz -> pyjwt-2.9.0.tar.gz
+HOMEPAGE="None https://pypi.org/project/PyJWT/"
+SRC_URI="https://files.pythonhosted.org/packages/b5/05/324952ded002de746f87b21066b9373080bb5058f64cf01c4d62784b8186/pyjwt-2.10.0.tar.gz -> pyjwt-2.10.0.tar.gz
 "
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -16,7 +16,7 @@ IUSE="python_targets_python2_7"
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/PyJWT-2.9.0"
+S="${WORKDIR}/PyJWT-2.10.0"
 
 pkg_postinst() {
 	elog "Available optional features:"
