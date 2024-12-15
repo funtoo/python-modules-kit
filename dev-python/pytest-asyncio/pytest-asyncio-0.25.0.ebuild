@@ -7,8 +7,8 @@ DISTUTILS_USE_PEP517="setuptools"
 inherit distutils-r1
 
 DESCRIPTION="Pytest support for asyncio"
-HOMEPAGE="https://github.com/pytest-dev/pytest-asyncio https://pypi.org/project/pytest-asyncio/"
-SRC_URI="https://files.pythonhosted.org/packages/52/6d/c6cf50ce320cf8611df7a1254d86233b3df7cc07f9b5f5cbcb82e08aa534/pytest_asyncio-0.24.0.tar.gz -> pytest_asyncio-0.24.0.tar.gz
+HOMEPAGE="None https://pypi.org/project/pytest-asyncio/"
+SRC_URI="https://files.pythonhosted.org/packages/94/18/82fcb4ee47d66d99f6cd1efc0b11b2a25029f303c599a5afda7c1bca4254/pytest_asyncio-0.25.0.tar.gz -> pytest_asyncio-0.25.0.tar.gz
 "
 
 DEPEND="
@@ -18,4 +18,4 @@ IUSE=""
 SLOT="0"
 LICENSE="Apache-2.0"
 KEYWORDS="*"
-S="${WORKDIR}/pytest_asyncio-0.24.0"
+S="${WORKDIR}/pytest_asyncio-0.25.0"
