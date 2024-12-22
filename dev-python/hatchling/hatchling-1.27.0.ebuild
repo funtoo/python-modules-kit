@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Modern, extensible Python build backend"
 HOMEPAGE="None https://pypi.org/project/hatchling/"
-SRC_URI="https://files.pythonhosted.org/packages/e1/47/7ec270a9567262ae3cb32dd420d2b53bf7aee769aca1f240eae0426b5bbc/hatchling-1.26.3.tar.gz -> hatchling-1.26.3.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/8f/8a/cc1debe3514da292094f1c3a700e4ca25442489731ef7c0814358816bb03/hatchling-1.27.0.tar.gz -> hatchling-1.27.0.tar.gz
 "
 
 DEPEND="
@@ -26,4 +26,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="next"
-S="${WORKDIR}/hatchling-1.26.3"
+S="${WORKDIR}/hatchling-1.27.0"

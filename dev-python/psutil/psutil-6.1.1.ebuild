@@ -7,7 +7,7 @@ inherit distutils-r1
 
 DESCRIPTION="Retrieve information on running processes and system utilization"
 HOMEPAGE="https://github.com/giampaolo/psutil https://pypi.org/project/psutil/"
-SRC_URI="https://files.pythonhosted.org/packages/26/10/2a30b13c61e7cf937f4adf90710776b7918ed0a9c434e2c38224732af310/psutil-6.1.0.tar.gz -> psutil-6.1.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/1f/5a/07871137bb752428aa4b659f910b399ba6f291156bdea939be3e96cae7cb/psutil-6.1.1.tar.gz -> psutil-6.1.1.tar.gz
 "
 
 DEPEND=""
@@ -15,7 +15,7 @@ IUSE=""
 SLOT="0"
 LICENSE="BSD"
 KEYWORDS="*"
-S="${WORKDIR}/psutil-6.1.0"
+S="${WORKDIR}/psutil-6.1.1"
 
 python_compile() {
 	# Force -j1 to avoid .o linking race conditions

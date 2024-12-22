@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Classes Without Boilerplate"
 HOMEPAGE="None https://pypi.org/project/attrs/"
-SRC_URI="https://files.pythonhosted.org/packages/fc/0f/aafca9af9315aee06a89ffde799a10a582fe8de76c563ee80bbcdc08b3fb/attrs-24.2.0.tar.gz -> attrs-24.2.0.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/48/c8/6260f8ccc11f0917360fc0da435c5c9c7504e3db174d5a12a1494887b045/attrs-24.3.0.tar.gz -> attrs-24.3.0.tar.gz
 "
 
 DEPEND="
@@ -16,6 +16,6 @@ DEPEND="
 	dev-python/hatch-fancy-pypi-readme[${PYTHON_USEDEP}]"
 IUSE=""
 SLOT="0"
-LICENSE="MIT"
+LICENSE=""
 KEYWORDS="*"
-S="${WORKDIR}/attrs-24.2.0"
+S="${WORKDIR}/attrs-24.3.0"
