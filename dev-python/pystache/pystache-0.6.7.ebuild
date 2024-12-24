@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="Mustache for Python"
 HOMEPAGE="None https://pypi.org/project/pystache/"
-SRC_URI="https://files.pythonhosted.org/packages/a0/ef/5161c6f10162aff6ad4a1d2b65dd171a8506acbaec0b01054b9198242a62/pystache-0.6.6.tar.gz -> pystache-0.6.6.tar.gz
+SRC_URI="https://files.pythonhosted.org/packages/e3/e3/62df01d808819e28d7bd3a560e06c69dc31db60a9cd1ea03531d392d810c/pystache-0.6.7.tar.gz -> pystache-0.6.7.tar.gz
 "
 
 DEPEND=""
@@ -16,4 +16,4 @@ IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/pystache-0.6.6"
+S="${WORKDIR}/pystache-0.6.7"
