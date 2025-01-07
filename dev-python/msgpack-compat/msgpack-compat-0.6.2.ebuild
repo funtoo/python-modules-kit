@@ -15,7 +15,7 @@ RDEPEND="!dev-python/msgpack-1.0.7 !<=dev-python/msgpack-1.0.5 "
 IUSE="native-extensions"
 SLOT="0"
 LICENSE="Apache-2.0"
-KEYWORDS="*"
+KEYWORDS="next"
 S="${WORKDIR}/msgpack-0.6.2"
 
 python_prepare_all() {
