@@ -12,11 +12,9 @@ SRC_URI="https://files.pythonhosted.org/packages/3b/20/93ea2518df4d7a14ebe9ace9a
 "
 
 DEPEND="dev-python/cython[${PYTHON_USEDEP}]"
-RDEPEND="
-	python_targets_python2_7? ( dev-python/sqlalchemy-compat )
-	dev-python/typing-extensions[${PYTHON_USEDEP}]"
-IUSE="python_targets_python2_7"
+RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
+IUSE=""
 SLOT="0"
 LICENSE="MIT"
 KEYWORDS="*"
-S="${WORKDIR}/SQLAlchemy-2.0.37"
+S="${WORKDIR}/sqlalchemy-2.0.37"
